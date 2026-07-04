@@ -1,7 +1,16 @@
-// Hungarian Companion v0.2
+// =========================
+// Hungarian Companion SPA
+// =========================
+
+const App = {
+
+    currentPage: "home"
+
+};
 
 const words = [
   {
+    id: 1,
     hu: "szól",
     pl: "dać znać",
     en: "let someone know",
@@ -10,6 +19,7 @@ const words = [
     pattern: "Communication"
   },
   {
+    id: 2,
     hu: "tetszik",
     pl: "podobać się",
     en: "be pleasing",
@@ -18,6 +28,7 @@ const words = [
     pattern: "Thing + tetszik + nekem"
   },
   {
+    id: 3,
     hu: "ízlik",
     pl: "smakować",
     en: "taste good",
@@ -27,38 +38,135 @@ const words = [
   }
 ];
 
-function render(list) {
-  const container = document.getElementById("vocab");
+const Pages = {
 
-  container.innerHTML = list.map(word => `
-    <div class="card">
-      <h2>${word.hu}</h2>
+    home() {
 
-      <span class="tag">${word.type}</span>
+        return `
 
-      <p><strong>🇵🇱</strong> ${word.pl}</p>
+        <header>
 
-      <p><strong>🇬🇧</strong> ${word.en}</p>
+            <h1>🇭🇺 Hungarian Companion</h1>
 
-      <p><strong>Pattern</strong><br>${word.pattern}</p>
+        </header>
 
-      <p><strong>Example</strong><br><i>${word.example}</i></p>
-    </div>
-  `).join("");
+        <main>
+
+            <div class="menu">
+
+                <button onclick="navigate('explore')">
+
+                    🔍 Explore
+
+                </button>
+
+                <button>
+
+                    📚 Learn
+
+                </button>
+
+                <button>
+
+                    🧠 Review
+
+                </button>
+
+            </div>
+
+        </main>
+
+        `;
+
+    },
+
+    explore() {
+
+        return `
+
+        <header>
+
+            <button onclick="navigate('home')">
+
+                ← Back
+
+            </button>
+
+            <h1>Explore</h1>
+
+        </header>
+
+        <main>
+
+            <input
+                id="search"
+                placeholder="Search..."
+                oninput="filterWords()"
+            >
+
+            <div id="wordList"></div>
+
+        </main>
+
+        `;
+
+    }
+
+};
+
+function navigate(page) {
+
+    App.currentPage = page;
+
+    render();
+
 }
 
-function filterCards() {
-  const query = document
-    .getElementById("search")
-    .value
-    .toLowerCase();
+function render() {
 
-  const filtered = words.filter(word =>
-    JSON.stringify(word).toLowerCase().includes(query)
-  );
+    document
+        .getElementById("app")
+        .innerHTML = Pages[App.currentPage]();
 
-  render(filtered);
+    if (App.currentPage === "explore") {
+
+        renderWordList(words);
+
+    }
+
 }
 
-// Initial render
-render(words);
+function renderWordList(list) {
+
+    document.getElementById("wordList").innerHTML = list.map(word => `
+
+        <div class="card">
+
+            <h2>${word.hu}</h2>
+
+            <p>${word.pl}</p>
+
+        </div>
+
+    `).join("");
+
+}
+
+function filterWords() {
+
+    const query = document
+        .getElementById("search")
+        .value
+        .toLowerCase();
+
+    const filtered = words.filter(word =>
+        JSON.stringify(word)
+            .toLowerCase()
+            .includes(query)
+    );
+
+    renderWordList(filtered);
+
+}
+
+render();
