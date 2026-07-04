@@ -1,47 +1,2418 @@
 [
   {
     "id": 1,
-    "hu": "szól",
-    "pl": "dać znać",
-    "en": "let someone know",
-    "type": "verb",
+    "hu": "szívás",
+    "pl": "",
+    "en": "it sucks",
+    "type": "expression",
     "example": {
-      "hu": "Majd szólok.",
-      "pl": "Dam znać."
+      "hu": "",
+      "pl": ""
     },
-    "pattern": "Communication",
-    "family": "szó",
-    "related": ["mond", "szó", "üzenet"],
-    "notes": "Focuses on communicating information, not its content."
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
   },
   {
     "id": 2,
-    "hu": "tetszik",
-    "pl": "podobać się",
-    "en": "be pleasing",
-    "type": "verb",
+    "hu": "tessék",
+    "pl": "",
+    "en": "there you go",
+    "type": "expression",
     "example": {
-      "hu": "Tetszik nekem ez a könyv.",
-      "pl": "Podoba mi się ta książka."
+      "hu": "",
+      "pl": ""
     },
-    "pattern": "Thing + tetszik + nekem",
+    "pattern": "",
     "family": "",
-    "related": ["kedvel", "szeret"],
-    "notes": "Expresses that something is pleasing."
+    "related": [],
+    "tags": [],
+    "notes": ""
   },
   {
     "id": 3,
-    "hu": "ízlik",
-    "pl": "smakować",
-    "en": "taste good",
+    "hu": "szívesen",
+    "pl": "",
+    "en": "you're welcome",
+    "type": "expression",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 4,
+    "hu": "sziasztok",
+    "pl": "",
+    "en": "hi everyone",
+    "type": "expression",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 5,
+    "hu": "sajnos",
+    "pl": "",
+    "en": "unfortunately",
+    "type": "adverb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 6,
+    "hu": "legjobb",
+    "pl": "",
+    "en": "best",
+    "type": "adjective",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 7,
+    "hu": "viszlát",
+    "pl": "",
+    "en": "goodbye",
+    "type": "expression",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 8,
+    "hu": "viszontlátásra",
+    "pl": "",
+    "en": "see you later",
+    "type": "expression",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 9,
+    "hu": "bocsi",
+    "pl": "",
+    "en": "excuse me",
+    "type": "expression",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 10,
+    "hu": "bocsánat / elnézést",
+    "pl": "",
+    "en": "sorry / excuse me",
+    "type": "expression",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 11,
+    "hu": "kutya",
+    "pl": "",
+    "en": "dog",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 12,
+    "hu": "cuki fiú",
+    "pl": "",
+    "en": "cute boy",
+    "type": "expression",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 13,
+    "hu": "szép fiúk",
+    "pl": "",
+    "en": "pretty boys",
+    "type": "expression",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 14,
+    "hu": "boldog",
+    "pl": "",
+    "en": "happy",
+    "type": "adjective",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 15,
+    "hu": "persze persze",
+    "pl": "",
+    "en": "of course",
+    "type": "expression",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 16,
+    "hu": "jó reggelt",
+    "pl": "",
+    "en": "good morning",
+    "type": "expression",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 17,
+    "hu": "jó napot",
+    "pl": "",
+    "en": "good afternoon",
+    "type": "expression",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 18,
+    "hu": "jó estét",
+    "pl": "",
+    "en": "good evening",
+    "type": "expression",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 19,
+    "hu": "köszi",
+    "pl": "",
+    "en": "thanks",
+    "type": "expression",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 20,
+    "hu": "köszönöm",
+    "pl": "",
+    "en": "thank you",
+    "type": "expression",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 21,
+    "hu": "kurva szar",
+    "pl": "",
+    "en": "really bad / sucks",
+    "type": "expression",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "vulgar expression"
+  },
+  {
+    "id": 22,
+    "hu": "kurva jó",
+    "pl": "",
+    "en": "really good",
+    "type": "expression",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "slang/vulgar intensifier"
+  },
+  {
+    "id": 23,
+    "hu": "nagyon",
+    "pl": "",
+    "en": "very",
+    "type": "adverb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 24,
+    "hu": "szép",
+    "pl": "",
+    "en": "beautiful",
+    "type": "adjective",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 25,
+    "hu": "szépen",
+    "pl": "",
+    "en": "beautifully",
+    "type": "adverb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 26,
+    "hu": "hogy hívjak",
+    "pl": "",
+    "en": "what is your name (uncertain form)",
+    "type": "expression",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "likely intended: 'hogy hívnak?'"
+  },
+  {
+    "id": 27,
+    "hu": "itt",
+    "pl": "",
+    "en": "here",
+    "type": "adverb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 28,
+    "hu": "ott",
+    "pl": "",
+    "en": "there",
+    "type": "adverb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 29,
+    "hu": "otthon",
+    "pl": "",
+    "en": "at home",
+    "type": "adverb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 30,
+    "hu": "kint",
+    "pl": "",
+    "en": "outside",
+    "type": "adverb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 31,
+    "hu": "bent",
+    "pl": "",
+    "en": "inside",
+    "type": "adverb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 32,
+    "hu": "szó",
+    "pl": "",
+    "en": "word",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 33,
+    "hu": "bolt",
+    "pl": "",
+    "en": "shop",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 34,
+    "hu": "hol",
+    "pl": "",
+    "en": "where",
+    "type": "adverb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 35,
+    "hu": "ház",
+    "pl": "",
+    "en": "",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "source form: házban"
+  },
+  {
+    "id": 36,
+    "hu": "park",
+    "pl": "",
+    "en": "",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "source form: parkban"
+  },
+  {
+    "id": 37,
+    "hu": "kert",
+    "pl": "",
+    "en": "garden",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 38,
+    "hu": "kert",
+    "pl": "",
+    "en": "garden",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "duplicate from kertben entry"
+  },
+  {
+    "id": 39,
+    "hu": "étterem",
+    "pl": "",
+    "en": "",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "source form: étteremben"
+  },
+  {
+    "id": 40,
+    "hu": "szálloda",
+    "pl": "",
+    "en": "",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "source form: szállodában"
+  },
+  {
+    "id": 41,
+    "hu": "szálloda",
+    "pl": "",
+    "en": "",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 42,
+    "hu": "áll",
+    "pl": "",
+    "en": "",
     "type": "verb",
     "example": {
-      "hu": "Ízlik nekem a pizza.",
-      "pl": "Smakuje mi pizza."
+      "hu": "",
+      "pl": ""
     },
-    "pattern": "Thing + ízlik + nekem",
+    "pattern": "",
     "family": "",
-    "related": ["tetszik"],
-    "notes": "Used only for taste."
+    "related": [],
+    "tags": [],
+    "notes": "forms: állok, állsz, áll"
+  },
+  {
+    "id": 43,
+    "hu": "áll",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "plural forms included separately in notes"
+  },
+  {
+    "id": 44,
+    "hu": "ír",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "infinitive: írni"
+  },
+  {
+    "id": 45,
+    "hu": "ír",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "forms: írok, írsz, ír"
+  },
+  {
+    "id": 46,
+    "hu": "ír",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 47,
+    "hu": "iskola",
+    "pl": "",
+    "en": "",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 48,
+    "hu": "iskola",
+    "pl": "",
+    "en": "",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "source form: iskolában"
+  },
+  {
+    "id": 49,
+    "hu": "házi feladat",
+    "pl": "",
+    "en": "homework",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 50,
+    "hu": "házit",
+    "pl": "",
+    "en": "",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "uncertain entry"
+  },
+  {
+    "id": 51,
+    "hu": "füzet",
+    "pl": "",
+    "en": "notebook",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 52,
+    "hu": "könyv",
+    "pl": "",
+    "en": "book",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 53,
+    "hu": "könyvtár",
+    "pl": "",
+    "en": "",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "source form: könyvtárban"
+  },
+  {
+    "id": 54,
+    "hu": "tanul",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "infinitive: tanulni"
+  },
+  {
+    "id": 55,
+    "hu": "tanul",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 56,
+    "hu": "tanul",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 57,
+    "hu": "tanterem",
+    "pl": "",
+    "en": "",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "source form: tanteremben"
+  },
+  {
+    "id": 58,
+    "hu": "szöveg",
+    "pl": "",
+    "en": "",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 59,
+    "hu": "szótár",
+    "pl": "",
+    "en": "",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 60,
+    "hu": "szünet",
+    "pl": "",
+    "en": "",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "source form: szünetben"
+  },
+  {
+    "id": 61,
+    "hu": "ugye",
+    "pl": "",
+    "en": "",
+    "type": "particle",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 62,
+    "hu": "óra",
+    "pl": "",
+    "en": "",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 63,
+    "hu": "magyaróra",
+    "pl": "",
+    "en": "",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 64,
+    "hu": "angolóra",
+    "pl": "",
+    "en": "",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 65,
+    "hu": "franciául",
+    "pl": "",
+    "en": "in French",
+    "type": "adverb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 66,
+    "hu": "toll",
+    "pl": "",
+    "en": "pen",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 67,
+    "hu": "ceruza",
+    "pl": "",
+    "en": "pencil",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 68,
+    "hu": "vagy",
+    "pl": "",
+    "en": "or",
+    "type": "conjunction",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 69,
+    "hu": "egészség",
+    "pl": "",
+    "en": "health",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 70,
+    "hu": "vár",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "forms: várok, vársz, vár"
+  },
+  {
+    "id": 71,
+    "hu": "várok",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 72,
+    "hu": "vársz",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 73,
+    "hu": "várok",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "duplicate form"
+  },
+  {
+    "id": 74,
+    "hu": "sétál",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "forms included separately in list"
+  },
+  {
+    "id": 75,
+    "hu": "sétál",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 76,
+    "hu": "sétál",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 77,
+    "hu": "sétál",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 78,
+    "hu": "táncol",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 79,
+    "hu": "táncol",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 80,
+    "hu": "táncol",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 81,
+    "hu": "fut",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 82,
+    "hu": "fut",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 83,
+    "hu": "fut",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 84,
+    "hu": "fut",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 85,
+    "hu": "siet",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 86,
+    "hu": "siet",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 87,
+    "hu": "siet",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 88,
+    "hu": "pihen",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 89,
+    "hu": "pihen",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 90,
+    "hu": "pihen",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 91,
+    "hu": "énekel",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 92,
+    "hu": "énekel",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 93,
+    "hu": "énekel",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 94,
+    "hu": "él",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 95,
+    "hu": "él",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 96,
+    "hu": "él",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 97,
+    "hu": "madár",
+    "pl": "",
+    "en": "",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": "corrected from: Mádar"
+  },
+  {
+    "id": 98,
+    "hu": "örül",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 99,
+    "hu": "örül",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 100,
+    "hu": "ül",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 101,
+    "hu": "ül",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 102,
+    "hu": "ül",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 103,
+    "hu": "repülni",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 104,
+    "hu": "repül",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 105,
+    "hu": "repül",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 106,
+    "hu": "repül",
+    "pl": "",
+    "en": "",
+    "type": "verb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 107,
+    "hu": "orvos",
+    "pl": "",
+    "en": "",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 108,
+    "hu": "ki",
+    "pl": "",
+    "en": "who",
+    "type": "pronoun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 109,
+    "hu": "mi",
+    "pl": "",
+    "en": "what",
+    "type": "pronoun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 110,
+    "hu": "most",
+    "pl": "",
+    "en": "now",
+    "type": "adverb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 111,
+    "hu": "sofőr",
+    "pl": "",
+    "en": "driver",
+    "type": "noun",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 112,
+    "hu": "mindig",
+    "pl": "",
+    "en": "always",
+    "type": "adverb",
+    "example": {
+      "hu": "",
+      "pl": ""
+    },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 113,
+    "hu": "gyors",
+    "pl": "",
+    "en": "fast",
+    "type": "adjective",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 114,
+    "hu": "lassú",
+    "pl": "",
+    "en": "slow",
+    "type": "adjective",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 115,
+    "hu": "kicsi",
+    "pl": "",
+    "en": "small",
+    "type": "adjective",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 116,
+    "hu": "nagy",
+    "pl": "",
+    "en": "big",
+    "type": "adjective",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 117,
+    "hu": "hideg",
+    "pl": "",
+    "en": "cold",
+    "type": "adjective",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 118,
+    "hu": "meleg",
+    "pl": "",
+    "en": "warm / hot",
+    "type": "adjective",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 119,
+    "hu": "szép idő",
+    "pl": "",
+    "en": "nice weather",
+    "type": "expression",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 120,
+    "hu": "rossz idő",
+    "pl": "",
+    "en": "bad weather",
+    "type": "expression",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 121,
+    "hu": "esik",
+    "pl": "",
+    "en": "it rains",
+    "type": "verb",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 122,
+    "hu": "hó",
+    "pl": "",
+    "en": "snow",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 123,
+    "hu": "nap",
+    "pl": "",
+    "en": "sun / day",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 124,
+    "hu": "hét",
+    "pl": "",
+    "en": "week",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 125,
+    "hu": "hétfő",
+    "pl": "",
+    "en": "Monday",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 126,
+    "hu": "kedd",
+    "pl": "",
+    "en": "Tuesday",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 127,
+    "hu": "szerda",
+    "pl": "",
+    "en": "Wednesday",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 128,
+    "hu": "csütörtök",
+    "pl": "",
+    "en": "Thursday",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 129,
+    "hu": "péntek",
+    "pl": "",
+    "en": "Friday",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 130,
+    "hu": "szombat",
+    "pl": "",
+    "en": "Saturday",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 131,
+    "hu": "vasárnap",
+    "pl": "",
+    "en": "Sunday",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 132,
+    "hu": "reggel",
+    "pl": "",
+    "en": "morning",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 133,
+    "hu": "dél",
+    "pl": "",
+    "en": "noon",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 134,
+    "hu": "este",
+    "pl": "",
+    "en": "evening",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 135,
+    "hu": "éjszaka",
+    "pl": "",
+    "en": "night",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 136,
+    "hu": "idő",
+    "pl": "",
+    "en": "time / weather",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 137,
+    "hu": "késő",
+    "pl": "",
+    "en": "late",
+    "type": "adjective",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 138,
+    "hu": "korán",
+    "pl": "",
+    "en": "early",
+    "type": "adverb",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 139,
+    "hu": "gyerek",
+    "pl": "",
+    "en": "child",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 140,
+    "hu": "ember",
+    "pl": "",
+    "en": "person",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 141,
+    "hu": "férfi",
+    "pl": "",
+    "en": "man",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 142,
+    "hu": "nő",
+    "pl": "",
+    "en": "woman",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 143,
+    "hu": "család",
+    "pl": "",
+    "en": "family",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 144,
+    "hu": "anya",
+    "pl": "",
+    "en": "mother",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 145,
+    "hu": "apa",
+    "pl": "",
+    "en": "father",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 146,
+    "hu": "testvér",
+    "pl": "",
+    "en": "sibling",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 147,
+    "hu": "barát",
+    "pl": "",
+    "en": "friend",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 148,
+    "hu": "szerelem",
+    "pl": "",
+    "en": "love",
+    "type": "noun",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 149,
+    "hu": "szeret",
+    "pl": "",
+    "en": "to love / like",
+    "type": "verb",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 150,
+    "hu": "lát",
+    "pl": "",
+    "en": "to see",
+    "type": "verb",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 151,
+    "hu": "hall",
+    "pl": "",
+    "en": "to hear",
+    "type": "verb",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 152,
+    "hu": "mond",
+    "pl": "",
+    "en": "to say",
+    "type": "verb",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 153,
+    "hu": "beszél",
+    "pl": "",
+    "en": "to speak",
+    "type": "verb",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 154,
+    "hu": "eszik",
+    "pl": "",
+    "en": "to eat",
+    "type": "verb",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 155,
+    "hu": "iszik",
+    "pl": "",
+    "en": "to drink",
+    "type": "verb",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 156,
+    "hu": "vesz",
+    "pl": "",
+    "en": "to take / buy",
+    "type": "verb",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 157,
+    "hu": "ad",
+    "pl": "",
+    "en": "to give",
+    "type": "verb",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 158,
+    "hu": "megy",
+    "pl": "",
+    "en": "to go",
+    "type": "verb",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 159,
+    "hu": "jön",
+    "pl": "",
+    "en": "to come",
+    "type": "verb",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
+  },
+  {
+    "id": 160,
+    "hu": "kér",
+    "pl": "",
+    "en": "to ask / request",
+    "type": "verb",
+    "example": { "hu": "", "pl": "" },
+    "pattern": "",
+    "family": "",
+    "related": [],
+    "tags": [],
+    "notes": ""
   }
 ]
