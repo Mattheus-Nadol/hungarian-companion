@@ -1,5 +1,5 @@
 // =========================
-// Hungarian Companion SPA
+// Hungarian Companion SPA (cards expand in-place)
 // =========================
 
 let words = [];
@@ -39,9 +39,6 @@ const Pages = {
 
             <div id="wordList"></div>
 
-            <!-- Details pane for selected word -->
-            <div id="wordDetails" class="details" style="display:none; margin-top:1rem;"></div>
-
         </main>
         `;
     }
@@ -74,9 +71,12 @@ function renderWordList(list) {
     }
 
     container.innerHTML = list.map(word => `
-        <div class="card" onclick="showWordDetails(${escapeJs(word.id)})">
-            <h2>${escapeHtml(word.hu)}</h2>
-            <p>${escapeHtml(word.pl || '')} <span style="font-weight:600; margin-left:8px">${escapeHtml(word.en || '')}</span></p>
+        <div class="card" data-id="${escapeHtml(String(word.id))}">
+            <div class="card-main" onclick="toggleCardDetails(${escapeJs(word.id)})" style="cursor:pointer;">
+                <h2>${escapeHtml(word.hu)}</h2>
+                <p>${escapeHtml(word.pl || '')} <span style="font-weight:600; margin-left:8px">${escapeHtml(word.en || '')}</span></p>
+            </div>
+            <div class="panel" style="display:none;"></div>
         </div>
     `).join("");
 }
@@ -99,45 +99,67 @@ function filterWords() {
     renderWordList(filtered);
 }
 
-function showWordDetails(id) {
-    const word = words.find(w => Number(w.id) === Number(id));
-    const details = document.getElementById("wordDetails");
+// Expand/collapse a card in-place without scrolling
+function toggleCardDetails(id) {
+    const card = document.querySelector(`.card[data-id="${id}"]`);
+    if (!card) return;
 
-    if (!details) return;
+    const panel = card.querySelector('.panel');
+    const isExpanded = card.classList.contains('expanded');
 
-    if (!word) {
-        details.style.display = 'none';
-        details.innerHTML = '';
-        // clear hash
+    // collapse any other expanded cards
+    document.querySelectorAll('.card.expanded').forEach(c => {
+        if (c !== card) {
+            c.classList.remove('expanded');
+            const p = c.querySelector('.panel');
+            if (p) p.style.display = 'none';
+        }
+    });
+
+    if (isExpanded) {
+        // collapse
+        card.classList.remove('expanded');
+        if (panel) panel.style.display = 'none';
         if (location.hash && location.hash.startsWith('#/word/')) location.hash = '';
         return;
     }
 
+    // expand
+    const word = words.find(w => Number(w.id) === Number(id));
+    if (!word) return;
+
+    // fill panel content
+    if (panel) panel.innerHTML = buildDetailsHtml(word);
+
+    card.classList.add('expanded');
+    if (panel) panel.style.display = 'block';
+
+    // update hash for deep link
+    location.hash = `#/word/${word.id}`;
+}
+
+function buildDetailsHtml(word) {
     const related = Array.isArray(word.related) ? word.related : (word.related ? [word.related] : []);
     const tags = Array.isArray(word.tags) ? word.tags.join(', ') : (word.tags || '');
 
-    // build related links
     const relatedHtml = related.length === 0 ? '<em>—</em>' : related.map(r => {
-        // if number -> link by id
         if (typeof r === 'number' || String(r).match(/^\d+$/)) {
             const rid = Number(r);
-            return `<a href="#/word/${rid}" onclick="event.stopPropagation(); showWordDetails(${rid}); return false;">${rid}</a>`;
+            return `<a href="#/word/${rid}" onclick="event.stopPropagation(); toggleCardDetails(${rid}); return false;">${rid}</a>`;
         }
-        // try to find by hu or en
         const found = words.find(w => (w.hu && w.hu.toLowerCase() === String(r).toLowerCase()) || (w.en && w.en.toLowerCase() === String(r).toLowerCase()));
         if (found) {
-            return `<a href="#/word/${found.id}" onclick="event.stopPropagation(); showWordDetails(${found.id}); return false;">${escapeHtml(String(r))}</a>`;
+            return `<a href="#/word/${found.id}" onclick="event.stopPropagation(); toggleCardDetails(${found.id}); return false;">${escapeHtml(String(r))}</a>`;
         }
-        // fallback plain text
         return `<span>${escapeHtml(String(r))}</span>`;
     }).join(', ');
 
-    details.innerHTML = `
-        <div class="panel">
+    return `
+        <div class="panel-inner">
             <div style="display:flex; justify-content:space-between; align-items:center;">
-                <h2 style="margin:0">${escapeHtml(word.hu)}</h2>
+                <h3 style="margin:0">${escapeHtml(word.hu)}</h3>
                 <div>
-                  <button class="close-btn" onclick="closeWordDetails()">Close</button>
+                  <button class="close-btn" onclick="event.stopPropagation(); toggleCardDetails(${escapeJs(word.id)});">Close</button>
                 </div>
             </div>
             <div class="meta" style="margin-top:8px;">
@@ -159,21 +181,13 @@ function showWordDetails(id) {
             </div>
 
             <div style="margin-top:10px; display:flex; gap:8px; align-items:center;">
-                <button onclick="toggleRawJson(${escapeJs(word.id)})" style="padding:6px 10px; border-radius:6px; border:1px solid rgba(255,255,255,0.06); background:transparent; color:inherit; cursor:pointer;">View raw JSON</button>
+                <button onclick="event.stopPropagation(); toggleRawJson(${escapeJs(word.id)});" style="padding:6px 10px; border-radius:6px; border:1px solid rgba(255,255,255,0.06); background:transparent; color:inherit; cursor:pointer;">View raw JSON</button>
                 <small style="color:var(--muted)">Permalink: <code>${escapeHtml('#/word/' + word.id)}</code></small>
             </div>
 
-            <pre id="raw-json-${escapeJs(word.id)}" style="display:none; margin-top:10px; white-space:pre-wrap; background:rgba(0,0,0,0.2); padding:10px; border-radius:6px; overflow:auto; max-height:260px;">${escapeHtml(JSON.stringify(word, null, 2))}</pre>
+            <pre id="raw-json-${escapeJs(word.id)}" style="display:none; margin-top:10px; white-space:pre-wrap; background:rgba(0,0,0,0.12); padding:10px; border-radius:6px; overflow:auto; max-height:260px;">${escapeHtml(JSON.stringify(word, null, 2))}</pre>
         </div>
     `;
-
-    details.style.display = 'block';
-
-    // update hash for deep link (hash routing is safe for GitHub Pages)
-    location.hash = `#/word/${word.id}`;
-
-    // Scroll details into view for small screens
-    details.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function toggleRawJson(id) {
@@ -182,26 +196,18 @@ function toggleRawJson(id) {
     el.style.display = el.style.display === 'none' ? 'block' : 'none';
 }
 
-function closeWordDetails() {
-    const details = document.getElementById("wordDetails");
-    if (details) {
-        details.style.display = 'none';
-        details.innerHTML = '';
-    }
-    // clear hash when closing
-    if (location.hash && location.hash.startsWith('#/word/')) location.hash = '';
-}
-
 // Handle hash routes like #/word/23
 function handleHashRoute() {
     const hash = location.hash || '';
     const m = hash.match(/^#\/word\/(\d+)$/);
     if (m) {
         const id = Number(m[1]);
-        // ensure we're on explore page
         if (App.currentPage !== 'explore') navigate('explore');
         // wait a tick for render
-        setTimeout(() => showWordDetails(id), 50);
+        setTimeout(() => {
+            // expand without scrolling
+            toggleCardDetails(id);
+        }, 50);
     }
 }
 
