@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "hu": "szól",
+    "pl": "dać znać",
+    "en": "let someone know",
+    "type": "verb",
+    "example": {
+      "hu": "Majd szólok.",
+      "pl": "Dam znać."
+    },
+    "pattern": "Communication",
+    "family": "szó",
+    "related": ["mond", "szó", "üzenet"],
+    "notes": "Focuses on communicating information, not its content."
+  },
+  {
+    "id": 2,
+    "hu": "tetszik",
+    "pl": "podobać się",
+    "en": "be pleasing",
+    "type": "verb",
+    "example": {
+      "hu": "Tetszik nekem ez a könyv.",
+      "pl": "Podoba mi się ta książka."
+    },
+    "pattern": "Thing + tetszik + nekem",
+    "family": "",
+    "related": ["kedvel", "szeret"],
+    "notes": "Expresses that something is pleasing."
+  },
+  {
+    "id": 3,
+    "hu": "ízlik",
+    "pl": "smakować",
+    "en": "taste good",
+    "type": "verb",
+    "example": {
+      "hu": "Ízlik nekem a pizza.",
+      "pl": "Smakuje mi pizza."
+    },
+    "pattern": "Thing + ízlik + nekem",
+    "family": "",
+    "related": ["tetszik"],
+    "notes": "Used only for taste."
+  }
+]
