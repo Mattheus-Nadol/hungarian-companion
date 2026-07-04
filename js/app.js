@@ -2,6 +2,8 @@
 // Hungarian Companion SPA
 // =========================
 
+let words = [];
+
 const App = {
 
     currentPage: "home"
@@ -140,4 +142,17 @@ function filterWords() {
 
 }
 
-render();
+fetch("data/vocabulary.json")
+    .then(response => response.json())
+    .then(data => {
+
+        words = data;
+
+        render();
+
+    })
+    .catch(error => {
+
+        console.error("Cannot load vocabulary:", error);
+
+    });
