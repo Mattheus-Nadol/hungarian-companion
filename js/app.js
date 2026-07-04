@@ -8,35 +8,6 @@ const App = {
 
 };
 
-const words = [
-  {
-    id: 1,
-    hu: "szól",
-    pl: "dać znać",
-    en: "let someone know",
-    type: "Verb",
-    example: "Majd szólok.",
-    pattern: "Communication"
-  },
-  {
-    id: 2,
-    hu: "tetszik",
-    pl: "podobać się",
-    en: "be pleasing",
-    type: "Verb",
-    example: "Tetszik nekem ez a könyv.",
-    pattern: "Thing + tetszik + nekem"
-  },
-  {
-    id: 3,
-    hu: "ízlik",
-    pl: "smakować",
-    en: "taste good",
-    type: "Verb",
-    example: "Ízlik nekem a pizza.",
-    pattern: "Thing + ízlik + nekem"
-  }
-];
 
 const Pages = {
 
