@@ -51,14 +51,16 @@ jobs:
           fi
           # export to GITHUB_OUTPUT for subsequent steps
           printf 'body<<EOF\n%s\nEOF' "$body" >> "$GITHUB_OUTPUT"
+          # also export the resolved tag so actions can use it
+          echo "tag=${tag}" >> "$GITHUB_OUTPUT"
 
       - name: Create Release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref_name }}
-          release_name: ${{ github.ref_name }}
+          tag_name: ${{ steps.assemble_body.outputs.tag }}
+          release_name: ${{ steps.assemble_body.outputs.tag }}
           body: ${{ steps.assemble_body.outputs.body }}
           draft: false
           prerelease: false
