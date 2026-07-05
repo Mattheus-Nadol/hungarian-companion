@@ -1,3 +1,99 @@
+/* Hungarian Companion styles — improved cards & details */
+
+:root{
+  --bg:#0f172a;
+  --header:#0b1220;
+  --card:#0b1228;
+  --muted:#9aa4b2;
+  --accent:#60a5fa;
+  --glass: rgba(255,255,255,0.03);
+}
+
+html,body{height:100%;}
+body{
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background:var(--bg);
+  color:#fff;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+header{
+  padding:16px 18px;
+  background:var(--header);
+  position:sticky;
+  top:0;
+  z-index:10;
+  box-shadow:0 1px 0 rgba(255,255,255,0.02) inset;
+}
+
+header h1{margin:0;font-size:18px}
+
+main{
+  max-width:900px;
+  margin:18px auto;
+  padding:0 16px 48px;
+}
+
+.menu{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+.menu button{
+  padding:8px 12px;
+  border-radius:8px;
+  border:1px solid rgba(255,255,255,0.04);
+  background:var(--glass);
+  color:inherit;
+  cursor:pointer;
+  font-size:14px;
+}
+.menu button:hover{transform:translateY(-1px);box-shadow:0 4px 10px rgba(2,6,23,0.6)}
+
+input#search{
+  width:100%;
+  padding:10px 12px;
+  border-radius:8px;
+  border:1px solid rgba(255,255,255,0.06);
+  background:rgba(255,255,255,0.02);
+  color:inherit;
+  box-sizing:border-box;
+  outline:none;
+}
+input#search::placeholder{color:var(--muted)}
+
+#wordList{margin-top:12px}
+.card{
+  padding:12px;
+  border-radius:10px;
+  background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border:1px solid rgba(255,255,255,0.03);
+  margin-bottom:10px;
+  transition:transform .12s ease, box-shadow .12s ease;
+}
+.card:hover{transform:translateY(-4px);box-shadow:0 10px 30px rgba(2,6,23,0.6)}
+.card h2{margin:0;font-size:16px}
+.card p{margin:6px 0 0 0;color:var(--muted);font-size:13px}
+
+.details{
+  margin-top:14px;
+}
+.details .panel{
+  padding:14px;
+  border-radius:10px;
+  background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border:1px solid rgba(255,255,255,0.03);
+}
+.details .meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.details .meta span{background:rgba(255,255,255,0.02);padding:6px 8px;border-radius:6px;font-size:13px;color:var(--muted)}
+
+button.close-btn{
+  background:transparent;border:1px solid rgba(255,255,255,0.06);padding:6px 10px;border-radius:8px;color:inherit;cursor:pointer
+}
+
+@media (max-width:640px){
+  main{padding:0 12px 40px}
+  .card h2{font-size:15px}
+}
+
 /* in-place expand animation for card panels */
 .card { overflow: hidden; transition: box-shadow .12s ease, transform .12s ease; }
 .card .panel {
