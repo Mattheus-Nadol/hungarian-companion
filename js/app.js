@@ -365,7 +365,20 @@ function toggleCardDetails(id) {
             if (cm) cm.setAttribute('aria-expanded', 'false');
             if (panelEl) panelEl.setAttribute('aria-hidden', 'true');
         } catch (e) {}
-
+        // deactivate focus trap and remove dialog attributes
+        try {
+            const panelEl = document.getElementById(`panel-${id}`);
+            if (panelEl && panelEl._deactivateTrap) panelEl._deactivateTrap();
+            if (panelEl) {
+                panelEl.removeAttribute('role');
+                panelEl.removeAttribute('aria-modal');
+                panelEl.removeAttribute('aria-labelledby');
+                panelEl.tabIndex = -1;
+            }
+            // restore focus to the card main
+            const cm = document.querySelector(`.card[data-id="${id}"] .card-main`);
+            if (cm && typeof cm.focus === 'function') cm.focus();
+        } catch (e) {}
         App.selectedWordId = null;
         return;
     }
@@ -399,7 +412,16 @@ function toggleCardDetails(id) {
         const cm = document.querySelector(`.card[data-id="${id}"] .card-main`);
         const panelEl = document.getElementById(`panel-${id}`);
         if (cm) cm.setAttribute('aria-expanded', 'true');
-        if (panelEl) panelEl.setAttribute('aria-hidden', 'false');
+        if (panelEl) {
+            panelEl.setAttribute('aria-hidden', 'false');
+            // mark as dialog for assistive tech
+            panelEl.setAttribute('role', 'dialog');
+            panelEl.setAttribute('aria-modal', 'true');
+            panelEl.setAttribute('aria-labelledby', `panel-title-${escapeJs(id)}`);
+            panelEl.tabIndex = -1;
+            // activate focus trap
+            if (typeof activateFocusTrap === 'function') activateFocusTrap(panelEl);
+        }
     } catch (e) {}
 }
 
@@ -422,7 +444,7 @@ function buildDetailsHtml(word) {
     return `
         <div class="panel-inner">
             <div style="display:flex; justify-content:space-between; align-items:center;">
-                <h3 style="margin:0">${escapeHtml(word.hu)}</h3>
+                <h3 id="panel-title-${escapeJs(word.id)}" style="margin:0">${escapeHtml(word.hu)}</h3>
                 <div>
                                     <button class="close-btn" aria-label="Close details" onclick="event.stopPropagation(); toggleCardDetails(${escapeJs(word.id)});">Close</button>
                 </div>
@@ -495,6 +517,49 @@ window.addEventListener('keydown', (e) => {
         }
     }
 });
+
+// Focus trap helpers: keep Tab/Shift+Tab within the panel when open
+function activateFocusTrap(panelEl) {
+    if (!panelEl) return;
+    const selector = 'a,button,input,select,textarea,[tabindex]:not([tabindex="-1"])';
+    const nodes = Array.from(panelEl.querySelectorAll(selector)).filter(n => !n.hasAttribute('disabled'));
+    const first = nodes[0] || panelEl;
+    const last = nodes[nodes.length - 1] || panelEl;
+
+    function keyHandler(e) {
+        if (e.key === 'Tab') {
+            if (nodes.length === 0) {
+                e.preventDefault();
+                return;
+            }
+            if (e.shiftKey) {
+                if (document.activeElement === first) {
+                    e.preventDefault();
+                    (last).focus();
+                }
+            } else {
+                if (document.activeElement === last) {
+                    e.preventDefault();
+                    (first).focus();
+                }
+            }
+        }
+    }
+
+    panelEl._deactivateTrap = () => {
+        panelEl.removeEventListener('keydown', keyHandler);
+        delete panelEl._deactivateTrap;
+    };
+
+    panelEl.addEventListener('keydown', keyHandler);
+
+    // focus the first interactive element (close button) for screen-reader users
+    setTimeout(() => {
+        const closeBtn = panelEl.querySelector('button.close-btn');
+        if (closeBtn && typeof closeBtn.focus === 'function') closeBtn.focus();
+        else if (first && typeof first.focus === 'function') first.focus();
+    }, 10);
+}
 
 // Simple HTML escape to avoid injecting raw JSON into the page
 function escapeHtml(str) {
