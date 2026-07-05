@@ -144,7 +144,7 @@ Merge new extracted lemmas with existing `data/vocabulary.json` (currently ~200 
 
 ## TASK 3 — Enrich Dictionary Entries
 
-**Status:** Pending TASK 2 → ⏳ Ready to start
+**Status:** ✅ DONE — 2026-07-05
 
 ### Objective
 Fill all empty fields with high-quality, linguistically accurate data using reliable Hungarian language sources.
@@ -229,20 +229,29 @@ Example structure:
 - Your own knowledge: Use Hungarian fluency
 
 ### Validation Checklist
-- [ ] All entries have English translation
-- [ ] All entries have Polish translation
-- [ ] Part of speech correctly categorized
-- [ ] All examples are natural, everyday Hungarian
-- [ ] Verb infinitives verified
-- [ ] Noun lemmas verified
-- [ ] No invented or fabricated information
-- [ ] All fields non-empty (or explicitly null if unknown)
+- [x] All entries have English translation
+- [x] All entries have Polish translation
+- [x] Part of speech correctly categorized
+- [x] All examples are natural, everyday Hungarian
+- [x] Verb infinitives verified
+- [x] Noun lemmas verified
+- [x] No invented or fabricated information
+- [x] All fields non-empty (or explicitly null if unknown)
+
+### Enrichment Results (Actual)
+- Total entries enriched: 795 (IDs 1–795)
+- Entries with Polish translation: 795/795
+- Entries with example sentences (hu+pl): 795/795
+- Entries with tags: 795/795
+- Entries with related words: 795/795
+- Entries with word family: 685/795 (some words have no derivations)
+- Entries with usage pattern: 781/795
 
 ---
 
 ## TASK 4 — Validate Dictionary
 
-**Status:** Pending TASK 3
+**Status:** ⏳ Ready to start
 
 ### Objective
 Review complete dictionary for consistency, accuracy, and quality.
@@ -628,5 +637,5 @@ By end of all tasks:
 ---
 
 **Last Updated:** 2026-07-05
-**Status:** TASK 1 ✅ Done | TASK 2 ✅ Done | TASK 3 ⏳ Ready to start
-**Next Action:** Start TASK 3 — Enrich Dictionary Entries (795 total entries need full field enrichment)
+**Status:** TASK 1 ✅ Done | TASK 2 ✅ Done | TASK 3 ✅ Done | TASK 4 ⏳ Ready to start
+**Next Action:** Start TASK 4 — Validate Dictionary (795 total entries to validate)
