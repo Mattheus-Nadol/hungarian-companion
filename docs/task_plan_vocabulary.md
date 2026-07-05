@@ -251,7 +251,7 @@ Example structure:
 
 ## TASK 4 — Validate Dictionary
 
-**Status:** ⏳ Ready to start
+**Status:** ✅ DONE — 2026-07-05
 
 ### Objective
 Review complete dictionary for consistency, accuracy, and quality.
@@ -338,21 +338,28 @@ Dictionary ready for: [YES/NO]
 2. **Should fix:** Spelling errors, incorrect translations, inconsistent formatting
 3. **Nice to have:** Missing optional fields (family, related, tags)
 
+### Validation Results (Actual)
+- Total entries reviewed: 795
+- Critical issues found and fixed: 30 (all exact duplicate entries)
+- Warnings logged: 4
+- Entries after deduplication: 765
+- Full report: `docs/validation_report_task4.md`
+
 ### Validation Checklist
-- [ ] Structure validation complete
-- [ ] Data validation complete
-- [ ] Language validation complete
-- [ ] Semantic validation complete
-- [ ] Consistency validation complete
-- [ ] Cross-reference validation complete
-- [ ] All critical issues resolved
-- [ ] Report generated and reviewed
+- [x] Structure validation complete
+- [x] Data validation complete
+- [x] Language validation complete
+- [x] Semantic validation complete
+- [x] Consistency validation complete
+- [x] Cross-reference validation complete
+- [x] All critical issues resolved
+- [x] Report generated and reviewed
 
 ---
 
 ## TASK 5 — Normalize Dictionary
 
-**Status:** Pending TASK 4
+**Status:** ✅ DONE — 2026-07-05
 
 ### Objective
 Ensure consistent formatting, structure, and presentation across all entries.
@@ -515,17 +522,24 @@ Ensure consistent formatting, structure, and presentation across all entries.
    - Proper encoding
 
 ### Normalization Checklist
-- [ ] JSON structure consistent across all entries
-- [ ] Field formatting standardized
-- [ ] Encoding is UTF-8
-- [ ] All tags from standard vocabulary
-- [ ] All arrays sorted alphabetically
-- [ ] No trailing whitespace
-- [ ] Indentation consistent (2 spaces)
-- [ ] IDs sequential
-- [ ] Sorted by ID
-- [ ] Valid JSON (no syntax errors)
-- [ ] File size reasonable
+- [x] JSON structure consistent across all entries
+- [x] Field formatting standardized
+- [x] Encoding is UTF-8
+- [x] All tags from standard vocabulary
+- [x] All arrays sorted alphabetically
+- [x] No trailing whitespace
+- [x] Indentation consistent (2 spaces)
+- [x] IDs sequential
+- [x] Sorted by ID
+- [x] Valid JSON (no syntax errors)
+- [x] File size reasonable
+
+### Normalization Results (Actual)
+- Total entries before normalization: 795
+- Exact duplicates removed: 30
+- Total entries after normalization: 765
+- Array fields sorted/deduped: 1255
+- Full report: `docs/normalization_report_task5.md`
 
 ### Verification Command (in terminal)
 
@@ -637,5 +651,5 @@ By end of all tasks:
 ---
 
 **Last Updated:** 2026-07-05
-**Status:** TASK 1 ✅ Done | TASK 2 ✅ Done | TASK 3 ✅ Done | TASK 4 ⏳ Ready to start
-**Next Action:** Start TASK 4 — Validate Dictionary (795 total entries to validate)
+**Status:** TASK 1 ✅ Done | TASK 2 ✅ Done | TASK 3 ✅ Done | TASK 4 ✅ Done | TASK 5 ✅ Done
+**Next Action:** ✅ Vocabulary project complete — `data/vocabulary.json` is production-ready (765 entries)
