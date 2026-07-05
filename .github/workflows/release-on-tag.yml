@@ -49,8 +49,12 @@ jobs:
               body="Release ${tag}"
             fi
           fi
-          # export to GITHUB_OUTPUT for subsequent steps
-          printf 'body<<EOF\n%s\nEOF' "$body" >> "$GITHUB_OUTPUT"
+          # export to GITHUB_OUTPUT for subsequent steps using a unique delimiter
+          DELIM="DELIM_$(date +%s%N)"
+          echo "body<<${DELIM}" >> "$GITHUB_OUTPUT"
+          printf '%s\n' "$body" > /tmp/release_body.txt
+          cat /tmp/release_body.txt >> "$GITHUB_OUTPUT"
+          echo "${DELIM}" >> "$GITHUB_OUTPUT"
           # also export the resolved tag so actions can use it
           echo "tag=${tag}" >> "$GITHUB_OUTPUT"
 
