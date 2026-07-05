@@ -1,0 +1,9902 @@
+[
+  {
+    "id": 1,
+    "hu": "szívás",
+    "field": "family",
+    "value": "szívat"
+  },
+  {
+    "id": 1,
+    "hu": "szívás",
+    "field": "family",
+    "value": "szívni"
+  },
+  {
+    "id": 1,
+    "hu": "szívás",
+    "field": "related",
+    "value": "gáz"
+  },
+  {
+    "id": 1,
+    "hu": "szívás",
+    "field": "related",
+    "value": "necces"
+  },
+  {
+    "id": 1,
+    "hu": "szívás",
+    "field": "related",
+    "value": "para"
+  },
+  {
+    "id": 2,
+    "hu": "tessék",
+    "field": "family",
+    "value": "tessék parancsolni"
+  },
+  {
+    "id": 2,
+    "hu": "tessék",
+    "field": "related",
+    "value": "itt van"
+  },
+  {
+    "id": 3,
+    "hu": "szívesen",
+    "field": "family",
+    "value": "szív"
+  },
+  {
+    "id": 3,
+    "hu": "szívesen",
+    "field": "family",
+    "value": "szívesség"
+  },
+  {
+    "id": 4,
+    "hu": "sziasztok",
+    "field": "family",
+    "value": "szervusztok"
+  },
+  {
+    "id": 4,
+    "hu": "sziasztok",
+    "field": "family",
+    "value": "szia"
+  },
+  {
+    "id": 4,
+    "hu": "sziasztok",
+    "field": "related",
+    "value": "helló"
+  },
+  {
+    "id": 4,
+    "hu": "sziasztok",
+    "field": "related",
+    "value": "szia"
+  },
+  {
+    "id": 5,
+    "hu": "sajnos",
+    "field": "family",
+    "value": "sajnál"
+  },
+  {
+    "id": 5,
+    "hu": "sajnos",
+    "field": "family",
+    "value": "sajnálatos"
+  },
+  {
+    "id": 5,
+    "hu": "sajnos",
+    "field": "related",
+    "value": "szerencsére"
+  },
+  {
+    "id": 6,
+    "hu": "legjobb",
+    "field": "family",
+    "value": "jó"
+  },
+  {
+    "id": 6,
+    "hu": "legjobb",
+    "field": "family",
+    "value": "legjobban"
+  },
+  {
+    "id": 6,
+    "hu": "legjobb",
+    "field": "related",
+    "value": "kiváló"
+  },
+  {
+    "id": 6,
+    "hu": "legjobb",
+    "field": "related",
+    "value": "legrosszabb"
+  },
+  {
+    "id": 7,
+    "hu": "viszlát",
+    "field": "related",
+    "value": "szia"
+  },
+  {
+    "id": 8,
+    "hu": "viszontlátásra",
+    "field": "family",
+    "value": "látásra"
+  },
+  {
+    "id": 8,
+    "hu": "viszontlátásra",
+    "field": "related",
+    "value": "szia"
+  },
+  {
+    "id": 10,
+    "hu": "bocsánat / elnézést",
+    "field": "family",
+    "value": "bocsánatot kér"
+  },
+  {
+    "id": 10,
+    "hu": "bocsánat / elnézést",
+    "field": "related",
+    "value": "sajnálom"
+  },
+  {
+    "id": 11,
+    "hu": "kutya",
+    "field": "family",
+    "value": "kutyaeledel"
+  },
+  {
+    "id": 11,
+    "hu": "kutya",
+    "field": "family",
+    "value": "kutyus"
+  },
+  {
+    "id": 11,
+    "hu": "kutya",
+    "field": "related",
+    "value": "kölyök"
+  },
+  {
+    "id": 12,
+    "hu": "cuki fiú",
+    "field": "family",
+    "value": "cukiság"
+  },
+  {
+    "id": 12,
+    "hu": "cuki fiú",
+    "field": "related",
+    "value": "aranyos"
+  },
+  {
+    "id": 12,
+    "hu": "cuki fiú",
+    "field": "related",
+    "value": "szép fiú"
+  },
+  {
+    "id": 13,
+    "hu": "szép fiúk",
+    "field": "family",
+    "value": "szépség"
+  },
+  {
+    "id": 13,
+    "hu": "szép fiúk",
+    "field": "related",
+    "value": "jóképű"
+  },
+  {
+    "id": 14,
+    "hu": "boldog",
+    "field": "family",
+    "value": "boldogan"
+  },
+  {
+    "id": 14,
+    "hu": "boldog",
+    "field": "family",
+    "value": "boldogság"
+  },
+  {
+    "id": 14,
+    "hu": "boldog",
+    "field": "related",
+    "value": "vidám"
+  },
+  {
+    "id": 15,
+    "hu": "persze persze",
+    "field": "related",
+    "value": "hogyne"
+  },
+  {
+    "id": 20,
+    "hu": "köszönöm",
+    "field": "family",
+    "value": "megköszön"
+  },
+  {
+    "id": 21,
+    "hu": "kurva szar",
+    "field": "related",
+    "value": "gáz"
+  },
+  {
+    "id": 22,
+    "hu": "kurva jó",
+    "field": "family",
+    "value": "jó"
+  },
+  {
+    "id": 22,
+    "hu": "kurva jó",
+    "field": "related",
+    "value": "szuper"
+  },
+  {
+    "id": 22,
+    "hu": "kurva jó",
+    "field": "related",
+    "value": "állati jó"
+  },
+  {
+    "id": 23,
+    "hu": "nagyon",
+    "field": "related",
+    "value": "eléggé"
+  },
+  {
+    "id": 23,
+    "hu": "nagyon",
+    "field": "related",
+    "value": "nagyon-nagyon"
+  },
+  {
+    "id": 24,
+    "hu": "szép",
+    "field": "family",
+    "value": "legszebb"
+  },
+  {
+    "id": 24,
+    "hu": "szép",
+    "field": "family",
+    "value": "szebb"
+  },
+  {
+    "id": 24,
+    "hu": "szép",
+    "field": "family",
+    "value": "szépség"
+  },
+  {
+    "id": 24,
+    "hu": "szép",
+    "field": "related",
+    "value": "csinos"
+  },
+  {
+    "id": 24,
+    "hu": "szép",
+    "field": "related",
+    "value": "gyönyörű"
+  },
+  {
+    "id": 25,
+    "hu": "szépen",
+    "field": "family",
+    "value": "szebben"
+  },
+  {
+    "id": 25,
+    "hu": "szépen",
+    "field": "related",
+    "value": "csinosan"
+  },
+  {
+    "id": 25,
+    "hu": "szépen",
+    "field": "related",
+    "value": "jól"
+  },
+  {
+    "id": 26,
+    "hu": "hogy hívjak",
+    "field": "family",
+    "value": "mi a neved"
+  },
+  {
+    "id": 26,
+    "hu": "hogy hívjak",
+    "field": "related",
+    "value": "mi a neved"
+  },
+  {
+    "id": 27,
+    "hu": "itt",
+    "field": "related",
+    "value": "itt van"
+  },
+  {
+    "id": 28,
+    "hu": "ott",
+    "field": "related",
+    "value": "amott"
+  },
+  {
+    "id": 29,
+    "hu": "otthon",
+    "field": "family",
+    "value": "hazamegy"
+  },
+  {
+    "id": 29,
+    "hu": "otthon",
+    "field": "related",
+    "value": "itthon"
+  },
+  {
+    "id": 30,
+    "hu": "kint",
+    "field": "family",
+    "value": "kifelé"
+  },
+  {
+    "id": 30,
+    "hu": "kint",
+    "field": "family",
+    "value": "kinti"
+  },
+  {
+    "id": 30,
+    "hu": "kint",
+    "field": "related",
+    "value": "kívül"
+  },
+  {
+    "id": 31,
+    "hu": "bent",
+    "field": "family",
+    "value": "befelé"
+  },
+  {
+    "id": 31,
+    "hu": "bent",
+    "field": "family",
+    "value": "benti"
+  },
+  {
+    "id": 31,
+    "hu": "bent",
+    "field": "related",
+    "value": "belül"
+  },
+  {
+    "id": 32,
+    "hu": "szó",
+    "field": "family",
+    "value": "szóban"
+  },
+  {
+    "id": 32,
+    "hu": "szó",
+    "field": "family",
+    "value": "szóval"
+  },
+  {
+    "id": 33,
+    "hu": "bolt",
+    "field": "family",
+    "value": "boltos"
+  },
+  {
+    "id": 34,
+    "hu": "hol",
+    "field": "related",
+    "value": "hogyan"
+  },
+  {
+    "id": 35,
+    "hu": "ház",
+    "field": "family",
+    "value": "házi"
+  },
+  {
+    "id": 35,
+    "hu": "ház",
+    "field": "family",
+    "value": "háztartás"
+  },
+  {
+    "id": 36,
+    "hu": "park",
+    "field": "family",
+    "value": "parkol"
+  },
+  {
+    "id": 36,
+    "hu": "park",
+    "field": "family",
+    "value": "parkoló"
+  },
+  {
+    "id": 36,
+    "hu": "park",
+    "field": "related",
+    "value": "erdő"
+  },
+  {
+    "id": 37,
+    "hu": "kert",
+    "field": "family",
+    "value": "kerti"
+  },
+  {
+    "id": 37,
+    "hu": "kert",
+    "field": "family",
+    "value": "kertész"
+  },
+  {
+    "id": 37,
+    "hu": "kert",
+    "field": "related",
+    "value": "virág"
+  },
+  {
+    "id": 38,
+    "hu": "étterem",
+    "field": "family",
+    "value": "éttermi"
+  },
+  {
+    "id": 38,
+    "hu": "étterem",
+    "field": "related",
+    "value": "kávézó"
+  },
+  {
+    "id": 38,
+    "hu": "étterem",
+    "field": "related",
+    "value": "vendéglő"
+  },
+  {
+    "id": 39,
+    "hu": "szálloda",
+    "field": "family",
+    "value": "szállodai"
+  },
+  {
+    "id": 39,
+    "hu": "szálloda",
+    "field": "family",
+    "value": "szállás"
+  },
+  {
+    "id": 39,
+    "hu": "szálloda",
+    "field": "related",
+    "value": "hotel"
+  },
+  {
+    "id": 39,
+    "hu": "szálloda",
+    "field": "related",
+    "value": "panzió"
+  },
+  {
+    "id": 40,
+    "hu": "áll",
+    "field": "family",
+    "value": "feláll"
+  },
+  {
+    "id": 40,
+    "hu": "áll",
+    "field": "family",
+    "value": "kiáll"
+  },
+  {
+    "id": 40,
+    "hu": "áll",
+    "field": "family",
+    "value": "megáll"
+  },
+  {
+    "id": 40,
+    "hu": "áll",
+    "field": "family",
+    "value": "álló"
+  },
+  {
+    "id": 40,
+    "hu": "áll",
+    "field": "related",
+    "value": "fekszik"
+  },
+  {
+    "id": 41,
+    "hu": "ír",
+    "field": "family",
+    "value": "aláír"
+  },
+  {
+    "id": 41,
+    "hu": "ír",
+    "field": "family",
+    "value": "felír"
+  },
+  {
+    "id": 41,
+    "hu": "ír",
+    "field": "family",
+    "value": "leír"
+  },
+  {
+    "id": 41,
+    "hu": "ír",
+    "field": "family",
+    "value": "megír"
+  },
+  {
+    "id": 41,
+    "hu": "ír",
+    "field": "family",
+    "value": "írni"
+  },
+  {
+    "id": 41,
+    "hu": "ír",
+    "field": "related",
+    "value": "olvas"
+  },
+  {
+    "id": 41,
+    "hu": "ír",
+    "field": "related",
+    "value": "rajzol"
+  },
+  {
+    "id": 42,
+    "hu": "iskola",
+    "field": "family",
+    "value": "iskolai"
+  },
+  {
+    "id": 42,
+    "hu": "iskola",
+    "field": "family",
+    "value": "iskolás"
+  },
+  {
+    "id": 42,
+    "hu": "iskola",
+    "field": "related",
+    "value": "egyetem"
+  },
+  {
+    "id": 42,
+    "hu": "iskola",
+    "field": "related",
+    "value": "óvoda"
+  },
+  {
+    "id": 43,
+    "hu": "házi feladat",
+    "field": "family",
+    "value": "házi"
+  },
+  {
+    "id": 43,
+    "hu": "házi feladat",
+    "field": "family",
+    "value": "házit csinál"
+  },
+  {
+    "id": 43,
+    "hu": "házi feladat",
+    "field": "related",
+    "value": "dolgozat"
+  },
+  {
+    "id": 44,
+    "hu": "házit",
+    "field": "family",
+    "value": "házi"
+  },
+  {
+    "id": 44,
+    "hu": "házit",
+    "field": "related",
+    "value": "dolgozat"
+  },
+  {
+    "id": 45,
+    "hu": "füzet",
+    "field": "family",
+    "value": "füzetes"
+  },
+  {
+    "id": 46,
+    "hu": "könyv",
+    "field": "family",
+    "value": "könyvecske"
+  },
+  {
+    "id": 46,
+    "hu": "könyv",
+    "field": "family",
+    "value": "könyves"
+  },
+  {
+    "id": 46,
+    "hu": "könyv",
+    "field": "related",
+    "value": "olvasás"
+  },
+  {
+    "id": 47,
+    "hu": "könyvtár",
+    "field": "family",
+    "value": "könyvtáros"
+  },
+  {
+    "id": 48,
+    "hu": "tanul",
+    "field": "family",
+    "value": "kitanul"
+  },
+  {
+    "id": 48,
+    "hu": "tanul",
+    "field": "family",
+    "value": "megtanul"
+  },
+  {
+    "id": 48,
+    "hu": "tanul",
+    "field": "family",
+    "value": "tanulni"
+  },
+  {
+    "id": 48,
+    "hu": "tanul",
+    "field": "family",
+    "value": "tanuló"
+  },
+  {
+    "id": 48,
+    "hu": "tanul",
+    "field": "related",
+    "value": "gyakorol"
+  },
+  {
+    "id": 48,
+    "hu": "tanul",
+    "field": "related",
+    "value": "tanít"
+  },
+  {
+    "id": 49,
+    "hu": "tanterem",
+    "field": "family",
+    "value": "tanterme"
+  },
+  {
+    "id": 49,
+    "hu": "tanterem",
+    "field": "related",
+    "value": "osztály"
+  },
+  {
+    "id": 50,
+    "hu": "szöveg",
+    "field": "family",
+    "value": "szöveges"
+  },
+  {
+    "id": 51,
+    "hu": "szótár",
+    "field": "family",
+    "value": "szótári"
+  },
+  {
+    "id": 52,
+    "hu": "szünet",
+    "field": "family",
+    "value": "szünetel"
+  },
+  {
+    "id": 52,
+    "hu": "szünet",
+    "field": "related",
+    "value": "pihenés"
+  },
+  {
+    "id": 53,
+    "hu": "ugye",
+    "field": "related",
+    "value": "nem"
+  },
+  {
+    "id": 54,
+    "hu": "óra",
+    "field": "family",
+    "value": "óránk"
+  },
+  {
+    "id": 54,
+    "hu": "óra",
+    "field": "family",
+    "value": "órás"
+  },
+  {
+    "id": 55,
+    "hu": "magyaróra",
+    "field": "related",
+    "value": "nyelvóra"
+  },
+  {
+    "id": 56,
+    "hu": "angolóra",
+    "field": "related",
+    "value": "nyelvóra"
+  },
+  {
+    "id": 57,
+    "hu": "franciául",
+    "field": "family",
+    "value": "angolul"
+  },
+  {
+    "id": 57,
+    "hu": "franciául",
+    "field": "family",
+    "value": "magyarul"
+  },
+  {
+    "id": 57,
+    "hu": "franciául",
+    "field": "related",
+    "value": "angolul"
+  },
+  {
+    "id": 57,
+    "hu": "franciául",
+    "field": "related",
+    "value": "magyarul"
+  },
+  {
+    "id": 57,
+    "hu": "franciául",
+    "field": "related",
+    "value": "németül"
+  },
+  {
+    "id": 58,
+    "hu": "toll",
+    "field": "family",
+    "value": "tollas"
+  },
+  {
+    "id": 59,
+    "hu": "ceruza",
+    "field": "family",
+    "value": "ceruzás"
+  },
+  {
+    "id": 59,
+    "hu": "ceruza",
+    "field": "related",
+    "value": "hegyező"
+  },
+  {
+    "id": 60,
+    "hu": "vagy",
+    "field": "related",
+    "value": "és"
+  },
+  {
+    "id": 61,
+    "hu": "egészség",
+    "field": "family",
+    "value": "egészséges"
+  },
+  {
+    "id": 61,
+    "hu": "egészség",
+    "field": "family",
+    "value": "egészségtelen"
+  },
+  {
+    "id": 61,
+    "hu": "egészség",
+    "field": "related",
+    "value": "betegség"
+  },
+  {
+    "id": 62,
+    "hu": "vár",
+    "field": "family",
+    "value": "kivár"
+  },
+  {
+    "id": 62,
+    "hu": "vár",
+    "field": "family",
+    "value": "megvár"
+  },
+  {
+    "id": 62,
+    "hu": "vár",
+    "field": "family",
+    "value": "várakozik"
+  },
+  {
+    "id": 62,
+    "hu": "vár",
+    "field": "family",
+    "value": "várni"
+  },
+  {
+    "id": 62,
+    "hu": "vár",
+    "field": "related",
+    "value": "remél"
+  },
+  {
+    "id": 63,
+    "hu": "sétál",
+    "field": "family",
+    "value": "besétál"
+  },
+  {
+    "id": 63,
+    "hu": "sétál",
+    "field": "family",
+    "value": "kisétál"
+  },
+  {
+    "id": 63,
+    "hu": "sétál",
+    "field": "family",
+    "value": "sétálni"
+  },
+  {
+    "id": 63,
+    "hu": "sétál",
+    "field": "family",
+    "value": "sétáltat"
+  },
+  {
+    "id": 64,
+    "hu": "táncol",
+    "field": "family",
+    "value": "eltáncol"
+  },
+  {
+    "id": 64,
+    "hu": "táncol",
+    "field": "family",
+    "value": "kitáncol"
+  },
+  {
+    "id": 64,
+    "hu": "táncol",
+    "field": "family",
+    "value": "tánc"
+  },
+  {
+    "id": 64,
+    "hu": "táncol",
+    "field": "family",
+    "value": "táncolni"
+  },
+  {
+    "id": 65,
+    "hu": "fut",
+    "field": "family",
+    "value": "befut"
+  },
+  {
+    "id": 65,
+    "hu": "fut",
+    "field": "family",
+    "value": "elfut"
+  },
+  {
+    "id": 65,
+    "hu": "fut",
+    "field": "family",
+    "value": "futni"
+  },
+  {
+    "id": 65,
+    "hu": "fut",
+    "field": "family",
+    "value": "futás"
+  },
+  {
+    "id": 65,
+    "hu": "fut",
+    "field": "family",
+    "value": "kifut"
+  },
+  {
+    "id": 65,
+    "hu": "fut",
+    "field": "related",
+    "value": "edz"
+  },
+  {
+    "id": 66,
+    "hu": "siet",
+    "field": "family",
+    "value": "elsiet"
+  },
+  {
+    "id": 66,
+    "hu": "siet",
+    "field": "family",
+    "value": "sietni"
+  },
+  {
+    "id": 66,
+    "hu": "siet",
+    "field": "family",
+    "value": "siettet"
+  },
+  {
+    "id": 66,
+    "hu": "siet",
+    "field": "related",
+    "value": "kés"
+  },
+  {
+    "id": 67,
+    "hu": "pihen",
+    "field": "family",
+    "value": "kipihen"
+  },
+  {
+    "id": 67,
+    "hu": "pihen",
+    "field": "family",
+    "value": "megpihen"
+  },
+  {
+    "id": 67,
+    "hu": "pihen",
+    "field": "family",
+    "value": "pihenni"
+  },
+  {
+    "id": 67,
+    "hu": "pihen",
+    "field": "family",
+    "value": "pihenés"
+  },
+  {
+    "id": 67,
+    "hu": "pihen",
+    "field": "related",
+    "value": "alszik"
+  },
+  {
+    "id": 67,
+    "hu": "pihen",
+    "field": "related",
+    "value": "relaxál"
+  },
+  {
+    "id": 68,
+    "hu": "énekel",
+    "field": "family",
+    "value": "elénekel"
+  },
+  {
+    "id": 68,
+    "hu": "énekel",
+    "field": "family",
+    "value": "énekelni"
+  },
+  {
+    "id": 68,
+    "hu": "énekel",
+    "field": "family",
+    "value": "énekes"
+  },
+  {
+    "id": 68,
+    "hu": "énekel",
+    "field": "related",
+    "value": "tánc"
+  },
+  {
+    "id": 69,
+    "hu": "él",
+    "field": "family",
+    "value": "megél"
+  },
+  {
+    "id": 69,
+    "hu": "él",
+    "field": "family",
+    "value": "átél"
+  },
+  {
+    "id": 69,
+    "hu": "él",
+    "field": "family",
+    "value": "élet"
+  },
+  {
+    "id": 69,
+    "hu": "él",
+    "field": "family",
+    "value": "élni"
+  },
+  {
+    "id": 69,
+    "hu": "él",
+    "field": "related",
+    "value": "lakik"
+  },
+  {
+    "id": 69,
+    "hu": "él",
+    "field": "related",
+    "value": "létezik"
+  },
+  {
+    "id": 70,
+    "hu": "madár",
+    "field": "family",
+    "value": "madaras"
+  },
+  {
+    "id": 70,
+    "hu": "madár",
+    "field": "family",
+    "value": "madárka"
+  },
+  {
+    "id": 70,
+    "hu": "madár",
+    "field": "related",
+    "value": "fészek"
+  },
+  {
+    "id": 71,
+    "hu": "örül",
+    "field": "family",
+    "value": "megörül"
+  },
+  {
+    "id": 71,
+    "hu": "örül",
+    "field": "family",
+    "value": "öröm"
+  },
+  {
+    "id": 71,
+    "hu": "örül",
+    "field": "family",
+    "value": "örülni"
+  },
+  {
+    "id": 72,
+    "hu": "ül",
+    "field": "family",
+    "value": "felül"
+  },
+  {
+    "id": 72,
+    "hu": "ül",
+    "field": "family",
+    "value": "kiül"
+  },
+  {
+    "id": 72,
+    "hu": "ül",
+    "field": "family",
+    "value": "leül"
+  },
+  {
+    "id": 72,
+    "hu": "ül",
+    "field": "family",
+    "value": "ülni"
+  },
+  {
+    "id": 72,
+    "hu": "ül",
+    "field": "related",
+    "value": "fekszik"
+  },
+  {
+    "id": 73,
+    "hu": "repülni",
+    "field": "family",
+    "value": "elrepül"
+  },
+  {
+    "id": 73,
+    "hu": "repülni",
+    "field": "family",
+    "value": "felrepül"
+  },
+  {
+    "id": 74,
+    "hu": "repül",
+    "field": "family",
+    "value": "elrepül"
+  },
+  {
+    "id": 74,
+    "hu": "repül",
+    "field": "related",
+    "value": "ég"
+  },
+  {
+    "id": 75,
+    "hu": "orvos",
+    "field": "family",
+    "value": "orvosi"
+  },
+  {
+    "id": 75,
+    "hu": "orvos",
+    "field": "family",
+    "value": "orvosság"
+  },
+  {
+    "id": 76,
+    "hu": "ki",
+    "field": "family",
+    "value": "kicsoda"
+  },
+  {
+    "id": 77,
+    "hu": "mi",
+    "field": "family",
+    "value": "micsoda"
+  },
+  {
+    "id": 78,
+    "hu": "most",
+    "field": "family",
+    "value": "mostani"
+  },
+  {
+    "id": 78,
+    "hu": "most",
+    "field": "related",
+    "value": "akkor"
+  },
+  {
+    "id": 79,
+    "hu": "sofőr",
+    "field": "family",
+    "value": "sofőrködik"
+  },
+  {
+    "id": 79,
+    "hu": "sofőr",
+    "field": "family",
+    "value": "vezet"
+  },
+  {
+    "id": 81,
+    "hu": "gyors",
+    "field": "family",
+    "value": "gyorsabb"
+  },
+  {
+    "id": 81,
+    "hu": "gyors",
+    "field": "family",
+    "value": "gyorsan"
+  },
+  {
+    "id": 81,
+    "hu": "gyors",
+    "field": "family",
+    "value": "gyorsaság"
+  },
+  {
+    "id": 81,
+    "hu": "gyors",
+    "field": "family",
+    "value": "leggyorsabb"
+  },
+  {
+    "id": 81,
+    "hu": "gyors",
+    "field": "related",
+    "value": "sebes"
+  },
+  {
+    "id": 82,
+    "hu": "lassú",
+    "field": "family",
+    "value": "lassabb"
+  },
+  {
+    "id": 82,
+    "hu": "lassú",
+    "field": "family",
+    "value": "lassan"
+  },
+  {
+    "id": 82,
+    "hu": "lassú",
+    "field": "family",
+    "value": "leglassúbb"
+  },
+  {
+    "id": 82,
+    "hu": "lassú",
+    "field": "related",
+    "value": "kényelmes"
+  },
+  {
+    "id": 83,
+    "hu": "kicsi",
+    "field": "family",
+    "value": "kicsit"
+  },
+  {
+    "id": 83,
+    "hu": "kicsi",
+    "field": "family",
+    "value": "kisebb"
+  },
+  {
+    "id": 83,
+    "hu": "kicsi",
+    "field": "family",
+    "value": "legkisebb"
+  },
+  {
+    "id": 84,
+    "hu": "nagy",
+    "field": "family",
+    "value": "legnagyobb"
+  },
+  {
+    "id": 84,
+    "hu": "nagy",
+    "field": "family",
+    "value": "nagyobb"
+  },
+  {
+    "id": 84,
+    "hu": "nagy",
+    "field": "family",
+    "value": "nagyság"
+  },
+  {
+    "id": 84,
+    "hu": "nagy",
+    "field": "related",
+    "value": "hatalmas"
+  },
+  {
+    "id": 85,
+    "hu": "hideg",
+    "field": "family",
+    "value": "hidegebb"
+  },
+  {
+    "id": 85,
+    "hu": "hideg",
+    "field": "family",
+    "value": "hidegen"
+  },
+  {
+    "id": 85,
+    "hu": "hideg",
+    "field": "related",
+    "value": "fázik"
+  },
+  {
+    "id": 86,
+    "hu": "meleg",
+    "field": "family",
+    "value": "melegebb"
+  },
+  {
+    "id": 86,
+    "hu": "meleg",
+    "field": "family",
+    "value": "melegen"
+  },
+  {
+    "id": 86,
+    "hu": "meleg",
+    "field": "related",
+    "value": "forró"
+  },
+  {
+    "id": 89,
+    "hu": "esik",
+    "field": "family",
+    "value": "eleredik"
+  },
+  {
+    "id": 89,
+    "hu": "esik",
+    "field": "family",
+    "value": "esni"
+  },
+  {
+    "id": 89,
+    "hu": "esik",
+    "field": "related",
+    "value": "felhő"
+  },
+  {
+    "id": 90,
+    "hu": "hó",
+    "field": "family",
+    "value": "havas"
+  },
+  {
+    "id": 90,
+    "hu": "hó",
+    "field": "family",
+    "value": "havazik"
+  },
+  {
+    "id": 91,
+    "hu": "nap",
+    "field": "family",
+    "value": "naponta"
+  },
+  {
+    "id": 91,
+    "hu": "nap",
+    "field": "family",
+    "value": "napozik"
+  },
+  {
+    "id": 91,
+    "hu": "nap",
+    "field": "related",
+    "value": "hold"
+  },
+  {
+    "id": 92,
+    "hu": "hét",
+    "field": "family",
+    "value": "hetente"
+  },
+  {
+    "id": 92,
+    "hu": "hét",
+    "field": "family",
+    "value": "heti"
+  },
+  {
+    "id": 92,
+    "hu": "hét",
+    "field": "related",
+    "value": "hónap"
+  },
+  {
+    "id": 93,
+    "hu": "hétfő",
+    "field": "family",
+    "value": "hétfői"
+  },
+  {
+    "id": 94,
+    "hu": "kedd",
+    "field": "family",
+    "value": "keddi"
+  },
+  {
+    "id": 95,
+    "hu": "szerda",
+    "field": "family",
+    "value": "szerdai"
+  },
+  {
+    "id": 96,
+    "hu": "csütörtök",
+    "field": "family",
+    "value": "csütörtöki"
+  },
+  {
+    "id": 97,
+    "hu": "péntek",
+    "field": "family",
+    "value": "pénteki"
+  },
+  {
+    "id": 98,
+    "hu": "szombat",
+    "field": "family",
+    "value": "szombati"
+  },
+  {
+    "id": 99,
+    "hu": "vasárnap",
+    "field": "family",
+    "value": "vasárnapi"
+  },
+  {
+    "id": 100,
+    "hu": "reggel",
+    "field": "family",
+    "value": "reggelizik"
+  },
+  {
+    "id": 101,
+    "hu": "dél",
+    "field": "family",
+    "value": "déli"
+  },
+  {
+    "id": 102,
+    "hu": "este",
+    "field": "family",
+    "value": "estefelé"
+  },
+  {
+    "id": 102,
+    "hu": "este",
+    "field": "family",
+    "value": "esti"
+  },
+  {
+    "id": 103,
+    "hu": "éjszaka",
+    "field": "family",
+    "value": "éjjel"
+  },
+  {
+    "id": 103,
+    "hu": "éjszaka",
+    "field": "family",
+    "value": "éjszakai"
+  },
+  {
+    "id": 103,
+    "hu": "éjszaka",
+    "field": "related",
+    "value": "nappal"
+  },
+  {
+    "id": 104,
+    "hu": "idő",
+    "field": "family",
+    "value": "időben"
+  },
+  {
+    "id": 104,
+    "hu": "idő",
+    "field": "family",
+    "value": "időnként"
+  },
+  {
+    "id": 105,
+    "hu": "késő",
+    "field": "family",
+    "value": "elkésik"
+  },
+  {
+    "id": 105,
+    "hu": "késő",
+    "field": "family",
+    "value": "később"
+  },
+  {
+    "id": 105,
+    "hu": "késő",
+    "field": "family",
+    "value": "legkésőbb"
+  },
+  {
+    "id": 106,
+    "hu": "korán",
+    "field": "family",
+    "value": "korai"
+  },
+  {
+    "id": 106,
+    "hu": "korán",
+    "field": "family",
+    "value": "koránkelő"
+  },
+  {
+    "id": 107,
+    "hu": "gyerek",
+    "field": "family",
+    "value": "gyerekes"
+  },
+  {
+    "id": 107,
+    "hu": "gyerek",
+    "field": "family",
+    "value": "gyerekkor"
+  },
+  {
+    "id": 107,
+    "hu": "gyerek",
+    "field": "related",
+    "value": "felnőtt"
+  },
+  {
+    "id": 108,
+    "hu": "ember",
+    "field": "family",
+    "value": "emberi"
+  },
+  {
+    "id": 108,
+    "hu": "ember",
+    "field": "family",
+    "value": "emberiség"
+  },
+  {
+    "id": 109,
+    "hu": "férfi",
+    "field": "family",
+    "value": "férfias"
+  },
+  {
+    "id": 110,
+    "hu": "nő",
+    "field": "family",
+    "value": "nőies"
+  },
+  {
+    "id": 111,
+    "hu": "család",
+    "field": "family",
+    "value": "családi"
+  },
+  {
+    "id": 111,
+    "hu": "család",
+    "field": "family",
+    "value": "családtag"
+  },
+  {
+    "id": 112,
+    "hu": "anya",
+    "field": "family",
+    "value": "anyai"
+  },
+  {
+    "id": 112,
+    "hu": "anya",
+    "field": "family",
+    "value": "anyu"
+  },
+  {
+    "id": 113,
+    "hu": "apa",
+    "field": "family",
+    "value": "apai"
+  },
+  {
+    "id": 113,
+    "hu": "apa",
+    "field": "family",
+    "value": "apu"
+  },
+  {
+    "id": 114,
+    "hu": "testvér",
+    "field": "family",
+    "value": "testvéri"
+  },
+  {
+    "id": 114,
+    "hu": "testvér",
+    "field": "related",
+    "value": "fiútestvér"
+  },
+  {
+    "id": 114,
+    "hu": "testvér",
+    "field": "related",
+    "value": "lánytestvér"
+  },
+  {
+    "id": 115,
+    "hu": "barát",
+    "field": "family",
+    "value": "baráti"
+  },
+  {
+    "id": 115,
+    "hu": "barát",
+    "field": "family",
+    "value": "barátság"
+  },
+  {
+    "id": 115,
+    "hu": "barát",
+    "field": "related",
+    "value": "ismerős"
+  },
+  {
+    "id": 116,
+    "hu": "szerelem",
+    "field": "related",
+    "value": "boldogság"
+  },
+  {
+    "id": 116,
+    "hu": "szerelem",
+    "field": "related",
+    "value": "szeretet"
+  },
+  {
+    "id": 117,
+    "hu": "szeret",
+    "field": "family",
+    "value": "beleszeret"
+  },
+  {
+    "id": 117,
+    "hu": "szeret",
+    "field": "family",
+    "value": "megszeret"
+  },
+  {
+    "id": 117,
+    "hu": "szeret",
+    "field": "family",
+    "value": "szeretni"
+  },
+  {
+    "id": 117,
+    "hu": "szeret",
+    "field": "related",
+    "value": "imád"
+  },
+  {
+    "id": 117,
+    "hu": "szeret",
+    "field": "related",
+    "value": "kedvel"
+  },
+  {
+    "id": 118,
+    "hu": "lát",
+    "field": "family",
+    "value": "látni"
+  },
+  {
+    "id": 118,
+    "hu": "lát",
+    "field": "family",
+    "value": "látás"
+  },
+  {
+    "id": 118,
+    "hu": "lát",
+    "field": "family",
+    "value": "meglát"
+  },
+  {
+    "id": 118,
+    "hu": "lát",
+    "field": "family",
+    "value": "észrevesz"
+  },
+  {
+    "id": 118,
+    "hu": "lát",
+    "field": "related",
+    "value": "figyel"
+  },
+  {
+    "id": 118,
+    "hu": "lát",
+    "field": "related",
+    "value": "néz"
+  },
+  {
+    "id": 119,
+    "hu": "hall",
+    "field": "family",
+    "value": "hallgat"
+  },
+  {
+    "id": 119,
+    "hu": "hall",
+    "field": "family",
+    "value": "meghall"
+  },
+  {
+    "id": 119,
+    "hu": "hall",
+    "field": "related",
+    "value": "figyel"
+  },
+  {
+    "id": 120,
+    "hu": "mond",
+    "field": "family",
+    "value": "elmond"
+  },
+  {
+    "id": 120,
+    "hu": "mond",
+    "field": "family",
+    "value": "kimond"
+  },
+  {
+    "id": 120,
+    "hu": "mond",
+    "field": "family",
+    "value": "megmond"
+  },
+  {
+    "id": 120,
+    "hu": "mond",
+    "field": "related",
+    "value": "kérdez"
+  },
+  {
+    "id": 121,
+    "hu": "beszél",
+    "field": "family",
+    "value": "beszéd"
+  },
+  {
+    "id": 121,
+    "hu": "beszél",
+    "field": "family",
+    "value": "beszélni"
+  },
+  {
+    "id": 121,
+    "hu": "beszél",
+    "field": "family",
+    "value": "kibeszél"
+  },
+  {
+    "id": 121,
+    "hu": "beszél",
+    "field": "family",
+    "value": "megbeszél"
+  },
+  {
+    "id": 122,
+    "hu": "eszik",
+    "field": "family",
+    "value": "beeszik"
+  },
+  {
+    "id": 122,
+    "hu": "eszik",
+    "field": "family",
+    "value": "evés"
+  },
+  {
+    "id": 122,
+    "hu": "eszik",
+    "field": "family",
+    "value": "megeszik"
+  },
+  {
+    "id": 123,
+    "hu": "iszik",
+    "field": "family",
+    "value": "ivás"
+  },
+  {
+    "id": 123,
+    "hu": "iszik",
+    "field": "family",
+    "value": "kiiszik"
+  },
+  {
+    "id": 123,
+    "hu": "iszik",
+    "field": "family",
+    "value": "megiszik"
+  },
+  {
+    "id": 124,
+    "hu": "vesz",
+    "field": "family",
+    "value": "elvesz"
+  },
+  {
+    "id": 124,
+    "hu": "vesz",
+    "field": "family",
+    "value": "megvesz"
+  },
+  {
+    "id": 124,
+    "hu": "vesz",
+    "field": "family",
+    "value": "vásárol"
+  },
+  {
+    "id": 124,
+    "hu": "vesz",
+    "field": "related",
+    "value": "fizet"
+  },
+  {
+    "id": 125,
+    "hu": "ad",
+    "field": "family",
+    "value": "adni"
+  },
+  {
+    "id": 125,
+    "hu": "ad",
+    "field": "family",
+    "value": "megad"
+  },
+  {
+    "id": 125,
+    "hu": "ad",
+    "field": "family",
+    "value": "odaad"
+  },
+  {
+    "id": 125,
+    "hu": "ad",
+    "field": "family",
+    "value": "átad"
+  },
+  {
+    "id": 125,
+    "hu": "ad",
+    "field": "related",
+    "value": "kap"
+  },
+  {
+    "id": 126,
+    "hu": "megy",
+    "field": "family",
+    "value": "bemegy"
+  },
+  {
+    "id": 126,
+    "hu": "megy",
+    "field": "family",
+    "value": "elmegy"
+  },
+  {
+    "id": 126,
+    "hu": "megy",
+    "field": "family",
+    "value": "kimegy"
+  },
+  {
+    "id": 126,
+    "hu": "megy",
+    "field": "related",
+    "value": "utazik"
+  },
+  {
+    "id": 127,
+    "hu": "jön",
+    "field": "family",
+    "value": "bejön"
+  },
+  {
+    "id": 127,
+    "hu": "jön",
+    "field": "family",
+    "value": "eljön"
+  },
+  {
+    "id": 127,
+    "hu": "jön",
+    "field": "family",
+    "value": "jönni"
+  },
+  {
+    "id": 127,
+    "hu": "jön",
+    "field": "family",
+    "value": "megjön"
+  },
+  {
+    "id": 127,
+    "hu": "jön",
+    "field": "related",
+    "value": "érkezik"
+  },
+  {
+    "id": 128,
+    "hu": "kér",
+    "field": "family",
+    "value": "kikér"
+  },
+  {
+    "id": 128,
+    "hu": "kér",
+    "field": "family",
+    "value": "kérni"
+  },
+  {
+    "id": 128,
+    "hu": "kér",
+    "field": "family",
+    "value": "kérés"
+  },
+  {
+    "id": 128,
+    "hu": "kér",
+    "field": "family",
+    "value": "megkér"
+  },
+  {
+    "id": 128,
+    "hu": "kér",
+    "field": "related",
+    "value": "szeretne"
+  },
+  {
+    "id": 129,
+    "hu": "tanár",
+    "field": "family",
+    "value": "tanári"
+  },
+  {
+    "id": 129,
+    "hu": "tanár",
+    "field": "family",
+    "value": "tanárnő"
+  },
+  {
+    "id": 130,
+    "hu": "diák",
+    "field": "family",
+    "value": "diákigazolvány"
+  },
+  {
+    "id": 130,
+    "hu": "diák",
+    "field": "family",
+    "value": "diákos"
+  },
+  {
+    "id": 131,
+    "hu": "munka",
+    "field": "family",
+    "value": "munkahely"
+  },
+  {
+    "id": 131,
+    "hu": "munka",
+    "field": "related",
+    "value": "fizetés"
+  },
+  {
+    "id": 132,
+    "hu": "dolgozik",
+    "field": "family",
+    "value": "ledolgozik"
+  },
+  {
+    "id": 133,
+    "hu": "pénz",
+    "field": "family",
+    "value": "pénzes"
+  },
+  {
+    "id": 133,
+    "hu": "pénz",
+    "field": "family",
+    "value": "pénztárca"
+  },
+  {
+    "id": 133,
+    "hu": "pénz",
+    "field": "related",
+    "value": "bank"
+  },
+  {
+    "id": 133,
+    "hu": "pénz",
+    "field": "related",
+    "value": "fizet"
+  },
+  {
+    "id": 134,
+    "hu": "áruház",
+    "field": "family",
+    "value": "áru"
+  },
+  {
+    "id": 135,
+    "hu": "piac",
+    "field": "family",
+    "value": "piaci"
+  },
+  {
+    "id": 136,
+    "hu": "város",
+    "field": "family",
+    "value": "városi"
+  },
+  {
+    "id": 136,
+    "hu": "város",
+    "field": "family",
+    "value": "városka"
+  },
+  {
+    "id": 136,
+    "hu": "város",
+    "field": "related",
+    "value": "falu"
+  },
+  {
+    "id": 137,
+    "hu": "ország",
+    "field": "family",
+    "value": "hazai"
+  },
+  {
+    "id": 137,
+    "hu": "ország",
+    "field": "family",
+    "value": "országos"
+  },
+  {
+    "id": 138,
+    "hu": "világ",
+    "field": "family",
+    "value": "világi"
+  },
+  {
+    "id": 138,
+    "hu": "világ",
+    "field": "family",
+    "value": "világos"
+  },
+  {
+    "id": 139,
+    "hu": "utca",
+    "field": "family",
+    "value": "utcai"
+  },
+  {
+    "id": 140,
+    "hu": "tér",
+    "field": "family",
+    "value": "téren"
+  },
+  {
+    "id": 141,
+    "hu": "autó",
+    "field": "family",
+    "value": "autópálya"
+  },
+  {
+    "id": 141,
+    "hu": "autó",
+    "field": "family",
+    "value": "autós"
+  },
+  {
+    "id": 142,
+    "hu": "busz",
+    "field": "family",
+    "value": "buszmegálló"
+  },
+  {
+    "id": 142,
+    "hu": "busz",
+    "field": "family",
+    "value": "buszos"
+  },
+  {
+    "id": 143,
+    "hu": "vonat",
+    "field": "family",
+    "value": "vonatozik"
+  },
+  {
+    "id": 143,
+    "hu": "vonat",
+    "field": "family",
+    "value": "vonatállomás"
+  },
+  {
+    "id": 144,
+    "hu": "repülő",
+    "field": "related",
+    "value": "utazás"
+  },
+  {
+    "id": 145,
+    "hu": "jegy",
+    "field": "family",
+    "value": "jegyet vesz"
+  },
+  {
+    "id": 145,
+    "hu": "jegy",
+    "field": "family",
+    "value": "jegyiroda"
+  },
+  {
+    "id": 145,
+    "hu": "jegy",
+    "field": "related",
+    "value": "mozi"
+  },
+  {
+    "id": 146,
+    "hu": "út",
+    "field": "family",
+    "value": "utazik"
+  },
+  {
+    "id": 146,
+    "hu": "út",
+    "field": "family",
+    "value": "úti"
+  },
+  {
+    "id": 146,
+    "hu": "út",
+    "field": "family",
+    "value": "útlevél"
+  },
+  {
+    "id": 146,
+    "hu": "út",
+    "field": "related",
+    "value": "utazás"
+  },
+  {
+    "id": 147,
+    "hu": "térkép",
+    "field": "family",
+    "value": "térképez"
+  },
+  {
+    "id": 148,
+    "hu": "telefon",
+    "field": "family",
+    "value": "telefonos"
+  },
+  {
+    "id": 148,
+    "hu": "telefon",
+    "field": "family",
+    "value": "telefonál"
+  },
+  {
+    "id": 149,
+    "hu": "szám",
+    "field": "family",
+    "value": "számol"
+  },
+  {
+    "id": 149,
+    "hu": "szám",
+    "field": "family",
+    "value": "számoz"
+  },
+  {
+    "id": 149,
+    "hu": "szám",
+    "field": "related",
+    "value": "matek"
+  },
+  {
+    "id": 151,
+    "hu": "internet",
+    "field": "family",
+    "value": "internetes"
+  },
+  {
+    "id": 152,
+    "hu": "időjárás",
+    "field": "family",
+    "value": "időjárás-jelentés"
+  },
+  {
+    "id": 153,
+    "hu": "napos",
+    "field": "family",
+    "value": "napozik"
+  },
+  {
+    "id": 153,
+    "hu": "napos",
+    "field": "family",
+    "value": "napsütés"
+  },
+  {
+    "id": 155,
+    "hu": "felhős",
+    "field": "family",
+    "value": "felhő"
+  },
+  {
+    "id": 155,
+    "hu": "felhős",
+    "field": "family",
+    "value": "felhőzik"
+  },
+  {
+    "id": 156,
+    "hu": "hideg van",
+    "field": "related",
+    "value": "fázik"
+  },
+  {
+    "id": 157,
+    "hu": "meleg van",
+    "field": "related",
+    "value": "forró"
+  },
+  {
+    "id": 158,
+    "hu": "kell",
+    "field": "family",
+    "value": "szükséges"
+  },
+  {
+    "id": 158,
+    "hu": "kell",
+    "field": "related",
+    "value": "muszáj"
+  },
+  {
+    "id": 159,
+    "hu": "lehet",
+    "field": "family",
+    "value": "lehetséges"
+  },
+  {
+    "id": 159,
+    "hu": "lehet",
+    "field": "family",
+    "value": "lehetőség"
+  },
+  {
+    "id": 160,
+    "hu": "akar",
+    "field": "family",
+    "value": "akarni"
+  },
+  {
+    "id": 160,
+    "hu": "akar",
+    "field": "family",
+    "value": "megakar"
+  },
+  {
+    "id": 160,
+    "hu": "akar",
+    "field": "related",
+    "value": "kíván"
+  },
+  {
+    "id": 160,
+    "hu": "akar",
+    "field": "related",
+    "value": "szeretne"
+  },
+  {
+    "id": 161,
+    "hu": "tud",
+    "field": "family",
+    "value": "kitud"
+  },
+  {
+    "id": 161,
+    "hu": "tud",
+    "field": "family",
+    "value": "megtud"
+  },
+  {
+    "id": 161,
+    "hu": "tud",
+    "field": "family",
+    "value": "tudni"
+  },
+  {
+    "id": 161,
+    "hu": "tud",
+    "field": "family",
+    "value": "tudás"
+  },
+  {
+    "id": 161,
+    "hu": "tud",
+    "field": "related",
+    "value": "ismer"
+  },
+  {
+    "id": 162,
+    "hu": "kellene",
+    "field": "family",
+    "value": "kellett"
+  },
+  {
+    "id": 162,
+    "hu": "kellene",
+    "field": "related",
+    "value": "muszáj"
+  },
+  {
+    "id": 163,
+    "hu": "mostanában",
+    "field": "family",
+    "value": "mostani"
+  },
+  {
+    "id": 163,
+    "hu": "mostanában",
+    "field": "related",
+    "value": "régen"
+  },
+  {
+    "id": 168,
+    "hu": "ajándék",
+    "field": "family",
+    "value": "ajándékoz"
+  },
+  {
+    "id": 168,
+    "hu": "ajándék",
+    "field": "family",
+    "value": "ajándékozás"
+  },
+  {
+    "id": 168,
+    "hu": "ajándék",
+    "field": "related",
+    "value": "meglepetés"
+  },
+  {
+    "id": 168,
+    "hu": "ajándék",
+    "field": "related",
+    "value": "születésnap"
+  },
+  {
+    "id": 169,
+    "hu": "ajánlani",
+    "field": "family",
+    "value": "ajánlat"
+  },
+  {
+    "id": 169,
+    "hu": "ajánlani",
+    "field": "family",
+    "value": "ajánlott"
+  },
+  {
+    "id": 169,
+    "hu": "ajánlani",
+    "field": "family",
+    "value": "ajánlás"
+  },
+  {
+    "id": 169,
+    "hu": "ajánlani",
+    "field": "related",
+    "value": "javasolni"
+  },
+  {
+    "id": 171,
+    "hu": "aludni",
+    "field": "family",
+    "value": "alvás"
+  },
+  {
+    "id": 171,
+    "hu": "aludni",
+    "field": "family",
+    "value": "elaludni"
+  },
+  {
+    "id": 171,
+    "hu": "aludni",
+    "field": "family",
+    "value": "álom"
+  },
+  {
+    "id": 171,
+    "hu": "aludni",
+    "field": "related",
+    "value": "pihenni"
+  },
+  {
+    "id": 171,
+    "hu": "aludni",
+    "field": "related",
+    "value": "ébredni"
+  },
+  {
+    "id": 172,
+    "hu": "angol",
+    "field": "family",
+    "value": "Anglia"
+  },
+  {
+    "id": 172,
+    "hu": "angol",
+    "field": "family",
+    "value": "angolul"
+  },
+  {
+    "id": 172,
+    "hu": "angol",
+    "field": "related",
+    "value": "amerikai"
+  },
+  {
+    "id": 173,
+    "hu": "anyuka",
+    "field": "family",
+    "value": "anyu"
+  },
+  {
+    "id": 175,
+    "hu": "apró",
+    "field": "family",
+    "value": "aprópénz"
+  },
+  {
+    "id": 175,
+    "hu": "apró",
+    "field": "related",
+    "value": "bankjegy"
+  },
+  {
+    "id": 176,
+    "hu": "apuka",
+    "field": "family",
+    "value": "apu"
+  },
+  {
+    "id": 178,
+    "hu": "arab",
+    "field": "family",
+    "value": "Arábia"
+  },
+  {
+    "id": 178,
+    "hu": "arab",
+    "field": "family",
+    "value": "arabul"
+  },
+  {
+    "id": 179,
+    "hu": "arc",
+    "field": "family",
+    "value": "arcú"
+  },
+  {
+    "id": 180,
+    "hu": "asztal",
+    "field": "family",
+    "value": "asztalka"
+  },
+  {
+    "id": 180,
+    "hu": "asztal",
+    "field": "family",
+    "value": "asztalos"
+  },
+  {
+    "id": 180,
+    "hu": "asztal",
+    "field": "related",
+    "value": "bútor"
+  },
+  {
+    "id": 181,
+    "hu": "ausztrál",
+    "field": "family",
+    "value": "Ausztrália"
+  },
+  {
+    "id": 181,
+    "hu": "ausztrál",
+    "field": "related",
+    "value": "amerikai"
+  },
+  {
+    "id": 182,
+    "hu": "az",
+    "field": "family",
+    "value": "annak"
+  },
+  {
+    "id": 182,
+    "hu": "az",
+    "field": "family",
+    "value": "azok"
+  },
+  {
+    "id": 182,
+    "hu": "az",
+    "field": "related",
+    "value": "amaz"
+  },
+  {
+    "id": 183,
+    "hu": "baba",
+    "field": "family",
+    "value": "babakocsi"
+  },
+  {
+    "id": 183,
+    "hu": "baba",
+    "field": "family",
+    "value": "babázik"
+  },
+  {
+    "id": 184,
+    "hu": "bajusz",
+    "field": "family",
+    "value": "bajszos"
+  },
+  {
+    "id": 185,
+    "hu": "bal",
+    "field": "family",
+    "value": "balos"
+  },
+  {
+    "id": 185,
+    "hu": "bal",
+    "field": "family",
+    "value": "balra"
+  },
+  {
+    "id": 186,
+    "hu": "barna",
+    "field": "family",
+    "value": "barnul"
+  },
+  {
+    "id": 186,
+    "hu": "barna",
+    "field": "family",
+    "value": "barnás"
+  },
+  {
+    "id": 187,
+    "hu": "barátnő",
+    "field": "family",
+    "value": "barátság"
+  },
+  {
+    "id": 187,
+    "hu": "barátnő",
+    "field": "related",
+    "value": "pár"
+  },
+  {
+    "id": 188,
+    "hu": "belga",
+    "field": "family",
+    "value": "Belgium"
+  },
+  {
+    "id": 189,
+    "hu": "beszélgetni",
+    "field": "family",
+    "value": "beszélgetés"
+  },
+  {
+    "id": 189,
+    "hu": "beszélgetni",
+    "field": "family",
+    "value": "beszélni"
+  },
+  {
+    "id": 189,
+    "hu": "beszélgetni",
+    "field": "related",
+    "value": "csevegni"
+  },
+  {
+    "id": 190,
+    "hu": "beteg",
+    "field": "family",
+    "value": "betegen"
+  },
+  {
+    "id": 190,
+    "hu": "beteg",
+    "field": "family",
+    "value": "betegség"
+  },
+  {
+    "id": 190,
+    "hu": "beteg",
+    "field": "family",
+    "value": "megbetegedni"
+  },
+  {
+    "id": 190,
+    "hu": "beteg",
+    "field": "related",
+    "value": "egészséges"
+  },
+  {
+    "id": 191,
+    "hu": "bevallani",
+    "field": "family",
+    "value": "vallani"
+  },
+  {
+    "id": 191,
+    "hu": "bevallani",
+    "field": "family",
+    "value": "vallomás"
+  },
+  {
+    "id": 191,
+    "hu": "bevallani",
+    "field": "related",
+    "value": "elismerni"
+  },
+  {
+    "id": 192,
+    "hu": "bicikli",
+    "field": "family",
+    "value": "biciklis"
+  },
+  {
+    "id": 192,
+    "hu": "bicikli",
+    "field": "family",
+    "value": "biciklizni"
+  },
+  {
+    "id": 193,
+    "hu": "biztonságos",
+    "field": "family",
+    "value": "biztonság"
+  },
+  {
+    "id": 193,
+    "hu": "biztonságos",
+    "field": "family",
+    "value": "biztonságosan"
+  },
+  {
+    "id": 194,
+    "hu": "bocsánat",
+    "field": "family",
+    "value": "bocsánatot kérni"
+  },
+  {
+    "id": 194,
+    "hu": "bocsánat",
+    "field": "related",
+    "value": "sajnálom"
+  },
+  {
+    "id": 195,
+    "hu": "bogár",
+    "field": "family",
+    "value": "bogaras"
+  },
+  {
+    "id": 195,
+    "hu": "bogár",
+    "field": "related",
+    "value": "hangya"
+  },
+  {
+    "id": 195,
+    "hu": "bogár",
+    "field": "related",
+    "value": "légy"
+  },
+  {
+    "id": 195,
+    "hu": "bogár",
+    "field": "related",
+    "value": "pók"
+  },
+  {
+    "id": 197,
+    "hu": "bors",
+    "field": "family",
+    "value": "borsos"
+  },
+  {
+    "id": 197,
+    "hu": "bors",
+    "field": "related",
+    "value": "fűszer"
+  },
+  {
+    "id": 198,
+    "hu": "brazil",
+    "field": "family",
+    "value": "Brazília"
+  },
+  {
+    "id": 198,
+    "hu": "brazil",
+    "field": "related",
+    "value": "argentin"
+  },
+  {
+    "id": 199,
+    "hu": "bátor",
+    "field": "family",
+    "value": "bátorság"
+  },
+  {
+    "id": 199,
+    "hu": "bátor",
+    "field": "family",
+    "value": "bátorít"
+  },
+  {
+    "id": 199,
+    "hu": "bátor",
+    "field": "family",
+    "value": "bátran"
+  },
+  {
+    "id": 199,
+    "hu": "bátor",
+    "field": "related",
+    "value": "félénk"
+  },
+  {
+    "id": 201,
+    "hu": "béka",
+    "field": "family",
+    "value": "békás"
+  },
+  {
+    "id": 202,
+    "hu": "bélyeg",
+    "field": "family",
+    "value": "bélyeggyűjtő"
+  },
+  {
+    "id": 202,
+    "hu": "bélyeg",
+    "field": "related",
+    "value": "boríték"
+  },
+  {
+    "id": 202,
+    "hu": "bélyeg",
+    "field": "related",
+    "value": "posta"
+  },
+  {
+    "id": 203,
+    "hu": "bérelni",
+    "field": "family",
+    "value": "bérlő"
+  },
+  {
+    "id": 203,
+    "hu": "bérelni",
+    "field": "family",
+    "value": "kibérelni"
+  },
+  {
+    "id": 203,
+    "hu": "bérelni",
+    "field": "related",
+    "value": "kölcsönözni"
+  },
+  {
+    "id": 203,
+    "hu": "bérelni",
+    "field": "related",
+    "value": "vásárolni"
+  },
+  {
+    "id": 205,
+    "hu": "bíró",
+    "field": "family",
+    "value": "bírói"
+  },
+  {
+    "id": 205,
+    "hu": "bíró",
+    "field": "family",
+    "value": "bíróság"
+  },
+  {
+    "id": 205,
+    "hu": "bíró",
+    "field": "related",
+    "value": "törvény"
+  },
+  {
+    "id": 206,
+    "hu": "bőr",
+    "field": "family",
+    "value": "bőrös"
+  },
+  {
+    "id": 207,
+    "hu": "bőrönd",
+    "field": "related",
+    "value": "utazás"
+  },
+  {
+    "id": 208,
+    "hu": "cica",
+    "field": "family",
+    "value": "cicus"
+  },
+  {
+    "id": 209,
+    "hu": "cipő",
+    "field": "family",
+    "value": "cipőbolt"
+  },
+  {
+    "id": 209,
+    "hu": "cipő",
+    "field": "family",
+    "value": "cipős"
+  },
+  {
+    "id": 209,
+    "hu": "cipő",
+    "field": "related",
+    "value": "zokni"
+  },
+  {
+    "id": 211,
+    "hu": "csendes",
+    "field": "family",
+    "value": "csend"
+  },
+  {
+    "id": 211,
+    "hu": "csendes",
+    "field": "family",
+    "value": "csendesen"
+  },
+  {
+    "id": 211,
+    "hu": "csendes",
+    "field": "family",
+    "value": "elcsendesedik"
+  },
+  {
+    "id": 211,
+    "hu": "csendes",
+    "field": "related",
+    "value": "hangos"
+  },
+  {
+    "id": 212,
+    "hu": "cseresznye",
+    "field": "family",
+    "value": "cseresznyefa"
+  },
+  {
+    "id": 212,
+    "hu": "cseresznye",
+    "field": "related",
+    "value": "meggy"
+  },
+  {
+    "id": 213,
+    "hu": "csiga",
+    "field": "related",
+    "value": "kagyló"
+  },
+  {
+    "id": 214,
+    "hu": "csinálni",
+    "field": "family",
+    "value": "csinálás"
+  },
+  {
+    "id": 214,
+    "hu": "csinálni",
+    "field": "family",
+    "value": "elcsinálni"
+  },
+  {
+    "id": 214,
+    "hu": "csinálni",
+    "field": "family",
+    "value": "megcsinálni"
+  },
+  {
+    "id": 215,
+    "hu": "csirke",
+    "field": "family",
+    "value": "csirkehús"
+  },
+  {
+    "id": 215,
+    "hu": "csirke",
+    "field": "related",
+    "value": "hús"
+  },
+  {
+    "id": 215,
+    "hu": "csirke",
+    "field": "related",
+    "value": "tyúk"
+  },
+  {
+    "id": 216,
+    "hu": "csokoládé",
+    "field": "family",
+    "value": "csokoládés"
+  },
+  {
+    "id": 216,
+    "hu": "csokoládé",
+    "field": "related",
+    "value": "cukorka"
+  },
+  {
+    "id": 216,
+    "hu": "csokoládé",
+    "field": "related",
+    "value": "édesség"
+  },
+  {
+    "id": 217,
+    "hu": "csésze",
+    "field": "related",
+    "value": "kávé"
+  },
+  {
+    "id": 217,
+    "hu": "csésze",
+    "field": "related",
+    "value": "pohár"
+  },
+  {
+    "id": 217,
+    "hu": "csésze",
+    "field": "related",
+    "value": "tányér"
+  },
+  {
+    "id": 218,
+    "hu": "csíkos",
+    "field": "family",
+    "value": "csík"
+  },
+  {
+    "id": 218,
+    "hu": "csíkos",
+    "field": "related",
+    "value": "kockás"
+  },
+  {
+    "id": 218,
+    "hu": "csíkos",
+    "field": "related",
+    "value": "pöttyös"
+  },
+  {
+    "id": 219,
+    "hu": "csípős",
+    "field": "family",
+    "value": "csíp"
+  },
+  {
+    "id": 219,
+    "hu": "csípős",
+    "field": "family",
+    "value": "csípni"
+  },
+  {
+    "id": 220,
+    "hu": "csókolni",
+    "field": "family",
+    "value": "csók"
+  },
+  {
+    "id": 220,
+    "hu": "csókolni",
+    "field": "family",
+    "value": "megcsókolni"
+  },
+  {
+    "id": 220,
+    "hu": "csókolni",
+    "field": "related",
+    "value": "szeretni"
+  },
+  {
+    "id": 220,
+    "hu": "csókolni",
+    "field": "related",
+    "value": "ölelni"
+  },
+  {
+    "id": 221,
+    "hu": "csúnya",
+    "field": "family",
+    "value": "csúnyán"
+  },
+  {
+    "id": 221,
+    "hu": "csúnya",
+    "field": "related",
+    "value": "gonosz"
+  },
+  {
+    "id": 222,
+    "hu": "cuki",
+    "field": "related",
+    "value": "aranyos"
+  },
+  {
+    "id": 223,
+    "hu": "cukor",
+    "field": "family",
+    "value": "cukorka"
+  },
+  {
+    "id": 223,
+    "hu": "cukor",
+    "field": "family",
+    "value": "cukros"
+  },
+  {
+    "id": 223,
+    "hu": "cukor",
+    "field": "family",
+    "value": "cukrász"
+  },
+  {
+    "id": 224,
+    "hu": "dal",
+    "field": "family",
+    "value": "dalol"
+  },
+  {
+    "id": 224,
+    "hu": "dal",
+    "field": "family",
+    "value": "dalos"
+  },
+  {
+    "id": 224,
+    "hu": "dal",
+    "field": "related",
+    "value": "ének"
+  },
+  {
+    "id": 225,
+    "hu": "darálni",
+    "field": "family",
+    "value": "daráló"
+  },
+  {
+    "id": 225,
+    "hu": "darálni",
+    "field": "family",
+    "value": "ledarálni"
+  },
+  {
+    "id": 225,
+    "hu": "darálni",
+    "field": "related",
+    "value": "aprítani"
+  },
+  {
+    "id": 226,
+    "hu": "de",
+    "field": "related",
+    "value": "viszont"
+  },
+  {
+    "id": 227,
+    "hu": "deci",
+    "field": "family",
+    "value": "deciliter"
+  },
+  {
+    "id": 227,
+    "hu": "deci",
+    "field": "related",
+    "value": "pohár"
+  },
+  {
+    "id": 228,
+    "hu": "deka",
+    "field": "family",
+    "value": "dekagramm"
+  },
+  {
+    "id": 228,
+    "hu": "deka",
+    "field": "related",
+    "value": "gramm"
+  },
+  {
+    "id": 229,
+    "hu": "disznó",
+    "field": "family",
+    "value": "disznóól"
+  },
+  {
+    "id": 229,
+    "hu": "disznó",
+    "field": "related",
+    "value": "malac"
+  },
+  {
+    "id": 229,
+    "hu": "disznó",
+    "field": "related",
+    "value": "tehén"
+  },
+  {
+    "id": 231,
+    "hu": "dió",
+    "field": "family",
+    "value": "diós"
+  },
+  {
+    "id": 231,
+    "hu": "dió",
+    "field": "related",
+    "value": "mandula"
+  },
+  {
+    "id": 232,
+    "hu": "dolgozni",
+    "field": "family",
+    "value": "dolgozó"
+  },
+  {
+    "id": 232,
+    "hu": "dolgozni",
+    "field": "family",
+    "value": "ledolgozni"
+  },
+  {
+    "id": 232,
+    "hu": "dolgozni",
+    "field": "related",
+    "value": "pihenni"
+  },
+  {
+    "id": 232,
+    "hu": "dolgozni",
+    "field": "related",
+    "value": "tanulni"
+  },
+  {
+    "id": 233,
+    "hu": "dollár",
+    "field": "related",
+    "value": "forint"
+  },
+  {
+    "id": 234,
+    "hu": "drága",
+    "field": "family",
+    "value": "drágul"
+  },
+  {
+    "id": 234,
+    "hu": "drága",
+    "field": "family",
+    "value": "drágán"
+  },
+  {
+    "id": 235,
+    "hu": "duolingózni",
+    "field": "related",
+    "value": "nyelvet tanulni"
+  },
+  {
+    "id": 235,
+    "hu": "duolingózni",
+    "field": "related",
+    "value": "tanulni"
+  },
+  {
+    "id": 238,
+    "hu": "ebéd",
+    "field": "family",
+    "value": "ebédidő"
+  },
+  {
+    "id": 240,
+    "hu": "ecet",
+    "field": "family",
+    "value": "ecetes"
+  },
+  {
+    "id": 240,
+    "hu": "ecet",
+    "field": "related",
+    "value": "olaj"
+  },
+  {
+    "id": 241,
+    "hu": "eger",
+    "field": "family",
+    "value": "egérke"
+  },
+  {
+    "id": 241,
+    "hu": "eger",
+    "field": "related",
+    "value": "patkány"
+  },
+  {
+    "id": 242,
+    "hu": "egy",
+    "field": "family",
+    "value": "egyetlen"
+  },
+  {
+    "id": 243,
+    "hu": "egyedül",
+    "field": "family",
+    "value": "egyedüli"
+  },
+  {
+    "id": 243,
+    "hu": "egyedül",
+    "field": "related",
+    "value": "magányos"
+  },
+  {
+    "id": 245,
+    "hu": "egyik",
+    "field": "related",
+    "value": "mindkettő"
+  },
+  {
+    "id": 246,
+    "hu": "egyiptomi",
+    "field": "family",
+    "value": "Egyiptom"
+  },
+  {
+    "id": 246,
+    "hu": "egyiptomi",
+    "field": "related",
+    "value": "afrikai"
+  },
+  {
+    "id": 247,
+    "hu": "egymás",
+    "field": "family",
+    "value": "egymásnak"
+  },
+  {
+    "id": 247,
+    "hu": "egymás",
+    "field": "family",
+    "value": "egymással"
+  },
+  {
+    "id": 247,
+    "hu": "egymás",
+    "field": "related",
+    "value": "mindketten"
+  },
+  {
+    "id": 248,
+    "hu": "együtt",
+    "field": "family",
+    "value": "együttes"
+  },
+  {
+    "id": 248,
+    "hu": "együtt",
+    "field": "family",
+    "value": "együttlét"
+  },
+  {
+    "id": 248,
+    "hu": "együtt",
+    "field": "related",
+    "value": "közösen"
+  },
+  {
+    "id": 249,
+    "hu": "egész",
+    "field": "family",
+    "value": "egészen"
+  },
+  {
+    "id": 249,
+    "hu": "egész",
+    "field": "related",
+    "value": "teljes"
+  },
+  {
+    "id": 250,
+    "hu": "eladó",
+    "field": "family",
+    "value": "eladni"
+  },
+  {
+    "id": 250,
+    "hu": "eladó",
+    "field": "family",
+    "value": "eladás"
+  },
+  {
+    "id": 250,
+    "hu": "eladó",
+    "field": "related",
+    "value": "vevő"
+  },
+  {
+    "id": 252,
+    "hu": "elengedni",
+    "field": "family",
+    "value": "engedni"
+  },
+  {
+    "id": 252,
+    "hu": "elengedni",
+    "field": "family",
+    "value": "engedély"
+  },
+  {
+    "id": 252,
+    "hu": "elengedni",
+    "field": "related",
+    "value": "megfogni"
+  },
+  {
+    "id": 252,
+    "hu": "elengedni",
+    "field": "related",
+    "value": "tartani"
+  },
+  {
+    "id": 253,
+    "hu": "elfelejteni",
+    "field": "family",
+    "value": "elfelejtett"
+  },
+  {
+    "id": 253,
+    "hu": "elfelejteni",
+    "field": "family",
+    "value": "felejteni"
+  },
+  {
+    "id": 253,
+    "hu": "elfelejteni",
+    "field": "related",
+    "value": "emlékezni"
+  },
+  {
+    "id": 253,
+    "hu": "elfelejteni",
+    "field": "related",
+    "value": "eszébe jutni"
+  },
+  {
+    "id": 254,
+    "hu": "elnézést",
+    "field": "family",
+    "value": "elnézni"
+  },
+  {
+    "id": 254,
+    "hu": "elnézést",
+    "field": "related",
+    "value": "kérem"
+  },
+  {
+    "id": 255,
+    "hu": "elég",
+    "field": "family",
+    "value": "elégedett"
+  },
+  {
+    "id": 255,
+    "hu": "elég",
+    "field": "family",
+    "value": "elégséges"
+  },
+  {
+    "id": 257,
+    "hu": "enni",
+    "field": "family",
+    "value": "evés"
+  },
+  {
+    "id": 257,
+    "hu": "enni",
+    "field": "family",
+    "value": "megenni"
+  },
+  {
+    "id": 258,
+    "hu": "eper",
+    "field": "family",
+    "value": "eprész"
+  },
+  {
+    "id": 259,
+    "hu": "erős",
+    "field": "family",
+    "value": "erő"
+  },
+  {
+    "id": 259,
+    "hu": "erős",
+    "field": "family",
+    "value": "erősen"
+  },
+  {
+    "id": 259,
+    "hu": "erős",
+    "field": "family",
+    "value": "erősít"
+  },
+  {
+    "id": 262,
+    "hu": "eső",
+    "field": "family",
+    "value": "esni"
+  },
+  {
+    "id": 263,
+    "hu": "euró",
+    "field": "related",
+    "value": "forint"
+  },
+  {
+    "id": 264,
+    "hu": "ez",
+    "field": "family",
+    "value": "ennek"
+  },
+  {
+    "id": 264,
+    "hu": "ez",
+    "field": "family",
+    "value": "ezek"
+  },
+  {
+    "id": 264,
+    "hu": "ez",
+    "field": "related",
+    "value": "emez"
+  },
+  {
+    "id": 265,
+    "hu": "ezer",
+    "field": "family",
+    "value": "ezres"
+  },
+  {
+    "id": 265,
+    "hu": "ezer",
+    "field": "related",
+    "value": "millió"
+  },
+  {
+    "id": 266,
+    "hu": "fa",
+    "field": "family",
+    "value": "erdő"
+  },
+  {
+    "id": 266,
+    "hu": "fa",
+    "field": "family",
+    "value": "fás"
+  },
+  {
+    "id": 266,
+    "hu": "fa",
+    "field": "related",
+    "value": "erdő"
+  },
+  {
+    "id": 267,
+    "hu": "fagylalt",
+    "field": "family",
+    "value": "fagylaltozó"
+  },
+  {
+    "id": 267,
+    "hu": "fagylalt",
+    "field": "related",
+    "value": "édesség"
+  },
+  {
+    "id": 268,
+    "hu": "fehér",
+    "field": "family",
+    "value": "fehéres"
+  },
+  {
+    "id": 268,
+    "hu": "fehér",
+    "field": "family",
+    "value": "fehérség"
+  },
+  {
+    "id": 268,
+    "hu": "fehér",
+    "field": "family",
+    "value": "fehérít"
+  },
+  {
+    "id": 268,
+    "hu": "fehér",
+    "field": "related",
+    "value": "szürke"
+  },
+  {
+    "id": 269,
+    "hu": "fej",
+    "field": "family",
+    "value": "fejes"
+  },
+  {
+    "id": 269,
+    "hu": "fej",
+    "field": "family",
+    "value": "fejezni"
+  },
+  {
+    "id": 270,
+    "hu": "fekete",
+    "field": "family",
+    "value": "feketén"
+  },
+  {
+    "id": 270,
+    "hu": "fekete",
+    "field": "family",
+    "value": "feketézni"
+  },
+  {
+    "id": 271,
+    "hu": "feküdni",
+    "field": "family",
+    "value": "fekvés"
+  },
+  {
+    "id": 271,
+    "hu": "feküdni",
+    "field": "family",
+    "value": "lefeküdni"
+  },
+  {
+    "id": 271,
+    "hu": "feküdni",
+    "field": "related",
+    "value": "állni"
+  },
+  {
+    "id": 271,
+    "hu": "feküdni",
+    "field": "related",
+    "value": "ülni"
+  },
+  {
+    "id": 272,
+    "hu": "feladat",
+    "field": "family",
+    "value": "feladni"
+  },
+  {
+    "id": 272,
+    "hu": "feladat",
+    "field": "family",
+    "value": "feladó"
+  },
+  {
+    "id": 272,
+    "hu": "feladat",
+    "field": "related",
+    "value": "gyakorlat"
+  },
+  {
+    "id": 273,
+    "hu": "feleség",
+    "field": "related",
+    "value": "házasság"
+  },
+  {
+    "id": 275,
+    "hu": "figyelmeztetni",
+    "field": "family",
+    "value": "figyelem"
+  },
+  {
+    "id": 275,
+    "hu": "figyelmeztetni",
+    "field": "family",
+    "value": "figyelmeztetés"
+  },
+  {
+    "id": 275,
+    "hu": "figyelmeztetni",
+    "field": "related",
+    "value": "vigyázni"
+  },
+  {
+    "id": 276,
+    "hu": "figyelni",
+    "field": "family",
+    "value": "figyelem"
+  },
+  {
+    "id": 276,
+    "hu": "figyelni",
+    "field": "family",
+    "value": "odafigyelni"
+  },
+  {
+    "id": 277,
+    "hu": "finn",
+    "field": "family",
+    "value": "Finnország"
+  },
+  {
+    "id": 277,
+    "hu": "finn",
+    "field": "related",
+    "value": "norvég"
+  },
+  {
+    "id": 277,
+    "hu": "finn",
+    "field": "related",
+    "value": "svéd"
+  },
+  {
+    "id": 278,
+    "hu": "finom",
+    "field": "family",
+    "value": "finoman"
+  },
+  {
+    "id": 278,
+    "hu": "finom",
+    "field": "related",
+    "value": "ízletes"
+  },
+  {
+    "id": 279,
+    "hu": "fizetni",
+    "field": "family",
+    "value": "fizetés"
+  },
+  {
+    "id": 279,
+    "hu": "fizetni",
+    "field": "family",
+    "value": "kifizetni"
+  },
+  {
+    "id": 279,
+    "hu": "fizetni",
+    "field": "related",
+    "value": "vásárolni"
+  },
+  {
+    "id": 280,
+    "hu": "fiú",
+    "field": "family",
+    "value": "fiús"
+  },
+  {
+    "id": 281,
+    "hu": "focizni",
+    "field": "family",
+    "value": "foci"
+  },
+  {
+    "id": 281,
+    "hu": "focizni",
+    "field": "family",
+    "value": "focista"
+  },
+  {
+    "id": 281,
+    "hu": "focizni",
+    "field": "related",
+    "value": "kosarazni"
+  },
+  {
+    "id": 281,
+    "hu": "focizni",
+    "field": "related",
+    "value": "sportolni"
+  },
+  {
+    "id": 282,
+    "hu": "fog",
+    "field": "family",
+    "value": "fogas"
+  },
+  {
+    "id": 282,
+    "hu": "fog",
+    "field": "family",
+    "value": "fogkefe"
+  },
+  {
+    "id": 282,
+    "hu": "fog",
+    "field": "family",
+    "value": "fogorvos"
+  },
+  {
+    "id": 282,
+    "hu": "fog",
+    "field": "related",
+    "value": "fogorvos"
+  },
+  {
+    "id": 283,
+    "hu": "fogni",
+    "field": "family",
+    "value": "fogás"
+  },
+  {
+    "id": 283,
+    "hu": "fogni",
+    "field": "family",
+    "value": "megfogni"
+  },
+  {
+    "id": 283,
+    "hu": "fogni",
+    "field": "related",
+    "value": "tartani"
+  },
+  {
+    "id": 284,
+    "hu": "fok",
+    "field": "family",
+    "value": "fokozat"
+  },
+  {
+    "id": 284,
+    "hu": "fok",
+    "field": "related",
+    "value": "hőmérséklet"
+  },
+  {
+    "id": 285,
+    "hu": "folt",
+    "field": "family",
+    "value": "foltos"
+  },
+  {
+    "id": 285,
+    "hu": "folt",
+    "field": "related",
+    "value": "piszok"
+  },
+  {
+    "id": 286,
+    "hu": "folyó",
+    "field": "family",
+    "value": "folyni"
+  },
+  {
+    "id": 286,
+    "hu": "folyó",
+    "field": "family",
+    "value": "folyás"
+  },
+  {
+    "id": 286,
+    "hu": "folyó",
+    "field": "related",
+    "value": "tó"
+  },
+  {
+    "id": 287,
+    "hu": "fontos",
+    "field": "family",
+    "value": "fontoskodni"
+  },
+  {
+    "id": 287,
+    "hu": "fontos",
+    "field": "family",
+    "value": "fontosság"
+  },
+  {
+    "id": 287,
+    "hu": "fontos",
+    "field": "related",
+    "value": "lényeges"
+  },
+  {
+    "id": 287,
+    "hu": "fontos",
+    "field": "related",
+    "value": "szükséges"
+  },
+  {
+    "id": 288,
+    "hu": "forogni",
+    "field": "family",
+    "value": "forgás"
+  },
+  {
+    "id": 288,
+    "hu": "forogni",
+    "field": "family",
+    "value": "megforogni"
+  },
+  {
+    "id": 288,
+    "hu": "forogni",
+    "field": "related",
+    "value": "mozogni"
+  },
+  {
+    "id": 288,
+    "hu": "forogni",
+    "field": "related",
+    "value": "pörögni"
+  },
+  {
+    "id": 289,
+    "hu": "francia",
+    "field": "family",
+    "value": "Franciaország"
+  },
+  {
+    "id": 290,
+    "hu": "friss",
+    "field": "family",
+    "value": "felfrissülni"
+  },
+  {
+    "id": 290,
+    "hu": "friss",
+    "field": "family",
+    "value": "frissen"
+  },
+  {
+    "id": 290,
+    "hu": "friss",
+    "field": "family",
+    "value": "frissesség"
+  },
+  {
+    "id": 290,
+    "hu": "friss",
+    "field": "related",
+    "value": "romlott"
+  },
+  {
+    "id": 291,
+    "hu": "fájni",
+    "field": "family",
+    "value": "fájdalom"
+  },
+  {
+    "id": 291,
+    "hu": "fájni",
+    "field": "family",
+    "value": "fájós"
+  },
+  {
+    "id": 291,
+    "hu": "fájni",
+    "field": "related",
+    "value": "betegnek lenni"
+  },
+  {
+    "id": 291,
+    "hu": "fájni",
+    "field": "related",
+    "value": "gyógyulni"
+  },
+  {
+    "id": 292,
+    "hu": "fáradt",
+    "field": "family",
+    "value": "elfáradni"
+  },
+  {
+    "id": 292,
+    "hu": "fáradt",
+    "field": "family",
+    "value": "fáradság"
+  },
+  {
+    "id": 292,
+    "hu": "fáradt",
+    "field": "related",
+    "value": "pihent"
+  },
+  {
+    "id": 293,
+    "hu": "fázni",
+    "field": "family",
+    "value": "fázós"
+  },
+  {
+    "id": 293,
+    "hu": "fázni",
+    "field": "family",
+    "value": "megfázni"
+  },
+  {
+    "id": 293,
+    "hu": "fázni",
+    "field": "related",
+    "value": "melegedni"
+  },
+  {
+    "id": 294,
+    "hu": "fél",
+    "field": "family",
+    "value": "felezni"
+  },
+  {
+    "id": 294,
+    "hu": "fél",
+    "field": "family",
+    "value": "félig"
+  },
+  {
+    "id": 295,
+    "hu": "férj",
+    "field": "related",
+    "value": "házasság"
+  },
+  {
+    "id": 296,
+    "hu": "föld",
+    "field": "family",
+    "value": "földalatti"
+  },
+  {
+    "id": 296,
+    "hu": "föld",
+    "field": "family",
+    "value": "földi"
+  },
+  {
+    "id": 296,
+    "hu": "föld",
+    "field": "related",
+    "value": "ég"
+  },
+  {
+    "id": 297,
+    "hu": "fölött",
+    "field": "related",
+    "value": "fölé"
+  },
+  {
+    "id": 298,
+    "hu": "fújni",
+    "field": "family",
+    "value": "fújás"
+  },
+  {
+    "id": 298,
+    "hu": "fújni",
+    "field": "family",
+    "value": "kifújni"
+  },
+  {
+    "id": 298,
+    "hu": "fújni",
+    "field": "related",
+    "value": "lélegezni"
+  },
+  {
+    "id": 299,
+    "hu": "fül",
+    "field": "family",
+    "value": "füles"
+  },
+  {
+    "id": 299,
+    "hu": "fül",
+    "field": "family",
+    "value": "fülhallgató"
+  },
+  {
+    "id": 300,
+    "hu": "fürdeni",
+    "field": "family",
+    "value": "fürdő"
+  },
+  {
+    "id": 300,
+    "hu": "fürdeni",
+    "field": "family",
+    "value": "fürdőszoba"
+  },
+  {
+    "id": 300,
+    "hu": "fürdeni",
+    "field": "family",
+    "value": "megfürdeni"
+  },
+  {
+    "id": 300,
+    "hu": "fürdeni",
+    "field": "related",
+    "value": "mosakodni"
+  },
+  {
+    "id": 301,
+    "hu": "főnök",
+    "field": "related",
+    "value": "alkalmazott"
+  },
+  {
+    "id": 301,
+    "hu": "főnök",
+    "field": "related",
+    "value": "munkatárs"
+  },
+  {
+    "id": 302,
+    "hu": "főzni",
+    "field": "family",
+    "value": "főzés"
+  },
+  {
+    "id": 302,
+    "hu": "főzni",
+    "field": "family",
+    "value": "megfőzni"
+  },
+  {
+    "id": 303,
+    "hu": "fű",
+    "field": "family",
+    "value": "füves"
+  },
+  {
+    "id": 303,
+    "hu": "fű",
+    "field": "family",
+    "value": "fűnyíró"
+  },
+  {
+    "id": 303,
+    "hu": "fű",
+    "field": "related",
+    "value": "virág"
+  },
+  {
+    "id": 304,
+    "hu": "fűteni",
+    "field": "family",
+    "value": "fűtés"
+  },
+  {
+    "id": 304,
+    "hu": "fűteni",
+    "field": "family",
+    "value": "fűtő"
+  },
+  {
+    "id": 304,
+    "hu": "fűteni",
+    "field": "related",
+    "value": "hidegedni"
+  },
+  {
+    "id": 304,
+    "hu": "fűteni",
+    "field": "related",
+    "value": "melegíteni"
+  },
+  {
+    "id": 305,
+    "hu": "gazdag",
+    "field": "family",
+    "value": "gazdagság"
+  },
+  {
+    "id": 305,
+    "hu": "gazdag",
+    "field": "family",
+    "value": "meggazdagodni"
+  },
+  {
+    "id": 305,
+    "hu": "gazdag",
+    "field": "related",
+    "value": "szegény"
+  },
+  {
+    "id": 306,
+    "hu": "gerinc",
+    "field": "family",
+    "value": "gerinces"
+  },
+  {
+    "id": 306,
+    "hu": "gerinc",
+    "field": "related",
+    "value": "csont"
+  },
+  {
+    "id": 307,
+    "hu": "gesztenye",
+    "field": "family",
+    "value": "gesztenyés"
+  },
+  {
+    "id": 308,
+    "hu": "gesztenyefa",
+    "field": "related",
+    "value": "tölgyfa"
+  },
+  {
+    "id": 309,
+    "hu": "gluténmentes",
+    "field": "family",
+    "value": "glutén"
+  },
+  {
+    "id": 309,
+    "hu": "gluténmentes",
+    "field": "related",
+    "value": "allergia"
+  },
+  {
+    "id": 309,
+    "hu": "gluténmentes",
+    "field": "related",
+    "value": "egészséges"
+  },
+  {
+    "id": 310,
+    "hu": "gomba",
+    "field": "family",
+    "value": "gombás"
+  },
+  {
+    "id": 310,
+    "hu": "gomba",
+    "field": "family",
+    "value": "gombászni"
+  },
+  {
+    "id": 310,
+    "hu": "gomba",
+    "field": "related",
+    "value": "erdő"
+  },
+  {
+    "id": 311,
+    "hu": "gratulálni",
+    "field": "family",
+    "value": "gratuláció"
+  },
+  {
+    "id": 311,
+    "hu": "gratulálni",
+    "field": "related",
+    "value": "köszönteni"
+  },
+  {
+    "id": 311,
+    "hu": "gratulálni",
+    "field": "related",
+    "value": "ünnepelni"
+  },
+  {
+    "id": 312,
+    "hu": "gyalog",
+    "field": "family",
+    "value": "gyalogolni"
+  },
+  {
+    "id": 312,
+    "hu": "gyalog",
+    "field": "family",
+    "value": "gyalogos"
+  },
+  {
+    "id": 312,
+    "hu": "gyalog",
+    "field": "related",
+    "value": "autóval"
+  },
+  {
+    "id": 312,
+    "hu": "gyalog",
+    "field": "related",
+    "value": "biciklivel"
+  },
+  {
+    "id": 313,
+    "hu": "gyenge",
+    "field": "family",
+    "value": "gyengeség"
+  },
+  {
+    "id": 313,
+    "hu": "gyenge",
+    "field": "family",
+    "value": "gyengülni"
+  },
+  {
+    "id": 314,
+    "hu": "gyorsétterem",
+    "field": "related",
+    "value": "hamburger"
+  },
+  {
+    "id": 315,
+    "hu": "gyík",
+    "field": "related",
+    "value": "kígyó"
+  },
+  {
+    "id": 316,
+    "hu": "gyöngy",
+    "field": "family",
+    "value": "gyöngyös"
+  },
+  {
+    "id": 316,
+    "hu": "gyöngy",
+    "field": "related",
+    "value": "arany"
+  },
+  {
+    "id": 316,
+    "hu": "gyöngy",
+    "field": "related",
+    "value": "ékszer"
+  },
+  {
+    "id": 317,
+    "hu": "gyümölcs",
+    "field": "family",
+    "value": "gyümölcslé"
+  },
+  {
+    "id": 317,
+    "hu": "gyümölcs",
+    "field": "family",
+    "value": "gyümölcsös"
+  },
+  {
+    "id": 317,
+    "hu": "gyümölcs",
+    "field": "related",
+    "value": "alma"
+  },
+  {
+    "id": 318,
+    "hu": "gyűjteni",
+    "field": "family",
+    "value": "gyűjtemény"
+  },
+  {
+    "id": 318,
+    "hu": "gyűjteni",
+    "field": "family",
+    "value": "gyűjtő"
+  },
+  {
+    "id": 318,
+    "hu": "gyűjteni",
+    "field": "family",
+    "value": "összegyűjteni"
+  },
+  {
+    "id": 318,
+    "hu": "gyűjteni",
+    "field": "related",
+    "value": "tárolni"
+  },
+  {
+    "id": 319,
+    "hu": "görög",
+    "field": "family",
+    "value": "Görögország"
+  },
+  {
+    "id": 319,
+    "hu": "görög",
+    "field": "family",
+    "value": "görögül"
+  },
+  {
+    "id": 320,
+    "hu": "haj",
+    "field": "family",
+    "value": "hajas"
+  },
+  {
+    "id": 320,
+    "hu": "haj",
+    "field": "family",
+    "value": "hajvágás"
+  },
+  {
+    "id": 321,
+    "hu": "hajó",
+    "field": "family",
+    "value": "hajós"
+  },
+  {
+    "id": 321,
+    "hu": "hajó",
+    "field": "family",
+    "value": "hajózni"
+  },
+  {
+    "id": 322,
+    "hu": "hal",
+    "field": "family",
+    "value": "halász"
+  },
+  {
+    "id": 322,
+    "hu": "hal",
+    "field": "family",
+    "value": "halászni"
+  },
+  {
+    "id": 322,
+    "hu": "hal",
+    "field": "related",
+    "value": "hús"
+  },
+  {
+    "id": 323,
+    "hu": "hallani",
+    "field": "family",
+    "value": "hallás"
+  },
+  {
+    "id": 323,
+    "hu": "hallani",
+    "field": "family",
+    "value": "meghallani"
+  },
+  {
+    "id": 324,
+    "hu": "hallgatni",
+    "field": "family",
+    "value": "hallgatás"
+  },
+  {
+    "id": 324,
+    "hu": "hallgatni",
+    "field": "family",
+    "value": "meghallgatni"
+  },
+  {
+    "id": 325,
+    "hu": "hanem",
+    "field": "related",
+    "value": "viszont"
+  },
+  {
+    "id": 326,
+    "hu": "harcolni",
+    "field": "family",
+    "value": "harc"
+  },
+  {
+    "id": 326,
+    "hu": "harcolni",
+    "field": "family",
+    "value": "harcos"
+  },
+  {
+    "id": 326,
+    "hu": "harcolni",
+    "field": "related",
+    "value": "küzdeni"
+  },
+  {
+    "id": 326,
+    "hu": "harcolni",
+    "field": "related",
+    "value": "verekedni"
+  },
+  {
+    "id": 327,
+    "hu": "harminc",
+    "field": "family",
+    "value": "harmincadik"
+  },
+  {
+    "id": 327,
+    "hu": "harminc",
+    "field": "family",
+    "value": "harmincas"
+  },
+  {
+    "id": 328,
+    "hu": "harmincegy",
+    "field": "related",
+    "value": "harminckettő"
+  },
+  {
+    "id": 329,
+    "hu": "harminchat",
+    "field": "related",
+    "value": "harminchét"
+  },
+  {
+    "id": 332,
+    "hu": "has",
+    "field": "family",
+    "value": "hasas"
+  },
+  {
+    "id": 332,
+    "hu": "has",
+    "field": "family",
+    "value": "hasfájás"
+  },
+  {
+    "id": 332,
+    "hu": "has",
+    "field": "related",
+    "value": "gyomor"
+  },
+  {
+    "id": 333,
+    "hu": "hasznos",
+    "field": "family",
+    "value": "hasznosan"
+  },
+  {
+    "id": 333,
+    "hu": "hasznos",
+    "field": "family",
+    "value": "hasznosít"
+  },
+  {
+    "id": 333,
+    "hu": "hasznos",
+    "field": "family",
+    "value": "haszon"
+  },
+  {
+    "id": 333,
+    "hu": "hasznos",
+    "field": "related",
+    "value": "gyakorlati"
+  },
+  {
+    "id": 334,
+    "hu": "használni",
+    "field": "family",
+    "value": "felhasználni"
+  },
+  {
+    "id": 334,
+    "hu": "használni",
+    "field": "family",
+    "value": "használat"
+  },
+  {
+    "id": 334,
+    "hu": "használni",
+    "field": "related",
+    "value": "alkalmazni"
+  },
+  {
+    "id": 334,
+    "hu": "használni",
+    "field": "related",
+    "value": "kezelni"
+  },
+  {
+    "id": 335,
+    "hu": "hat",
+    "field": "family",
+    "value": "hatodik"
+  },
+  {
+    "id": 337,
+    "hu": "hatvan",
+    "field": "family",
+    "value": "hatvanas"
+  },
+  {
+    "id": 340,
+    "hu": "havi",
+    "field": "family",
+    "value": "havonta"
+  },
+  {
+    "id": 340,
+    "hu": "havi",
+    "field": "family",
+    "value": "hónap"
+  },
+  {
+    "id": 340,
+    "hu": "havi",
+    "field": "related",
+    "value": "heti"
+  },
+  {
+    "id": 340,
+    "hu": "havi",
+    "field": "related",
+    "value": "napi"
+  },
+  {
+    "id": 341,
+    "hu": "hazudni",
+    "field": "family",
+    "value": "hazug"
+  },
+  {
+    "id": 341,
+    "hu": "hazudni",
+    "field": "family",
+    "value": "hazugság"
+  },
+  {
+    "id": 341,
+    "hu": "hazudni",
+    "field": "related",
+    "value": "becsapni"
+  },
+  {
+    "id": 341,
+    "hu": "hazudni",
+    "field": "related",
+    "value": "igazat mondani"
+  },
+  {
+    "id": 342,
+    "hu": "hegy",
+    "field": "family",
+    "value": "hegyes"
+  },
+  {
+    "id": 342,
+    "hu": "hegy",
+    "field": "family",
+    "value": "hegyi"
+  },
+  {
+    "id": 342,
+    "hu": "hegy",
+    "field": "related",
+    "value": "domb"
+  },
+  {
+    "id": 342,
+    "hu": "hegy",
+    "field": "related",
+    "value": "völgy"
+  },
+  {
+    "id": 343,
+    "hu": "helyes",
+    "field": "family",
+    "value": "helyesbíteni"
+  },
+  {
+    "id": 343,
+    "hu": "helyes",
+    "field": "family",
+    "value": "helyesen"
+  },
+  {
+    "id": 343,
+    "hu": "helyes",
+    "field": "family",
+    "value": "helyesség"
+  },
+  {
+    "id": 343,
+    "hu": "helyes",
+    "field": "related",
+    "value": "pontos"
+  },
+  {
+    "id": 344,
+    "hu": "hetven",
+    "field": "family",
+    "value": "hetvenes"
+  },
+  {
+    "id": 345,
+    "hu": "hetvenegy",
+    "field": "related",
+    "value": "hetvenkettő"
+  },
+  {
+    "id": 347,
+    "hu": "hinni",
+    "field": "family",
+    "value": "elhinni"
+  },
+  {
+    "id": 347,
+    "hu": "hinni",
+    "field": "family",
+    "value": "hívő"
+  },
+  {
+    "id": 347,
+    "hu": "hinni",
+    "field": "related",
+    "value": "gondolni"
+  },
+  {
+    "id": 347,
+    "hu": "hinni",
+    "field": "related",
+    "value": "tudni"
+  },
+  {
+    "id": 348,
+    "hu": "hit",
+    "field": "family",
+    "value": "hívő"
+  },
+  {
+    "id": 348,
+    "hu": "hit",
+    "field": "related",
+    "value": "remény"
+  },
+  {
+    "id": 348,
+    "hu": "hit",
+    "field": "related",
+    "value": "vallás"
+  },
+  {
+    "id": 349,
+    "hu": "hogy",
+    "field": "related",
+    "value": "hogyan"
+  },
+  {
+    "id": 349,
+    "hu": "hogy",
+    "field": "related",
+    "value": "mint"
+  },
+  {
+    "id": 350,
+    "hu": "hogy hívnak",
+    "field": "family",
+    "value": "hívnak"
+  },
+  {
+    "id": 350,
+    "hu": "hogy hívnak",
+    "field": "family",
+    "value": "hívni"
+  },
+  {
+    "id": 350,
+    "hu": "hogy hívnak",
+    "field": "related",
+    "value": "mi a neved"
+  },
+  {
+    "id": 350,
+    "hu": "hogy hívnak",
+    "field": "related",
+    "value": "örvendek"
+  },
+  {
+    "id": 351,
+    "hu": "holland",
+    "field": "family",
+    "value": "Hollandia"
+  },
+  {
+    "id": 351,
+    "hu": "holland",
+    "field": "family",
+    "value": "hollandul"
+  },
+  {
+    "id": 352,
+    "hu": "holnap",
+    "field": "family",
+    "value": "holnapi"
+  },
+  {
+    "id": 352,
+    "hu": "holnap",
+    "field": "related",
+    "value": "tegnap"
+  },
+  {
+    "id": 353,
+    "hu": "holnapután",
+    "field": "related",
+    "value": "tegnapelőtt"
+  },
+  {
+    "id": 355,
+    "hu": "hosszú",
+    "field": "family",
+    "value": "hosszan"
+  },
+  {
+    "id": 355,
+    "hu": "hosszú",
+    "field": "family",
+    "value": "hosszúság"
+  },
+  {
+    "id": 355,
+    "hu": "hosszú",
+    "field": "related",
+    "value": "magas"
+  },
+  {
+    "id": 357,
+    "hu": "hozni",
+    "field": "family",
+    "value": "behozni"
+  },
+  {
+    "id": 357,
+    "hu": "hozni",
+    "field": "family",
+    "value": "elhozni"
+  },
+  {
+    "id": 357,
+    "hu": "hozni",
+    "field": "family",
+    "value": "hozás"
+  },
+  {
+    "id": 357,
+    "hu": "hozni",
+    "field": "related",
+    "value": "adni"
+  },
+  {
+    "id": 359,
+    "hu": "huszonhárom",
+    "field": "related",
+    "value": "huszonnégy"
+  },
+  {
+    "id": 362,
+    "hu": "huszonnyolc",
+    "field": "related",
+    "value": "huszonhét"
+  },
+  {
+    "id": 364,
+    "hu": "hány",
+    "field": "family",
+    "value": "hányadik"
+  },
+  {
+    "id": 364,
+    "hu": "hány",
+    "field": "family",
+    "value": "hányan"
+  },
+  {
+    "id": 366,
+    "hu": "három",
+    "field": "family",
+    "value": "harmadik"
+  },
+  {
+    "id": 368,
+    "hu": "hát",
+    "field": "family",
+    "value": "háti"
+  },
+  {
+    "id": 368,
+    "hu": "hát",
+    "field": "family",
+    "value": "hátizsák"
+  },
+  {
+    "id": 369,
+    "hu": "hétköznap",
+    "field": "family",
+    "value": "hétköznapi"
+  },
+  {
+    "id": 369,
+    "hu": "hétköznap",
+    "field": "related",
+    "value": "munkanap"
+  },
+  {
+    "id": 370,
+    "hu": "hétvége",
+    "field": "family",
+    "value": "hétvégi"
+  },
+  {
+    "id": 371,
+    "hu": "híd",
+    "field": "family",
+    "value": "hidat"
+  },
+  {
+    "id": 371,
+    "hu": "híd",
+    "field": "family",
+    "value": "hídon"
+  },
+  {
+    "id": 372,
+    "hu": "híres",
+    "field": "family",
+    "value": "híresen"
+  },
+  {
+    "id": 372,
+    "hu": "híres",
+    "field": "family",
+    "value": "hírnév"
+  },
+  {
+    "id": 372,
+    "hu": "híres",
+    "field": "related",
+    "value": "ismert"
+  },
+  {
+    "id": 372,
+    "hu": "híres",
+    "field": "related",
+    "value": "népszerű"
+  },
+  {
+    "id": 373,
+    "hu": "hölgyeim és uraim",
+    "field": "family",
+    "value": "hölgyeim"
+  },
+  {
+    "id": 373,
+    "hu": "hölgyeim és uraim",
+    "field": "family",
+    "value": "uraim"
+  },
+  {
+    "id": 373,
+    "hu": "hölgyeim és uraim",
+    "field": "related",
+    "value": "kedves vendégeink"
+  },
+  {
+    "id": 373,
+    "hu": "hölgyeim és uraim",
+    "field": "related",
+    "value": "tisztelt hölgyeim"
+  },
+  {
+    "id": 374,
+    "hu": "húg",
+    "field": "family",
+    "value": "húgocska"
+  },
+  {
+    "id": 374,
+    "hu": "húg",
+    "field": "family",
+    "value": "húgom"
+  },
+  {
+    "id": 375,
+    "hu": "húsz",
+    "field": "family",
+    "value": "huszadik"
+  },
+  {
+    "id": 375,
+    "hu": "húsz",
+    "field": "family",
+    "value": "húszas"
+  },
+  {
+    "id": 377,
+    "hu": "idegesíteni",
+    "field": "family",
+    "value": "ideges"
+  },
+  {
+    "id": 377,
+    "hu": "idegesíteni",
+    "field": "family",
+    "value": "idegesítő"
+  },
+  {
+    "id": 377,
+    "hu": "idegesíteni",
+    "field": "related",
+    "value": "bosszantani"
+  },
+  {
+    "id": 378,
+    "hu": "idős",
+    "field": "family",
+    "value": "időskor"
+  },
+  {
+    "id": 378,
+    "hu": "idős",
+    "field": "family",
+    "value": "megöregedni"
+  },
+  {
+    "id": 378,
+    "hu": "idős",
+    "field": "related",
+    "value": "fiatal"
+  },
+  {
+    "id": 379,
+    "hu": "igaz",
+    "field": "family",
+    "value": "igazság"
+  },
+  {
+    "id": 379,
+    "hu": "igaz",
+    "field": "family",
+    "value": "igazán"
+  },
+  {
+    "id": 379,
+    "hu": "igaz",
+    "field": "related",
+    "value": "valós"
+  },
+  {
+    "id": 380,
+    "hu": "imádni",
+    "field": "family",
+    "value": "imádnivaló"
+  },
+  {
+    "id": 380,
+    "hu": "imádni",
+    "field": "family",
+    "value": "imádott"
+  },
+  {
+    "id": 380,
+    "hu": "imádni",
+    "field": "related",
+    "value": "szeretni"
+  },
+  {
+    "id": 381,
+    "hu": "indiai",
+    "field": "family",
+    "value": "India"
+  },
+  {
+    "id": 381,
+    "hu": "indiai",
+    "field": "family",
+    "value": "indiaiul"
+  },
+  {
+    "id": 381,
+    "hu": "indiai",
+    "field": "related",
+    "value": "fűszeres"
+  },
+  {
+    "id": 381,
+    "hu": "indiai",
+    "field": "related",
+    "value": "ázsiai"
+  },
+  {
+    "id": 382,
+    "hu": "ing",
+    "field": "family",
+    "value": "inges"
+  },
+  {
+    "id": 384,
+    "hu": "inni",
+    "field": "family",
+    "value": "innivaló"
+  },
+  {
+    "id": 384,
+    "hu": "inni",
+    "field": "family",
+    "value": "ivás"
+  },
+  {
+    "id": 384,
+    "hu": "inni",
+    "field": "family",
+    "value": "megiszik"
+  },
+  {
+    "id": 384,
+    "hu": "inni",
+    "field": "related",
+    "value": "kortyolni"
+  },
+  {
+    "id": 385,
+    "hu": "internetezni",
+    "field": "family",
+    "value": "internetes"
+  },
+  {
+    "id": 385,
+    "hu": "internetezni",
+    "field": "related",
+    "value": "böngészni"
+  },
+  {
+    "id": 385,
+    "hu": "internetezni",
+    "field": "related",
+    "value": "chatelni"
+  },
+  {
+    "id": 386,
+    "hu": "irigyelni",
+    "field": "family",
+    "value": "irigy"
+  },
+  {
+    "id": 386,
+    "hu": "irigyelni",
+    "field": "family",
+    "value": "irigység"
+  },
+  {
+    "id": 386,
+    "hu": "irigyelni",
+    "field": "related",
+    "value": "csodálni"
+  },
+  {
+    "id": 386,
+    "hu": "irigyelni",
+    "field": "related",
+    "value": "féltékeny"
+  },
+  {
+    "id": 387,
+    "hu": "ismerni",
+    "field": "family",
+    "value": "ismeret"
+  },
+  {
+    "id": 387,
+    "hu": "ismerni",
+    "field": "family",
+    "value": "ismerős"
+  },
+  {
+    "id": 387,
+    "hu": "ismerni",
+    "field": "family",
+    "value": "megismerni"
+  },
+  {
+    "id": 387,
+    "hu": "ismerni",
+    "field": "related",
+    "value": "felismerni"
+  },
+  {
+    "id": 387,
+    "hu": "ismerni",
+    "field": "related",
+    "value": "tudni"
+  },
+  {
+    "id": 388,
+    "hu": "ital",
+    "field": "family",
+    "value": "italbolt"
+  },
+  {
+    "id": 388,
+    "hu": "ital",
+    "field": "related",
+    "value": "kávé"
+  },
+  {
+    "id": 388,
+    "hu": "ital",
+    "field": "related",
+    "value": "sör"
+  },
+  {
+    "id": 388,
+    "hu": "ital",
+    "field": "related",
+    "value": "víz"
+  },
+  {
+    "id": 389,
+    "hu": "izraeli",
+    "field": "family",
+    "value": "Izrael"
+  },
+  {
+    "id": 389,
+    "hu": "izraeli",
+    "field": "related",
+    "value": "közel-keleti"
+  },
+  {
+    "id": 390,
+    "hu": "japán",
+    "field": "family",
+    "value": "japánul"
+  },
+  {
+    "id": 390,
+    "hu": "japán",
+    "field": "related",
+    "value": "ázsiai"
+  },
+  {
+    "id": 391,
+    "hu": "jobb",
+    "field": "family",
+    "value": "jobban"
+  },
+  {
+    "id": 391,
+    "hu": "jobb",
+    "field": "related",
+    "value": "rosszabb"
+  },
+  {
+    "id": 392,
+    "hu": "joghurt",
+    "field": "family",
+    "value": "joghurtos"
+  },
+  {
+    "id": 393,
+    "hu": "járda",
+    "field": "related",
+    "value": "kerékpárút"
+  },
+  {
+    "id": 394,
+    "hu": "játszani",
+    "field": "family",
+    "value": "játék"
+  },
+  {
+    "id": 394,
+    "hu": "játszani",
+    "field": "family",
+    "value": "játékos"
+  },
+  {
+    "id": 394,
+    "hu": "játszani",
+    "field": "family",
+    "value": "kijátszani"
+  },
+  {
+    "id": 394,
+    "hu": "játszani",
+    "field": "related",
+    "value": "sportolni"
+  },
+  {
+    "id": 394,
+    "hu": "játszani",
+    "field": "related",
+    "value": "szórakozni"
+  },
+  {
+    "id": 395,
+    "hu": "jég",
+    "field": "family",
+    "value": "jeges"
+  },
+  {
+    "id": 395,
+    "hu": "jég",
+    "field": "family",
+    "value": "megfagyni"
+  },
+  {
+    "id": 395,
+    "hu": "jég",
+    "field": "related",
+    "value": "fagy"
+  },
+  {
+    "id": 396,
+    "hu": "kabát",
+    "field": "family",
+    "value": "kabátos"
+  },
+  {
+    "id": 397,
+    "hu": "kacsa",
+    "field": "family",
+    "value": "kacsás"
+  },
+  {
+    "id": 397,
+    "hu": "kacsa",
+    "field": "related",
+    "value": "liba"
+  },
+  {
+    "id": 397,
+    "hu": "kacsa",
+    "field": "related",
+    "value": "tyúk"
+  },
+  {
+    "id": 398,
+    "hu": "kanadai",
+    "field": "family",
+    "value": "Kanada"
+  },
+  {
+    "id": 398,
+    "hu": "kanadai",
+    "field": "related",
+    "value": "amerikai"
+  },
+  {
+    "id": 399,
+    "hu": "kapni",
+    "field": "family",
+    "value": "kapható"
+  },
+  {
+    "id": 399,
+    "hu": "kapni",
+    "field": "family",
+    "value": "kapás"
+  },
+  {
+    "id": 399,
+    "hu": "kapni",
+    "field": "family",
+    "value": "megkapni"
+  },
+  {
+    "id": 399,
+    "hu": "kapni",
+    "field": "related",
+    "value": "adni"
+  },
+  {
+    "id": 400,
+    "hu": "kar",
+    "field": "family",
+    "value": "karos"
+  },
+  {
+    "id": 402,
+    "hu": "katona",
+    "field": "family",
+    "value": "katonai"
+  },
+  {
+    "id": 402,
+    "hu": "katona",
+    "field": "family",
+    "value": "katonaság"
+  },
+  {
+    "id": 402,
+    "hu": "katona",
+    "field": "related",
+    "value": "hadsereg"
+  },
+  {
+    "id": 403,
+    "hu": "kedvelni",
+    "field": "family",
+    "value": "kedvelt"
+  },
+  {
+    "id": 403,
+    "hu": "kedvelni",
+    "field": "related",
+    "value": "szeretni"
+  },
+  {
+    "id": 404,
+    "hu": "kedvenc",
+    "field": "family",
+    "value": "kedvesség"
+  },
+  {
+    "id": 404,
+    "hu": "kedvenc",
+    "field": "related",
+    "value": "kedvelt"
+  },
+  {
+    "id": 405,
+    "hu": "kedves",
+    "field": "family",
+    "value": "kedvesen"
+  },
+  {
+    "id": 405,
+    "hu": "kedves",
+    "field": "family",
+    "value": "kedvesség"
+  },
+  {
+    "id": 405,
+    "hu": "kedves",
+    "field": "related",
+    "value": "barátságos"
+  },
+  {
+    "id": 405,
+    "hu": "kedves",
+    "field": "related",
+    "value": "udvarias"
+  },
+  {
+    "id": 406,
+    "hu": "keksz",
+    "field": "family",
+    "value": "kekszes"
+  },
+  {
+    "id": 406,
+    "hu": "keksz",
+    "field": "related",
+    "value": "csoki"
+  },
+  {
+    "id": 406,
+    "hu": "keksz",
+    "field": "related",
+    "value": "süti"
+  },
+  {
+    "id": 406,
+    "hu": "keksz",
+    "field": "related",
+    "value": "édesség"
+  },
+  {
+    "id": 407,
+    "hu": "kelni",
+    "field": "family",
+    "value": "felkelni"
+  },
+  {
+    "id": 407,
+    "hu": "kelni",
+    "field": "family",
+    "value": "kelés"
+  },
+  {
+    "id": 407,
+    "hu": "kelni",
+    "field": "related",
+    "value": "lefeküdni"
+  },
+  {
+    "id": 407,
+    "hu": "kelni",
+    "field": "related",
+    "value": "ébredni"
+  },
+  {
+    "id": 408,
+    "hu": "kenyér",
+    "field": "family",
+    "value": "kenyeres"
+  },
+  {
+    "id": 408,
+    "hu": "kenyér",
+    "field": "related",
+    "value": "liszt"
+  },
+  {
+    "id": 408,
+    "hu": "kenyér",
+    "field": "related",
+    "value": "zsemle"
+  },
+  {
+    "id": 409,
+    "hu": "keresni",
+    "field": "family",
+    "value": "keresés"
+  },
+  {
+    "id": 409,
+    "hu": "keresni",
+    "field": "family",
+    "value": "kereső"
+  },
+  {
+    "id": 409,
+    "hu": "keresni",
+    "field": "family",
+    "value": "megkeresni"
+  },
+  {
+    "id": 409,
+    "hu": "keresni",
+    "field": "related",
+    "value": "kutatni"
+  },
+  {
+    "id": 410,
+    "hu": "keserű",
+    "field": "family",
+    "value": "keserűen"
+  },
+  {
+    "id": 410,
+    "hu": "keserű",
+    "field": "family",
+    "value": "keserűség"
+  },
+  {
+    "id": 411,
+    "hu": "kesztyű",
+    "field": "family",
+    "value": "kesztyűs"
+  },
+  {
+    "id": 411,
+    "hu": "kesztyű",
+    "field": "related",
+    "value": "sapka"
+  },
+  {
+    "id": 412,
+    "hu": "kettes",
+    "field": "family",
+    "value": "kettős"
+  },
+  {
+    "id": 414,
+    "hu": "kevés",
+    "field": "family",
+    "value": "kevesen"
+  },
+  {
+    "id": 414,
+    "hu": "kevés",
+    "field": "family",
+    "value": "legkevesebb"
+  },
+  {
+    "id": 415,
+    "hu": "kezdeni",
+    "field": "family",
+    "value": "elkezdeni"
+  },
+  {
+    "id": 415,
+    "hu": "kezdeni",
+    "field": "family",
+    "value": "kezdés"
+  },
+  {
+    "id": 415,
+    "hu": "kezdeni",
+    "field": "family",
+    "value": "kezdő"
+  },
+  {
+    "id": 415,
+    "hu": "kezdeni",
+    "field": "related",
+    "value": "befejezni"
+  },
+  {
+    "id": 416,
+    "hu": "kezdődni",
+    "field": "family",
+    "value": "kezdet"
+  },
+  {
+    "id": 416,
+    "hu": "kezdődni",
+    "field": "related",
+    "value": "befejeződni"
+  },
+  {
+    "id": 417,
+    "hu": "kiabálni",
+    "field": "family",
+    "value": "kiabálás"
+  },
+  {
+    "id": 417,
+    "hu": "kiabálni",
+    "field": "family",
+    "value": "kiáltani"
+  },
+  {
+    "id": 417,
+    "hu": "kiabálni",
+    "field": "related",
+    "value": "beszélni"
+  },
+  {
+    "id": 417,
+    "hu": "kiabálni",
+    "field": "related",
+    "value": "üvölteni"
+  },
+  {
+    "id": 418,
+    "hu": "kifli",
+    "field": "family",
+    "value": "kiflis"
+  },
+  {
+    "id": 418,
+    "hu": "kifli",
+    "field": "related",
+    "value": "péksütemény"
+  },
+  {
+    "id": 418,
+    "hu": "kifli",
+    "field": "related",
+    "value": "zsemle"
+  },
+  {
+    "id": 419,
+    "hu": "kilenc",
+    "field": "family",
+    "value": "kilencedik"
+  },
+  {
+    "id": 419,
+    "hu": "kilenc",
+    "field": "family",
+    "value": "kilences"
+  },
+  {
+    "id": 420,
+    "hu": "kilencven",
+    "field": "family",
+    "value": "kilencvenes"
+  },
+  {
+    "id": 422,
+    "hu": "kiló",
+    "field": "family",
+    "value": "kilogramm"
+  },
+  {
+    "id": 422,
+    "hu": "kiló",
+    "field": "related",
+    "value": "gramm"
+  },
+  {
+    "id": 423,
+    "hu": "koffeinmentes",
+    "field": "family",
+    "value": "koffein"
+  },
+  {
+    "id": 423,
+    "hu": "koffeinmentes",
+    "field": "related",
+    "value": "kávé"
+  },
+  {
+    "id": 423,
+    "hu": "koffeinmentes",
+    "field": "related",
+    "value": "tea"
+  },
+  {
+    "id": 424,
+    "hu": "koreai",
+    "field": "family",
+    "value": "Korea"
+  },
+  {
+    "id": 425,
+    "hu": "krumpli",
+    "field": "family",
+    "value": "krumplis"
+  },
+  {
+    "id": 425,
+    "hu": "krumpli",
+    "field": "related",
+    "value": "burgonya"
+  },
+  {
+    "id": 426,
+    "hu": "kurva",
+    "field": "related",
+    "value": "rohadt"
+  },
+  {
+    "id": 427,
+    "hu": "kék",
+    "field": "family",
+    "value": "kékes"
+  },
+  {
+    "id": 427,
+    "hu": "kék",
+    "field": "family",
+    "value": "kékség"
+  },
+  {
+    "id": 427,
+    "hu": "kék",
+    "field": "related",
+    "value": "piros"
+  },
+  {
+    "id": 428,
+    "hu": "kérdés",
+    "field": "family",
+    "value": "kérdezni"
+  },
+  {
+    "id": 428,
+    "hu": "kérdés",
+    "field": "family",
+    "value": "kérdéses"
+  },
+  {
+    "id": 428,
+    "hu": "kérdés",
+    "field": "related",
+    "value": "probléma"
+  },
+  {
+    "id": 429,
+    "hu": "késni",
+    "field": "family",
+    "value": "elkésni"
+  },
+  {
+    "id": 429,
+    "hu": "késni",
+    "field": "family",
+    "value": "késés"
+  },
+  {
+    "id": 429,
+    "hu": "késni",
+    "field": "related",
+    "value": "sietni"
+  },
+  {
+    "id": 430,
+    "hu": "készíteni",
+    "field": "family",
+    "value": "elkészíteni"
+  },
+  {
+    "id": 430,
+    "hu": "készíteni",
+    "field": "family",
+    "value": "készítés"
+  },
+  {
+    "id": 431,
+    "hu": "kétezer",
+    "field": "related",
+    "value": "kétezerhúsz"
+  },
+  {
+    "id": 432,
+    "hu": "kéz",
+    "field": "family",
+    "value": "kezes"
+  },
+  {
+    "id": 432,
+    "hu": "kéz",
+    "field": "family",
+    "value": "kézi"
+  },
+  {
+    "id": 433,
+    "hu": "kínai",
+    "field": "family",
+    "value": "Kína"
+  },
+  {
+    "id": 433,
+    "hu": "kínai",
+    "field": "family",
+    "value": "kínaiul"
+  },
+  {
+    "id": 434,
+    "hu": "kóla",
+    "field": "family",
+    "value": "kólás"
+  },
+  {
+    "id": 434,
+    "hu": "kóla",
+    "field": "related",
+    "value": "szénsavas"
+  },
+  {
+    "id": 434,
+    "hu": "kóla",
+    "field": "related",
+    "value": "üdítő"
+  },
+  {
+    "id": 435,
+    "hu": "kórház",
+    "field": "family",
+    "value": "kórházi"
+  },
+  {
+    "id": 435,
+    "hu": "kórház",
+    "field": "related",
+    "value": "rendelő"
+  },
+  {
+    "id": 436,
+    "hu": "költeni",
+    "field": "family",
+    "value": "elkölteni"
+  },
+  {
+    "id": 436,
+    "hu": "költeni",
+    "field": "family",
+    "value": "költés"
+  },
+  {
+    "id": 436,
+    "hu": "költeni",
+    "field": "related",
+    "value": "vásárolni"
+  },
+  {
+    "id": 437,
+    "hu": "könnyű",
+    "field": "family",
+    "value": "könnyedén"
+  },
+  {
+    "id": 437,
+    "hu": "könnyű",
+    "field": "family",
+    "value": "könnyen"
+  },
+  {
+    "id": 437,
+    "hu": "könnyű",
+    "field": "related",
+    "value": "egyszerű"
+  },
+  {
+    "id": 438,
+    "hu": "köszönni",
+    "field": "family",
+    "value": "köszönet"
+  },
+  {
+    "id": 438,
+    "hu": "köszönni",
+    "field": "family",
+    "value": "köszönés"
+  },
+  {
+    "id": 438,
+    "hu": "köszönni",
+    "field": "family",
+    "value": "megköszönni"
+  },
+  {
+    "id": 438,
+    "hu": "köszönni",
+    "field": "related",
+    "value": "elbúcsúzni"
+  },
+  {
+    "id": 438,
+    "hu": "köszönni",
+    "field": "related",
+    "value": "üdvözölni"
+  },
+  {
+    "id": 439,
+    "hu": "kövér",
+    "field": "family",
+    "value": "kövéren"
+  },
+  {
+    "id": 439,
+    "hu": "kövér",
+    "field": "family",
+    "value": "meghízni"
+  },
+  {
+    "id": 439,
+    "hu": "kövér",
+    "field": "related",
+    "value": "vékony"
+  },
+  {
+    "id": 441,
+    "hu": "küldeni",
+    "field": "family",
+    "value": "elküldeni"
+  },
+  {
+    "id": 441,
+    "hu": "küldeni",
+    "field": "family",
+    "value": "küldés"
+  },
+  {
+    "id": 441,
+    "hu": "küldeni",
+    "field": "related",
+    "value": "írni"
+  },
+  {
+    "id": 442,
+    "hu": "lakni",
+    "field": "family",
+    "value": "lakhely"
+  },
+  {
+    "id": 442,
+    "hu": "lakni",
+    "field": "family",
+    "value": "lakó"
+  },
+  {
+    "id": 442,
+    "hu": "lakni",
+    "field": "related",
+    "value": "laknyi"
+  },
+  {
+    "id": 442,
+    "hu": "lakni",
+    "field": "related",
+    "value": "élni"
+  },
+  {
+    "id": 443,
+    "hu": "lakás",
+    "field": "family",
+    "value": "lakó"
+  },
+  {
+    "id": 444,
+    "hu": "lekvár",
+    "field": "family",
+    "value": "lekváros"
+  },
+  {
+    "id": 445,
+    "hu": "lengyel",
+    "field": "family",
+    "value": "Lengyelország"
+  },
+  {
+    "id": 445,
+    "hu": "lengyel",
+    "field": "family",
+    "value": "lengyelül"
+  },
+  {
+    "id": 445,
+    "hu": "lengyel",
+    "field": "related",
+    "value": "szlovák"
+  },
+  {
+    "id": 446,
+    "hu": "lenni",
+    "field": "family",
+    "value": "levés"
+  },
+  {
+    "id": 446,
+    "hu": "lenni",
+    "field": "family",
+    "value": "lét"
+  },
+  {
+    "id": 446,
+    "hu": "lenni",
+    "field": "related",
+    "value": "válni"
+  },
+  {
+    "id": 447,
+    "hu": "levél",
+    "field": "family",
+    "value": "levelezni"
+  },
+  {
+    "id": 447,
+    "hu": "levél",
+    "field": "family",
+    "value": "levelező"
+  },
+  {
+    "id": 447,
+    "hu": "levél",
+    "field": "related",
+    "value": "email"
+  },
+  {
+    "id": 448,
+    "hu": "liter",
+    "field": "family",
+    "value": "literes"
+  },
+  {
+    "id": 448,
+    "hu": "liter",
+    "field": "related",
+    "value": "deciliter"
+  },
+  {
+    "id": 449,
+    "hu": "láb",
+    "field": "family",
+    "value": "lábas"
+  },
+  {
+    "id": 449,
+    "hu": "láb",
+    "field": "family",
+    "value": "lábon"
+  },
+  {
+    "id": 449,
+    "hu": "láb",
+    "field": "related",
+    "value": "talp"
+  },
+  {
+    "id": 450,
+    "hu": "lány",
+    "field": "family",
+    "value": "lányos"
+  },
+  {
+    "id": 451,
+    "hu": "ló",
+    "field": "family",
+    "value": "lovagolni"
+  },
+  {
+    "id": 451,
+    "hu": "ló",
+    "field": "family",
+    "value": "lovas"
+  },
+  {
+    "id": 452,
+    "hu": "ma",
+    "field": "related",
+    "value": "tegnap"
+  },
+  {
+    "id": 453,
+    "hu": "macska",
+    "field": "family",
+    "value": "macskás"
+  },
+  {
+    "id": 455,
+    "hu": "magyar",
+    "field": "family",
+    "value": "Magyarország"
+  },
+  {
+    "id": 455,
+    "hu": "magyar",
+    "field": "family",
+    "value": "magyarul"
+  },
+  {
+    "id": 456,
+    "hu": "mai menü",
+    "field": "related",
+    "value": "étlap"
+  },
+  {
+    "id": 457,
+    "hu": "majd",
+    "field": "related",
+    "value": "később"
+  },
+  {
+    "id": 458,
+    "hu": "majom",
+    "field": "family",
+    "value": "majmos"
+  },
+  {
+    "id": 459,
+    "hu": "maradni",
+    "field": "family",
+    "value": "maradás"
+  },
+  {
+    "id": 459,
+    "hu": "maradni",
+    "field": "family",
+    "value": "megmaradni"
+  },
+  {
+    "id": 459,
+    "hu": "maradni",
+    "field": "related",
+    "value": "elmenni"
+  },
+  {
+    "id": 460,
+    "hu": "marhahús",
+    "field": "family",
+    "value": "marha"
+  },
+  {
+    "id": 460,
+    "hu": "marhahús",
+    "field": "related",
+    "value": "csirkehús"
+  },
+  {
+    "id": 460,
+    "hu": "marhahús",
+    "field": "related",
+    "value": "sertéshús"
+  },
+  {
+    "id": 461,
+    "hu": "meccs",
+    "field": "family",
+    "value": "meccsel"
+  },
+  {
+    "id": 461,
+    "hu": "meccs",
+    "field": "related",
+    "value": "futball"
+  },
+  {
+    "id": 461,
+    "hu": "meccs",
+    "field": "related",
+    "value": "mérkőzés"
+  },
+  {
+    "id": 462,
+    "hu": "meg",
+    "field": "related",
+    "value": "plusz"
+  },
+  {
+    "id": 462,
+    "hu": "meg",
+    "field": "related",
+    "value": "és"
+  },
+  {
+    "id": 463,
+    "hu": "megbocsátani",
+    "field": "family",
+    "value": "bocsátani"
+  },
+  {
+    "id": 463,
+    "hu": "megbocsátani",
+    "field": "related",
+    "value": "elnézni"
+  },
+  {
+    "id": 463,
+    "hu": "megbocsátani",
+    "field": "related",
+    "value": "kibékülni"
+  },
+  {
+    "id": 464,
+    "hu": "megint",
+    "field": "related",
+    "value": "ismét"
+  },
+  {
+    "id": 465,
+    "hu": "meglátogatni",
+    "field": "family",
+    "value": "látogatni"
+  },
+  {
+    "id": 465,
+    "hu": "meglátogatni",
+    "field": "family",
+    "value": "látogatás"
+  },
+  {
+    "id": 465,
+    "hu": "meglátogatni",
+    "field": "related",
+    "value": "felkeresni"
+  },
+  {
+    "id": 465,
+    "hu": "meglátogatni",
+    "field": "related",
+    "value": "meghívni"
+  },
+  {
+    "id": 466,
+    "hu": "megálló",
+    "field": "family",
+    "value": "megállni"
+  },
+  {
+    "id": 466,
+    "hu": "megálló",
+    "field": "related",
+    "value": "buszmegálló"
+  },
+  {
+    "id": 466,
+    "hu": "megálló",
+    "field": "related",
+    "value": "állomás"
+  },
+  {
+    "id": 468,
+    "hu": "menni",
+    "field": "family",
+    "value": "bemenni"
+  },
+  {
+    "id": 468,
+    "hu": "menni",
+    "field": "family",
+    "value": "elmenni"
+  },
+  {
+    "id": 468,
+    "hu": "menni",
+    "field": "family",
+    "value": "menés"
+  },
+  {
+    "id": 468,
+    "hu": "menni",
+    "field": "related",
+    "value": "jönni"
+  },
+  {
+    "id": 470,
+    "hu": "mennyibe kerül",
+    "field": "family",
+    "value": "kerülni"
+  },
+  {
+    "id": 471,
+    "hu": "menyasszony",
+    "field": "family",
+    "value": "menyasszonyi"
+  },
+  {
+    "id": 471,
+    "hu": "menyasszony",
+    "field": "related",
+    "value": "esküvő"
+  },
+  {
+    "id": 471,
+    "hu": "menyasszony",
+    "field": "related",
+    "value": "házasság"
+  },
+  {
+    "id": 472,
+    "hu": "menza",
+    "field": "related",
+    "value": "büfé"
+  },
+  {
+    "id": 473,
+    "hu": "mert",
+    "field": "related",
+    "value": "ezért"
+  },
+  {
+    "id": 473,
+    "hu": "mert",
+    "field": "related",
+    "value": "hiszen"
+  },
+  {
+    "id": 474,
+    "hu": "mexikói",
+    "field": "family",
+    "value": "Mexikó"
+  },
+  {
+    "id": 474,
+    "hu": "mexikói",
+    "field": "related",
+    "value": "amerikai"
+  },
+  {
+    "id": 476,
+    "hu": "milyen",
+    "field": "family",
+    "value": "milyenség"
+  },
+  {
+    "id": 476,
+    "hu": "milyen",
+    "field": "related",
+    "value": "melyik"
+  },
+  {
+    "id": 477,
+    "hu": "minden",
+    "field": "family",
+    "value": "mindenhol"
+  },
+  {
+    "id": 477,
+    "hu": "minden",
+    "field": "family",
+    "value": "mindenki"
+  },
+  {
+    "id": 477,
+    "hu": "minden",
+    "field": "related",
+    "value": "összes"
+  },
+  {
+    "id": 478,
+    "hu": "mogyoró",
+    "field": "family",
+    "value": "mogyorós"
+  },
+  {
+    "id": 478,
+    "hu": "mogyoró",
+    "field": "related",
+    "value": "mandula"
+  },
+  {
+    "id": 480,
+    "hu": "mondani",
+    "field": "family",
+    "value": "elmondani"
+  },
+  {
+    "id": 480,
+    "hu": "mondani",
+    "field": "family",
+    "value": "mondás"
+  },
+  {
+    "id": 480,
+    "hu": "mondani",
+    "field": "related",
+    "value": "beszélni"
+  },
+  {
+    "id": 480,
+    "hu": "mondani",
+    "field": "related",
+    "value": "mesélni"
+  },
+  {
+    "id": 482,
+    "hu": "mongol",
+    "field": "family",
+    "value": "Mongólia"
+  },
+  {
+    "id": 482,
+    "hu": "mongol",
+    "field": "related",
+    "value": "ázsiai"
+  },
+  {
+    "id": 483,
+    "hu": "mosdó",
+    "field": "family",
+    "value": "mosdókagyló"
+  },
+  {
+    "id": 483,
+    "hu": "mosdó",
+    "field": "related",
+    "value": "fürdőszoba"
+  },
+  {
+    "id": 483,
+    "hu": "mosdó",
+    "field": "related",
+    "value": "vécé"
+  },
+  {
+    "id": 484,
+    "hu": "mosni",
+    "field": "family",
+    "value": "megmosni"
+  },
+  {
+    "id": 484,
+    "hu": "mosni",
+    "field": "family",
+    "value": "mosakodni"
+  },
+  {
+    "id": 484,
+    "hu": "mosni",
+    "field": "family",
+    "value": "mosás"
+  },
+  {
+    "id": 484,
+    "hu": "mosni",
+    "field": "related",
+    "value": "tisztálkodni"
+  },
+  {
+    "id": 485,
+    "hu": "mosogatni",
+    "field": "family",
+    "value": "mosogatás"
+  },
+  {
+    "id": 485,
+    "hu": "mosogatni",
+    "field": "family",
+    "value": "mosogatógép"
+  },
+  {
+    "id": 486,
+    "hu": "munkás",
+    "field": "related",
+    "value": "alkalmazott"
+  },
+  {
+    "id": 486,
+    "hu": "munkás",
+    "field": "related",
+    "value": "dolgozó"
+  },
+  {
+    "id": 487,
+    "hu": "mutatni",
+    "field": "family",
+    "value": "megmutatni"
+  },
+  {
+    "id": 487,
+    "hu": "mutatni",
+    "field": "family",
+    "value": "mutatás"
+  },
+  {
+    "id": 487,
+    "hu": "mutatni",
+    "field": "related",
+    "value": "bemutatni"
+  },
+  {
+    "id": 487,
+    "hu": "mutatni",
+    "field": "related",
+    "value": "megnézni"
+  },
+  {
+    "id": 488,
+    "hu": "mák",
+    "field": "family",
+    "value": "mákos"
+  },
+  {
+    "id": 491,
+    "hu": "másik",
+    "field": "family",
+    "value": "másikat"
+  },
+  {
+    "id": 491,
+    "hu": "másik",
+    "field": "related",
+    "value": "harmadik"
+  },
+  {
+    "id": 492,
+    "hu": "mély",
+    "field": "family",
+    "value": "mélyen"
+  },
+  {
+    "id": 492,
+    "hu": "mély",
+    "field": "family",
+    "value": "mélység"
+  },
+  {
+    "id": 492,
+    "hu": "mély",
+    "field": "related",
+    "value": "magas"
+  },
+  {
+    "id": 492,
+    "hu": "mély",
+    "field": "related",
+    "value": "sekély"
+  },
+  {
+    "id": 493,
+    "hu": "mérges",
+    "field": "family",
+    "value": "megmérgesedni"
+  },
+  {
+    "id": 493,
+    "hu": "mérges",
+    "field": "family",
+    "value": "mérgesen"
+  },
+  {
+    "id": 493,
+    "hu": "mérges",
+    "field": "related",
+    "value": "dühös"
+  },
+  {
+    "id": 493,
+    "hu": "mérges",
+    "field": "related",
+    "value": "ideges"
+  },
+  {
+    "id": 494,
+    "hu": "mérni",
+    "field": "family",
+    "value": "megmérni"
+  },
+  {
+    "id": 494,
+    "hu": "mérni",
+    "field": "family",
+    "value": "mérleg"
+  },
+  {
+    "id": 494,
+    "hu": "mérni",
+    "field": "family",
+    "value": "mérés"
+  },
+  {
+    "id": 494,
+    "hu": "mérni",
+    "field": "related",
+    "value": "ellenőrizni"
+  },
+  {
+    "id": 494,
+    "hu": "mérni",
+    "field": "related",
+    "value": "számolni"
+  },
+  {
+    "id": 495,
+    "hu": "mérnök",
+    "field": "family",
+    "value": "mérnöki"
+  },
+  {
+    "id": 496,
+    "hu": "méz",
+    "field": "family",
+    "value": "mézes"
+  },
+  {
+    "id": 498,
+    "hu": "műteni",
+    "field": "family",
+    "value": "megműteni"
+  },
+  {
+    "id": 498,
+    "hu": "műteni",
+    "field": "family",
+    "value": "műtét"
+  },
+  {
+    "id": 498,
+    "hu": "műteni",
+    "field": "related",
+    "value": "gyógyítani"
+  },
+  {
+    "id": 498,
+    "hu": "műteni",
+    "field": "related",
+    "value": "kezelni"
+  },
+  {
+    "id": 499,
+    "hu": "művész",
+    "field": "family",
+    "value": "művészet"
+  },
+  {
+    "id": 499,
+    "hu": "művész",
+    "field": "family",
+    "value": "művészi"
+  },
+  {
+    "id": 499,
+    "hu": "művész",
+    "field": "related",
+    "value": "festő"
+  },
+  {
+    "id": 500,
+    "hu": "nadrág",
+    "field": "family",
+    "value": "nadrágos"
+  },
+  {
+    "id": 500,
+    "hu": "nadrág",
+    "field": "related",
+    "value": "szoknya"
+  },
+  {
+    "id": 505,
+    "hu": "nagyszülő",
+    "field": "family",
+    "value": "nagyszülők"
+  },
+  {
+    "id": 506,
+    "hu": "negyed",
+    "field": "family",
+    "value": "negyedik"
+  },
+  {
+    "id": 506,
+    "hu": "negyed",
+    "field": "family",
+    "value": "negyedév"
+  },
+  {
+    "id": 507,
+    "hu": "negyven",
+    "field": "family",
+    "value": "negyvenes"
+  },
+  {
+    "id": 510,
+    "hu": "nehéz",
+    "field": "family",
+    "value": "nehezen"
+  },
+  {
+    "id": 510,
+    "hu": "nehéz",
+    "field": "family",
+    "value": "nehézség"
+  },
+  {
+    "id": 510,
+    "hu": "nehéz",
+    "field": "related",
+    "value": "súlyos"
+  },
+  {
+    "id": 511,
+    "hu": "nincs",
+    "field": "family",
+    "value": "nincsen"
+  },
+  {
+    "id": 511,
+    "hu": "nincs",
+    "field": "related",
+    "value": "hiányzik"
+  },
+  {
+    "id": 512,
+    "hu": "nyak",
+    "field": "family",
+    "value": "nyakas"
+  },
+  {
+    "id": 512,
+    "hu": "nyak",
+    "field": "family",
+    "value": "nyaklánc"
+  },
+  {
+    "id": 513,
+    "hu": "nyelv",
+    "field": "family",
+    "value": "nyelvi"
+  },
+  {
+    "id": 513,
+    "hu": "nyelv",
+    "field": "family",
+    "value": "nyelvtan"
+  },
+  {
+    "id": 513,
+    "hu": "nyelv",
+    "field": "family",
+    "value": "nyelvtudás"
+  },
+  {
+    "id": 513,
+    "hu": "nyelv",
+    "field": "related",
+    "value": "beszélni"
+  },
+  {
+    "id": 514,
+    "hu": "nyitva",
+    "field": "family",
+    "value": "kinyitni"
+  },
+  {
+    "id": 514,
+    "hu": "nyitva",
+    "field": "family",
+    "value": "nyitni"
+  },
+  {
+    "id": 514,
+    "hu": "nyitva",
+    "field": "related",
+    "value": "csukott"
+  },
+  {
+    "id": 515,
+    "hu": "nyolc",
+    "field": "family",
+    "value": "nyolcadik"
+  },
+  {
+    "id": 515,
+    "hu": "nyolc",
+    "field": "family",
+    "value": "nyolcas"
+  },
+  {
+    "id": 516,
+    "hu": "nyolcvan",
+    "field": "family",
+    "value": "nyolcvanas"
+  },
+  {
+    "id": 518,
+    "hu": "nyugodt",
+    "field": "family",
+    "value": "megnyugodni"
+  },
+  {
+    "id": 518,
+    "hu": "nyugodt",
+    "field": "family",
+    "value": "nyugodtan"
+  },
+  {
+    "id": 518,
+    "hu": "nyugodt",
+    "field": "related",
+    "value": "békés"
+  },
+  {
+    "id": 518,
+    "hu": "nyugodt",
+    "field": "related",
+    "value": "ideges"
+  },
+  {
+    "id": 519,
+    "hu": "nyár",
+    "field": "family",
+    "value": "nyári"
+  },
+  {
+    "id": 520,
+    "hu": "négy",
+    "field": "family",
+    "value": "negyedik"
+  },
+  {
+    "id": 523,
+    "hu": "német",
+    "field": "family",
+    "value": "Németország"
+  },
+  {
+    "id": 523,
+    "hu": "német",
+    "field": "family",
+    "value": "németül"
+  },
+  {
+    "id": 524,
+    "hu": "név",
+    "field": "family",
+    "value": "elnevezni"
+  },
+  {
+    "id": 524,
+    "hu": "név",
+    "field": "family",
+    "value": "nevezni"
+  },
+  {
+    "id": 524,
+    "hu": "név",
+    "field": "related",
+    "value": "keresztnév"
+  },
+  {
+    "id": 524,
+    "hu": "név",
+    "field": "related",
+    "value": "vezetéknév"
+  },
+  {
+    "id": 525,
+    "hu": "nézni",
+    "field": "family",
+    "value": "kinézet"
+  },
+  {
+    "id": 525,
+    "hu": "nézni",
+    "field": "family",
+    "value": "megnézni"
+  },
+  {
+    "id": 525,
+    "hu": "nézni",
+    "field": "family",
+    "value": "nézés"
+  },
+  {
+    "id": 525,
+    "hu": "nézni",
+    "field": "related",
+    "value": "látni"
+  },
+  {
+    "id": 526,
+    "hu": "nővér",
+    "field": "family",
+    "value": "nővéri"
+  },
+  {
+    "id": 528,
+    "hu": "okos",
+    "field": "family",
+    "value": "okosan"
+  },
+  {
+    "id": 528,
+    "hu": "okos",
+    "field": "family",
+    "value": "okosság"
+  },
+  {
+    "id": 528,
+    "hu": "okos",
+    "field": "related",
+    "value": "ostoba"
+  },
+  {
+    "id": 528,
+    "hu": "okos",
+    "field": "related",
+    "value": "ügyes"
+  },
+  {
+    "id": 529,
+    "hu": "olasz",
+    "field": "family",
+    "value": "Olaszország"
+  },
+  {
+    "id": 529,
+    "hu": "olasz",
+    "field": "family",
+    "value": "olaszul"
+  },
+  {
+    "id": 530,
+    "hu": "olcsó",
+    "field": "family",
+    "value": "olcsóbb"
+  },
+  {
+    "id": 530,
+    "hu": "olcsó",
+    "field": "family",
+    "value": "olcsón"
+  },
+  {
+    "id": 530,
+    "hu": "olcsó",
+    "field": "related",
+    "value": "kedvezményes"
+  },
+  {
+    "id": 531,
+    "hu": "olvasni",
+    "field": "family",
+    "value": "elolvasni"
+  },
+  {
+    "id": 531,
+    "hu": "olvasni",
+    "field": "family",
+    "value": "olvasás"
+  },
+  {
+    "id": 531,
+    "hu": "olvasni",
+    "field": "family",
+    "value": "olvasó"
+  },
+  {
+    "id": 531,
+    "hu": "olvasni",
+    "field": "related",
+    "value": "tanulni"
+  },
+  {
+    "id": 531,
+    "hu": "olvasni",
+    "field": "related",
+    "value": "írni"
+  },
+  {
+    "id": 533,
+    "hu": "orosz",
+    "field": "family",
+    "value": "Oroszország"
+  },
+  {
+    "id": 533,
+    "hu": "orosz",
+    "field": "family",
+    "value": "oroszul"
+  },
+  {
+    "id": 533,
+    "hu": "orosz",
+    "field": "related",
+    "value": "ukrán"
+  },
+  {
+    "id": 534,
+    "hu": "oroszlán",
+    "field": "family",
+    "value": "oroszlános"
+  },
+  {
+    "id": 535,
+    "hu": "orr",
+    "field": "family",
+    "value": "orros"
+  },
+  {
+    "id": 536,
+    "hu": "osztrák",
+    "field": "family",
+    "value": "Ausztria"
+  },
+  {
+    "id": 536,
+    "hu": "osztrák",
+    "field": "related",
+    "value": "svájci"
+  },
+  {
+    "id": 537,
+    "hu": "palacsinta",
+    "field": "family",
+    "value": "palacsintás"
+  },
+  {
+    "id": 537,
+    "hu": "palacsinta",
+    "field": "related",
+    "value": "csoki"
+  },
+  {
+    "id": 538,
+    "hu": "paradicsom",
+    "field": "family",
+    "value": "paradicsomos"
+  },
+  {
+    "id": 538,
+    "hu": "paradicsom",
+    "field": "related",
+    "value": "paprika"
+  },
+  {
+    "id": 538,
+    "hu": "paradicsom",
+    "field": "related",
+    "value": "saláta"
+  },
+  {
+    "id": 539,
+    "hu": "pedig",
+    "field": "related",
+    "value": "viszont"
+  },
+  {
+    "id": 540,
+    "hu": "perc",
+    "field": "family",
+    "value": "perces"
+  },
+  {
+    "id": 540,
+    "hu": "perc",
+    "field": "related",
+    "value": "másodperc"
+  },
+  {
+    "id": 541,
+    "hu": "persze",
+    "field": "related",
+    "value": "hogyne"
+  },
+  {
+    "id": 541,
+    "hu": "persze",
+    "field": "related",
+    "value": "természetesen"
+  },
+  {
+    "id": 542,
+    "hu": "pillangó",
+    "field": "family",
+    "value": "pillangós"
+  },
+  {
+    "id": 542,
+    "hu": "pillangó",
+    "field": "related",
+    "value": "méh"
+  },
+  {
+    "id": 542,
+    "hu": "pillangó",
+    "field": "related",
+    "value": "rovar"
+  },
+  {
+    "id": 542,
+    "hu": "pillangó",
+    "field": "related",
+    "value": "virág"
+  },
+  {
+    "id": 543,
+    "hu": "pincér",
+    "field": "family",
+    "value": "pincérnő"
+  },
+  {
+    "id": 544,
+    "hu": "pingvin",
+    "field": "family",
+    "value": "pingvines"
+  },
+  {
+    "id": 544,
+    "hu": "pingvin",
+    "field": "related",
+    "value": "fóka"
+  },
+  {
+    "id": 545,
+    "hu": "polc",
+    "field": "family",
+    "value": "polcos"
+  },
+  {
+    "id": 545,
+    "hu": "polc",
+    "field": "related",
+    "value": "szekrény"
+  },
+  {
+    "id": 546,
+    "hu": "politikus",
+    "field": "family",
+    "value": "politika"
+  },
+  {
+    "id": 546,
+    "hu": "politikus",
+    "field": "family",
+    "value": "politikai"
+  },
+  {
+    "id": 546,
+    "hu": "politikus",
+    "field": "related",
+    "value": "kormány"
+  },
+  {
+    "id": 546,
+    "hu": "politikus",
+    "field": "related",
+    "value": "miniszter"
+  },
+  {
+    "id": 547,
+    "hu": "portugál",
+    "field": "family",
+    "value": "Portugália"
+  },
+  {
+    "id": 548,
+    "hu": "postás",
+    "field": "family",
+    "value": "posta"
+  },
+  {
+    "id": 548,
+    "hu": "postás",
+    "field": "family",
+    "value": "postai"
+  },
+  {
+    "id": 548,
+    "hu": "postás",
+    "field": "related",
+    "value": "postahivatal"
+  },
+  {
+    "id": 549,
+    "hu": "próbafülke",
+    "field": "family",
+    "value": "próba"
+  },
+  {
+    "id": 549,
+    "hu": "próbafülke",
+    "field": "family",
+    "value": "próbálni"
+  },
+  {
+    "id": 550,
+    "hu": "pályaudvar",
+    "field": "family",
+    "value": "pálya"
+  },
+  {
+    "id": 550,
+    "hu": "pályaudvar",
+    "field": "related",
+    "value": "peron"
+  },
+  {
+    "id": 550,
+    "hu": "pályaudvar",
+    "field": "related",
+    "value": "vasútállomás"
+  },
+  {
+    "id": 551,
+    "hu": "példa",
+    "field": "family",
+    "value": "példás"
+  },
+  {
+    "id": 551,
+    "hu": "példa",
+    "field": "family",
+    "value": "például"
+  },
+  {
+    "id": 551,
+    "hu": "példa",
+    "field": "related",
+    "value": "minta"
+  },
+  {
+    "id": 552,
+    "hu": "póló",
+    "field": "family",
+    "value": "pólós"
+  },
+  {
+    "id": 555,
+    "hu": "rendezni",
+    "field": "family",
+    "value": "elrendezni"
+  },
+  {
+    "id": 555,
+    "hu": "rendezni",
+    "field": "family",
+    "value": "rendezés"
+  },
+  {
+    "id": 555,
+    "hu": "rendezni",
+    "field": "related",
+    "value": "irányítani"
+  },
+  {
+    "id": 555,
+    "hu": "rendezni",
+    "field": "related",
+    "value": "szervezni"
+  },
+  {
+    "id": 556,
+    "hu": "rendező",
+    "field": "related",
+    "value": "producer"
+  },
+  {
+    "id": 557,
+    "hu": "rendőr",
+    "field": "family",
+    "value": "rendőrség"
+  },
+  {
+    "id": 557,
+    "hu": "rendőr",
+    "field": "family",
+    "value": "rendőrségi"
+  },
+  {
+    "id": 559,
+    "hu": "repülőtér",
+    "field": "related",
+    "value": "állomás"
+  },
+  {
+    "id": 560,
+    "hu": "riporter",
+    "field": "family",
+    "value": "riport"
+  },
+  {
+    "id": 560,
+    "hu": "riporter",
+    "field": "related",
+    "value": "újságíró"
+  },
+  {
+    "id": 561,
+    "hu": "rizs",
+    "field": "family",
+    "value": "rizses"
+  },
+  {
+    "id": 562,
+    "hu": "rokon",
+    "field": "family",
+    "value": "rokonság"
+  },
+  {
+    "id": 563,
+    "hu": "rossz",
+    "field": "family",
+    "value": "rosszabb"
+  },
+  {
+    "id": 563,
+    "hu": "rossz",
+    "field": "related",
+    "value": "jó"
+  },
+  {
+    "id": 564,
+    "hu": "rosszul",
+    "field": "related",
+    "value": "betegen"
+  },
+  {
+    "id": 564,
+    "hu": "rosszul",
+    "field": "related",
+    "value": "jól"
+  },
+  {
+    "id": 565,
+    "hu": "ruha",
+    "field": "family",
+    "value": "ruhás"
+  },
+  {
+    "id": 565,
+    "hu": "ruha",
+    "field": "family",
+    "value": "ruházat"
+  },
+  {
+    "id": 565,
+    "hu": "ruha",
+    "field": "related",
+    "value": "szoknya"
+  },
+  {
+    "id": 566,
+    "hu": "rántotta",
+    "field": "family",
+    "value": "rántani"
+  },
+  {
+    "id": 566,
+    "hu": "rántotta",
+    "field": "related",
+    "value": "szalonna"
+  },
+  {
+    "id": 567,
+    "hu": "régi",
+    "field": "family",
+    "value": "régen"
+  },
+  {
+    "id": 567,
+    "hu": "régi",
+    "field": "family",
+    "value": "régies"
+  },
+  {
+    "id": 567,
+    "hu": "régi",
+    "field": "related",
+    "value": "antik"
+  },
+  {
+    "id": 568,
+    "hu": "répa",
+    "field": "family",
+    "value": "répás"
+  },
+  {
+    "id": 568,
+    "hu": "répa",
+    "field": "related",
+    "value": "hagyma"
+  },
+  {
+    "id": 569,
+    "hu": "rétes",
+    "field": "family",
+    "value": "réteges"
+  },
+  {
+    "id": 569,
+    "hu": "rétes",
+    "field": "related",
+    "value": "alma"
+  },
+  {
+    "id": 569,
+    "hu": "rétes",
+    "field": "related",
+    "value": "torta"
+  },
+  {
+    "id": 570,
+    "hu": "rövid",
+    "field": "family",
+    "value": "legrövidebb"
+  },
+  {
+    "id": 570,
+    "hu": "rövid",
+    "field": "family",
+    "value": "rövidebb"
+  },
+  {
+    "id": 570,
+    "hu": "rövid",
+    "field": "family",
+    "value": "röviden"
+  },
+  {
+    "id": 571,
+    "hu": "sajnálni",
+    "field": "family",
+    "value": "sajnálat"
+  },
+  {
+    "id": 571,
+    "hu": "sajnálni",
+    "field": "family",
+    "value": "sajnálatos"
+  },
+  {
+    "id": 572,
+    "hu": "sajt",
+    "field": "family",
+    "value": "sajtos"
+  },
+  {
+    "id": 573,
+    "hu": "saját",
+    "field": "related",
+    "value": "magán"
+  },
+  {
+    "id": 573,
+    "hu": "saját",
+    "field": "related",
+    "value": "személyes"
+  },
+  {
+    "id": 574,
+    "hu": "sarok",
+    "field": "family",
+    "value": "sarki"
+  },
+  {
+    "id": 574,
+    "hu": "sarok",
+    "field": "related",
+    "value": "talp"
+  },
+  {
+    "id": 575,
+    "hu": "savanyú",
+    "field": "family",
+    "value": "savanyúan"
+  },
+  {
+    "id": 575,
+    "hu": "savanyú",
+    "field": "family",
+    "value": "savanyúság"
+  },
+  {
+    "id": 576,
+    "hu": "segíteni",
+    "field": "family",
+    "value": "segítség"
+  },
+  {
+    "id": 576,
+    "hu": "segíteni",
+    "field": "family",
+    "value": "segítő"
+  },
+  {
+    "id": 576,
+    "hu": "segíteni",
+    "field": "related",
+    "value": "támogatni"
+  },
+  {
+    "id": 577,
+    "hu": "sok",
+    "field": "family",
+    "value": "sokan"
+  },
+  {
+    "id": 577,
+    "hu": "sok",
+    "field": "family",
+    "value": "sokféle"
+  },
+  {
+    "id": 577,
+    "hu": "sok",
+    "field": "family",
+    "value": "sokszor"
+  },
+  {
+    "id": 578,
+    "hu": "sonka",
+    "field": "family",
+    "value": "sonkás"
+  },
+  {
+    "id": 578,
+    "hu": "sonka",
+    "field": "related",
+    "value": "hús"
+  },
+  {
+    "id": 579,
+    "hu": "sovány",
+    "field": "family",
+    "value": "soványabb"
+  },
+  {
+    "id": 579,
+    "hu": "sovány",
+    "field": "family",
+    "value": "soványan"
+  },
+  {
+    "id": 579,
+    "hu": "sovány",
+    "field": "related",
+    "value": "vékony"
+  },
+  {
+    "id": 580,
+    "hu": "spanyol",
+    "field": "family",
+    "value": "Spanyolország"
+  },
+  {
+    "id": 580,
+    "hu": "spanyol",
+    "field": "family",
+    "value": "spanyolul"
+  },
+  {
+    "id": 581,
+    "hu": "sportoló",
+    "field": "family",
+    "value": "sport"
+  },
+  {
+    "id": 581,
+    "hu": "sportoló",
+    "field": "family",
+    "value": "sportolni"
+  },
+  {
+    "id": 581,
+    "hu": "sportoló",
+    "field": "related",
+    "value": "edző"
+  },
+  {
+    "id": 581,
+    "hu": "sportoló",
+    "field": "related",
+    "value": "versenyző"
+  },
+  {
+    "id": 582,
+    "hu": "szabadnap",
+    "field": "family",
+    "value": "szabad"
+  },
+  {
+    "id": 582,
+    "hu": "szabadnap",
+    "field": "related",
+    "value": "pihenőnap"
+  },
+  {
+    "id": 582,
+    "hu": "szabadnap",
+    "field": "related",
+    "value": "szabadság"
+  },
+  {
+    "id": 582,
+    "hu": "szabadnap",
+    "field": "related",
+    "value": "vakáció"
+  },
+  {
+    "id": 583,
+    "hu": "szakács",
+    "field": "family",
+    "value": "szakácskönyv"
+  },
+  {
+    "id": 583,
+    "hu": "szakács",
+    "field": "family",
+    "value": "szakácsnő"
+  },
+  {
+    "id": 583,
+    "hu": "szakács",
+    "field": "related",
+    "value": "konyha"
+  },
+  {
+    "id": 584,
+    "hu": "szakáll",
+    "field": "family",
+    "value": "szakállas"
+  },
+  {
+    "id": 585,
+    "hu": "szalvéta",
+    "field": "related",
+    "value": "asztalterítő"
+  },
+  {
+    "id": 585,
+    "hu": "szalvéta",
+    "field": "related",
+    "value": "papír"
+  },
+  {
+    "id": 586,
+    "hu": "szalámi",
+    "field": "family",
+    "value": "szalámis"
+  },
+  {
+    "id": 586,
+    "hu": "szalámi",
+    "field": "related",
+    "value": "kolbász"
+  },
+  {
+    "id": 587,
+    "hu": "szar",
+    "field": "related",
+    "value": "pocsék"
+  },
+  {
+    "id": 588,
+    "hu": "szeles",
+    "field": "family",
+    "value": "szelesen"
+  },
+  {
+    "id": 588,
+    "hu": "szeles",
+    "field": "related",
+    "value": "viharos"
+  },
+  {
+    "id": 589,
+    "hu": "szelet",
+    "field": "family",
+    "value": "szeletelni"
+  },
+  {
+    "id": 589,
+    "hu": "szelet",
+    "field": "family",
+    "value": "szeletelt"
+  },
+  {
+    "id": 589,
+    "hu": "szelet",
+    "field": "related",
+    "value": "darab"
+  },
+  {
+    "id": 590,
+    "hu": "szem",
+    "field": "family",
+    "value": "szemes"
+  },
+  {
+    "id": 590,
+    "hu": "szem",
+    "field": "family",
+    "value": "szemüveg"
+  },
+  {
+    "id": 590,
+    "hu": "szem",
+    "field": "related",
+    "value": "látni"
+  },
+  {
+    "id": 590,
+    "hu": "szem",
+    "field": "related",
+    "value": "szemöldök"
+  },
+  {
+    "id": 591,
+    "hu": "szendvics",
+    "field": "family",
+    "value": "szendvicses"
+  },
+  {
+    "id": 592,
+    "hu": "szerelmes",
+    "field": "family",
+    "value": "szeretni"
+  },
+  {
+    "id": 592,
+    "hu": "szerelmes",
+    "field": "related",
+    "value": "szerető"
+  },
+  {
+    "id": 593,
+    "hu": "szerencsés",
+    "field": "family",
+    "value": "szerencse"
+  },
+  {
+    "id": 593,
+    "hu": "szerencsés",
+    "field": "family",
+    "value": "szerencsésen"
+  },
+  {
+    "id": 593,
+    "hu": "szerencsés",
+    "field": "related",
+    "value": "szerencsétlen"
+  },
+  {
+    "id": 594,
+    "hu": "szoba",
+    "field": "family",
+    "value": "szobás"
+  },
+  {
+    "id": 594,
+    "hu": "szoba",
+    "field": "related",
+    "value": "hálószoba"
+  },
+  {
+    "id": 595,
+    "hu": "szokni",
+    "field": "family",
+    "value": "szokás"
+  },
+  {
+    "id": 595,
+    "hu": "szokni",
+    "field": "family",
+    "value": "szokásos"
+  },
+  {
+    "id": 596,
+    "hu": "szomjas",
+    "field": "family",
+    "value": "szomjazni"
+  },
+  {
+    "id": 596,
+    "hu": "szomjas",
+    "field": "family",
+    "value": "szomjúság"
+  },
+  {
+    "id": 596,
+    "hu": "szomjas",
+    "field": "related",
+    "value": "víz"
+  },
+  {
+    "id": 597,
+    "hu": "szomorú",
+    "field": "family",
+    "value": "szomorúan"
+  },
+  {
+    "id": 597,
+    "hu": "szomorú",
+    "field": "family",
+    "value": "szomorúság"
+  },
+  {
+    "id": 597,
+    "hu": "szomorú",
+    "field": "related",
+    "value": "vidám"
+  },
+  {
+    "id": 598,
+    "hu": "száj",
+    "field": "family",
+    "value": "szájas"
+  },
+  {
+    "id": 598,
+    "hu": "száj",
+    "field": "related",
+    "value": "ajak"
+  },
+  {
+    "id": 599,
+    "hu": "száraz",
+    "field": "family",
+    "value": "szárazon"
+  },
+  {
+    "id": 599,
+    "hu": "száraz",
+    "field": "family",
+    "value": "szárazság"
+  },
+  {
+    "id": 599,
+    "hu": "száraz",
+    "field": "family",
+    "value": "szárítani"
+  },
+  {
+    "id": 599,
+    "hu": "száraz",
+    "field": "related",
+    "value": "nedves"
+  },
+  {
+    "id": 599,
+    "hu": "száraz",
+    "field": "related",
+    "value": "vizes"
+  },
+  {
+    "id": 600,
+    "hu": "száz",
+    "field": "family",
+    "value": "századik"
+  },
+  {
+    "id": 600,
+    "hu": "száz",
+    "field": "family",
+    "value": "százas"
+  },
+  {
+    "id": 601,
+    "hu": "szék",
+    "field": "family",
+    "value": "székes"
+  },
+  {
+    "id": 601,
+    "hu": "szék",
+    "field": "related",
+    "value": "fotel"
+  },
+  {
+    "id": 601,
+    "hu": "szék",
+    "field": "related",
+    "value": "kanapé"
+  },
+  {
+    "id": 602,
+    "hu": "szél",
+    "field": "family",
+    "value": "szellő"
+  },
+  {
+    "id": 602,
+    "hu": "szél",
+    "field": "related",
+    "value": "vihar"
+  },
+  {
+    "id": 603,
+    "hu": "széles",
+    "field": "family",
+    "value": "szélesebb"
+  },
+  {
+    "id": 603,
+    "hu": "széles",
+    "field": "family",
+    "value": "szélesen"
+  },
+  {
+    "id": 603,
+    "hu": "széles",
+    "field": "family",
+    "value": "szélesség"
+  },
+  {
+    "id": 603,
+    "hu": "széles",
+    "field": "related",
+    "value": "keskeny"
+  },
+  {
+    "id": 604,
+    "hu": "színész",
+    "field": "family",
+    "value": "színház"
+  },
+  {
+    "id": 604,
+    "hu": "színész",
+    "field": "related",
+    "value": "film"
+  },
+  {
+    "id": 604,
+    "hu": "színész",
+    "field": "related",
+    "value": "színpad"
+  },
+  {
+    "id": 605,
+    "hu": "színésznő",
+    "field": "family",
+    "value": "színház"
+  },
+  {
+    "id": 605,
+    "hu": "színésznő",
+    "field": "related",
+    "value": "film"
+  },
+  {
+    "id": 606,
+    "hu": "szólni",
+    "field": "family",
+    "value": "szólás"
+  },
+  {
+    "id": 606,
+    "hu": "szólni",
+    "field": "related",
+    "value": "beszélni"
+  },
+  {
+    "id": 607,
+    "hu": "szörnyű",
+    "field": "family",
+    "value": "szörnyen"
+  },
+  {
+    "id": 607,
+    "hu": "szörnyű",
+    "field": "family",
+    "value": "szörnyűség"
+  },
+  {
+    "id": 607,
+    "hu": "szörnyű",
+    "field": "related",
+    "value": "borzasztó"
+  },
+  {
+    "id": 608,
+    "hu": "szülő",
+    "field": "family",
+    "value": "szülni"
+  },
+  {
+    "id": 608,
+    "hu": "szülő",
+    "field": "family",
+    "value": "szülők"
+  },
+  {
+    "id": 609,
+    "hu": "szőke",
+    "field": "family",
+    "value": "szőkeség"
+  },
+  {
+    "id": 610,
+    "hu": "szőr",
+    "field": "related",
+    "value": "bunda"
+  },
+  {
+    "id": 611,
+    "hu": "szőrös",
+    "field": "family",
+    "value": "szőrösen"
+  },
+  {
+    "id": 611,
+    "hu": "szőrös",
+    "field": "related",
+    "value": "kopasz"
+  },
+  {
+    "id": 611,
+    "hu": "szőrös",
+    "field": "related",
+    "value": "sima"
+  },
+  {
+    "id": 612,
+    "hu": "sál",
+    "field": "related",
+    "value": "sapka"
+  },
+  {
+    "id": 613,
+    "hu": "sárga",
+    "field": "family",
+    "value": "sárgaság"
+  },
+  {
+    "id": 613,
+    "hu": "sárga",
+    "field": "family",
+    "value": "sárgán"
+  },
+  {
+    "id": 613,
+    "hu": "sárga",
+    "field": "family",
+    "value": "sárgás"
+  },
+  {
+    "id": 613,
+    "hu": "sárga",
+    "field": "related",
+    "value": "narancssárga"
+  },
+  {
+    "id": 614,
+    "hu": "só",
+    "field": "family",
+    "value": "sózni"
+  },
+  {
+    "id": 615,
+    "hu": "sógor",
+    "field": "family",
+    "value": "sógornő"
+  },
+  {
+    "id": 616,
+    "hu": "sós",
+    "field": "family",
+    "value": "sózni"
+  },
+  {
+    "id": 617,
+    "hu": "sült",
+    "field": "family",
+    "value": "sülni"
+  },
+  {
+    "id": 617,
+    "hu": "sült",
+    "field": "related",
+    "value": "főtt"
+  },
+  {
+    "id": 617,
+    "hu": "sült",
+    "field": "related",
+    "value": "nyers"
+  },
+  {
+    "id": 618,
+    "hu": "sütemény",
+    "field": "family",
+    "value": "sütödé"
+  },
+  {
+    "id": 618,
+    "hu": "sütemény",
+    "field": "related",
+    "value": "torta"
+  },
+  {
+    "id": 619,
+    "hu": "sütni",
+    "field": "family",
+    "value": "sütő"
+  },
+  {
+    "id": 619,
+    "hu": "sütni",
+    "field": "related",
+    "value": "napsütés"
+  },
+  {
+    "id": 620,
+    "hu": "takarítani",
+    "field": "family",
+    "value": "takarítás"
+  },
+  {
+    "id": 620,
+    "hu": "takarítani",
+    "field": "family",
+    "value": "takarítónő"
+  },
+  {
+    "id": 620,
+    "hu": "takarítani",
+    "field": "related",
+    "value": "rendet rakni"
+  },
+  {
+    "id": 621,
+    "hu": "találkozni",
+    "field": "family",
+    "value": "találkozás"
+  },
+  {
+    "id": 621,
+    "hu": "találkozni",
+    "field": "family",
+    "value": "találkozó"
+  },
+  {
+    "id": 622,
+    "hu": "találni",
+    "field": "family",
+    "value": "kitalálni"
+  },
+  {
+    "id": 622,
+    "hu": "találni",
+    "field": "family",
+    "value": "megtalálni"
+  },
+  {
+    "id": 622,
+    "hu": "találni",
+    "field": "family",
+    "value": "találat"
+  },
+  {
+    "id": 622,
+    "hu": "találni",
+    "field": "related",
+    "value": "elveszíteni"
+  },
+  {
+    "id": 623,
+    "hu": "tanácsolni",
+    "field": "family",
+    "value": "tanács"
+  },
+  {
+    "id": 623,
+    "hu": "tanácsolni",
+    "field": "family",
+    "value": "tanácsadó"
+  },
+  {
+    "id": 623,
+    "hu": "tanácsolni",
+    "field": "related",
+    "value": "javasolni"
+  },
+  {
+    "id": 624,
+    "hu": "tanítani",
+    "field": "family",
+    "value": "tanítvány"
+  },
+  {
+    "id": 624,
+    "hu": "tanítani",
+    "field": "family",
+    "value": "tanítás"
+  },
+  {
+    "id": 624,
+    "hu": "tanítani",
+    "field": "related",
+    "value": "tanulni"
+  },
+  {
+    "id": 625,
+    "hu": "tartalmazni",
+    "field": "family",
+    "value": "tartalmas"
+  },
+  {
+    "id": 625,
+    "hu": "tartalmazni",
+    "field": "family",
+    "value": "tartalom"
+  },
+  {
+    "id": 625,
+    "hu": "tartalmazni",
+    "field": "related",
+    "value": "tartalom"
+  },
+  {
+    "id": 626,
+    "hu": "tartozni",
+    "field": "family",
+    "value": "tartozás"
+  },
+  {
+    "id": 626,
+    "hu": "tartozni",
+    "field": "related",
+    "value": "adósság"
+  },
+  {
+    "id": 627,
+    "hu": "tavasz",
+    "field": "family",
+    "value": "tavaszi"
+  },
+  {
+    "id": 629,
+    "hu": "tej",
+    "field": "family",
+    "value": "tejes"
+  },
+  {
+    "id": 629,
+    "hu": "tej",
+    "field": "related",
+    "value": "kávé"
+  },
+  {
+    "id": 630,
+    "hu": "tejföl",
+    "field": "family",
+    "value": "tejfölös"
+  },
+  {
+    "id": 631,
+    "hu": "telefonálni",
+    "field": "family",
+    "value": "telefonálás"
+  },
+  {
+    "id": 631,
+    "hu": "telefonálni",
+    "field": "related",
+    "value": "beszélni"
+  },
+  {
+    "id": 631,
+    "hu": "telefonálni",
+    "field": "related",
+    "value": "hívni"
+  },
+  {
+    "id": 632,
+    "hu": "tenger",
+    "field": "family",
+    "value": "tengeri"
+  },
+  {
+    "id": 632,
+    "hu": "tenger",
+    "field": "family",
+    "value": "tengerpart"
+  },
+  {
+    "id": 632,
+    "hu": "tenger",
+    "field": "related",
+    "value": "hullám"
+  },
+  {
+    "id": 632,
+    "hu": "tenger",
+    "field": "related",
+    "value": "strand"
+  },
+  {
+    "id": 632,
+    "hu": "tenger",
+    "field": "related",
+    "value": "óceán"
+  },
+  {
+    "id": 633,
+    "hu": "teniszezni",
+    "field": "family",
+    "value": "tenisz"
+  },
+  {
+    "id": 633,
+    "hu": "teniszezni",
+    "field": "family",
+    "value": "teniszező"
+  },
+  {
+    "id": 633,
+    "hu": "teniszezni",
+    "field": "related",
+    "value": "sportolni"
+  },
+  {
+    "id": 634,
+    "hu": "tenni",
+    "field": "family",
+    "value": "eltenni"
+  },
+  {
+    "id": 634,
+    "hu": "tenni",
+    "field": "family",
+    "value": "feltenni"
+  },
+  {
+    "id": 634,
+    "hu": "tenni",
+    "field": "family",
+    "value": "tétel"
+  },
+  {
+    "id": 634,
+    "hu": "tenni",
+    "field": "related",
+    "value": "helyezni"
+  },
+  {
+    "id": 634,
+    "hu": "tenni",
+    "field": "related",
+    "value": "rakni"
+  },
+  {
+    "id": 635,
+    "hu": "terem",
+    "field": "related",
+    "value": "csarnok"
+  },
+  {
+    "id": 636,
+    "hu": "test",
+    "field": "family",
+    "value": "testi"
+  },
+  {
+    "id": 636,
+    "hu": "test",
+    "field": "family",
+    "value": "testrész"
+  },
+  {
+    "id": 636,
+    "hu": "test",
+    "field": "related",
+    "value": "izom"
+  },
+  {
+    "id": 637,
+    "hu": "tetszeni",
+    "field": "family",
+    "value": "tetszés"
+  },
+  {
+    "id": 637,
+    "hu": "tetszeni",
+    "field": "related",
+    "value": "szeretni"
+  },
+  {
+    "id": 639,
+    "hu": "tigris",
+    "field": "family",
+    "value": "tigrises"
+  },
+  {
+    "id": 639,
+    "hu": "tigris",
+    "field": "related",
+    "value": "vadállat"
+  },
+  {
+    "id": 640,
+    "hu": "tiszta",
+    "field": "family",
+    "value": "tisztaság"
+  },
+  {
+    "id": 640,
+    "hu": "tiszta",
+    "field": "family",
+    "value": "tisztán"
+  },
+  {
+    "id": 640,
+    "hu": "tiszta",
+    "field": "family",
+    "value": "tisztítani"
+  },
+  {
+    "id": 640,
+    "hu": "tiszta",
+    "field": "related",
+    "value": "piszkos"
+  },
+  {
+    "id": 640,
+    "hu": "tiszta",
+    "field": "related",
+    "value": "rendes"
+  },
+  {
+    "id": 641,
+    "hu": "titkárnő",
+    "field": "family",
+    "value": "titkár"
+  },
+  {
+    "id": 641,
+    "hu": "titkárnő",
+    "field": "related",
+    "value": "iroda"
+  },
+  {
+    "id": 642,
+    "hu": "tizenegy",
+    "field": "family",
+    "value": "tizenegyedik"
+  },
+  {
+    "id": 643,
+    "hu": "tizenhat",
+    "field": "family",
+    "value": "tizenhatodik"
+  },
+  {
+    "id": 643,
+    "hu": "tizenhat",
+    "field": "related",
+    "value": "tizenhét"
+  },
+  {
+    "id": 643,
+    "hu": "tizenhat",
+    "field": "related",
+    "value": "tizenöt"
+  },
+  {
+    "id": 644,
+    "hu": "tizenkettő",
+    "field": "family",
+    "value": "tizenkettedik"
+  },
+  {
+    "id": 644,
+    "hu": "tizenkettő",
+    "field": "related",
+    "value": "tizenhárom"
+  },
+  {
+    "id": 645,
+    "hu": "tizenkilenc",
+    "field": "family",
+    "value": "tizenkilencedik"
+  },
+  {
+    "id": 645,
+    "hu": "tizenkilenc",
+    "field": "related",
+    "value": "tizennyolc"
+  },
+  {
+    "id": 646,
+    "hu": "tizennégy",
+    "field": "family",
+    "value": "tizennegyedik"
+  },
+  {
+    "id": 646,
+    "hu": "tizennégy",
+    "field": "related",
+    "value": "tizenhárom"
+  },
+  {
+    "id": 646,
+    "hu": "tizennégy",
+    "field": "related",
+    "value": "tizenöt"
+  },
+  {
+    "id": 647,
+    "hu": "tojás",
+    "field": "family",
+    "value": "tojásos"
+  },
+  {
+    "id": 648,
+    "hu": "torok",
+    "field": "family",
+    "value": "torokfájás"
+  },
+  {
+    "id": 648,
+    "hu": "torok",
+    "field": "related",
+    "value": "hang"
+  },
+  {
+    "id": 648,
+    "hu": "torok",
+    "field": "related",
+    "value": "köhögni"
+  },
+  {
+    "id": 649,
+    "hu": "tovább",
+    "field": "family",
+    "value": "további"
+  },
+  {
+    "id": 649,
+    "hu": "tovább",
+    "field": "family",
+    "value": "továbbá"
+  },
+  {
+    "id": 649,
+    "hu": "tovább",
+    "field": "related",
+    "value": "aztán"
+  },
+  {
+    "id": 650,
+    "hu": "továbbítani",
+    "field": "family",
+    "value": "továbbítás"
+  },
+  {
+    "id": 650,
+    "hu": "továbbítani",
+    "field": "related",
+    "value": "adni"
+  },
+  {
+    "id": 651,
+    "hu": "turista",
+    "field": "family",
+    "value": "turisztikai"
+  },
+  {
+    "id": 652,
+    "hu": "táska",
+    "field": "family",
+    "value": "táskás"
+  },
+  {
+    "id": 652,
+    "hu": "táska",
+    "field": "related",
+    "value": "hátizsák"
+  },
+  {
+    "id": 652,
+    "hu": "táska",
+    "field": "related",
+    "value": "pénztárca"
+  },
+  {
+    "id": 653,
+    "hu": "tél",
+    "field": "family",
+    "value": "téli"
+  },
+  {
+    "id": 654,
+    "hu": "térd",
+    "field": "family",
+    "value": "térdelni"
+  },
+  {
+    "id": 655,
+    "hu": "tészta",
+    "field": "family",
+    "value": "tésztás"
+  },
+  {
+    "id": 655,
+    "hu": "tészta",
+    "field": "related",
+    "value": "leves"
+  },
+  {
+    "id": 655,
+    "hu": "tészta",
+    "field": "related",
+    "value": "spagetti"
+  },
+  {
+    "id": 656,
+    "hu": "tévé",
+    "field": "related",
+    "value": "film"
+  },
+  {
+    "id": 656,
+    "hu": "tévé",
+    "field": "related",
+    "value": "hír"
+  },
+  {
+    "id": 656,
+    "hu": "tévé",
+    "field": "related",
+    "value": "rádió"
+  },
+  {
+    "id": 657,
+    "hu": "tíz",
+    "field": "family",
+    "value": "tizedik"
+  },
+  {
+    "id": 657,
+    "hu": "tíz",
+    "field": "family",
+    "value": "tízes"
+  },
+  {
+    "id": 658,
+    "hu": "tök",
+    "field": "family",
+    "value": "tökös"
+  },
+  {
+    "id": 658,
+    "hu": "tök",
+    "field": "related",
+    "value": "sütőtök"
+  },
+  {
+    "id": 659,
+    "hu": "tökéletes",
+    "field": "family",
+    "value": "tökéletesen"
+  },
+  {
+    "id": 659,
+    "hu": "tökéletes",
+    "field": "family",
+    "value": "tökéletesség"
+  },
+  {
+    "id": 659,
+    "hu": "tökéletes",
+    "field": "related",
+    "value": "hibás"
+  },
+  {
+    "id": 659,
+    "hu": "tökéletes",
+    "field": "related",
+    "value": "kiváló"
+  },
+  {
+    "id": 660,
+    "hu": "törni",
+    "field": "family",
+    "value": "eltörni"
+  },
+  {
+    "id": 660,
+    "hu": "törni",
+    "field": "family",
+    "value": "törés"
+  },
+  {
+    "id": 660,
+    "hu": "törni",
+    "field": "family",
+    "value": "összetörni"
+  },
+  {
+    "id": 660,
+    "hu": "törni",
+    "field": "related",
+    "value": "javítani"
+  },
+  {
+    "id": 660,
+    "hu": "törni",
+    "field": "related",
+    "value": "ragasztani"
+  },
+  {
+    "id": 661,
+    "hu": "török",
+    "field": "family",
+    "value": "Törökország"
+  },
+  {
+    "id": 661,
+    "hu": "török",
+    "field": "family",
+    "value": "törökül"
+  },
+  {
+    "id": 662,
+    "hu": "túl",
+    "field": "family",
+    "value": "túlzott"
+  },
+  {
+    "id": 662,
+    "hu": "túl",
+    "field": "family",
+    "value": "túlzás"
+  },
+  {
+    "id": 662,
+    "hu": "túl",
+    "field": "related",
+    "value": "eléggé"
+  },
+  {
+    "id": 663,
+    "hu": "túró",
+    "field": "family",
+    "value": "túrós"
+  },
+  {
+    "id": 664,
+    "hu": "tükör",
+    "field": "family",
+    "value": "tükröződni"
+  },
+  {
+    "id": 664,
+    "hu": "tükör",
+    "field": "related",
+    "value": "fésű"
+  },
+  {
+    "id": 664,
+    "hu": "tükör",
+    "field": "related",
+    "value": "fürdőszoba"
+  },
+  {
+    "id": 665,
+    "hu": "tüsszenteni",
+    "field": "family",
+    "value": "tüsszentés"
+  },
+  {
+    "id": 665,
+    "hu": "tüsszenteni",
+    "field": "related",
+    "value": "köhögni"
+  },
+  {
+    "id": 665,
+    "hu": "tüsszenteni",
+    "field": "related",
+    "value": "megfázni"
+  },
+  {
+    "id": 666,
+    "hu": "tűz",
+    "field": "family",
+    "value": "tüzes"
+  },
+  {
+    "id": 666,
+    "hu": "tűz",
+    "field": "related",
+    "value": "füst"
+  },
+  {
+    "id": 666,
+    "hu": "tűz",
+    "field": "related",
+    "value": "láng"
+  },
+  {
+    "id": 667,
+    "hu": "tűzoltó",
+    "field": "family",
+    "value": "tűzoltóság"
+  },
+  {
+    "id": 667,
+    "hu": "tűzoltó",
+    "field": "related",
+    "value": "mentős"
+  },
+  {
+    "id": 668,
+    "hu": "uborka",
+    "field": "family",
+    "value": "uborkás"
+  },
+  {
+    "id": 668,
+    "hu": "uborka",
+    "field": "related",
+    "value": "saláta"
+  },
+  {
+    "id": 669,
+    "hu": "ugatni",
+    "field": "family",
+    "value": "ugatás"
+  },
+  {
+    "id": 669,
+    "hu": "ugatni",
+    "field": "related",
+    "value": "nyávogni"
+  },
+  {
+    "id": 669,
+    "hu": "ugatni",
+    "field": "related",
+    "value": "vonítani"
+  },
+  {
+    "id": 670,
+    "hu": "ujj",
+    "field": "family",
+    "value": "ujjas"
+  },
+  {
+    "id": 670,
+    "hu": "ujj",
+    "field": "related",
+    "value": "köröm"
+  },
+  {
+    "id": 671,
+    "hu": "unalmas",
+    "field": "family",
+    "value": "unalom"
+  },
+  {
+    "id": 671,
+    "hu": "unalmas",
+    "field": "family",
+    "value": "unatkozni"
+  },
+  {
+    "id": 671,
+    "hu": "unalmas",
+    "field": "related",
+    "value": "izgalmas"
+  },
+  {
+    "id": 671,
+    "hu": "unalmas",
+    "field": "related",
+    "value": "érdekes"
+  },
+  {
+    "id": 676,
+    "hu": "untatni",
+    "field": "family",
+    "value": "unalom"
+  },
+  {
+    "id": 676,
+    "hu": "untatni",
+    "field": "related",
+    "value": "szórakoztatni"
+  },
+  {
+    "id": 676,
+    "hu": "untatni",
+    "field": "related",
+    "value": "érdekelni"
+  },
+  {
+    "id": 677,
+    "hu": "utazni",
+    "field": "family",
+    "value": "utas"
+  },
+  {
+    "id": 677,
+    "hu": "utazni",
+    "field": "family",
+    "value": "utazás"
+  },
+  {
+    "id": 677,
+    "hu": "utazni",
+    "field": "family",
+    "value": "utazó"
+  },
+  {
+    "id": 678,
+    "hu": "utálni",
+    "field": "family",
+    "value": "utálat"
+  },
+  {
+    "id": 678,
+    "hu": "utálni",
+    "field": "family",
+    "value": "utálatos"
+  },
+  {
+    "id": 678,
+    "hu": "utálni",
+    "field": "related",
+    "value": "szeretni"
+  },
+  {
+    "id": 679,
+    "hu": "utánozni",
+    "field": "family",
+    "value": "utánzat"
+  },
+  {
+    "id": 679,
+    "hu": "utánozni",
+    "field": "family",
+    "value": "utánzás"
+  },
+  {
+    "id": 679,
+    "hu": "utánozni",
+    "field": "related",
+    "value": "másolni"
+  },
+  {
+    "id": 682,
+    "hu": "vaj",
+    "field": "related",
+    "value": "margarin"
+  },
+  {
+    "id": 683,
+    "hu": "vajas",
+    "field": "related",
+    "value": "lekváros"
+  },
+  {
+    "id": 683,
+    "hu": "vajas",
+    "field": "related",
+    "value": "sajtos"
+  },
+  {
+    "id": 684,
+    "hu": "valaki",
+    "field": "related",
+    "value": "mindenki"
+  },
+  {
+    "id": 684,
+    "hu": "valaki",
+    "field": "related",
+    "value": "senki"
+  },
+  {
+    "id": 685,
+    "hu": "valami",
+    "field": "related",
+    "value": "semmi"
+  },
+  {
+    "id": 686,
+    "hu": "van",
+    "field": "family",
+    "value": "levő"
+  },
+  {
+    "id": 686,
+    "hu": "van",
+    "field": "related",
+    "value": "létezni"
+  },
+  {
+    "id": 687,
+    "hu": "vegetáriánus",
+    "field": "family",
+    "value": "vegetáriánusan"
+  },
+  {
+    "id": 687,
+    "hu": "vegetáriánus",
+    "field": "related",
+    "value": "hús"
+  },
+  {
+    "id": 687,
+    "hu": "vegetáriánus",
+    "field": "related",
+    "value": "vegán"
+  },
+  {
+    "id": 688,
+    "hu": "vendég",
+    "field": "family",
+    "value": "vendéglő"
+  },
+  {
+    "id": 688,
+    "hu": "vendég",
+    "field": "family",
+    "value": "vendégség"
+  },
+  {
+    "id": 688,
+    "hu": "vendég",
+    "field": "related",
+    "value": "látogató"
+  },
+  {
+    "id": 689,
+    "hu": "venni",
+    "field": "family",
+    "value": "eladni"
+  },
+  {
+    "id": 689,
+    "hu": "venni",
+    "field": "family",
+    "value": "megvenni"
+  },
+  {
+    "id": 689,
+    "hu": "venni",
+    "field": "family",
+    "value": "vétel"
+  },
+  {
+    "id": 689,
+    "hu": "venni",
+    "field": "related",
+    "value": "eladni"
+  },
+  {
+    "id": 690,
+    "hu": "veszélyes",
+    "field": "family",
+    "value": "veszély"
+  },
+  {
+    "id": 690,
+    "hu": "veszélyes",
+    "field": "family",
+    "value": "veszélyesen"
+  },
+  {
+    "id": 690,
+    "hu": "veszélyes",
+    "field": "related",
+    "value": "kockázatos"
+  },
+  {
+    "id": 691,
+    "hu": "vezetni",
+    "field": "family",
+    "value": "vezetés"
+  },
+  {
+    "id": 691,
+    "hu": "vezetni",
+    "field": "family",
+    "value": "vezető"
+  },
+  {
+    "id": 691,
+    "hu": "vezetni",
+    "field": "related",
+    "value": "autózni"
+  },
+  {
+    "id": 692,
+    "hu": "villamos",
+    "field": "related",
+    "value": "metró"
+  },
+  {
+    "id": 693,
+    "hu": "vinni",
+    "field": "family",
+    "value": "elvinni"
+  },
+  {
+    "id": 693,
+    "hu": "vinni",
+    "field": "family",
+    "value": "vitel"
+  },
+  {
+    "id": 693,
+    "hu": "vinni",
+    "field": "related",
+    "value": "cipelni"
+  },
+  {
+    "id": 694,
+    "hu": "viszketni",
+    "field": "family",
+    "value": "viszketés"
+  },
+  {
+    "id": 694,
+    "hu": "viszketni",
+    "field": "related",
+    "value": "karcolni"
+  },
+  {
+    "id": 695,
+    "hu": "vágni",
+    "field": "family",
+    "value": "elvágni"
+  },
+  {
+    "id": 695,
+    "hu": "vágni",
+    "field": "family",
+    "value": "levágni"
+  },
+  {
+    "id": 695,
+    "hu": "vágni",
+    "field": "family",
+    "value": "vágás"
+  },
+  {
+    "id": 695,
+    "hu": "vágni",
+    "field": "related",
+    "value": "metszeni"
+  },
+  {
+    "id": 695,
+    "hu": "vágni",
+    "field": "related",
+    "value": "szeletelni"
+  },
+  {
+    "id": 696,
+    "hu": "válasz",
+    "field": "related",
+    "value": "megoldás"
+  },
+  {
+    "id": 697,
+    "hu": "válaszolni",
+    "field": "family",
+    "value": "válaszolás"
+  },
+  {
+    "id": 697,
+    "hu": "válaszolni",
+    "field": "related",
+    "value": "kérdezni"
+  },
+  {
+    "id": 698,
+    "hu": "váll",
+    "field": "family",
+    "value": "vállas"
+  },
+  {
+    "id": 699,
+    "hu": "vér",
+    "field": "family",
+    "value": "véres"
+  },
+  {
+    "id": 699,
+    "hu": "vér",
+    "field": "related",
+    "value": "seb"
+  },
+  {
+    "id": 699,
+    "hu": "vér",
+    "field": "related",
+    "value": "szív"
+  },
+  {
+    "id": 700,
+    "hu": "vérezni",
+    "field": "family",
+    "value": "vérzés"
+  },
+  {
+    "id": 700,
+    "hu": "vérezni",
+    "field": "related",
+    "value": "sebesülni"
+  },
+  {
+    "id": 701,
+    "hu": "vörös",
+    "field": "family",
+    "value": "vörösen"
+  },
+  {
+    "id": 702,
+    "hu": "vőlegény",
+    "field": "family",
+    "value": "vő"
+  },
+  {
+    "id": 702,
+    "hu": "vőlegény",
+    "field": "related",
+    "value": "esküvő"
+  },
+  {
+    "id": 703,
+    "hu": "zavarni",
+    "field": "family",
+    "value": "zavart"
+  },
+  {
+    "id": 703,
+    "hu": "zavarni",
+    "field": "family",
+    "value": "zavaró"
+  },
+  {
+    "id": 703,
+    "hu": "zavarni",
+    "field": "related",
+    "value": "háborgatni"
+  },
+  {
+    "id": 703,
+    "hu": "zavarni",
+    "field": "related",
+    "value": "izgatni"
+  },
+  {
+    "id": 705,
+    "hu": "zene",
+    "field": "family",
+    "value": "zenei"
+  },
+  {
+    "id": 705,
+    "hu": "zene",
+    "field": "related",
+    "value": "hangszer"
+  },
+  {
+    "id": 705,
+    "hu": "zene",
+    "field": "related",
+    "value": "énekelni"
+  },
+  {
+    "id": 706,
+    "hu": "zeneszerző",
+    "field": "family",
+    "value": "szerezni"
+  },
+  {
+    "id": 706,
+    "hu": "zeneszerző",
+    "field": "related",
+    "value": "hangszerelés"
+  },
+  {
+    "id": 707,
+    "hu": "zenész",
+    "field": "related",
+    "value": "hangszer"
+  },
+  {
+    "id": 707,
+    "hu": "zenész",
+    "field": "related",
+    "value": "énekes"
+  },
+  {
+    "id": 709,
+    "hu": "zárva",
+    "field": "family",
+    "value": "zár"
+  },
+  {
+    "id": 709,
+    "hu": "zárva",
+    "field": "family",
+    "value": "zárni"
+  },
+  {
+    "id": 709,
+    "hu": "zárva",
+    "field": "related",
+    "value": "bezárni"
+  },
+  {
+    "id": 710,
+    "hu": "zöld",
+    "field": "family",
+    "value": "zöldes"
+  },
+  {
+    "id": 710,
+    "hu": "zöld",
+    "field": "family",
+    "value": "zöldülni"
+  },
+  {
+    "id": 711,
+    "hu": "zöldség",
+    "field": "family",
+    "value": "zöldséges"
+  },
+  {
+    "id": 711,
+    "hu": "zöldség",
+    "field": "related",
+    "value": "saláta"
+  },
+  {
+    "id": 712,
+    "hu": "ágy",
+    "field": "family",
+    "value": "ágynemű"
+  },
+  {
+    "id": 712,
+    "hu": "ágy",
+    "field": "related",
+    "value": "hálószoba"
+  },
+  {
+    "id": 712,
+    "hu": "ágy",
+    "field": "related",
+    "value": "párna"
+  },
+  {
+    "id": 712,
+    "hu": "ágy",
+    "field": "related",
+    "value": "takaró"
+  },
+  {
+    "id": 713,
+    "hu": "állat",
+    "field": "family",
+    "value": "állati"
+  },
+  {
+    "id": 715,
+    "hu": "álmos",
+    "field": "family",
+    "value": "álom"
+  },
+  {
+    "id": 715,
+    "hu": "álmos",
+    "field": "related",
+    "value": "kimerült"
+  },
+  {
+    "id": 716,
+    "hu": "általában",
+    "field": "family",
+    "value": "általános"
+  },
+  {
+    "id": 717,
+    "hu": "ár",
+    "field": "family",
+    "value": "áras"
+  },
+  {
+    "id": 717,
+    "hu": "ár",
+    "field": "family",
+    "value": "árazni"
+  },
+  {
+    "id": 717,
+    "hu": "ár",
+    "field": "related",
+    "value": "költség"
+  },
+  {
+    "id": 718,
+    "hu": "édes",
+    "field": "family",
+    "value": "édesen"
+  },
+  {
+    "id": 718,
+    "hu": "édes",
+    "field": "family",
+    "value": "édesség"
+  },
+  {
+    "id": 718,
+    "hu": "édes",
+    "field": "family",
+    "value": "édesíteni"
+  },
+  {
+    "id": 719,
+    "hu": "éhes",
+    "field": "family",
+    "value": "éhezni"
+  },
+  {
+    "id": 719,
+    "hu": "éhes",
+    "field": "family",
+    "value": "éhség"
+  },
+  {
+    "id": 719,
+    "hu": "éhes",
+    "field": "related",
+    "value": "jóllakott"
+  },
+  {
+    "id": 721,
+    "hu": "élvezni",
+    "field": "family",
+    "value": "élvezet"
+  },
+  {
+    "id": 721,
+    "hu": "élvezni",
+    "field": "family",
+    "value": "élvezetes"
+  },
+  {
+    "id": 721,
+    "hu": "élvezni",
+    "field": "related",
+    "value": "szeretni"
+  },
+  {
+    "id": 721,
+    "hu": "élvezni",
+    "field": "related",
+    "value": "örülni"
+  },
+  {
+    "id": 723,
+    "hu": "énekesnő",
+    "field": "family",
+    "value": "énekelni"
+  },
+  {
+    "id": 723,
+    "hu": "énekesnő",
+    "field": "family",
+    "value": "énekes"
+  },
+  {
+    "id": 724,
+    "hu": "építeni",
+    "field": "family",
+    "value": "építés"
+  },
+  {
+    "id": 724,
+    "hu": "építeni",
+    "field": "family",
+    "value": "építész"
+  },
+  {
+    "id": 724,
+    "hu": "építeni",
+    "field": "related",
+    "value": "felépíteni"
+  },
+  {
+    "id": 724,
+    "hu": "építeni",
+    "field": "related",
+    "value": "tervezni"
+  },
+  {
+    "id": 725,
+    "hu": "épület",
+    "field": "family",
+    "value": "építész"
+  },
+  {
+    "id": 725,
+    "hu": "épület",
+    "field": "related",
+    "value": "torony"
+  },
+  {
+    "id": 726,
+    "hu": "érkezni",
+    "field": "family",
+    "value": "érkezés"
+  },
+  {
+    "id": 726,
+    "hu": "érkezni",
+    "field": "related",
+    "value": "indulni"
+  },
+  {
+    "id": 727,
+    "hu": "érteni",
+    "field": "family",
+    "value": "megérteni"
+  },
+  {
+    "id": 727,
+    "hu": "érteni",
+    "field": "family",
+    "value": "értelem"
+  },
+  {
+    "id": 727,
+    "hu": "érteni",
+    "field": "family",
+    "value": "értés"
+  },
+  {
+    "id": 727,
+    "hu": "érteni",
+    "field": "related",
+    "value": "gondolni"
+  },
+  {
+    "id": 727,
+    "hu": "érteni",
+    "field": "related",
+    "value": "tudni"
+  },
+  {
+    "id": 728,
+    "hu": "étel",
+    "field": "family",
+    "value": "étkezni"
+  },
+  {
+    "id": 729,
+    "hu": "így",
+    "field": "related",
+    "value": "ilyen"
+  },
+  {
+    "id": 730,
+    "hu": "ígérni",
+    "field": "family",
+    "value": "megígérni"
+  },
+  {
+    "id": 730,
+    "hu": "ígérni",
+    "field": "family",
+    "value": "ígéret"
+  },
+  {
+    "id": 730,
+    "hu": "ígérni",
+    "field": "related",
+    "value": "fogadkozni"
+  },
+  {
+    "id": 731,
+    "hu": "író",
+    "field": "family",
+    "value": "írni"
+  },
+  {
+    "id": 731,
+    "hu": "író",
+    "field": "family",
+    "value": "írónő"
+  },
+  {
+    "id": 731,
+    "hu": "író",
+    "field": "related",
+    "value": "regény"
+  },
+  {
+    "id": 732,
+    "hu": "ízleni",
+    "field": "family",
+    "value": "íz"
+  },
+  {
+    "id": 732,
+    "hu": "ízleni",
+    "field": "family",
+    "value": "ízletes"
+  },
+  {
+    "id": 732,
+    "hu": "ízleni",
+    "field": "related",
+    "value": "kóstolni"
+  },
+  {
+    "id": 733,
+    "hu": "óta",
+    "field": "related",
+    "value": "attól"
+  },
+  {
+    "id": 733,
+    "hu": "óta",
+    "field": "related",
+    "value": "mióta"
+  },
+  {
+    "id": 734,
+    "hu": "óvónő",
+    "field": "family",
+    "value": "óvoda"
+  },
+  {
+    "id": 734,
+    "hu": "óvónő",
+    "field": "related",
+    "value": "tanárnő"
+  },
+  {
+    "id": 737,
+    "hu": "önteni",
+    "field": "family",
+    "value": "kiönteni"
+  },
+  {
+    "id": 737,
+    "hu": "önteni",
+    "field": "family",
+    "value": "öntés"
+  },
+  {
+    "id": 737,
+    "hu": "önteni",
+    "field": "related",
+    "value": "tölteni"
+  },
+  {
+    "id": 737,
+    "hu": "önteni",
+    "field": "related",
+    "value": "áztatni"
+  },
+  {
+    "id": 739,
+    "hu": "öreg",
+    "field": "family",
+    "value": "öregedni"
+  },
+  {
+    "id": 739,
+    "hu": "öreg",
+    "field": "family",
+    "value": "öregen"
+  },
+  {
+    "id": 739,
+    "hu": "öreg",
+    "field": "family",
+    "value": "öregség"
+  },
+  {
+    "id": 739,
+    "hu": "öreg",
+    "field": "related",
+    "value": "fiatal"
+  },
+  {
+    "id": 740,
+    "hu": "öt",
+    "field": "family",
+    "value": "ötödik"
+  },
+  {
+    "id": 741,
+    "hu": "ötlet",
+    "field": "family",
+    "value": "ötletes"
+  },
+  {
+    "id": 741,
+    "hu": "ötlet",
+    "field": "related",
+    "value": "gondolat"
+  },
+  {
+    "id": 741,
+    "hu": "ötlet",
+    "field": "related",
+    "value": "terv"
+  },
+  {
+    "id": 743,
+    "hu": "ötven",
+    "field": "family",
+    "value": "ötvenedik"
+  },
+  {
+    "id": 744,
+    "hu": "ötvenhárom",
+    "field": "related",
+    "value": "ötvennégy"
+  },
+  {
+    "id": 745,
+    "hu": "ötvenkettő",
+    "field": "related",
+    "value": "ötvenegy"
+  },
+  {
+    "id": 747,
+    "hu": "öv",
+    "field": "family",
+    "value": "övezni"
+  },
+  {
+    "id": 747,
+    "hu": "öv",
+    "field": "related",
+    "value": "csat"
+  },
+  {
+    "id": 748,
+    "hu": "úgy",
+    "field": "related",
+    "value": "olyan"
+  },
+  {
+    "id": 749,
+    "hu": "új",
+    "field": "family",
+    "value": "megújítani"
+  },
+  {
+    "id": 749,
+    "hu": "új",
+    "field": "related",
+    "value": "modern"
+  },
+  {
+    "id": 750,
+    "hu": "újra",
+    "field": "family",
+    "value": "megújulni"
+  },
+  {
+    "id": 750,
+    "hu": "újra",
+    "field": "related",
+    "value": "ismét"
+  },
+  {
+    "id": 751,
+    "hu": "újság",
+    "field": "related",
+    "value": "cikk"
+  },
+  {
+    "id": 751,
+    "hu": "újság",
+    "field": "related",
+    "value": "hír"
+  },
+  {
+    "id": 751,
+    "hu": "újság",
+    "field": "related",
+    "value": "magazin"
+  },
+  {
+    "id": 752,
+    "hu": "úszni",
+    "field": "family",
+    "value": "úszás"
+  },
+  {
+    "id": 752,
+    "hu": "úszni",
+    "field": "family",
+    "value": "úszó"
+  },
+  {
+    "id": 752,
+    "hu": "úszni",
+    "field": "family",
+    "value": "úszómedence"
+  },
+  {
+    "id": 752,
+    "hu": "úszni",
+    "field": "related",
+    "value": "merülni"
+  },
+  {
+    "id": 753,
+    "hu": "ügyvéd",
+    "field": "family",
+    "value": "ügyvédi"
+  },
+  {
+    "id": 753,
+    "hu": "ügyvéd",
+    "field": "family",
+    "value": "ügyvédnő"
+  },
+  {
+    "id": 753,
+    "hu": "ügyvéd",
+    "field": "related",
+    "value": "jog"
+  },
+  {
+    "id": 754,
+    "hu": "ünnepnap",
+    "field": "family",
+    "value": "ünnep"
+  },
+  {
+    "id": 754,
+    "hu": "ünnepnap",
+    "field": "family",
+    "value": "ünnepelni"
+  },
+  {
+    "id": 754,
+    "hu": "ünnepnap",
+    "field": "related",
+    "value": "karácsony"
+  },
+  {
+    "id": 755,
+    "hu": "üveg",
+    "field": "family",
+    "value": "üveges"
+  },
+  {
+    "id": 755,
+    "hu": "üveg",
+    "field": "related",
+    "value": "palack"
+  },
+  {
+    "id": 755,
+    "hu": "üveg",
+    "field": "related",
+    "value": "pohár"
+  },
+  {
+    "id": 756,
+    "hu": "üzenet",
+    "field": "family",
+    "value": "üzenni"
+  },
+  {
+    "id": 756,
+    "hu": "üzenet",
+    "field": "related",
+    "value": "email"
+  },
+  {
+    "id": 757,
+    "hu": "üzlet",
+    "field": "family",
+    "value": "üzletember"
+  },
+  {
+    "id": 757,
+    "hu": "üzlet",
+    "field": "related",
+    "value": "vásárolni"
+  },
+  {
+    "id": 760,
+    "hu": "ősz",
+    "field": "family",
+    "value": "őszi"
+  },
+  {
+    "id": 762,
+    "hu": "őszinte",
+    "field": "family",
+    "value": "őszinteség"
+  },
+  {
+    "id": 762,
+    "hu": "őszinte",
+    "field": "related",
+    "value": "hazug"
+  },
+  {
+    "id": 762,
+    "hu": "őszinte",
+    "field": "related",
+    "value": "igazmondó"
+  },
+  {
+    "id": 763,
+    "hu": "őszintén",
+    "field": "family",
+    "value": "őszinteség"
+  },
+  {
+    "id": 763,
+    "hu": "őszintén",
+    "field": "related",
+    "value": "igazán"
+  },
+  {
+    "id": 763,
+    "hu": "őszintén",
+    "field": "related",
+    "value": "valóban"
+  }
+]
