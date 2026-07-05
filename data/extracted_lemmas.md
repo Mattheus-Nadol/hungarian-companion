@@ -191,7 +191,7 @@
 | harmincegy | thirty-one | trzydzieści jeden | numeral |
 | harminchat | thirty-six | trzydzieści sześć | numeral |
 | harmincöt | thirty-five | trzydzieści pięć | numeral |
-| harmincötös | number thirty-five | trzydziestka piątka | numeral |
+| harmincötös | number thirty-five | trzydziestka piąta | numeral |
 | has | stomach / belly | brzuch | noun |
 | hasznos | useful | przydatny | adjective |
 | használni | to use | używać | verb |
