@@ -13,6 +13,12 @@ const App = {
     selectedWordId: null,
     // Persist the user's current search query so rerenders keep filters applied
     searchQuery: ''
+    ,
+    // Persist UI filters
+    filters: {
+        type: '',
+        tags: []
+    }
 };
 
 const Pages = {
@@ -44,6 +50,16 @@ const Pages = {
                 placeholder="Search..."
                 oninput="filterWords()"
             >
+
+                        <div class="filters" style="margin-top:8px; display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
+                                <label style="display:flex;align-items:center;gap:6px;"><strong>Type</strong>
+                                    <select id="filter-type" onchange="filterWords()" style="margin-left:6px;padding:6px;border-radius:6px">
+                                        <option value="">All</option>
+                                    </select>
+                                </label>
+
+                                <div id="filter-tags" style="display:flex; gap:6px; flex-wrap:wrap; align-items:center; margin-left:8px;"></div>
+                        </div>
 
             <div id="wordList"></div>
 
@@ -145,6 +161,13 @@ function render() {
     if (App.currentPage === "explore") {
         const searchEl = document.getElementById('search');
         if (searchEl) searchEl.value = App.searchQuery || '';
+
+        // populate filter controls and restore their state
+        populateFilterControls();
+        const typeEl = document.getElementById('filter-type');
+        if (typeEl) typeEl.value = App.filters.type || '';
+        const tagEls = document.querySelectorAll('#filter-tags input[type="checkbox"]');
+        tagEls.forEach(cb => cb.checked = App.filters.tags.includes(cb.value));
     }
 
     if (App.currentPage === "explore") {
@@ -154,17 +177,29 @@ function render() {
         const query = App.searchQuery || (document.getElementById('search')?.value || '').toLowerCase().trim();
         App.searchQuery = query;
 
+        // build base list then apply query/type/tags filters
+        let baseList = Array.isArray(words) ? words.slice() : [];
+
         if (query) {
-            const filtered = words.filter(word => {
+            baseList = baseList.filter(word => {
                 const hu = (word.hu || '').toLowerCase();
                 const en = (word.en || '').toLowerCase();
                 const pl = (word.pl || '').toLowerCase();
                 return hu.includes(query) || en.includes(query) || pl.includes(query);
             });
-            renderWordList(filtered);
-        } else {
-            renderWordList(words);
         }
+
+        // type filter
+        if (App.filters.type) {
+            baseList = baseList.filter(w => (w.type || '').toLowerCase() === (App.filters.type || '').toLowerCase());
+        }
+
+        // tags filter (OR semantics)
+        if (Array.isArray(App.filters.tags) && App.filters.tags.length > 0) {
+            baseList = baseList.filter(w => Array.isArray(w.tags) && App.filters.tags.some(t => w.tags.includes(t)));
+        }
+
+        renderWordList(baseList);
 
         // if selectedWordId present, try to open it (card must exist in DOM)
         if (App.selectedWordId) {
@@ -175,6 +210,64 @@ function render() {
             }, 10);
         }
     }
+}
+
+// Build the tag filter checkboxes and type options from the loaded words
+function populateFilterControls() {
+    const typeEl = document.getElementById('filter-type');
+    const tagsContainer = document.getElementById('filter-tags');
+    if (!typeEl || !tagsContainer || !Array.isArray(words) || words.length === 0) return;
+
+    // populate types
+    const types = Array.from(new Set(words.map(w => (w.type || '').toLowerCase()).filter(Boolean))).sort();
+    // clear existing (except the default 'All')
+    while (typeEl.options.length > 1) typeEl.remove(1);
+    types.forEach(t => {
+        const opt = document.createElement('option');
+        opt.value = t;
+        opt.textContent = t;
+        typeEl.appendChild(opt);
+    });
+
+    // populate tags (checkboxes)
+    const tagSet = new Set();
+    words.forEach(w => {
+        if (Array.isArray(w.tags)) w.tags.forEach(tag => tagSet.add(tag));
+    });
+    const tags = Array.from(tagSet).sort();
+
+    // if already populated, skip rebuilding unless mismatch
+    if (tagsContainer.dataset.count && Number(tagsContainer.dataset.count) === tags.length) return;
+    tagsContainer.innerHTML = '';
+    tags.forEach(tag => {
+        const id = `tag-${escapeJs(tag)}`;
+        const wrapper = document.createElement('label');
+        wrapper.style.display = 'inline-flex';
+        wrapper.style.alignItems = 'center';
+        wrapper.style.gap = '6px';
+        wrapper.style.padding = '4px 6px';
+        wrapper.style.borderRadius = '6px';
+        wrapper.style.background = 'rgba(255,255,255,0.02)';
+        wrapper.style.cursor = 'pointer';
+
+        const cb = document.createElement('input');
+        cb.type = 'checkbox';
+        cb.value = tag;
+        cb.id = id;
+        cb.onchange = () => {
+            filterWords();
+        };
+
+        const span = document.createElement('span');
+        span.textContent = tag;
+        span.style.fontSize = '13px';
+        span.style.color = 'var(--muted)';
+
+        wrapper.appendChild(cb);
+        wrapper.appendChild(span);
+        tagsContainer.appendChild(wrapper);
+    });
+    tagsContainer.dataset.count = String(tags.length);
 }
 
 function renderWordList(list) {
@@ -202,19 +295,36 @@ function filterWords() {
     // persist the user's search so re-renders keep the same filtered list
     App.searchQuery = query;
 
-    if (!query) {
-        renderWordList(words);
-        return;
+    // read filters
+    const typeEl = document.getElementById('filter-type');
+    const selectedType = typeEl ? (typeEl.value || '') : '';
+    App.filters.type = selectedType;
+
+    const tagEls = Array.from(document.querySelectorAll('#filter-tags input[type="checkbox"]'));
+    const selectedTags = tagEls.filter(cb => cb.checked).map(cb => cb.value);
+    App.filters.tags = selectedTags;
+
+    // start with all words, then apply filters
+    let list = Array.isArray(words) ? words.slice() : [];
+
+    if (query) {
+        list = list.filter(word => {
+            const hu = (word.hu || '').toLowerCase();
+            const en = (word.en || '').toLowerCase();
+            const pl = (word.pl || '').toLowerCase();
+            return hu.includes(query) || en.includes(query) || pl.includes(query);
+        });
     }
 
-    const filtered = words.filter(word => {
-        const hu = (word.hu || '').toLowerCase();
-        const en = (word.en || '').toLowerCase();
-        const pl = (word.pl || '').toLowerCase();
-        return hu.includes(query) || en.includes(query) || pl.includes(query);
-    });
+    if (selectedType) {
+        list = list.filter(w => (w.type || '').toLowerCase() === selectedType.toLowerCase());
+    }
 
-    renderWordList(filtered);
+    if (selectedTags.length > 0) {
+        list = list.filter(w => Array.isArray(w.tags) && selectedTags.some(t => w.tags.includes(t)));
+    }
+
+    renderWordList(list);
 }
 
 // Expand/collapse a card in-place without scrolling
