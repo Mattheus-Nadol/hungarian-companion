@@ -69,3 +69,12 @@ npx pa11y http://localhost:8000 --reporter json > pa11y-root.json
 - Deployment: the site is published from the `main` branch (GitHub Pages). Do not add an automatic Pages deploy workflow that also runs on `push` to `main` — Pages is configured to deploy from `main` in repository settings.
 
 If you prefer workflow-driven deployments, we can switch to a `gh-pages` branch and keep a release-driven deploy workflow.
+
+## Release notes
+
+Release notes are stored in the `releases/` folder at the repository root. When creating a new release:
+
+- Add a `releases/RELEASE_NOTES_vX.Y.md` file (optional).
+- Push an annotated tag (`vX.Y`) — the CI workflow will prefer the `releases/` file for the release body and fall back to a root `RELEASE_NOTES_vX.Y.md` or the tag message.
+
+This keeps the repository root tidy while keeping release history visible and versioned.
