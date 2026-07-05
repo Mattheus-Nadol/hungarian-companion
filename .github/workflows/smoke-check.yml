@@ -2,13 +2,16 @@ name: Smoke: validate data
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
+    branches:
+      - main
+  pull_request: {}
 
 jobs:
   validate-vocabulary:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Validate JSON syntax
         run: python3 -m json.tool data/vocabulary.json
