@@ -1,0 +1,16 @@
+[
+  {
+    "id": "fam-eat",
+    "name": { "hu": "enni — rodzina", "en": "eat family" },
+    "members": [120, 121, 122],
+    "tags": ["food","verb"],
+    "source": "sample"
+  },
+  {
+    "id": "fam-ősz",
+    "name": { "hu": "ősz — rodzina", "en": "autumn family" },
+    "members": [400],
+    "tags": ["season","noun"],
+    "source": "sample"
+  }
+]
