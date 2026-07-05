@@ -281,11 +281,11 @@ function renderWordList(list) {
 
     container.innerHTML = list.map(word => `
         <div class="card" data-id="${escapeHtml(String(word.id))}">
-            <div class="card-main" onclick="toggleCardDetails(${escapeJs(word.id)})" style="cursor:pointer;">
-                <h2 tabindex="0">${escapeHtml(word.hu)}</h2>
+            <div class="card-main" role="button" tabindex="0" aria-expanded="false" aria-controls="panel-${escapeHtml(String(word.id))}" onclick="toggleCardDetails(${escapeJs(word.id)})" onkeydown="handleCardKeydown(event, ${escapeJs(word.id)})" style="cursor:pointer;">
+                <h2>${escapeHtml(word.hu)}</h2>
                 <p>${escapeHtml(word.pl || '')} <span style="font-weight:600; margin-left:8px">${escapeHtml(word.en || '')}</span></p>
             </div>
-            <div class="panel" style="display:none;"></div>
+            <div id="panel-${escapeHtml(String(word.id))}" class="panel" style="display:none;" aria-hidden="true"></div>
         </div>
     `).join("");
 }
@@ -358,6 +358,13 @@ function toggleCardDetails(id) {
             App.selectedWordId = null;
             render();
         }
+        // update ARIA state on collapse
+        try {
+            const cm = document.querySelector(`.card[data-id="${id}"] .card-main`);
+            const panelEl = document.getElementById(`panel-${id}`);
+            if (cm) cm.setAttribute('aria-expanded', 'false');
+            if (panelEl) panelEl.setAttribute('aria-hidden', 'true');
+        } catch (e) {}
 
         App.selectedWordId = null;
         return;
@@ -387,6 +394,13 @@ function toggleCardDetails(id) {
         location.hash = `#/word/${word.id}`;
     }
     App.selectedWordId = word.id;
+    // update ARIA state on expand
+    try {
+        const cm = document.querySelector(`.card[data-id="${id}"] .card-main`);
+        const panelEl = document.getElementById(`panel-${id}`);
+        if (cm) cm.setAttribute('aria-expanded', 'true');
+        if (panelEl) panelEl.setAttribute('aria-hidden', 'false');
+    } catch (e) {}
 }
 
 function buildDetailsHtml(word) {
@@ -410,7 +424,7 @@ function buildDetailsHtml(word) {
             <div style="display:flex; justify-content:space-between; align-items:center;">
                 <h3 style="margin:0">${escapeHtml(word.hu)}</h3>
                 <div>
-                  <button class="close-btn" onclick="event.stopPropagation(); toggleCardDetails(${escapeJs(word.id)});">Close</button>
+                                    <button class="close-btn" aria-label="Close details" onclick="event.stopPropagation(); toggleCardDetails(${escapeJs(word.id)});">Close</button>
                 </div>
             </div>
             <div class="meta" style="margin-top:8px; display:flex; gap:8px; flex-wrap:wrap">
@@ -432,7 +446,7 @@ function buildDetailsHtml(word) {
             </div>
 
             <div style="margin-top:10px; display:flex; gap:8px; align-items:center;">
-                <button onclick="event.stopPropagation(); toggleRawJson(${escapeJs(word.id)});" style="padding:6px 10px; border-radius:6px; border:1px solid rgba(0,0,0,0.06); background:transparent; color:inherit;">Raw JSON</button>
+                <button aria-expanded="false" aria-controls="raw-json-${escapeJs(word.id)}" onclick="event.stopPropagation(); toggleRawJson(${escapeJs(word.id)});" style="padding:6px 10px; border-radius:6px; border:1px solid rgba(0,0,0,0.06); background:transparent; color:inherit;">Raw JSON</button>
                 <small style="color:var(--muted)">Permalink: <code>${escapeHtml('#/word/' + word.id)}</code></small>
             </div>
 
@@ -444,7 +458,10 @@ function buildDetailsHtml(word) {
 function toggleRawJson(id) {
     const el = document.getElementById(`raw-json-${id}`);
     if (!el) return;
-    el.style.display = el.style.display === 'none' ? 'block' : 'none';
+    const btn = document.querySelector(`#panel-${id} button[aria-controls="raw-json-${id}"]`);
+    const isHidden = el.style.display === 'none' || getComputedStyle(el).display === 'none';
+    el.style.display = isHidden ? 'block' : 'none';
+    if (btn) btn.setAttribute('aria-expanded', isHidden ? 'true' : 'false');
 }
 
 // Keep rendering in response to popstate (history.back / history.forward)
@@ -457,6 +474,26 @@ window.addEventListener('popstate', () => {
 window.addEventListener('hashchange', () => {
     parseHash();
     render();
+});
+
+// Keyboard handlers
+function handleCardKeydown(event, id) {
+    const code = event.key;
+    if (code === 'Enter' || code === ' ' || code === 'Spacebar') {
+        event.preventDefault();
+        toggleCardDetails(id);
+    }
+}
+
+// Close expanded card on Escape
+window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' || e.key === 'Esc') {
+        const expanded = document.querySelector('.card.expanded');
+        if (expanded) {
+            const id = expanded.getAttribute('data-id');
+            if (id) toggleCardDetails(id);
+        }
+    }
 });
 
 // Simple HTML escape to avoid injecting raw JSON into the page
