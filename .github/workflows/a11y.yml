@@ -56,6 +56,20 @@ jobs:
             pa11y-explore.json
             pa11y-word1.json
 
+      - name: Comment on PR with a11y report link
+        if: failure() && github.event_name == 'pull_request'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const runUrl = `${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`;
+            const prNumber = context.payload.pull_request && context.payload.pull_request.number;
+            if (!prNumber) {
+              core.info('No pull request found in context; skipping comment.');
+            } else {
+              const body = `🚨 Accessibility checks detected issues.\n\nWorkflow run: ${runUrl}\n\nArtifacts: pa11y-reports (pa11y-root.json, pa11y-explore.json, pa11y-word1.json)\n\nPlease download the artifacts from the workflow run to inspect details.`;
+              await github.rest.issues.createComment({ owner: context.repo.owner, repo: context.repo.repo, issue_number: prNumber, body });
+            }
+
       - name: Upload logs on failure
         if: failure()
         uses: actions/upload-artifact@v4
