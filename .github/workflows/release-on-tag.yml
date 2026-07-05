@@ -1,0 +1,47 @@
+name: Create release from tag
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  create_release:
+    name: Create GitHub Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Assemble release body
+        id: assemble_body
+        run: |
+          set -e
+          tag=${GITHUB_REF#refs/tags/}
+          # prefer releases/RELEASE_NOTES_<tag>.md, then root RELEASE_NOTES_<tag>.md
+          notes_file_releases="releases/RELEASE_NOTES_${tag}.md"
+          notes_file_root="RELEASE_NOTES_${tag}.md"
+          if [ -f "$notes_file_releases" ]; then
+            body=$(cat "$notes_file_releases")
+          elif [ -f "$notes_file_root" ]; then
+            body=$(cat "$notes_file_root")
+          else
+            # fall back to the annotated tag message (if annotated)
+            body=$(git for-each-ref --format='%(contents)' "refs/tags/${tag}")
+            if [ -z "$body" ]; then
+              body="Release ${tag}"
+            fi
+          fi
+          # export to GITHUB_OUTPUT for subsequent steps
+          printf 'body<<EOF\n%s\nEOF' "$body" >> "$GITHUB_OUTPUT"
+
+      - name: Create Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref_name }}
+          release_name: ${{ github.ref_name }}
+          body: ${{ steps.assemble_body.outputs.body }}
+          draft: false
+          prerelease: false
