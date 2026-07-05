@@ -34,7 +34,8 @@ const Pages = {
     explore() {
         return `
         <header>
-            <button onclick="handleBack()">← Back</button>
+            <button onclick="goBackToExplore()">← Back to Explore</button>
+            <button onclick="navigate('home')">Home</button>
             <h1>Explore</h1>
         </header>
         <main>
@@ -98,6 +99,27 @@ function handleBack() {
     navigate('home');
 }
 
+// Navigate back to Explore view and collapse any open cards
+function goBackToExplore() {
+    document.querySelectorAll('.card.expanded').forEach(c => {
+        c.classList.remove('expanded');
+        const p = c.querySelector('.panel'); if (p) p.style.display = 'none';
+    });
+    App.selectedWordId = null;
+    App.currentPage = 'explore';
+    try { history.replaceState(null, '', '#/explore'); } catch (e) { location.hash = '#/explore'; }
+    render();
+}
+
+// Open a related word: ensure Explore is rendered, clear search, then open the card
+function openRelated(id) {
+    App.searchQuery = '';
+    App.currentPage = 'explore';
+    try { history.pushState({ view: 'word', id }, '', `#/word/${id}`); } catch (e) { location.hash = `#/word/${id}`; }
+    render();
+    setTimeout(() => toggleCardDetails(id), 60);
+}
+
 function parseHash() {
     const hash = (location.hash || '').replace(/^#/, '');
     if (hash.startsWith('word/')) {
@@ -118,6 +140,12 @@ function render() {
     const app = document.getElementById("app");
     if (!app) return;
     app.innerHTML = Pages[App.currentPage]();
+
+    // restore persisted search input after rendering
+    if (App.currentPage === "explore") {
+        const searchEl = document.getElementById('search');
+        if (searchEl) searchEl.value = App.searchQuery || '';
+    }
 
     if (App.currentPage === "explore") {
         // Use persisted searchQuery when rendering so hash-triggered rerenders
@@ -235,6 +263,13 @@ function toggleCardDetails(id) {
     card.classList.add('expanded');
     if (panel) panel.style.display = 'block';
 
+    // scroll expanded card into view and focus header for keyboard users
+    try {
+        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        const heading = card.querySelector('.card-main h2');
+        if (heading && typeof heading.focus === 'function') heading.focus();
+    } catch (e) {}
+
     // push a history entry for the opened word (so back behaves correctly)
     try {
         history.pushState({ view: 'word', id: word.id }, '', `#/word/${word.id}`);
@@ -251,11 +286,11 @@ function buildDetailsHtml(word) {
     const relatedHtml = related.length === 0 ? '<em>—</em>' : related.map(r => {
         if (typeof r === 'number' || String(r).match(/^\d+$/)) {
             const rid = Number(r);
-            return `<a href="#/word/${rid}" onclick="event.stopPropagation(); toggleCardDetails(${rid}); return false;">${rid}</a>`;
+            return `<a href="#/word/${rid}" onclick="event.stopPropagation(); openRelated(${rid}); return false;">${rid}</a>`;
         }
         const found = words.find(w => (w.hu && w.hu.toLowerCase() === String(r).toLowerCase()) || (w.en && w.en.toLowerCase() === String(r).toLowerCase()));
         if (found) {
-            return `<a href="#/word/${found.id}" onclick="event.stopPropagation(); toggleCardDetails(${found.id}); return false;">${escapeHtml(String(r))}</a>`;
+            return `<a href="#/word/${found.id}" onclick="event.stopPropagation(); openRelated(${found.id}); return false;">${escapeHtml(String(r))}</a>`;
         }
         return `<span>${escapeHtml(String(r))}</span>`;
     }).join(', ');
