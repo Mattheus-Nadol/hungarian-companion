@@ -1,4 +1,4 @@
-name: Smoke: validate data
+name: 'Smoke: validate data'
 
 on:
   push:
