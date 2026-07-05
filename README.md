@@ -46,3 +46,26 @@ No frameworks, no backend, no installation required.
 ---
 
 Built as a personal learning companion.
+
+## Development & Deployment
+
+- Local dev server:
+
+```bash
+python3 -m http.server 8000
+# then open http://localhost:8000/
+```
+
+- Accessibility checks (run locally):
+
+```bash
+# axe-core (example, needs chromedriver management)
+npx @axe-core/cli http://localhost:8000 --save a11y-report.json
+
+# or pa11y (no chromedriver required):
+npx pa11y http://localhost:8000 --reporter json > pa11y-root.json
+```
+
+- Deployment: the site is published from the `main` branch (GitHub Pages). Do not add an automatic Pages deploy workflow that also runs on `push` to `main` — Pages is configured to deploy from `main` in repository settings.
+
+If you prefer workflow-driven deployments, we can switch to a `gh-pages` branch and keep a release-driven deploy workflow.
