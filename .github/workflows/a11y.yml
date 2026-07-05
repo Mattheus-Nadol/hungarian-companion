@@ -33,18 +33,18 @@ jobs:
 
       - name: Run accessibility checks (root)
         run: |
-          npx pa11y http://localhost:8000 --standard WCAG2AA --timeout 30000 --reporter json > pa11y-root.json || true
-          node -e "const fs=require('fs'); const p='./pa11y-root.json'; const r=fs.existsSync(p)?JSON.parse(fs.readFileSync(p)):[]; console.log('pa11y-root issues:', Array.isArray(r)?r.length:0); process.exit(Array.isArray(r)&&r.length>0?1:0)"
+          npx pa11y http://localhost:8000 --standard WCAG2AA --timeout 30000 --reporter json --chrome-launcher-args "--no-sandbox --disable-setuid-sandbox --disable-dev-shm-usage" > pa11y-root.json || true
+          node -e "const fs=require('fs'); const p='./pa11y-root.json'; let r=[]; if (fs.existsSync(p)) { const c=fs.readFileSync(p,'utf8').trim(); if (c) try { r=JSON.parse(c); } catch(e){ r=[] } } console.log('pa11y-root issues:', Array.isArray(r)?r.length:0); process.exit(Array.isArray(r)&&r.length>0?1:0)"
 
       - name: Run accessibility checks (Explore view)
         run: |
-          npx pa11y "http://localhost:8000/#/explore" --standard WCAG2AA --timeout 30000 --reporter json > pa11y-explore.json || true
-          node -e "const fs=require('fs'); const p='./pa11y-explore.json'; const r=fs.existsSync(p)?JSON.parse(fs.readFileSync(p)):[]; console.log('pa11y-explore issues:', Array.isArray(r)?r.length:0); process.exit(Array.isArray(r)&&r.length>0?1:0)"
+          npx pa11y "http://localhost:8000/#/explore" --standard WCAG2AA --timeout 30000 --reporter json --chrome-launcher-args "--no-sandbox --disable-setuid-sandbox --disable-dev-shm-usage" > pa11y-explore.json || true
+          node -e "const fs=require('fs'); const p='./pa11y-explore.json'; let r=[]; if (fs.existsSync(p)) { const c=fs.readFileSync(p,'utf8').trim(); if (c) try { r=JSON.parse(c); } catch(e){ r=[] } } console.log('pa11y-explore issues:', Array.isArray(r)?r.length:0); process.exit(Array.isArray(r)&&r.length>0?1:0)"
 
       - name: Run accessibility checks (sample word)
         run: |
-          npx pa11y "http://localhost:8000/#/word/1" --standard WCAG2AA --timeout 30000 --reporter json > pa11y-word1.json || true
-          node -e "const fs=require('fs'); const p='./pa11y-word1.json'; const r=fs.existsSync(p)?JSON.parse(fs.readFileSync(p)):[]; console.log('pa11y-word1 issues:', Array.isArray(r)?r.length:0); process.exit(Array.isArray(r)&&r.length>0?1:0)"
+          npx pa11y "http://localhost:8000/#/word/1" --standard WCAG2AA --timeout 30000 --reporter json --chrome-launcher-args "--no-sandbox --disable-setuid-sandbox --disable-dev-shm-usage" > pa11y-word1.json || true
+          node -e "const fs=require('fs'); const p='./pa11y-word1.json'; let r=[]; if (fs.existsSync(p)) { const c=fs.readFileSync(p,'utf8').trim(); if (c) try { r=JSON.parse(c); } catch(e){ r=[] } } console.log('pa11y-word1 issues:', Array.isArray(r)?r.length:0); process.exit(Array.isArray(r)&&r.length>0?1:0)"
 
       - name: Upload pa11y JSON reports
         if: always()
