@@ -428,6 +428,7 @@ function toggleCardDetails(id) {
 function buildDetailsHtml(word) {
     const related = Array.isArray(word.related) ? word.related : (word.related ? [word.related] : []);
     const tags = Array.isArray(word.tags) ? word.tags.join(', ') : (word.tags || '');
+    const forms = Array.isArray(word.forms) ? word.forms.join(', ') : (word.forms || '');
 
     const relatedHtml = related.length === 0 ? '<em>—</em>' : related.map(r => {
         if (typeof r === 'number' || String(r).match(/^\d+$/)) {
@@ -456,6 +457,7 @@ function buildDetailsHtml(word) {
             </div>
             <p style="margin:8px 0 0 0;"><strong>Pattern:</strong> ${escapeHtml(word.pattern || '')}</p>
             <p style="margin:4px 0 0 0;"><strong>Family:</strong> ${escapeHtml(word.family || '')}</p>
+            <p style="margin:4px 0 0 0;"><strong>Forms:</strong> ${escapeHtml(forms)}</p>
             <p style="margin:4px 0 0 0;"><strong>Related:</strong> ${relatedHtml}</p>
             <p style="margin:4px 0 0 0;"><strong>Tags:</strong> ${escapeHtml(tags)}</p>
             <p style="margin:4px 0 0 0;"><strong>Notes:</strong> ${escapeHtml(word.notes || '')}</p>
