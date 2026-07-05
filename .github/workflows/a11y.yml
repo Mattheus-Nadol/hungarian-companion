@@ -1,0 +1,53 @@
+name: Automated Accessibility Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    paths: [ '**' ]
+
+jobs:
+  pa11y-check:
+    name: pa11y accessibility checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install global tools
+        run: |
+          npm install -g http-server pa11y
+
+      - name: Start static server
+        run: |
+          npx http-server . -p 8000 > server.log 2>&1 &
+          echo $! > server.pid
+
+      - name: Wait for server
+        run: npx wait-on http://localhost:8000
+
+      - name: Run accessibility checks (root)
+        run: |
+          npx pa11y http://localhost:8000 --standard WCAG2AA --timeout 30000 || (echo 'pa11y detected issues' && exit 1)
+
+      - name: Run accessibility checks (Explore view)
+        run: |
+          npx pa11y "http://localhost:8000/#/explore" --standard WCAG2AA --timeout 30000 || (echo 'pa11y detected issues' && exit 1)
+
+      - name: Run accessibility checks (sample word)
+        run: |
+          npx pa11y "http://localhost:8000/#/word/1" --standard WCAG2AA --timeout 30000 || (echo 'pa11y detected issues' && exit 1)
+
+      - name: Upload logs on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: a11y-server-logs
+          path: |
+            server.log
+            server.pid
