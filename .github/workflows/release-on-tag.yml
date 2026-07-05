@@ -4,6 +4,12 @@ on:
   push:
     tags:
       - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag to create the release for (e.g. v0.5)'
+        required: true
+        default: 'v0.5'
 
 jobs:
   create_release:
@@ -17,7 +23,13 @@ jobs:
         id: assemble_body
         run: |
           set -e
-          tag=${GITHUB_REF#refs/tags/}
+          # Determine tag: prefer workflow input when manually dispatched,
+          # otherwise use the pushed tag ref.
+          if [ "${GITHUB_EVENT_NAME:-}" = "workflow_dispatch" ]; then
+            tag="${INPUT_TAG:-${GITHUB_REF#refs/tags/}}"
+          else
+            tag=${GITHUB_REF#refs/tags/}
+          fi
           # prefer releases/RELEASE_NOTES_<tag>.md, then root RELEASE_NOTES_<tag>.md
           notes_file_releases="releases/RELEASE_NOTES_${tag}.md"
           notes_file_root="RELEASE_NOTES_${tag}.md"
