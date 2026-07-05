@@ -26,14 +26,23 @@ jobs:
 
       - name: Assemble release body
         id: assemble_body
+        env:
+          DISPATCH_TAG: "${{ github.event.inputs.tag || '' }}"
         run: |
-          set -e
-          # Determine tag: prefer workflow input when manually dispatched,
-          # otherwise use the pushed tag ref.
-          if [ "${GITHUB_EVENT_NAME:-}" = "workflow_dispatch" ]; then
-            tag="${INPUT_TAG:-${GITHUB_REF#refs/tags/}}"
+          set -euo pipefail
+          # Resolve tag in this order:
+          # 1) workflow_dispatch input `tag`
+          # 2) if GITHUB_REF is a tag refs/tags/* use that
+          # 3) if GITHUB_REF is a branch refs/heads/* treat as no-tag (sanitize)
+          if [ -n "${DISPATCH_TAG:-}" ]; then
+            tag="$DISPATCH_TAG"
+          elif [[ "${GITHUB_REF:-}" == refs/tags/* ]]; then
+            tag="${GITHUB_REF#refs/tags/}"
+          elif [[ "${GITHUB_REF:-}" == refs/heads/* ]]; then
+            # branch ref; no tag available
+            tag=""
           else
-            tag=${GITHUB_REF#refs/tags/}
+            tag="${GITHUB_REF:-}"
           fi
           # prefer releases/RELEASE_NOTES_<tag>.md, then root RELEASE_NOTES_<tag>.md
           notes_file_releases="releases/RELEASE_NOTES_${tag}.md"
@@ -46,7 +55,11 @@ jobs:
             # fall back to the annotated tag message (if annotated)
             body=$(git for-each-ref --format='%(contents)' "refs/tags/${tag}")
             if [ -z "$body" ]; then
-              body="Release ${tag}"
+              if [ -n "${tag}" ]; then
+                body="Release ${tag}"
+              else
+                body="Release (no tag provided)"
+              fi
             fi
           fi
           # export to GITHUB_OUTPUT for subsequent steps using a unique delimiter
