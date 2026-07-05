@@ -28,3 +28,4 @@ pa11y-*.json
 
 # Archives
 archive/
+test-results/

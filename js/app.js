@@ -30,6 +30,7 @@ const Pages = {
         <main>
             <div class="menu">
                 <button onclick="navigate('explore')">🔍 Explore</button>
+                <button onclick="navigate('families')">🌳 Families</button>
                 <button>📚 Learn</button>
                 <button>🧠 Review</button>
             </div>
@@ -63,6 +64,19 @@ const Pages = {
 
             <div id="wordList"></div>
 
+        </main>
+        `;
+    }
+    ,
+    families() {
+        return `
+        <header>
+            <button onclick="navigate('explore')">← Back to Explore</button>
+            <button onclick="navigate('home')">Home</button>
+            <h1>Families</h1>
+        </header>
+        <main>
+            <div id="familiesContainer">Loading families…</div>
         </main>
         `;
     }
@@ -210,6 +224,11 @@ function render() {
             }, 10);
         }
     }
+
+    if (App.currentPage === 'families') {
+        // load and render families index
+        loadAndRenderFamilies();
+    }
 }
 
 // Build the tag filter checkboxes and type options from the loaded words
@@ -268,6 +287,80 @@ function populateFilterControls() {
         tagsContainer.appendChild(wrapper);
     });
     tagsContainer.dataset.count = String(tags.length);
+}
+
+// Families loader + renderer (lightweight, uses data/families_index.json)
+let _familiesCache = null;
+async function loadAndRenderFamilies() {
+    const container = document.getElementById('familiesContainer');
+    if (!container) return;
+    container.innerHTML = 'Loading families...';
+    try {
+        if (!_familiesCache) {
+            const res = await fetch('data/families_index.json');
+            if (!res.ok) {
+                // fallback to sample file if index not present
+                const sample = await fetch('data/families_sample.json');
+                _familiesCache = sample.ok ? await sample.json() : {};
+            } else {
+                _familiesCache = await res.json();
+            }
+        }
+
+        // families may be object (index) or array (sample)
+        if (Array.isArray(_familiesCache)) {
+            // sample array
+            container.innerHTML = '';
+            _familiesCache.forEach(f => {
+                const el = document.createElement('div');
+                el.className = 'family-card';
+                el.innerHTML = `<h4>${escapeHtml((f.name && f.name.hu) || f.id)}</h4><p>Members: ${Array.isArray(f.members)?f.members.length:0}</p>`;
+                container.appendChild(el);
+            });
+        } else {
+            // index object
+            container.innerHTML = '';
+            const keys = Object.keys(_familiesCache).sort();
+            keys.forEach(k => {
+                const fam = _familiesCache[k];
+                const el = document.createElement('div');
+                el.className = 'family-card';
+                const title = (fam.name && (fam.name.hu || fam.name.en)) || k;
+                const members = Array.isArray(fam.members) ? fam.members.length : 0;
+                el.innerHTML = `<h4>${escapeHtml(title)}</h4><p>Members: ${members}</p>`;
+                el.addEventListener('click', () => showFamilyMembers(k, fam));
+                container.appendChild(el);
+            });
+        }
+    } catch (e) {
+        container.innerHTML = '<p>Failed to load families.</p>';
+        console.warn('loadAndRenderFamilies error', e);
+    }
+}
+
+function showFamilyMembers(slug, fam) {
+    // render a simple modal-like list in the main app area
+    const app = document.getElementById('app');
+    if (!app) return;
+    const members = Array.isArray(fam.members) ? fam.members : [];
+    const title = (fam.name && (fam.name.hu || fam.name.en)) || slug;
+    app.innerHTML = `
+        <header>
+            <button onclick="navigate('families')">← Back to Families</button>
+            <button onclick="navigate('home')">Home</button>
+            <h1>${escapeHtml(title)}</h1>
+        </header>
+        <main>
+            <p>Members (${members.length}):</p>
+            <ul id="family-members-list"></ul>
+        </main>
+    `;
+    const list = document.getElementById('family-members-list');
+    members.forEach(id => {
+        const li = document.createElement('li');
+        li.innerHTML = `<a href="#/word/${id}" onclick="event.preventDefault(); openRelated(${id});">${id}</a>`;
+        list.appendChild(li);
+    });
 }
 
 function renderWordList(list) {
@@ -579,6 +672,9 @@ function escapeJs(val) {
     if (val === null || val === undefined) return '';
     return String(val).replace(/"/g, '\\"').replace(/'/g, "\\'");
 }
+
+// Initial render so static UI (header/menu) is visible before vocabulary loads.
+render();
 
 fetch("data/vocabulary.json")
     .then(response => response.json())
