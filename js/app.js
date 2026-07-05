@@ -1,9 +1,8 @@
 // =========================
 // Hungarian Companion SPA (cards expand in-place)
 // v0.5 — Word Card feature
-// Patch: preserve search state across hash navigation so clicking a search result
-// does not reset the list back to default. Also ensure deep-linking works with
-// filtered lists.
+// Patch: preserve search state across hash navigation; improve Back behavior
+// so UI back uses browser history and keeps URL/hash in sync.
 // =========================
 
 let words = [];
@@ -35,7 +34,7 @@ const Pages = {
     explore() {
         return `
         <header>
-            <button onclick="navigate('home')">← Back</button>
+            <button onclick="handleBack()">← Back</button>
             <h1>Explore</h1>
         </header>
         <main>
@@ -52,10 +51,51 @@ const Pages = {
     }
 };
 
+// Navigation helper using history API for predictable Back behavior.
 function navigate(page) {
+    if (page === 'home') {
+        App.currentPage = 'home';
+        App.selectedWordId = null;
+        // Clear hash/URL without creating a history entry so Back doesn't return here.
+        try {
+            history.replaceState(null, '', location.pathname + location.search);
+        } catch (e) {
+            location.hash = '';
+        }
+        render();
+        return;
+    }
+
+    if (page === 'explore') {
+        App.currentPage = 'explore';
+        // Ensure explore is represented in history once.
+        if (!location.hash || !location.hash.startsWith('#/explore')) {
+            history.pushState({ view: 'explore' }, '', '#/explore');
+        }
+        render();
+        return;
+    }
+
+    // fallback
     App.currentPage = page;
-    if (page === 'explore') location.hash = location.hash || '#/explore';
     render();
+}
+
+// UI back handler: prefer browser history when meaningful, otherwise navigate home.
+function handleBack() {
+    if (location.hash && location.hash.startsWith('#/word/')) {
+        // If we're viewing a specific word, go back in history to restore previous state
+        history.back();
+        return;
+    }
+
+    // If there is a previous entry in history, go back; otherwise, go to home.
+    if (history.length > 1) {
+        history.back();
+        return;
+    }
+
+    navigate('home');
 }
 
 function parseHash() {
@@ -170,7 +210,17 @@ function toggleCardDetails(id) {
         // collapse
         card.classList.remove('expanded');
         if (panel) panel.style.display = 'none';
-        if (location.hash && location.hash.startsWith('#/word/')) location.hash = '#/explore';
+
+        if (location.hash && location.hash.startsWith('#/word/')) {
+            // go back in history to restore previous app state (will trigger popstate/hashchange)
+            try { history.back(); } catch (e) { history.replaceState(null, '', '#/explore'); }
+        } else {
+            // ensure state and hash are consistent
+            try { history.replaceState(null, '', '#/explore'); } catch (e) { location.hash = '#/explore'; }
+            App.selectedWordId = null;
+            render();
+        }
+
         App.selectedWordId = null;
         return;
     }
@@ -185,8 +235,12 @@ function toggleCardDetails(id) {
     card.classList.add('expanded');
     if (panel) panel.style.display = 'block';
 
-    // update hash for deep link
-    location.hash = `#/word/${word.id}`;
+    // push a history entry for the opened word (so back behaves correctly)
+    try {
+        history.pushState({ view: 'word', id: word.id }, '', `#/word/${word.id}`);
+    } catch (e) {
+        location.hash = `#/word/${word.id}`;
+    }
     App.selectedWordId = word.id;
 }
 
@@ -233,11 +287,11 @@ function buildDetailsHtml(word) {
             </div>
 
             <div style="margin-top:10px; display:flex; gap:8px; align-items:center;">
-                <button onclick="event.stopPropagation(); toggleRawJson(${escapeJs(word.id)});" style="padding:6px 10px; border-radius:6px; border:1px solid rgba(255,255,255,0.06); background:transparent; color:inherit;">Raw JSON</button>
+                <button onclick="event.stopPropagation(); toggleRawJson(${escapeJs(word.id)});" style="padding:6px 10px; border-radius:6px; border:1px solid rgba(0,0,0,0.06); background:transparent; color:inherit;">Raw JSON</button>
                 <small style="color:var(--muted)">Permalink: <code>${escapeHtml('#/word/' + word.id)}</code></small>
             </div>
 
-            <pre id="raw-json-${escapeJs(word.id)}" style="display:none; margin-top:10px; white-space:pre-wrap; background:rgba(0,0,0,0.12); padding:10px; border-radius:6px; overflow:auto; max-height:240px;">${escapeHtml(JSON.stringify(word, null, 2))}</pre>
+            <pre id="raw-json-${escapeJs(word.id)}" style="display:none; margin-top:10px; white-space:pre-wrap; background:rgba(0,0,0,0.04); padding:10px; border-radius:6px; overflow:auto; max-height:240px;">${escapeHtml(JSON.stringify(word, null, 2))}</pre>
         </div>
     `;
 }
@@ -248,13 +302,17 @@ function toggleRawJson(id) {
     el.style.display = el.style.display === 'none' ? 'block' : 'none';
 }
 
-// Handle hash routes like #/word/23 and #/explore
-function handleHashRoute() {
+// Keep rendering in response to popstate (history.back / history.forward)
+window.addEventListener('popstate', () => {
     parseHash();
     render();
-}
+});
 
-window.addEventListener('hashchange', handleHashRoute);
+// Also listen to hashchange for manual edits or direct hash navigation
+window.addEventListener('hashchange', () => {
+    parseHash();
+    render();
+});
 
 // Simple HTML escape to avoid injecting raw JSON into the page
 function escapeHtml(str) {
