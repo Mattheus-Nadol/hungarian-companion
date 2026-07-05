@@ -69,6 +69,7 @@ Note: adjust priorities as you learn from users.
     - Search and filters applied client-side show correct results.
     - Performance acceptable for current dataset size.
     - Keyboard navigation and basic accessibility.
+    **Status:** Partial — core Explore UI and search implemented; filtering UI for `type`/`tags` not yet added.
 
 - v0.5 — Word Card (expandable, details, related)
   - Goal: Per-word details view embedded in cards.
@@ -80,6 +81,11 @@ Note: adjust priorities as you learn from users.
     - Expand/collapse works with smooth animation and no stray scroll.
     - Hash deep-linking to a word expands the right card.
     - Unit/manual test steps documented.
+  **Status:** Mostly Done — implementation present; QA checklist and release notes added in `RELEASE_NOTES_v0.5.md` and `docs/v0.5-qa.md`. PR created: https://github.com/Mattheus-Nadol/hungarian-companion/pull/9
+  DoD:
+    - Expand/collapse works with smooth animation and no stray scroll.
+    - Hash deep-linking to a word expands the right card.
+    - Unit/manual test steps documented (see `docs/v0.5-qa.md`).
 
 - v0.6 — Discovery (recommendations & families)
   - Goal: Add discovery features: word families, random suggestions, "learn next".
@@ -207,9 +213,22 @@ v0.8 — Review
 
 ---
 
+## Recent updates
+
+- v0.5 implemented: Word Card behavior and Design System are in the repo. PR created: https://github.com/Mattheus-Nadol/hungarian-companion/pull/9
+- TASK 4 (validation) and TASK 5 (normalization) completed — reports in `docs/validation_report_task4.md` and `docs/normalization_report_task5.md`.
+- Repository hygiene files added: `CONTRIBUTING.md`, PR template, `.github/copilot-agent.yml`, and a smoke-check workflow to validate `data/vocabulary.json` on PRs.
+
+## Next recommended actions
+
+- Merge PR #9 after QA and attach screenshots/gifs for the UI changes.
+- Implement Explore filters (`type` and `tags`) to finish v0.4.
+- Start v0.6 planning: define `data/families.json` schema and sample entries.
+- Improve accessibility (v0.9): add ARIA attributes, keyboard escape-to-close, and run an a11y audit.
+
 If you'd like, I can:
 - Draft the release issue for `v0.5 — Word Card` with a checklist ready to paste to GitHub Issues.
-- Create a small CONTRIBUTING.md and PR template to enforce the rule.
-- Implement the minimal code changes for v0.5 (js/app.js + css/style.css) and open a PR so you can test the feature locally.
+- Create a small CONTRIBUTING.md and PR template to enforce the rule (already added; I can refine it).
+- Implement the missing Explore filters and open a PR for them.
 
 Tell me which of those you want me to do next and I will proceed.
