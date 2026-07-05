@@ -1,11 +1,14 @@
 // =========================
 // Hungarian Companion SPA (cards expand in-place)
+// v0.5 — Word Card feature
 // =========================
 
 let words = [];
 
 const App = {
-    currentPage: "home"
+    currentPage: "home",
+    // selectedWordId is managed via hash route #/word/<id>
+    selectedWordId: null
 };
 
 const Pages = {
@@ -46,18 +49,37 @@ const Pages = {
 
 function navigate(page) {
     App.currentPage = page;
+    if (page === 'explore') location.hash = location.hash || '#/explore';
     render();
 }
 
+function parseHash() {
+    const hash = (location.hash || '').replace(/^#/, '');
+    if (hash.startsWith('word/')) {
+        const id = parseInt(hash.split('/')[1], 10);
+        App.selectedWordId = Number.isNaN(id) ? null : id;
+        App.currentPage = 'explore';
+    } else if (hash === 'explore' || hash === '/explore') {
+        App.selectedWordId = null;
+        App.currentPage = 'explore';
+    } else if (!hash || hash === 'home') {
+        App.currentPage = 'home';
+        App.selectedWordId = null;
+    }
+}
+
 function render() {
+    parseHash();
     const app = document.getElementById("app");
     if (!app) return;
     app.innerHTML = Pages[App.currentPage]();
 
     if (App.currentPage === "explore") {
         renderWordList(words);
-        // If hash points to a word, open it
-        handleHashRoute();
+        // if selectedWordId present, try to open it
+        if (App.selectedWordId) {
+            setTimeout(() => toggleCardDetails(App.selectedWordId), 10);
+        }
     }
 }
 
@@ -73,7 +95,7 @@ function renderWordList(list) {
     container.innerHTML = list.map(word => `
         <div class="card" data-id="${escapeHtml(String(word.id))}">
             <div class="card-main" onclick="toggleCardDetails(${escapeJs(word.id)})" style="cursor:pointer;">
-                <h2>${escapeHtml(word.hu)}</h2>
+                <h2 tabindex="0">${escapeHtml(word.hu)}</h2>
                 <p>${escapeHtml(word.pl || '')} <span style="font-weight:600; margin-left:8px">${escapeHtml(word.en || '')}</span></p>
             </div>
             <div class="panel" style="display:none;"></div>
@@ -120,7 +142,8 @@ function toggleCardDetails(id) {
         // collapse
         card.classList.remove('expanded');
         if (panel) panel.style.display = 'none';
-        if (location.hash && location.hash.startsWith('#/word/')) location.hash = '';
+        if (location.hash && location.hash.startsWith('#/word/')) location.hash = '#/explore';
+        App.selectedWordId = null;
         return;
     }
 
@@ -136,6 +159,7 @@ function toggleCardDetails(id) {
 
     // update hash for deep link
     location.hash = `#/word/${word.id}`;
+    App.selectedWordId = word.id;
 }
 
 function buildDetailsHtml(word) {
@@ -162,7 +186,7 @@ function buildDetailsHtml(word) {
                   <button class="close-btn" onclick="event.stopPropagation(); toggleCardDetails(${escapeJs(word.id)});">Close</button>
                 </div>
             </div>
-            <div class="meta" style="margin-top:8px;">
+            <div class="meta" style="margin-top:8px; display:flex; gap:8px; flex-wrap:wrap">
                 <span><strong>Polish:</strong> ${escapeHtml(word.pl || '')}</span>
                 <span><strong>English:</strong> ${escapeHtml(word.en || '')}</span>
                 <span><strong>Type:</strong> ${escapeHtml(word.type || '')}</span>
@@ -181,11 +205,11 @@ function buildDetailsHtml(word) {
             </div>
 
             <div style="margin-top:10px; display:flex; gap:8px; align-items:center;">
-                <button onclick="event.stopPropagation(); toggleRawJson(${escapeJs(word.id)});" style="padding:6px 10px; border-radius:6px; border:1px solid rgba(255,255,255,0.06); background:transparent; color:inherit; cursor:pointer;">View raw JSON</button>
+                <button onclick="event.stopPropagation(); toggleRawJson(${escapeJs(word.id)});" style="padding:6px 10px; border-radius:6px; border:1px solid rgba(255,255,255,0.06); background:transparent; color:inherit;">Raw JSON</button>
                 <small style="color:var(--muted)">Permalink: <code>${escapeHtml('#/word/' + word.id)}</code></small>
             </div>
 
-            <pre id="raw-json-${escapeJs(word.id)}" style="display:none; margin-top:10px; white-space:pre-wrap; background:rgba(0,0,0,0.12); padding:10px; border-radius:6px; overflow:auto; max-height:260px;">${escapeHtml(JSON.stringify(word, null, 2))}</pre>
+            <pre id="raw-json-${escapeJs(word.id)}" style="display:none; margin-top:10px; white-space:pre-wrap; background:rgba(0,0,0,0.12); padding:10px; border-radius:6px; overflow:auto; max-height:240px;">${escapeHtml(JSON.stringify(word, null, 2))}</pre>
         </div>
     `;
 }
@@ -196,19 +220,10 @@ function toggleRawJson(id) {
     el.style.display = el.style.display === 'none' ? 'block' : 'none';
 }
 
-// Handle hash routes like #/word/23
+// Handle hash routes like #/word/23 and #/explore
 function handleHashRoute() {
-    const hash = location.hash || '';
-    const m = hash.match(/^#\/word\/(\d+)$/);
-    if (m) {
-        const id = Number(m[1]);
-        if (App.currentPage !== 'explore') navigate('explore');
-        // wait a tick for render
-        setTimeout(() => {
-            // expand without scrolling
-            toggleCardDetails(id);
-        }, 50);
-    }
+    parseHash();
+    render();
 }
 
 window.addEventListener('hashchange', handleHashRoute);
