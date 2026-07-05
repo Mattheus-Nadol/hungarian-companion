@@ -1020,8 +1020,8 @@ om         (I)
 Meglátogatom - I visit it 
 Meglátogatod - you visit it 
 Meglátogatja - he visits it 
-talál = find találkoz‑ = find each other → meet
-Hungarian adds the suffix ‑kozik / ‑kezik / ‑közik → which means mutual action / doing something with each other.
+talál = findtalálkoz‑ = find each other → meet
+Hungarian adds the suffix ‑kozik / ‑kezik / ‑közik→ which means mutual action / doing something with each other.
 Találom - I find it 
 Találja - he finds it 
 Találják - they find it 
@@ -1471,8 +1471,8 @@ Plural Possession
 3. Third Person Plural (ők): -juk/-jük/-uk/-ük (e.g., barátjuk, házuk)
 
 Note on nouns ending in a vowel (IMPORTANT)
-	•	If the noun ends in a VOWEL, 3rd-person suffix uses ‑ja/‑je Example: anya → anyja, fiú → fiúja
-	•	If the noun ends in a CONSONANT, you use ‑a/‑e Example: ház → háza, barát → barátja
+	•	If the noun ends in a VOWEL, 3rd-person suffix uses ‑ja/‑jeExample: anya → anyja, fiú → fiúja
+	•	If the noun ends in a CONSONANT, you use ‑a/‑eExample: ház → háza, barát → barátja
 
 
 Possessive suffixes Plural Noun
