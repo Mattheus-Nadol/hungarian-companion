@@ -1,0 +1,7 @@
+version: 1
+policy:
+  prs:
+    create_as_draft: true
+  merge:
+    allow_auto_merge: false
+notes: "Agents must create draft PRs and not auto-merge."
