@@ -1,0 +1,30 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Browser driver caches and test artifacts
+.browser-driver-manager/
+.cache/
+
+# Local server logs and artifacts
+*.log
+server.pid
+
+# Axe/pa11y artifacts
+a11y-report.json
+pa11y-*.json
+
+# Archives
+archive/
