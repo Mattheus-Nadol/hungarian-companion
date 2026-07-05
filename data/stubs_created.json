@@ -1,0 +1,686 @@
+[
+  {
+    "id": 762,
+    "hu": "szívni",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 763,
+    "hu": "necces",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 764,
+    "hu": "vidám",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 765,
+    "hu": "szuper",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 766,
+    "hu": "legszebb",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 767,
+    "hu": "szebb",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 768,
+    "hu": "alszik",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 769,
+    "hu": "sebes",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 770,
+    "hu": "lassabb",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 771,
+    "hu": "lassan",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 772,
+    "hu": "havas",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 773,
+    "hu": "bank",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 774,
+    "hu": "szükséges",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 775,
+    "hu": "alvás",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 776,
+    "hu": "Anglia",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 777,
+    "hu": "amerikai",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 778,
+    "hu": "annak",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 779,
+    "hu": "csevegni",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 780,
+    "hu": "bátran",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 781,
+    "hu": "cicus",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 782,
+    "hu": "csinálás",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 783,
+    "hu": "tyúk",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 784,
+    "hu": "kávé",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 785,
+    "hu": "tányér",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 786,
+    "hu": "csípni",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 787,
+    "hu": "cukrász",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 788,
+    "hu": "aprítani",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 789,
+    "hu": "gramm",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 790,
+    "hu": "patkány",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 791,
+    "hu": "afrikai",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 792,
+    "hu": "eprész",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 793,
+    "hu": "szürke",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 794,
+    "hu": "fekvés",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 795,
+    "hu": "svéd",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 796,
+    "hu": "hamburger",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 797,
+    "hu": "becsapni",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 798,
+    "hu": "népszerű",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 799,
+    "hu": "ismeret",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 800,
+    "hu": "víz",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 801,
+    "hu": "liba",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 802,
+    "hu": "liszt",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 803,
+    "hu": "zsemle",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 804,
+    "hu": "talp",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 805,
+    "hu": "étlap",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 806,
+    "hu": "plusz",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 807,
+    "hu": "ismét",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 808,
+    "hu": "büfé",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 809,
+    "hu": "vécé",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 810,
+    "hu": "hiányzik",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 811,
+    "hu": "nyitni",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 812,
+    "hu": "békés",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 813,
+    "hu": "paprika",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 814,
+    "hu": "méh",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 815,
+    "hu": "rántani",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 816,
+    "hu": "segítség",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 817,
+    "hu": "ajak",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 818,
+    "hu": "vizes",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 819,
+    "hu": "film",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 820,
+    "hu": "bunda",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 821,
+    "hu": "nyers",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 822,
+    "hu": "strand",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 823,
+    "hu": "hang",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 824,
+    "hu": "hibás",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 825,
+    "hu": "javítani",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 826,
+    "hu": "ragasztani",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 827,
+    "hu": "fésű",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 828,
+    "hu": "ugatás",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 829,
+    "hu": "vegán",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 830,
+    "hu": "seb",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 831,
+    "hu": "izgatni",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 832,
+    "hu": "hangszer",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 833,
+    "hu": "éhség",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 834,
+    "hu": "ígéret",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 835,
+    "hu": "cikk",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 836,
+    "hu": "úszás",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  },
+  {
+    "id": 837,
+    "hu": "palack",
+    "en": "",
+    "tags": [],
+    "family": [],
+    "related": [],
+    "forms": []
+  }
+]
