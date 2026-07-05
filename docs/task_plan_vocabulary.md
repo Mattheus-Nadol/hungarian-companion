@@ -7,7 +7,7 @@ Convert raw Hungarian vocabulary notes into a production-quality, multi-layered 
 
 ## TASK 1 — Extract Dictionary Entries from Raw Notes
 
-**Status:** In VS Code with Copilot Cloud
+**Status:** ✅ DONE
 
 ### Objective
 Convert messy raw Hungarian notes into a clean dictionary lemma list.
@@ -84,7 +84,7 @@ Sort alphabetically by Hungarian lemma.
 
 ## TASK 2 — Synchronize Extracted Words with Existing Dictionary
 
-**Status:** Pending TASK 1
+**Status:** ✅ DONE — 2026-07-05
 
 ### Objective
 Merge new extracted lemmas with existing `data/vocabulary.json` (currently ~200 entries).
@@ -126,18 +126,25 @@ Merge new extracted lemmas with existing `data/vocabulary.json` (currently ~200 
 - List of conflicts/discrepancies
 
 ### Validation Checklist
-- [ ] No existing IDs modified
-- [ ] No existing entries deleted
-- [ ] New entries start from correct next ID
-- [ ] Merge mapping documented
-- [ ] All conflicts logged
-- [ ] Summary statistics accurate
+- [x] No existing IDs modified
+- [x] No existing entries deleted
+- [x] New entries start from correct next ID (200)
+- [x] Merge mapping documented
+- [x] All conflicts logged (25 conflicts documented in vocabulary_merged.md)
+- [x] Summary statistics accurate
+
+### Merge Results (Actual)
+- Total existing entries: 199 (IDs 1–199)
+- Total new entries added: 596 (IDs 200–795)
+- Total entries after merge: 795
+- Conflicts/discrepancies documented: 25
+- Already matched (exact or variant): 124
 
 ---
 
 ## TASK 3 — Enrich Dictionary Entries
 
-**Status:** Pending TASK 2
+**Status:** Pending TASK 2 → ⏳ Ready to start
 
 ### Objective
 Fill all empty fields with high-quality, linguistically accurate data using reliable Hungarian language sources.
@@ -621,5 +628,5 @@ By end of all tasks:
 ---
 
 **Last Updated:** 2026-07-05
-**Status:** Ready for TASK 1 in VS Code
-**Next Action:** Start TASK 1 in VS Code Copilot Chat with the provided prompt
+**Status:** TASK 1 ✅ Done | TASK 2 ✅ Done | TASK 3 ⏳ Ready to start
+**Next Action:** Start TASK 3 — Enrich Dictionary Entries (795 total entries need full field enrichment)
