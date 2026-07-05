@@ -1,6 +1,9 @@
 // =========================
 // Hungarian Companion SPA (cards expand in-place)
 // v0.5 — Word Card feature
+// Patch: preserve search state across hash navigation so clicking a search result
+// does not reset the list back to default. Also ensure deep-linking works with
+// filtered lists.
 // =========================
 
 let words = [];
@@ -8,7 +11,9 @@ let words = [];
 const App = {
     currentPage: "home",
     // selectedWordId is managed via hash route #/word/<id>
-    selectedWordId: null
+    selectedWordId: null,
+    // Persist the user's current search query so rerenders keep filters applied
+    searchQuery: ''
 };
 
 const Pages = {
@@ -75,10 +80,31 @@ function render() {
     app.innerHTML = Pages[App.currentPage]();
 
     if (App.currentPage === "explore") {
-        renderWordList(words);
-        // if selectedWordId present, try to open it
+        // Use persisted searchQuery when rendering so hash-triggered rerenders
+        // keep the filtered list intact (fixes bug where clicking a search
+        // result would reset the list to default).
+        const query = App.searchQuery || (document.getElementById('search')?.value || '').toLowerCase().trim();
+        App.searchQuery = query;
+
+        if (query) {
+            const filtered = words.filter(word => {
+                const hu = (word.hu || '').toLowerCase();
+                const en = (word.en || '').toLowerCase();
+                const pl = (word.pl || '').toLowerCase();
+                return hu.includes(query) || en.includes(query) || pl.includes(query);
+            });
+            renderWordList(filtered);
+        } else {
+            renderWordList(words);
+        }
+
+        // if selectedWordId present, try to open it (card must exist in DOM)
         if (App.selectedWordId) {
-            setTimeout(() => toggleCardDetails(App.selectedWordId), 10);
+            setTimeout(() => {
+                // guard: only toggle if card exists and not already expanded
+                const existing = document.querySelector(`.card[data-id="${App.selectedWordId}"]`);
+                if (existing && !existing.classList.contains('expanded')) toggleCardDetails(App.selectedWordId);
+            }, 10);
         }
     }
 }
@@ -105,6 +131,8 @@ function renderWordList(list) {
 
 function filterWords() {
     const query = (document.getElementById("search")?.value || "").toLowerCase().trim();
+    // persist the user's search so re-renders keep the same filtered list
+    App.searchQuery = query;
 
     if (!query) {
         renderWordList(words);
@@ -242,7 +270,7 @@ function escapeHtml(str) {
 // Escape values used inside JS string templates for safety (ids etc)
 function escapeJs(val) {
     if (val === null || val === undefined) return '';
-    return String(val).replace(/\"/g, '\\"').replace(/'/g, "\\'");
+    return String(val).replace(/"/g, '\\"').replace(/'/g, "\\'");
 }
 
 fetch("data/vocabulary.json")
