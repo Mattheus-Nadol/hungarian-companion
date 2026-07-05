@@ -672,6 +672,9 @@ function escapeJs(val) {
     return String(val).replace(/"/g, '\\"').replace(/'/g, "\\'");
 }
 
+// Initial render so static UI (header/menu) is visible before vocabulary loads.
+render();
+
 fetch("data/vocabulary.json")
     .then(response => response.json())
     .then(data => {
