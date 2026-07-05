@@ -1634,8 +1634,34 @@
     ],
     "notes": "forms: várok, vársz, vár"
   },
+  
   {
-    "id": 63,
+    "id": 64,
+    "hu": "vársz",
+    "pl": "czekasz",
+    "en": "you wait",
+    "type": "verb",
+    "example": {
+      "hu": "Meddig vársz még rám?",
+      "pl": "Jak długo jeszcze na mnie czekasz?"
+    },
+    "pattern": "(te) vársz + valakire",
+    "family": [
+      "megvár",
+      "várni"
+    ],
+    "related": [
+      "remélsz",
+      "sietsz"
+    ],
+    "tags": [
+      "A1",
+      "common"
+    ],
+    "notes": ""
+  },
+  {
+    "id": 65,
     "hu": "sétál",
     "pl": "spacerować",
     "en": "to walk",
@@ -1664,7 +1690,7 @@
     "notes": "forms included separately in list"
   },
   {
-    "id": 64,
+    "id": 66,
     "hu": "táncol",
     "pl": "tańczyć",
     "en": "to dance",
@@ -1693,7 +1719,7 @@
     "notes": ""
   },
   {
-    "id": 65,
+    "id": 67,
     "hu": "fut",
     "pl": "biegać",
     "en": "to run",
@@ -1723,7 +1749,7 @@
     "notes": ""
   },
   {
-    "id": 66,
+    "id": 68,
     "hu": "siet",
     "pl": "spieszyć się",
     "en": "to hurry",
@@ -1751,7 +1777,7 @@
     "notes": ""
   },
   {
-    "id": 67,
+    "id": 69,
     "hu": "pihen",
     "pl": "odpoczywać",
     "en": "to rest",
@@ -1780,7 +1806,7 @@
     "notes": ""
   },
   {
-    "id": 68,
+    "id": 70,
     "hu": "énekel",
     "pl": "śpiewać",
     "en": "to sing",
@@ -1808,7 +1834,7 @@
     "notes": ""
   },
   {
-    "id": 69,
+    "id": 71,
     "hu": "él",
     "pl": "żyć",
     "en": "to live",
@@ -1835,7 +1861,7 @@
     "notes": ""
   },
   {
-    "id": 70,
+    "id": 72,
     "hu": "madár",
     "pl": "ptak",
     "en": "bird",
@@ -1862,7 +1888,7 @@
     "notes": "corrected from: Mádar"
   },
   {
-    "id": 71,
+    "id": 73,
     "hu": "örül",
     "pl": "cieszyć się",
     "en": "to be glad / happy",
@@ -1889,7 +1915,7 @@
     "notes": ""
   },
   {
-    "id": 72,
+    "id": 74,
     "hu": "ül",
     "pl": "siedzieć",
     "en": "to sit",
@@ -1918,7 +1944,7 @@
     "notes": ""
   },
   {
-    "id": 73,
+    "id": 75,
     "hu": "repülni",
     "pl": "latać",
     "en": "to fly",
@@ -1947,7 +1973,7 @@
     "notes": ""
   },
   {
-    "id": 74,
+    "id": 76,
     "hu": "repül",
     "pl": "latać",
     "en": "to fly",
@@ -1975,7 +2001,7 @@
     "notes": ""
   },
   {
-    "id": 75,
+    "id": 77,
     "hu": "orvos",
     "pl": "lekarz",
     "en": "doctor",
@@ -2002,7 +2028,7 @@
     "notes": ""
   },
   {
-    "id": 76,
+    "id": 78,
     "hu": "ki",
     "pl": "kto",
     "en": "who",
@@ -2027,7 +2053,7 @@
     "notes": ""
   },
   {
-    "id": 77,
+    "id": 79,
     "hu": "mi",
     "pl": "my / co",
     "en": "what",
@@ -2052,7 +2078,7 @@
     "notes": ""
   },
   {
-    "id": 78,
+    "id": 80,
     "hu": "most",
     "pl": "teraz",
     "en": "now",
@@ -2078,7 +2104,7 @@
     "notes": ""
   },
   {
-    "id": 79,
+    "id": 81,
     "hu": "sofőr",
     "pl": "kierowca",
     "en": "driver",
@@ -2105,7 +2131,7 @@
     "notes": ""
   },
   {
-    "id": 80,
+    "id": 82,
     "hu": "mindig",
     "pl": "zawsze",
     "en": "always",
@@ -2128,7 +2154,7 @@
     "notes": ""
   },
   {
-    "id": 81,
+    "id": 83,
     "hu": "gyors",
     "pl": "szybki",
     "en": "fast",
@@ -2155,7 +2181,7 @@
     "notes": ""
   },
   {
-    "id": 82,
+    "id": 84,
     "hu": "lassú",
     "pl": "wolny",
     "en": "slow",
@@ -2182,7 +2208,7 @@
     "notes": ""
   },
   {
-    "id": 83,
+    "id": 85,
     "hu": "kicsi",
     "pl": "mały",
     "en": "small",
@@ -2208,7 +2234,7 @@
     "notes": ""
   },
   {
-    "id": 84,
+    "id": 86,
     "hu": "nagy",
     "pl": "duży",
     "en": "big",
@@ -2235,7 +2261,7 @@
     "notes": ""
   },
   {
-    "id": 85,
+    "id": 87,
     "hu": "hideg",
     "pl": "zimny",
     "en": "cold",
@@ -2262,7 +2288,7 @@
     "notes": ""
   },
   {
-    "id": 86,
+    "id": 88,
     "hu": "meleg",
     "pl": "ciepły",
     "en": "warm / hot",
@@ -2289,7 +2315,7 @@
     "notes": ""
   },
   {
-    "id": 87,
+    "id": 89,
     "hu": "szép idő",
     "pl": "ładna pogoda",
     "en": "nice weather",
@@ -2315,7 +2341,7 @@
     "notes": ""
   },
   {
-    "id": 88,
+    "id": 90,
     "hu": "rossz idő",
     "pl": "brzydka pogoda",
     "en": "bad weather",
@@ -2341,7 +2367,7 @@
     "notes": ""
   },
   {
-    "id": 89,
+    "id": 91,
     "hu": "esik",
     "pl": "pada (deszcz)",
     "en": "it rains",
@@ -2368,7 +2394,7 @@
     "notes": ""
   },
   {
-    "id": 90,
+    "id": 92,
     "hu": "hó",
     "pl": "śnieg",
     "en": "snow",
@@ -2395,7 +2421,7 @@
     "notes": ""
   },
   {
-    "id": 91,
+    "id": 93,
     "hu": "nap",
     "pl": "dzień / słońce",
     "en": "sun / day",
@@ -2424,7 +2450,7 @@
     "notes": ""
   },
   {
-    "id": 92,
+    "id": 94,
     "hu": "hét",
     "pl": "tydzień",
     "en": "week",
@@ -2450,7 +2476,7 @@
     "notes": ""
   },
   {
-    "id": 93,
+    "id": 95,
     "hu": "hétfő",
     "pl": "poniedziałek",
     "en": "Monday",
@@ -2475,7 +2501,7 @@
     "notes": ""
   },
   {
-    "id": 94,
+    "id": 96,
     "hu": "kedd",
     "pl": "wtorek",
     "en": "Tuesday",
@@ -2500,7 +2526,7 @@
     "notes": ""
   },
   {
-    "id": 95,
+    "id": 97,
     "hu": "szerda",
     "pl": "środa",
     "en": "Wednesday",
@@ -2525,7 +2551,7 @@
     "notes": ""
   },
   {
-    "id": 96,
+    "id": 98,
     "hu": "csütörtök",
     "pl": "czwartek",
     "en": "Thursday",
@@ -2550,7 +2576,7 @@
     "notes": ""
   },
   {
-    "id": 97,
+    "id": 99,
     "hu": "péntek",
     "pl": "piątek",
     "en": "Friday",
@@ -2575,7 +2601,7 @@
     "notes": ""
   },
   {
-    "id": 98,
+    "id": 100,
     "hu": "szombat",
     "pl": "sobota",
     "en": "Saturday",
@@ -2600,7 +2626,7 @@
     "notes": ""
   },
   {
-    "id": 99,
+    "id": 101,
     "hu": "vasárnap",
     "pl": "niedziela",
     "en": "Sunday",
@@ -2626,7 +2652,7 @@
     "notes": ""
   },
   {
-    "id": 100,
+    "id": 102,
     "hu": "reggel",
     "pl": "rano / poranek",
     "en": "morning",
@@ -2652,7 +2678,7 @@
     "notes": ""
   },
   {
-    "id": 101,
+    "id": 103,
     "hu": "dél",
     "pl": "południe",
     "en": "noon",
@@ -2679,7 +2705,7 @@
     "notes": ""
   },
   {
-    "id": 102,
+    "id": 104,
     "hu": "este",
     "pl": "wieczór",
     "en": "evening",
@@ -2705,7 +2731,7 @@
     "notes": ""
   },
   {
-    "id": 103,
+    "id": 105,
     "hu": "éjszaka",
     "pl": "noc",
     "en": "night",
@@ -2731,7 +2757,7 @@
     "notes": ""
   },
   {
-    "id": 104,
+    "id": 106,
     "hu": "idő",
     "pl": "czas / pogoda",
     "en": "time / weather",
@@ -2759,7 +2785,7 @@
     "notes": ""
   },
   {
-    "id": 105,
+    "id": 107,
     "hu": "késő",
     "pl": "późno",
     "en": "late",
@@ -2786,7 +2812,7 @@
     "notes": ""
   },
   {
-    "id": 106,
+    "id": 108,
     "hu": "korán",
     "pl": "wcześnie",
     "en": "early",
@@ -2812,7 +2838,7 @@
     "notes": ""
   },
   {
-    "id": 107,
+    "id": 109,
     "hu": "gyerek",
     "pl": "dziecko",
     "en": "child",
@@ -2839,7 +2865,7 @@
     "notes": ""
   },
   {
-    "id": 108,
+    "id": 110,
     "hu": "ember",
     "pl": "człowiek",
     "en": "person",
@@ -2864,7 +2890,7 @@
     "notes": ""
   },
   {
-    "id": 109,
+    "id": 111,
     "hu": "férfi",
     "pl": "mężczyzna",
     "en": "man",
@@ -2889,7 +2915,7 @@
     "notes": ""
   },
   {
-    "id": 110,
+    "id": 112,
     "hu": "nő",
     "pl": "kobieta",
     "en": "woman",
@@ -2915,7 +2941,7 @@
     "notes": ""
   },
   {
-    "id": 111,
+    "id": 113,
     "hu": "család",
     "pl": "rodzina",
     "en": "family",
@@ -2942,7 +2968,7 @@
     "notes": ""
   },
   {
-    "id": 112,
+    "id": 114,
     "hu": "anya",
     "pl": "matka",
     "en": "mother",
@@ -2969,7 +2995,7 @@
     "notes": ""
   },
   {
-    "id": 113,
+    "id": 115,
     "hu": "apa",
     "pl": "ojciec",
     "en": "father",
@@ -2996,7 +3022,7 @@
     "notes": ""
   },
   {
-    "id": 114,
+    "id": 116,
     "hu": "testvér",
     "pl": "rodzeństwo",
     "en": "sibling",
@@ -3022,7 +3048,7 @@
     "notes": ""
   },
   {
-    "id": 115,
+    "id": 117,
     "hu": "barát",
     "pl": "przyjaciel",
     "en": "friend",
@@ -3048,7 +3074,7 @@
     "notes": ""
   },
   {
-    "id": 116,
+    "id": 118,
     "hu": "szerelem",
     "pl": "miłość",
     "en": "love",
@@ -3075,7 +3101,7 @@
     "notes": ""
   },
   {
-    "id": 117,
+    "id": 119,
     "hu": "szeret",
     "pl": "lubić / kochać",
     "en": "to love / like",
@@ -3104,7 +3130,7 @@
     "notes": ""
   },
   {
-    "id": 118,
+    "id": 120,
     "hu": "lát",
     "pl": "widzieć",
     "en": "to see",
@@ -3131,7 +3157,7 @@
     "notes": ""
   },
   {
-    "id": 119,
+    "id": 121,
     "hu": "hall",
     "pl": "słyszeć",
     "en": "to hear",
@@ -3158,7 +3184,7 @@
     "notes": ""
   },
   {
-    "id": 120,
+    "id": 122,
     "hu": "mond",
     "pl": "mówić / powiedzieć",
     "en": "to say",
@@ -3186,7 +3212,7 @@
     "notes": ""
   },
   {
-    "id": 121,
+    "id": 123,
     "hu": "beszél",
     "pl": "mówić / rozmawiać",
     "en": "to speak",
@@ -3215,7 +3241,7 @@
     "notes": ""
   },
   {
-    "id": 122,
+    "id": 124,
     "hu": "eszik",
     "pl": "jeść",
     "en": "to eat",
@@ -3243,7 +3269,7 @@
     "notes": ""
   },
   {
-    "id": 123,
+    "id": 125,
     "hu": "iszik",
     "pl": "pić",
     "en": "to drink",
@@ -3271,7 +3297,7 @@
     "notes": ""
   },
   {
-    "id": 124,
+    "id": 126,
     "hu": "vesz",
     "pl": "brać / kupować",
     "en": "to take / buy",
@@ -3298,7 +3324,7 @@
     "notes": ""
   },
   {
-    "id": 125,
+    "id": 127,
     "hu": "ad",
     "pl": "dawać",
     "en": "to give",
@@ -3325,7 +3351,7 @@
     "notes": ""
   },
   {
-    "id": 126,
+    "id": 128,
     "hu": "megy",
     "pl": "iść",
     "en": "to go",
@@ -3353,7 +3379,7 @@
     "notes": ""
   },
   {
-    "id": 127,
+    "id": 129,
     "hu": "jön",
     "pl": "przychodzić",
     "en": "to come",
@@ -3381,7 +3407,7 @@
     "notes": ""
   },
   {
-    "id": 128,
+    "id": 130,
     "hu": "kér",
     "pl": "prosić / chcieć",
     "en": "to ask / request",
@@ -3410,7 +3436,7 @@
     "notes": ""
   },
   {
-    "id": 129,
+    "id": 131,
     "hu": "tanár",
     "pl": "nauczyciel",
     "en": "teacher",
@@ -3438,7 +3464,7 @@
     "notes": ""
   },
   {
-    "id": 130,
+    "id": 132,
     "hu": "diák",
     "pl": "student / uczeń",
     "en": "student",
@@ -3465,7 +3491,7 @@
     "notes": ""
   },
   {
-    "id": 131,
+    "id": 133,
     "hu": "munka",
     "pl": "praca",
     "en": "work",
@@ -3492,7 +3518,7 @@
     "notes": ""
   },
   {
-    "id": 132,
+    "id": 134,
     "hu": "dolgozik",
     "pl": "pracować",
     "en": "to work",
@@ -3519,7 +3545,7 @@
     "notes": ""
   },
   {
-    "id": 133,
+    "id": 135,
     "hu": "pénz",
     "pl": "pieniądze",
     "en": "money",
@@ -3545,7 +3571,7 @@
     "notes": ""
   },
   {
-    "id": 134,
+    "id": 136,
     "hu": "áruház",
     "pl": "dom towarowy",
     "en": "department store",
@@ -3571,7 +3597,7 @@
     "notes": ""
   },
   {
-    "id": 135,
+    "id": 137,
     "hu": "piac",
     "pl": "targ / rynek",
     "en": "market",
@@ -3597,7 +3623,7 @@
     "notes": ""
   },
   {
-    "id": 136,
+    "id": 138,
     "hu": "város",
     "pl": "miasto",
     "en": "city",
@@ -3623,7 +3649,7 @@
     "notes": ""
   },
   {
-    "id": 137,
+    "id": 139,
     "hu": "ország",
     "pl": "kraj",
     "en": "country",
@@ -3649,7 +3675,7 @@
     "notes": ""
   },
   {
-    "id": 138,
+    "id": 140,
     "hu": "világ",
     "pl": "świat",
     "en": "world",
@@ -3675,7 +3701,7 @@
     "notes": ""
   },
   {
-    "id": 139,
+    "id": 141,
     "hu": "utca",
     "pl": "ulica",
     "en": "street",
@@ -3700,7 +3726,7 @@
     "notes": ""
   },
   {
-    "id": 140,
+    "id": 142,
     "hu": "tér",
     "pl": "plac / przestrzeń",
     "en": "square (city)",
@@ -3726,7 +3752,7 @@
     "notes": ""
   },
   {
-    "id": 141,
+    "id": 143,
     "hu": "autó",
     "pl": "samochód",
     "en": "car",
@@ -3752,7 +3778,7 @@
     "notes": ""
   },
   {
-    "id": 142,
+    "id": 144,
     "hu": "busz",
     "pl": "autobus",
     "en": "bus",
@@ -3778,7 +3804,7 @@
     "notes": ""
   },
   {
-    "id": 143,
+    "id": 145,
     "hu": "vonat",
     "pl": "pociąg",
     "en": "train",
@@ -3804,7 +3830,7 @@
     "notes": ""
   },
   {
-    "id": 144,
+    "id": 146,
     "hu": "repülő",
     "pl": "samolot",
     "en": "airplane",
@@ -3830,7 +3856,7 @@
     "notes": ""
   },
   {
-    "id": 145,
+    "id": 147,
     "hu": "jegy",
     "pl": "bilet",
     "en": "ticket",
@@ -3856,7 +3882,7 @@
     "notes": ""
   },
   {
-    "id": 146,
+    "id": 148,
     "hu": "út",
     "pl": "droga / wycieczka",
     "en": "road / trip",
@@ -3884,7 +3910,7 @@
     "notes": ""
   },
   {
-    "id": 147,
+    "id": 149,
     "hu": "térkép",
     "pl": "mapa",
     "en": "map",
@@ -3910,7 +3936,7 @@
     "notes": ""
   },
   {
-    "id": 148,
+    "id": 150,
     "hu": "telefon",
     "pl": "telefon",
     "en": "phone",
@@ -3936,7 +3962,7 @@
     "notes": ""
   },
   {
-    "id": 149,
+    "id": 151,
     "hu": "szám",
     "pl": "numer / liczba",
     "en": "number",
@@ -3962,7 +3988,7 @@
     "notes": ""
   },
   {
-    "id": 150,
+    "id": 152,
     "hu": "e-mail",
     "pl": "e-mail",
     "en": "email",
@@ -3985,7 +4011,7 @@
     "notes": ""
   },
   {
-    "id": 151,
+    "id": 153,
     "hu": "internet",
     "pl": "internet",
     "en": "internet",
@@ -4010,7 +4036,7 @@
     "notes": ""
   },
   {
-    "id": 152,
+    "id": 154,
     "hu": "időjárás",
     "pl": "pogoda",
     "en": "weather",
@@ -4036,7 +4062,7 @@
     "notes": ""
   },
   {
-    "id": 153,
+    "id": 155,
     "hu": "napos",
     "pl": "słoneczny",
     "en": "sunny",
@@ -4063,7 +4089,7 @@
     "notes": ""
   },
   {
-    "id": 154,
+    "id": 156,
     "hu": "esős",
     "pl": "deszczowy",
     "en": "rainy",
@@ -4089,7 +4115,7 @@
     "notes": ""
   },
   {
-    "id": 155,
+    "id": 157,
     "hu": "felhős",
     "pl": "pochmurny",
     "en": "cloudy",
@@ -4115,7 +4141,7 @@
     "notes": ""
   },
   {
-    "id": 156,
+    "id": 158,
     "hu": "hideg van",
     "pl": "jest zimno",
     "en": "it is cold",
@@ -4141,7 +4167,7 @@
     "notes": ""
   },
   {
-    "id": 157,
+    "id": 159,
     "hu": "meleg van",
     "pl": "jest ciepło",
     "en": "it is warm",
@@ -4167,7 +4193,7 @@
     "notes": ""
   },
   {
-    "id": 158,
+    "id": 160,
     "hu": "kell",
     "pl": "musieć / trzeba",
     "en": "must / need",
@@ -4192,7 +4218,7 @@
     "notes": ""
   },
   {
-    "id": 159,
+    "id": 161,
     "hu": "lehet",
     "pl": "można / może",
     "en": "can / may",
@@ -4217,7 +4243,7 @@
     "notes": ""
   },
   {
-    "id": 160,
+    "id": 162,
     "hu": "akar",
     "pl": "chcieć",
     "en": "to want",
@@ -4242,7 +4268,7 @@
     "notes": ""
   },
   {
-    "id": 161,
+    "id": 163,
     "hu": "tud",
     "pl": "umieć / wiedzieć",
     "en": "can / know",
@@ -4269,7 +4295,7 @@
     "notes": ""
   },
   {
-    "id": 162,
+    "id": 164,
     "hu": "kellene",
     "pl": "powinno się / należałoby",
     "en": "should",
@@ -4294,7 +4320,7 @@
     "notes": ""
   },
   {
-    "id": 163,
+    "id": 165,
     "hu": "mostanában",
     "pl": "ostatnio",
     "en": "lately",
@@ -4320,7 +4346,7 @@
     "notes": ""
   },
   {
-    "id": 164,
+    "id": 166,
     "hu": "gyakran",
     "pl": "często",
     "en": "often",
@@ -4343,7 +4369,7 @@
     "notes": ""
   },
   {
-    "id": 165,
+    "id": 167,
     "hu": "ritkán",
     "pl": "rzadko",
     "en": "rarely",
@@ -4366,7 +4392,7 @@
     "notes": ""
   },
   {
-    "id": 166,
+    "id": 168,
     "hu": "soha",
     "pl": "nigdy",
     "en": "never",
@@ -4389,7 +4415,7 @@
     "notes": ""
   },
   {
-    "id": 167,
+    "id": 169,
     "hu": "még",
     "pl": "jeszcze",
     "en": "still / yet",
@@ -4412,7 +4438,7 @@
     "notes": ""
   },
   {
-    "id": 168,
+    "id": 170,
     "hu": "ajándék",
     "pl": "prezent",
     "en": "present / gift",
@@ -4437,7 +4463,7 @@
     "notes": ""
   },
   {
-    "id": 169,
+    "id": 171,
     "hu": "ajánlani",
     "pl": "polecać",
     "en": "to recommend",
@@ -4464,7 +4490,7 @@
     "notes": ""
   },
   {
-    "id": 170,
+    "id": 172,
     "hu": "alatt",
     "pl": "pod",
     "en": "under",
@@ -4488,7 +4514,7 @@
     "notes": ""
   },
   {
-    "id": 171,
+    "id": 173,
     "hu": "aludni",
     "pl": "spać",
     "en": "to sleep",
@@ -4516,7 +4542,7 @@
     "notes": ""
   },
   {
-    "id": 172,
+    "id": 174,
     "hu": "angol",
     "pl": "angielski",
     "en": "English",
@@ -4542,7 +4568,7 @@
     "notes": ""
   },
   {
-    "id": 173,
+    "id": 175,
     "hu": "anyuka",
     "pl": "mama",
     "en": "mum",
@@ -4569,7 +4595,7 @@
     "notes": ""
   },
   {
-    "id": 174,
+    "id": 176,
     "hu": "anyós",
     "pl": "teściowa",
     "en": "mother-in-law",
@@ -4592,7 +4618,7 @@
     "notes": ""
   },
   {
-    "id": 175,
+    "id": 177,
     "hu": "apró",
     "pl": "drobne",
     "en": "small change",
@@ -4617,7 +4643,7 @@
     "notes": ""
   },
   {
-    "id": 176,
+    "id": 178,
     "hu": "apuka",
     "pl": "tata",
     "en": "dad",
@@ -4644,7 +4670,7 @@
     "notes": ""
   },
   {
-    "id": 177,
+    "id": 179,
     "hu": "após",
     "pl": "teść",
     "en": "father-in-law",
@@ -4667,7 +4693,7 @@
     "notes": ""
   },
   {
-    "id": 178,
+    "id": 180,
     "hu": "arab",
     "pl": "arabski",
     "en": "Arabic",
@@ -4692,7 +4718,7 @@
     "notes": ""
   },
   {
-    "id": 179,
+    "id": 181,
     "hu": "arc",
     "pl": "twarz",
     "en": "face",
@@ -4718,7 +4744,7 @@
     "notes": ""
   },
   {
-    "id": 180,
+    "id": 182,
     "hu": "asztal",
     "pl": "stół",
     "en": "table",
@@ -4744,7 +4770,7 @@
     "notes": ""
   },
   {
-    "id": 181,
+    "id": 183,
     "hu": "ausztrál",
     "pl": "australijski",
     "en": "Australian",
@@ -4767,7 +4793,7 @@
     "notes": ""
   },
   {
-    "id": 182,
+    "id": 184,
     "hu": "az",
     "pl": "tamto / tamten",
     "en": "that",
@@ -4792,7 +4818,7 @@
     "notes": ""
   },
   {
-    "id": 183,
+    "id": 185,
     "hu": "baba",
     "pl": "niemowlę",
     "en": "baby",
@@ -4818,7 +4844,7 @@
     "notes": ""
   },
   {
-    "id": 184,
+    "id": 186,
     "hu": "bajusz",
     "pl": "wąsy",
     "en": "moustache",
@@ -4842,7 +4868,7 @@
     "notes": ""
   },
   {
-    "id": 185,
+    "id": 187,
     "hu": "bal",
     "pl": "lewy",
     "en": "left",
@@ -4867,7 +4893,7 @@
     "notes": ""
   },
   {
-    "id": 186,
+    "id": 188,
     "hu": "barna",
     "pl": "brązowy",
     "en": "brown",
@@ -4892,7 +4918,7 @@
     "notes": ""
   },
   {
-    "id": 187,
+    "id": 189,
     "hu": "barátnő",
     "pl": "dziewczyna (partnerka)",
     "en": "girlfriend",
@@ -4919,7 +4945,7 @@
     "notes": ""
   },
   {
-    "id": 188,
+    "id": 190,
     "hu": "belga",
     "pl": "belgijski",
     "en": "Belgian",
@@ -4942,7 +4968,7 @@
     "notes": ""
   },
   {
-    "id": 189,
+    "id": 191,
     "hu": "beszélgetni",
     "pl": "rozmawiać / gawędzić",
     "en": "to chat",
@@ -4968,7 +4994,7 @@
     "notes": ""
   },
   {
-    "id": 190,
+    "id": 192,
     "hu": "beteg",
     "pl": "chory",
     "en": "sick / ill",
@@ -4995,7 +5021,7 @@
     "notes": ""
   },
   {
-    "id": 191,
+    "id": 193,
     "hu": "bevallani",
     "pl": "przyznać się",
     "en": "to admit / confess",
@@ -5020,7 +5046,7 @@
     "notes": ""
   },
   {
-    "id": 192,
+    "id": 194,
     "hu": "bicikli",
     "pl": "rower",
     "en": "bicycle",
@@ -5046,7 +5072,7 @@
     "notes": ""
   },
   {
-    "id": 193,
+    "id": 195,
     "hu": "biztonságos",
     "pl": "bezpieczny",
     "en": "safe",
@@ -5071,7 +5097,7 @@
     "notes": ""
   },
   {
-    "id": 194,
+    "id": 196,
     "hu": "bocsánat",
     "pl": "przepraszam",
     "en": "sorry / excuse me",
@@ -5096,7 +5122,7 @@
     "notes": ""
   },
   {
-    "id": 195,
+    "id": 197,
     "hu": "bogár",
     "pl": "żuk / robak",
     "en": "beetle / bug",
@@ -5122,7 +5148,7 @@
     "notes": ""
   },
   {
-    "id": 196,
+    "id": 198,
     "hu": "boka",
     "pl": "kostka",
     "en": "ankle",
@@ -5145,7 +5171,7 @@
     "notes": ""
   },
   {
-    "id": 197,
+    "id": 199,
     "hu": "bors",
     "pl": "pieprz",
     "en": "pepper",
@@ -5170,7 +5196,7 @@
     "notes": ""
   },
   {
-    "id": 198,
+    "id": 200,
     "hu": "brazil",
     "pl": "brazylijski",
     "en": "Brazilian",
@@ -5193,7 +5219,7 @@
     "notes": ""
   },
   {
-    "id": 199,
+    "id": 201,
     "hu": "bátor",
     "pl": "odważny",
     "en": "brave",
@@ -5219,7 +5245,7 @@
     "notes": ""
   },
   {
-    "id": 200,
+    "id": 202,
     "hu": "báty",
     "pl": "starszy brat",
     "en": "older brother",
@@ -5242,7 +5268,7 @@
     "notes": ""
   },
   {
-    "id": 201,
+    "id": 203,
     "hu": "béka",
     "pl": "żaba",
     "en": "frog",
@@ -5267,7 +5293,7 @@
     "notes": ""
   },
   {
-    "id": 202,
+    "id": 204,
     "hu": "bélyeg",
     "pl": "znaczek",
     "en": "stamp",
@@ -5292,7 +5318,7 @@
     "notes": ""
   },
   {
-    "id": 203,
+    "id": 205,
     "hu": "bérelni",
     "pl": "wynajmować",
     "en": "to rent",
@@ -5318,7 +5344,7 @@
     "notes": ""
   },
   {
-    "id": 204,
+    "id": 206,
     "hu": "bérlet",
     "pl": "bilet miesięczny",
     "en": "pass / season ticket",
@@ -5342,7 +5368,7 @@
     "notes": ""
   },
   {
-    "id": 205,
+    "id": 207,
     "hu": "bíró",
     "pl": "sędzia",
     "en": "judge",
@@ -5367,7 +5393,7 @@
     "notes": ""
   },
   {
-    "id": 206,
+    "id": 208,
     "hu": "bőr",
     "pl": "skóra",
     "en": "skin",
@@ -5392,7 +5418,7 @@
     "notes": ""
   },
   {
-    "id": 207,
+    "id": 209,
     "hu": "bőrönd",
     "pl": "walizka",
     "en": "suitcase",
@@ -5416,7 +5442,7 @@
     "notes": ""
   },
   {
-    "id": 208,
+    "id": 210,
     "hu": "cica",
     "pl": "kotek",
     "en": "kitten / kitty",
@@ -5441,7 +5467,7 @@
     "notes": ""
   },
   {
-    "id": 209,
+    "id": 211,
     "hu": "cipő",
     "pl": "but",
     "en": "shoe",
@@ -5467,7 +5493,7 @@
     "notes": ""
   },
   {
-    "id": 210,
+    "id": 212,
     "hu": "comb",
     "pl": "udo",
     "en": "thigh",
@@ -5489,7 +5515,7 @@
     "notes": ""
   },
   {
-    "id": 211,
+    "id": 213,
     "hu": "csendes",
     "pl": "cichy",
     "en": "quiet / silent",
@@ -5515,7 +5541,7 @@
     "notes": ""
   },
   {
-    "id": 212,
+    "id": 214,
     "hu": "cseresznye",
     "pl": "czereśnia",
     "en": "cherry",
@@ -5539,7 +5565,7 @@
     "notes": ""
   },
   {
-    "id": 213,
+    "id": 215,
     "hu": "csiga",
     "pl": "ślimak / rogalik",
     "en": "snail / roll",
@@ -5562,7 +5588,7 @@
     "notes": ""
   },
   {
-    "id": 214,
+    "id": 216,
     "hu": "csinálni",
     "pl": "robić",
     "en": "to do / make",
@@ -5589,7 +5615,7 @@
     "notes": ""
   },
   {
-    "id": 215,
+    "id": 217,
     "hu": "csirke",
     "pl": "kurczak",
     "en": "chicken",
@@ -5614,7 +5640,7 @@
     "notes": ""
   },
   {
-    "id": 216,
+    "id": 218,
     "hu": "csokoládé",
     "pl": "czekolada",
     "en": "chocolate",
@@ -5639,7 +5665,7 @@
     "notes": ""
   },
   {
-    "id": 217,
+    "id": 219,
     "hu": "csésze",
     "pl": "filiżanka",
     "en": "cup",
@@ -5664,7 +5690,7 @@
     "notes": ""
   },
   {
-    "id": 218,
+    "id": 220,
     "hu": "csíkos",
     "pl": "w paski",
     "en": "striped",
@@ -5688,7 +5714,7 @@
     "notes": ""
   },
   {
-    "id": 219,
+    "id": 221,
     "hu": "csípős",
     "pl": "pikantny",
     "en": "spicy",
@@ -5713,7 +5739,7 @@
     "notes": ""
   },
   {
-    "id": 220,
+    "id": 222,
     "hu": "csókolni",
     "pl": "całować",
     "en": "to kiss",
@@ -5739,7 +5765,7 @@
     "notes": ""
   },
   {
-    "id": 221,
+    "id": 223,
     "hu": "csúnya",
     "pl": "brzydki",
     "en": "ugly",
@@ -5763,7 +5789,7 @@
     "notes": ""
   },
   {
-    "id": 222,
+    "id": 224,
     "hu": "cuki",
     "pl": "słodki / uroczy",
     "en": "cute",
@@ -5786,7 +5812,7 @@
     "notes": ""
   },
   {
-    "id": 223,
+    "id": 225,
     "hu": "cukor",
     "pl": "cukier",
     "en": "sugar",
@@ -5814,7 +5840,7 @@
     "notes": ""
   },
   {
-    "id": 224,
+    "id": 226,
     "hu": "dal",
     "pl": "piosenka",
     "en": "song",
@@ -5839,7 +5865,7 @@
     "notes": ""
   },
   {
-    "id": 225,
+    "id": 227,
     "hu": "darálni",
     "pl": "mielić",
     "en": "to grind",
@@ -5864,7 +5890,7 @@
     "notes": ""
   },
   {
-    "id": 226,
+    "id": 228,
     "hu": "de",
     "pl": "ale",
     "en": "but",
@@ -5886,7 +5912,7 @@
     "notes": ""
   },
   {
-    "id": 227,
+    "id": 229,
     "hu": "deci",
     "pl": "decylitr",
     "en": "decilitre",
@@ -5910,7 +5936,7 @@
     "notes": ""
   },
   {
-    "id": 228,
+    "id": 230,
     "hu": "deka",
     "pl": "dekagram",
     "en": "decagram",
@@ -5934,7 +5960,7 @@
     "notes": ""
   },
   {
-    "id": 229,
+    "id": 231,
     "hu": "disznó",
     "pl": "świnia",
     "en": "pig",
@@ -5960,7 +5986,7 @@
     "notes": ""
   },
   {
-    "id": 230,
+    "id": 232,
     "hu": "disznóhús",
     "pl": "wieprzowina",
     "en": "pork",
@@ -5984,7 +6010,7 @@
     "notes": ""
   },
   {
-    "id": 231,
+    "id": 233,
     "hu": "dió",
     "pl": "orzech włoski",
     "en": "walnut",
@@ -6008,7 +6034,7 @@
     "notes": ""
   },
   {
-    "id": 232,
+    "id": 234,
     "hu": "dolgozni",
     "pl": "pracować",
     "en": "to work",
@@ -6035,7 +6061,7 @@
     "notes": ""
   },
   {
-    "id": 233,
+    "id": 235,
     "hu": "dollár",
     "pl": "dolar",
     "en": "dollar",
@@ -6058,7 +6084,7 @@
     "notes": ""
   },
   {
-    "id": 234,
+    "id": 236,
     "hu": "drága",
     "pl": "drogi",
     "en": "expensive",
@@ -6082,7 +6108,7 @@
     "notes": ""
   },
   {
-    "id": 235,
+    "id": 237,
     "hu": "duolingózni",
     "pl": "uczyć się na Duolingo",
     "en": "to use Duolingo",
@@ -6106,7 +6132,7 @@
     "notes": ""
   },
   {
-    "id": 236,
+    "id": 238,
     "hu": "délelőtt",
     "pl": "przedpołudnie",
     "en": "morning (before noon)",
@@ -6132,7 +6158,7 @@
     "notes": ""
   },
   {
-    "id": 237,
+    "id": 239,
     "hu": "délután",
     "pl": "popołudnie",
     "en": "afternoon",
@@ -6158,7 +6184,7 @@
     "notes": ""
   },
   {
-    "id": 238,
+    "id": 240,
     "hu": "ebéd",
     "pl": "obiad",
     "en": "lunch",
@@ -6185,7 +6211,7 @@
     "notes": ""
   },
   {
-    "id": 239,
+    "id": 241,
     "hu": "ebédelni",
     "pl": "jeść obiad",
     "en": "to have lunch",
@@ -6210,7 +6236,7 @@
     "notes": ""
   },
   {
-    "id": 240,
+    "id": 242,
     "hu": "ecet",
     "pl": "ocet",
     "en": "vinegar",
@@ -6234,7 +6260,7 @@
     "notes": ""
   },
   {
-    "id": 241,
+    "id": 243,
     "hu": "eger",
     "pl": "mysz",
     "en": "mouse",
@@ -6258,7 +6284,7 @@
     "notes": ""
   },
   {
-    "id": 242,
+    "id": 244,
     "hu": "egy",
     "pl": "jeden",
     "en": "one",
@@ -6284,7 +6310,7 @@
     "notes": ""
   },
   {
-    "id": 243,
+    "id": 245,
     "hu": "egyedül",
     "pl": "sam / samotnie",
     "en": "alone",
@@ -6310,7 +6336,7 @@
     "notes": ""
   },
   {
-    "id": 244,
+    "id": 246,
     "hu": "egyes",
     "pl": "jedynka",
     "en": "number one",
@@ -6334,7 +6360,7 @@
     "notes": ""
   },
   {
-    "id": 245,
+    "id": 247,
     "hu": "egyik",
     "pl": "jeden z",
     "en": "one of (them)",
@@ -6358,7 +6384,7 @@
     "notes": ""
   },
   {
-    "id": 246,
+    "id": 248,
     "hu": "egyiptomi",
     "pl": "egipski",
     "en": "Egyptian",
@@ -6381,7 +6407,7 @@
     "notes": ""
   },
   {
-    "id": 247,
+    "id": 249,
     "hu": "egymás",
     "pl": "siebie nawzajem",
     "en": "each other",
@@ -6405,7 +6431,7 @@
     "notes": ""
   },
   {
-    "id": 248,
+    "id": 250,
     "hu": "együtt",
     "pl": "razem",
     "en": "together",
@@ -6430,7 +6456,7 @@
     "notes": ""
   },
   {
-    "id": 249,
+    "id": 251,
     "hu": "egész",
     "pl": "cały",
     "en": "whole / entire",
@@ -6456,7 +6482,7 @@
     "notes": ""
   },
   {
-    "id": 250,
+    "id": 252,
     "hu": "eladó",
     "pl": "sprzedawca",
     "en": "salesperson",
@@ -6481,7 +6507,7 @@
     "notes": ""
   },
   {
-    "id": 251,
+    "id": 253,
     "hu": "elefánt",
     "pl": "słoń",
     "en": "elephant",
@@ -6503,7 +6529,7 @@
     "notes": ""
   },
   {
-    "id": 252,
+    "id": 254,
     "hu": "elengedni",
     "pl": "puszczać",
     "en": "to let go",
@@ -6527,7 +6553,7 @@
     "notes": ""
   },
   {
-    "id": 253,
+    "id": 255,
     "hu": "elfelejteni",
     "pl": "zapomnieć",
     "en": "to forget",
@@ -6552,7 +6578,7 @@
     "notes": ""
   },
   {
-    "id": 254,
+    "id": 256,
     "hu": "elnézést",
     "pl": "przepraszam",
     "en": "excuse me / I'm sorry",
@@ -6578,7 +6604,7 @@
     "notes": ""
   },
   {
-    "id": 255,
+    "id": 257,
     "hu": "elég",
     "pl": "dość / wystarczająco",
     "en": "enough / quite",
@@ -6603,7 +6629,7 @@
     "notes": ""
   },
   {
-    "id": 256,
+    "id": 258,
     "hu": "előtt",
     "pl": "przed",
     "en": "in front of",
@@ -6627,7 +6653,7 @@
     "notes": ""
   },
   {
-    "id": 257,
+    "id": 259,
     "hu": "enni",
     "pl": "jeść",
     "en": "to eat",
@@ -6654,7 +6680,7 @@
     "notes": ""
   },
   {
-    "id": 258,
+    "id": 260,
     "hu": "eper",
     "pl": "truskawka",
     "en": "strawberry",
@@ -6678,7 +6704,7 @@
     "notes": ""
   },
   {
-    "id": 259,
+    "id": 261,
     "hu": "erős",
     "pl": "silny",
     "en": "strong",
@@ -6705,7 +6731,7 @@
     "notes": ""
   },
   {
-    "id": 260,
+    "id": 262,
     "hu": "esernyő",
     "pl": "parasol",
     "en": "umbrella",
@@ -6728,7 +6754,7 @@
     "notes": ""
   },
   {
-    "id": 261,
+    "id": 263,
     "hu": "eszperantó",
     "pl": "esperanto",
     "en": "Esperanto",
@@ -6750,7 +6776,7 @@
     "notes": ""
   },
   {
-    "id": 262,
+    "id": 264,
     "hu": "eső",
     "pl": "deszcz",
     "en": "rain",
@@ -6777,7 +6803,7 @@
     "notes": ""
   },
   {
-    "id": 263,
+    "id": 265,
     "hu": "euró",
     "pl": "euro",
     "en": "euro",
@@ -6800,7 +6826,7 @@
     "notes": ""
   },
   {
-    "id": 264,
+    "id": 266,
     "hu": "ez",
     "pl": "to / ten",
     "en": "this",
@@ -6825,7 +6851,7 @@
     "notes": ""
   },
   {
-    "id": 265,
+    "id": 267,
     "hu": "ezer",
     "pl": "tysiąc",
     "en": "thousand",
@@ -6849,7 +6875,7 @@
     "notes": ""
   },
   {
-    "id": 266,
+    "id": 268,
     "hu": "fa",
     "pl": "drzewo",
     "en": "tree",
@@ -6875,7 +6901,7 @@
     "notes": ""
   },
   {
-    "id": 267,
+    "id": 269,
     "hu": "fagylalt",
     "pl": "lody",
     "en": "ice cream",
@@ -6900,7 +6926,7 @@
     "notes": ""
   },
   {
-    "id": 268,
+    "id": 270,
     "hu": "fehér",
     "pl": "biały",
     "en": "white",
@@ -6926,7 +6952,7 @@
     "notes": ""
   },
   {
-    "id": 269,
+    "id": 271,
     "hu": "fej",
     "pl": "głowa",
     "en": "head",
@@ -6953,7 +6979,7 @@
     "notes": ""
   },
   {
-    "id": 270,
+    "id": 272,
     "hu": "fekete",
     "pl": "czarny",
     "en": "black",
@@ -6978,7 +7004,7 @@
     "notes": ""
   },
   {
-    "id": 271,
+    "id": 273,
     "hu": "feküdni",
     "pl": "leżeć",
     "en": "to lie down",
@@ -7005,7 +7031,7 @@
     "notes": ""
   },
   {
-    "id": 272,
+    "id": 274,
     "hu": "feladat",
     "pl": "zadanie",
     "en": "exercise / task",
@@ -7032,7 +7058,7 @@
     "notes": ""
   },
   {
-    "id": 273,
+    "id": 275,
     "hu": "feleség",
     "pl": "żona",
     "en": "wife",
@@ -7055,7 +7081,7 @@
     "notes": ""
   },
   {
-    "id": 274,
+    "id": 276,
     "hu": "fenék",
     "pl": "pupa",
     "en": "bottom / buttocks",
@@ -7078,7 +7104,7 @@
     "notes": ""
   },
   {
-    "id": 275,
+    "id": 277,
     "hu": "figyelmeztetni",
     "pl": "ostrzegać",
     "en": "to warn",
@@ -7102,7 +7128,7 @@
     "notes": ""
   },
   {
-    "id": 276,
+    "id": 278,
     "hu": "figyelni",
     "pl": "uważać / obserwować",
     "en": "to watch / pay attention",
@@ -7128,7 +7154,7 @@
     "notes": ""
   },
   {
-    "id": 277,
+    "id": 279,
     "hu": "finn",
     "pl": "fiński",
     "en": "Finnish",
@@ -7151,7 +7177,7 @@
     "notes": ""
   },
   {
-    "id": 278,
+    "id": 280,
     "hu": "finom",
     "pl": "smaczny",
     "en": "tasty / delicious",
@@ -7176,7 +7202,7 @@
     "notes": ""
   },
   {
-    "id": 279,
+    "id": 281,
     "hu": "fizetni",
     "pl": "płacić",
     "en": "to pay",
@@ -7202,7 +7228,7 @@
     "notes": ""
   },
   {
-    "id": 280,
+    "id": 282,
     "hu": "fiú",
     "pl": "syn / chłopiec",
     "en": "son / boy",
@@ -7227,7 +7253,7 @@
     "notes": ""
   },
   {
-    "id": 281,
+    "id": 283,
     "hu": "focizni",
     "pl": "grać w piłkę nożną",
     "en": "to play soccer",
@@ -7253,7 +7279,7 @@
     "notes": ""
   },
   {
-    "id": 282,
+    "id": 284,
     "hu": "fog",
     "pl": "ząb",
     "en": "tooth",
@@ -7281,7 +7307,7 @@
     "notes": ""
   },
   {
-    "id": 283,
+    "id": 285,
     "hu": "fogni",
     "pl": "łapać",
     "en": "to catch / hold",
@@ -7306,7 +7332,7 @@
     "notes": ""
   },
   {
-    "id": 284,
+    "id": 286,
     "hu": "fok",
     "pl": "stopień",
     "en": "degree",
@@ -7330,7 +7356,7 @@
     "notes": ""
   },
   {
-    "id": 285,
+    "id": 287,
     "hu": "folt",
     "pl": "plama",
     "en": "stain / patch",
@@ -7354,7 +7380,7 @@
     "notes": ""
   },
   {
-    "id": 286,
+    "id": 288,
     "hu": "folyó",
     "pl": "rzeka",
     "en": "river",
@@ -7380,7 +7406,7 @@
     "notes": ""
   },
   {
-    "id": 287,
+    "id": 289,
     "hu": "fontos",
     "pl": "ważny",
     "en": "important",
@@ -7405,7 +7431,7 @@
     "notes": ""
   },
   {
-    "id": 288,
+    "id": 290,
     "hu": "forogni",
     "pl": "obracać się",
     "en": "to rotate / turn",
@@ -7429,7 +7455,7 @@
     "notes": ""
   },
   {
-    "id": 289,
+    "id": 291,
     "hu": "francia",
     "pl": "francuski",
     "en": "French",
@@ -7454,7 +7480,7 @@
     "notes": ""
   },
   {
-    "id": 290,
+    "id": 292,
     "hu": "friss",
     "pl": "świeży",
     "en": "fresh",
@@ -7481,7 +7507,7 @@
     "notes": ""
   },
   {
-    "id": 291,
+    "id": 293,
     "hu": "fájni",
     "pl": "boleć",
     "en": "to hurt",
@@ -7508,7 +7534,7 @@
     "notes": ""
   },
   {
-    "id": 292,
+    "id": 294,
     "hu": "fáradt",
     "pl": "zmęczony",
     "en": "tired",
@@ -7535,7 +7561,7 @@
     "notes": ""
   },
   {
-    "id": 293,
+    "id": 295,
     "hu": "fázni",
     "pl": "marznąć",
     "en": "to feel cold",
@@ -7561,7 +7587,7 @@
     "notes": ""
   },
   {
-    "id": 294,
+    "id": 296,
     "hu": "fél",
     "pl": "pół",
     "en": "half",
@@ -7587,7 +7613,7 @@
     "notes": ""
   },
   {
-    "id": 295,
+    "id": 297,
     "hu": "férj",
     "pl": "mąż",
     "en": "husband",
@@ -7610,7 +7636,7 @@
     "notes": ""
   },
   {
-    "id": 296,
+    "id": 298,
     "hu": "föld",
     "pl": "ziemia",
     "en": "ground / earth",
@@ -7636,7 +7662,7 @@
     "notes": ""
   },
   {
-    "id": 297,
+    "id": 299,
     "hu": "fölött",
     "pl": "nad",
     "en": "above",
@@ -7659,7 +7685,7 @@
     "notes": ""
   },
   {
-    "id": 298,
+    "id": 300,
     "hu": "fújni",
     "pl": "wiać / dmuchać",
     "en": "to blow",
@@ -7684,7 +7710,7 @@
     "notes": ""
   },
   {
-    "id": 299,
+    "id": 301,
     "hu": "fül",
     "pl": "ucho",
     "en": "ear",
@@ -7710,7 +7736,7 @@
     "notes": ""
   },
   {
-    "id": 300,
+    "id": 302,
     "hu": "fürdeni",
     "pl": "kąpać się",
     "en": "to bathe",
@@ -7737,7 +7763,7 @@
     "notes": ""
   },
   {
-    "id": 301,
+    "id": 303,
     "hu": "főnök",
     "pl": "szef",
     "en": "boss",
@@ -7760,7 +7786,7 @@
     "notes": ""
   },
   {
-    "id": 302,
+    "id": 304,
     "hu": "főzni",
     "pl": "gotować",
     "en": "to cook",
@@ -7787,7 +7813,7 @@
     "notes": ""
   },
   {
-    "id": 303,
+    "id": 305,
     "hu": "fű",
     "pl": "trawa",
     "en": "grass",
@@ -7813,7 +7839,7 @@
     "notes": ""
   },
   {
-    "id": 304,
+    "id": 306,
     "hu": "fűteni",
     "pl": "ogrzewać",
     "en": "to heat",
@@ -7839,7 +7865,7 @@
     "notes": ""
   },
   {
-    "id": 305,
+    "id": 307,
     "hu": "gazdag",
     "pl": "bogaty",
     "en": "rich",
@@ -7864,7 +7890,7 @@
     "notes": ""
   },
   {
-    "id": 306,
+    "id": 308,
     "hu": "gerinc",
     "pl": "kręgosłup",
     "en": "spine",
@@ -7889,7 +7915,7 @@
     "notes": ""
   },
   {
-    "id": 307,
+    "id": 309,
     "hu": "gesztenye",
     "pl": "kasztan",
     "en": "chestnut",
@@ -7915,7 +7941,7 @@
     "notes": ""
   },
   {
-    "id": 308,
+    "id": 310,
     "hu": "gesztenyefa",
     "pl": "kasztanowiec",
     "en": "chestnut tree",
@@ -7940,7 +7966,7 @@
     "notes": ""
   },
   {
-    "id": 309,
+    "id": 311,
     "hu": "gluténmentes",
     "pl": "bezglutenowy",
     "en": "gluten-free",
@@ -7965,7 +7991,7 @@
     "notes": ""
   },
   {
-    "id": 310,
+    "id": 312,
     "hu": "gomba",
     "pl": "grzyb",
     "en": "mushroom",
@@ -7991,7 +8017,7 @@
     "notes": ""
   },
   {
-    "id": 311,
+    "id": 313,
     "hu": "gratulálni",
     "pl": "gratulować",
     "en": "to congratulate",
@@ -8016,7 +8042,7 @@
     "notes": ""
   },
   {
-    "id": 312,
+    "id": 314,
     "hu": "gyalog",
     "pl": "pieszo",
     "en": "on foot",
@@ -8042,7 +8068,7 @@
     "notes": ""
   },
   {
-    "id": 313,
+    "id": 315,
     "hu": "gyenge",
     "pl": "słaby",
     "en": "weak",
@@ -8068,7 +8094,7 @@
     "notes": ""
   },
   {
-    "id": 314,
+    "id": 316,
     "hu": "gyorsétterem",
     "pl": "fast food",
     "en": "fast food restaurant",
@@ -8094,7 +8120,7 @@
     "notes": ""
   },
   {
-    "id": 315,
+    "id": 317,
     "hu": "gyík",
     "pl": "jaszczurka",
     "en": "lizard",
@@ -8117,7 +8143,7 @@
     "notes": ""
   },
   {
-    "id": 316,
+    "id": 318,
     "hu": "gyöngy",
     "pl": "perła",
     "en": "pearl",
@@ -8140,7 +8166,7 @@
     "notes": ""
   },
   {
-    "id": 317,
+    "id": 319,
     "hu": "gyümölcs",
     "pl": "owoc",
     "en": "fruit",
@@ -8166,7 +8192,7 @@
     "notes": ""
   },
   {
-    "id": 318,
+    "id": 320,
     "hu": "gyűjteni",
     "pl": "zbierać",
     "en": "to collect",
@@ -8192,7 +8218,7 @@
     "notes": ""
   },
   {
-    "id": 319,
+    "id": 321,
     "hu": "görög",
     "pl": "grecki",
     "en": "Greek",
@@ -8217,7 +8243,7 @@
     "notes": ""
   },
   {
-    "id": 320,
+    "id": 322,
     "hu": "haj",
     "pl": "włosy",
     "en": "hair",
@@ -8243,7 +8269,7 @@
     "notes": ""
   },
   {
-    "id": 321,
+    "id": 323,
     "hu": "hajó",
     "pl": "statek",
     "en": "ship",
@@ -8268,7 +8294,7 @@
     "notes": ""
   },
   {
-    "id": 322,
+    "id": 324,
     "hu": "hal",
     "pl": "ryba",
     "en": "fish",
@@ -8295,7 +8321,7 @@
     "notes": ""
   },
   {
-    "id": 323,
+    "id": 325,
     "hu": "hallani",
     "pl": "słyszeć",
     "en": "to hear",
@@ -8322,7 +8348,7 @@
     "notes": ""
   },
   {
-    "id": 324,
+    "id": 326,
     "hu": "hallgatni",
     "pl": "słuchać",
     "en": "to listen",
@@ -8349,7 +8375,7 @@
     "notes": ""
   },
   {
-    "id": 325,
+    "id": 327,
     "hu": "hanem",
     "pl": "lecz / ale",
     "en": "but / rather",
@@ -8371,7 +8397,7 @@
     "notes": ""
   },
   {
-    "id": 326,
+    "id": 328,
     "hu": "harcolni",
     "pl": "walczyć",
     "en": "to fight",
@@ -8395,7 +8421,7 @@
     "notes": ""
   },
   {
-    "id": 327,
+    "id": 329,
     "hu": "harminc",
     "pl": "trzydzieści",
     "en": "thirty",
@@ -8420,7 +8446,7 @@
     "notes": ""
   },
   {
-    "id": 328,
+    "id": 330,
     "hu": "harmincegy",
     "pl": "trzydzieści jeden",
     "en": "thirty-one",
@@ -8441,7 +8467,7 @@
     "notes": ""
   },
   {
-    "id": 329,
+    "id": 331,
     "hu": "harminchat",
     "pl": "trzydzieści sześć",
     "en": "thirty-six",
@@ -8462,7 +8488,7 @@
     "notes": ""
   },
   {
-    "id": 330,
+    "id": 332,
     "hu": "harmincöt",
     "pl": "trzydzieści pięć",
     "en": "thirty-five",
@@ -8483,7 +8509,7 @@
     "notes": ""
   },
   {
-    "id": 331,
+    "id": 333,
     "hu": "harmincötös",
     "pl": "trzydziestka piąta",
     "en": "number thirty-five",
@@ -8507,7 +8533,7 @@
     "notes": ""
   },
   {
-    "id": 332,
+    "id": 334,
     "hu": "has",
     "pl": "brzuch",
     "en": "stomach / belly",
@@ -8534,7 +8560,7 @@
     "notes": ""
   },
   {
-    "id": 333,
+    "id": 335,
     "hu": "hasznos",
     "pl": "przydatny",
     "en": "useful",
@@ -8561,7 +8587,7 @@
     "notes": ""
   },
   {
-    "id": 334,
+    "id": 336,
     "hu": "használni",
     "pl": "używać",
     "en": "to use",
@@ -8586,7 +8612,7 @@
     "notes": ""
   },
   {
-    "id": 335,
+    "id": 337,
     "hu": "hat",
     "pl": "sześć",
     "en": "six",
@@ -8612,7 +8638,7 @@
     "notes": ""
   },
   {
-    "id": 336,
+    "id": 338,
     "hu": "hatos",
     "pl": "szóstka",
     "en": "number six",
@@ -8636,7 +8662,7 @@
     "notes": ""
   },
   {
-    "id": 337,
+    "id": 339,
     "hu": "hatvan",
     "pl": "sześćdziesiąt",
     "en": "sixty",
@@ -8660,7 +8686,7 @@
     "notes": ""
   },
   {
-    "id": 338,
+    "id": 340,
     "hu": "hatvanhat",
     "pl": "sześćdziesiąt sześć",
     "en": "sixty-six",
@@ -8681,7 +8707,7 @@
     "notes": ""
   },
   {
-    "id": 339,
+    "id": 341,
     "hu": "hatvanöt",
     "pl": "sześćdziesiąt pięć",
     "en": "sixty-five",
@@ -8702,7 +8728,7 @@
     "notes": ""
   },
   {
-    "id": 340,
+    "id": 342,
     "hu": "havi",
     "pl": "miesięczny",
     "en": "monthly",
@@ -8728,7 +8754,7 @@
     "notes": ""
   },
   {
-    "id": 341,
+    "id": 343,
     "hu": "hazudni",
     "pl": "kłamać",
     "en": "to lie (tell untruth)",
@@ -8753,7 +8779,7 @@
     "notes": ""
   },
   {
-    "id": 342,
+    "id": 344,
     "hu": "hegy",
     "pl": "góra",
     "en": "mountain",
@@ -8780,7 +8806,7 @@
     "notes": ""
   },
   {
-    "id": 343,
+    "id": 345,
     "hu": "helyes",
     "pl": "poprawny",
     "en": "correct / right",
@@ -8807,7 +8833,7 @@
     "notes": ""
   },
   {
-    "id": 344,
+    "id": 346,
     "hu": "hetven",
     "pl": "siedemdziesiąt",
     "en": "seventy",
@@ -8831,7 +8857,7 @@
     "notes": ""
   },
   {
-    "id": 345,
+    "id": 347,
     "hu": "hetvenegy",
     "pl": "siedemdziesiąt jeden",
     "en": "seventy-one",
@@ -8852,7 +8878,7 @@
     "notes": ""
   },
   {
-    "id": 346,
+    "id": 348,
     "hu": "hetvenöt",
     "pl": "siedemdziesiąt pięć",
     "en": "seventy-five",
@@ -8873,7 +8899,7 @@
     "notes": ""
   },
   {
-    "id": 347,
+    "id": 349,
     "hu": "hinni",
     "pl": "wierzyć",
     "en": "to believe",
@@ -8899,7 +8925,7 @@
     "notes": ""
   },
   {
-    "id": 348,
+    "id": 350,
     "hu": "hit",
     "pl": "wiara",
     "en": "faith",
@@ -8923,7 +8949,7 @@
     "notes": ""
   },
   {
-    "id": 349,
+    "id": 351,
     "hu": "hogy",
     "pl": "że / jak",
     "en": "that / how",
@@ -8945,7 +8971,7 @@
     "notes": ""
   },
   {
-    "id": 350,
+    "id": 352,
     "hu": "hogy hívnak",
     "pl": "jak się nazywasz?",
     "en": "what is your name?",
@@ -8971,7 +8997,7 @@
     "notes": ""
   },
   {
-    "id": 351,
+    "id": 353,
     "hu": "holland",
     "pl": "holenderski",
     "en": "Dutch",
@@ -8995,7 +9021,7 @@
     "notes": ""
   },
   {
-    "id": 352,
+    "id": 354,
     "hu": "holnap",
     "pl": "jutro",
     "en": "tomorrow",
@@ -9021,7 +9047,7 @@
     "notes": ""
   },
   {
-    "id": 353,
+    "id": 355,
     "hu": "holnapután",
     "pl": "pojutrze",
     "en": "day after tomorrow",
@@ -9045,7 +9071,7 @@
     "notes": ""
   },
   {
-    "id": 354,
+    "id": 356,
     "hu": "honnan",
     "pl": "skąd",
     "en": "from where",
@@ -9067,7 +9093,7 @@
     "notes": ""
   },
   {
-    "id": 355,
+    "id": 357,
     "hu": "hosszú",
     "pl": "długi",
     "en": "long",
@@ -9092,7 +9118,7 @@
     "notes": ""
   },
   {
-    "id": 356,
+    "id": 358,
     "hu": "hova",
     "pl": "dokąd",
     "en": "where to",
@@ -9117,7 +9143,7 @@
     "notes": ""
   },
   {
-    "id": 357,
+    "id": 359,
     "hu": "hozni",
     "pl": "przynosić",
     "en": "to bring",
@@ -9143,7 +9169,7 @@
     "notes": ""
   },
   {
-    "id": 358,
+    "id": 360,
     "hu": "huszonegy",
     "pl": "dwadzieścia jeden",
     "en": "twenty-one",
@@ -9164,7 +9190,7 @@
     "notes": ""
   },
   {
-    "id": 359,
+    "id": 361,
     "hu": "huszonhárom",
     "pl": "dwadzieścia trzy",
     "en": "twenty-three",
@@ -9185,7 +9211,7 @@
     "notes": ""
   },
   {
-    "id": 360,
+    "id": 362,
     "hu": "huszonkettő",
     "pl": "dwadzieścia dwa",
     "en": "twenty-two",
@@ -9206,7 +9232,7 @@
     "notes": ""
   },
   {
-    "id": 361,
+    "id": 363,
     "hu": "huszonkilenc",
     "pl": "dwadzieścia dziewięć",
     "en": "twenty-nine",
@@ -9227,7 +9253,7 @@
     "notes": ""
   },
   {
-    "id": 362,
+    "id": 364,
     "hu": "huszonnyolc",
     "pl": "dwadzieścia osiem",
     "en": "twenty-eight",
@@ -9248,7 +9274,7 @@
     "notes": ""
   },
   {
-    "id": 363,
+    "id": 365,
     "hu": "huszonöt",
     "pl": "dwadzieścia pięć",
     "en": "twenty-five",
@@ -9270,7 +9296,7 @@
     "notes": ""
   },
   {
-    "id": 364,
+    "id": 366,
     "hu": "hány",
     "pl": "ile",
     "en": "how many",
@@ -9295,7 +9321,7 @@
     "notes": ""
   },
   {
-    "id": 365,
+    "id": 367,
     "hu": "hármas",
     "pl": "trójka",
     "en": "number three",
@@ -9319,7 +9345,7 @@
     "notes": ""
   },
   {
-    "id": 366,
+    "id": 368,
     "hu": "három",
     "pl": "trzy",
     "en": "three",
@@ -9345,7 +9371,7 @@
     "notes": ""
   },
   {
-    "id": 367,
+    "id": 369,
     "hu": "háromnegyed",
     "pl": "trzy kwadranse",
     "en": "three quarters",
@@ -9370,7 +9396,7 @@
     "notes": ""
   },
   {
-    "id": 368,
+    "id": 370,
     "hu": "hát",
     "pl": "plecy",
     "en": "back",
@@ -9397,7 +9423,7 @@
     "notes": ""
   },
   {
-    "id": 369,
+    "id": 371,
     "hu": "hétköznap",
     "pl": "dzień powszedni",
     "en": "weekday",
@@ -9423,7 +9449,7 @@
     "notes": ""
   },
   {
-    "id": 370,
+    "id": 372,
     "hu": "hétvége",
     "pl": "weekend",
     "en": "weekend",
@@ -9448,7 +9474,7 @@
     "notes": ""
   },
   {
-    "id": 371,
+    "id": 373,
     "hu": "híd",
     "pl": "most",
     "en": "bridge",
@@ -9474,7 +9500,7 @@
     "notes": ""
   },
   {
-    "id": 372,
+    "id": 374,
     "hu": "híres",
     "pl": "sławny",
     "en": "famous",
@@ -9498,7 +9524,7 @@
     "notes": ""
   },
   {
-    "id": 373,
+    "id": 375,
     "hu": "hölgyeim és uraim",
     "pl": "panie i panowie",
     "en": "ladies and gentlemen",
@@ -9524,7 +9550,7 @@
     "notes": ""
   },
   {
-    "id": 374,
+    "id": 376,
     "hu": "húg",
     "pl": "młodsza siostra",
     "en": "younger sister",
@@ -9550,7 +9576,7 @@
     "notes": ""
   },
   {
-    "id": 375,
+    "id": 377,
     "hu": "húsz",
     "pl": "dwadzieścia",
     "en": "twenty",
@@ -9575,7 +9601,7 @@
     "notes": ""
   },
   {
-    "id": 376,
+    "id": 378,
     "hu": "ide",
     "pl": "tutaj (kierunek)",
     "en": "here / to here",
@@ -9599,7 +9625,7 @@
     "notes": ""
   },
   {
-    "id": 377,
+    "id": 379,
     "hu": "idegesíteni",
     "pl": "denerwować",
     "en": "to annoy",
@@ -9623,7 +9649,7 @@
     "notes": ""
   },
   {
-    "id": 378,
+    "id": 380,
     "hu": "idős",
     "pl": "starszy (w wieku)",
     "en": "elderly",
@@ -9648,7 +9674,7 @@
     "notes": ""
   },
   {
-    "id": 379,
+    "id": 381,
     "hu": "igaz",
     "pl": "prawdziwy",
     "en": "true / right",
@@ -9673,7 +9699,7 @@
     "notes": ""
   },
   {
-    "id": 380,
+    "id": 382,
     "hu": "imádni",
     "pl": "uwielbiać",
     "en": "to adore",
@@ -9698,7 +9724,7 @@
     "notes": ""
   },
   {
-    "id": 381,
+    "id": 383,
     "hu": "indiai",
     "pl": "indyjski",
     "en": "Indian",
@@ -9723,7 +9749,7 @@
     "notes": ""
   },
   {
-    "id": 382,
+    "id": 384,
     "hu": "ing",
     "pl": "koszula",
     "en": "shirt",
@@ -9748,7 +9774,7 @@
     "notes": ""
   },
   {
-    "id": 383,
+    "id": 385,
     "hu": "innen",
     "pl": "stąd",
     "en": "from here",
@@ -9771,7 +9797,7 @@
     "notes": ""
   },
   {
-    "id": 384,
+    "id": 386,
     "hu": "inni",
     "pl": "pić",
     "en": "to drink",
@@ -9798,7 +9824,7 @@
     "notes": ""
   },
   {
-    "id": 385,
+    "id": 387,
     "hu": "internetezni",
     "pl": "korzystać z internetu",
     "en": "to use the internet",
@@ -9823,7 +9849,7 @@
     "notes": ""
   },
   {
-    "id": 386,
+    "id": 388,
     "hu": "irigyelni",
     "pl": "zazdrościć",
     "en": "to envy",
@@ -9847,7 +9873,7 @@
     "notes": ""
   },
   {
-    "id": 387,
+    "id": 389,
     "hu": "ismerni",
     "pl": "znać",
     "en": "to know (someone/something)",
@@ -9873,7 +9899,7 @@
     "notes": ""
   },
   {
-    "id": 388,
+    "id": 390,
     "hu": "ital",
     "pl": "napój",
     "en": "drink",
@@ -9900,7 +9926,7 @@
     "notes": ""
   },
   {
-    "id": 389,
+    "id": 391,
     "hu": "izraeli",
     "pl": "izraelski",
     "en": "Israeli",
@@ -9924,7 +9950,7 @@
     "notes": ""
   },
   {
-    "id": 390,
+    "id": 392,
     "hu": "japán",
     "pl": "japoński",
     "en": "Japanese",
@@ -9948,7 +9974,7 @@
     "notes": ""
   },
   {
-    "id": 391,
+    "id": 393,
     "hu": "jobb",
     "pl": "prawy / lepszy",
     "en": "right / better",
@@ -9973,7 +9999,7 @@
     "notes": ""
   },
   {
-    "id": 392,
+    "id": 394,
     "hu": "joghurt",
     "pl": "jogurt",
     "en": "yoghurt",
@@ -9998,7 +10024,7 @@
     "notes": ""
   },
   {
-    "id": 393,
+    "id": 395,
     "hu": "járda",
     "pl": "chodnik",
     "en": "sidewalk",
@@ -10021,7 +10047,7 @@
     "notes": ""
   },
   {
-    "id": 394,
+    "id": 396,
     "hu": "játszani",
     "pl": "grać / bawić się",
     "en": "to play (games)",
@@ -10048,7 +10074,7 @@
     "notes": ""
   },
   {
-    "id": 395,
+    "id": 397,
     "hu": "jég",
     "pl": "lód",
     "en": "ice",
@@ -10074,7 +10100,7 @@
     "notes": ""
   },
   {
-    "id": 396,
+    "id": 398,
     "hu": "kabát",
     "pl": "płaszcz",
     "en": "coat",
@@ -10100,7 +10126,7 @@
     "notes": ""
   },
   {
-    "id": 397,
+    "id": 399,
     "hu": "kacsa",
     "pl": "kaczka",
     "en": "duck",
@@ -10125,7 +10151,7 @@
     "notes": ""
   },
   {
-    "id": 398,
+    "id": 400,
     "hu": "kanadai",
     "pl": "kanadyjski",
     "en": "Canadian",
@@ -10148,7 +10174,7 @@
     "notes": ""
   },
   {
-    "id": 399,
+    "id": 401,
     "hu": "kapni",
     "pl": "dostawać",
     "en": "to get / receive",
@@ -10174,7 +10200,7 @@
     "notes": ""
   },
   {
-    "id": 400,
+    "id": 402,
     "hu": "kar",
     "pl": "ramię",
     "en": "arm",
@@ -10199,7 +10225,7 @@
     "notes": ""
   },
   {
-    "id": 401,
+    "id": 403,
     "hu": "karóra",
     "pl": "zegarek",
     "en": "wristwatch",
@@ -10221,7 +10247,7 @@
     "notes": ""
   },
   {
-    "id": 402,
+    "id": 404,
     "hu": "katona",
     "pl": "żołnierz",
     "en": "soldier",
@@ -10245,7 +10271,7 @@
     "notes": ""
   },
   {
-    "id": 403,
+    "id": 405,
     "hu": "kedvelni",
     "pl": "lubić (sympatia)",
     "en": "to be fond of",
@@ -10270,7 +10296,7 @@
     "notes": ""
   },
   {
-    "id": 404,
+    "id": 406,
     "hu": "kedvenc",
     "pl": "ulubiony",
     "en": "favourite",
@@ -10296,7 +10322,7 @@
     "notes": ""
   },
   {
-    "id": 405,
+    "id": 407,
     "hu": "kedves",
     "pl": "drogi / miły",
     "en": "dear / kind",
@@ -10322,7 +10348,7 @@
     "notes": ""
   },
   {
-    "id": 406,
+    "id": 408,
     "hu": "keksz",
     "pl": "herbatnik",
     "en": "biscuit / cracker",
@@ -10347,7 +10373,7 @@
     "notes": ""
   },
   {
-    "id": 407,
+    "id": 409,
     "hu": "kelni",
     "pl": "wstawać",
     "en": "to get up",
@@ -10372,7 +10398,7 @@
     "notes": ""
   },
   {
-    "id": 408,
+    "id": 410,
     "hu": "kenyér",
     "pl": "chleb",
     "en": "bread",
@@ -10398,7 +10424,7 @@
     "notes": ""
   },
   {
-    "id": 409,
+    "id": 411,
     "hu": "keresni",
     "pl": "szukać",
     "en": "to look for",
@@ -10424,7 +10450,7 @@
     "notes": ""
   },
   {
-    "id": 410,
+    "id": 412,
     "hu": "keserű",
     "pl": "gorzki",
     "en": "bitter",
@@ -10448,7 +10474,7 @@
     "notes": ""
   },
   {
-    "id": 411,
+    "id": 413,
     "hu": "kesztyű",
     "pl": "rękawiczka",
     "en": "glove",
@@ -10473,7 +10499,7 @@
     "notes": ""
   },
   {
-    "id": 412,
+    "id": 414,
     "hu": "kettes",
     "pl": "dwójka",
     "en": "number two",
@@ -10498,7 +10524,7 @@
     "notes": ""
   },
   {
-    "id": 413,
+    "id": 415,
     "hu": "kettő",
     "pl": "dwa",
     "en": "two",
@@ -10523,7 +10549,7 @@
     "notes": ""
   },
   {
-    "id": 414,
+    "id": 416,
     "hu": "kevés",
     "pl": "mało",
     "en": "few / little",
@@ -10547,7 +10573,7 @@
     "notes": ""
   },
   {
-    "id": 415,
+    "id": 417,
     "hu": "kezdeni",
     "pl": "zaczynać",
     "en": "to start",
@@ -10573,7 +10599,7 @@
     "notes": ""
   },
   {
-    "id": 416,
+    "id": 418,
     "hu": "kezdődni",
     "pl": "zaczynać się",
     "en": "to begin / start",
@@ -10598,7 +10624,7 @@
     "notes": ""
   },
   {
-    "id": 417,
+    "id": 419,
     "hu": "kiabálni",
     "pl": "krzyczeć",
     "en": "to shout",
@@ -10623,7 +10649,7 @@
     "notes": ""
   },
   {
-    "id": 418,
+    "id": 420,
     "hu": "kifli",
     "pl": "rogalik",
     "en": "croissant",
@@ -10648,7 +10674,7 @@
     "notes": ""
   },
   {
-    "id": 419,
+    "id": 421,
     "hu": "kilenc",
     "pl": "dziewięć",
     "en": "nine",
@@ -10674,7 +10700,7 @@
     "notes": ""
   },
   {
-    "id": 420,
+    "id": 422,
     "hu": "kilencven",
     "pl": "dziewięćdziesiąt",
     "en": "ninety",
@@ -10697,7 +10723,7 @@
     "notes": ""
   },
   {
-    "id": 421,
+    "id": 423,
     "hu": "kilencvenkilenc",
     "pl": "dziewięćdziesiąt dziewięć",
     "en": "ninety-nine",
@@ -10718,7 +10744,7 @@
     "notes": ""
   },
   {
-    "id": 422,
+    "id": 424,
     "hu": "kiló",
     "pl": "kilogram",
     "en": "kilo",
@@ -10742,7 +10768,7 @@
     "notes": ""
   },
   {
-    "id": 423,
+    "id": 425,
     "hu": "koffeinmentes",
     "pl": "bezkofeinowy",
     "en": "decaffeinated",
@@ -10766,7 +10792,7 @@
     "notes": ""
   },
   {
-    "id": 424,
+    "id": 426,
     "hu": "koreai",
     "pl": "koreański",
     "en": "Korean",
@@ -10789,7 +10815,7 @@
     "notes": ""
   },
   {
-    "id": 425,
+    "id": 427,
     "hu": "krumpli",
     "pl": "ziemniak",
     "en": "potato",
@@ -10815,7 +10841,7 @@
     "notes": ""
   },
   {
-    "id": 426,
+    "id": 428,
     "hu": "kurva",
     "pl": "kurwa (wulgarnie)",
     "en": "damn / fucking (vulgar intensifier)",
@@ -10836,7 +10862,7 @@
     "notes": ""
   },
   {
-    "id": 427,
+    "id": 429,
     "hu": "kék",
     "pl": "niebieski",
     "en": "blue",
@@ -10861,7 +10887,7 @@
     "notes": ""
   },
   {
-    "id": 428,
+    "id": 430,
     "hu": "kérdés",
     "pl": "pytanie",
     "en": "question",
@@ -10887,7 +10913,7 @@
     "notes": ""
   },
   {
-    "id": 429,
+    "id": 431,
     "hu": "késni",
     "pl": "spóźniać się",
     "en": "to be late",
@@ -10912,7 +10938,7 @@
     "notes": ""
   },
   {
-    "id": 430,
+    "id": 432,
     "hu": "készíteni",
     "pl": "przygotowywać",
     "en": "to prepare / make",
@@ -10938,7 +10964,7 @@
     "notes": ""
   },
   {
-    "id": 431,
+    "id": 433,
     "hu": "kétezer",
     "pl": "dwa tysiące",
     "en": "two thousand",
@@ -10960,7 +10986,7 @@
     "notes": ""
   },
   {
-    "id": 432,
+    "id": 434,
     "hu": "kéz",
     "pl": "ręka",
     "en": "hand",
@@ -10987,7 +11013,7 @@
     "notes": ""
   },
   {
-    "id": 433,
+    "id": 435,
     "hu": "kínai",
     "pl": "chiński",
     "en": "Chinese",
@@ -11012,7 +11038,7 @@
     "notes": ""
   },
   {
-    "id": 434,
+    "id": 436,
     "hu": "kóla",
     "pl": "kola",
     "en": "cola",
@@ -11036,7 +11062,7 @@
     "notes": ""
   },
   {
-    "id": 435,
+    "id": 437,
     "hu": "kórház",
     "pl": "szpital",
     "en": "hospital",
@@ -11062,7 +11088,7 @@
     "notes": ""
   },
   {
-    "id": 436,
+    "id": 438,
     "hu": "költeni",
     "pl": "wydawać",
     "en": "to spend (money)",
@@ -11087,7 +11113,7 @@
     "notes": ""
   },
   {
-    "id": 437,
+    "id": 439,
     "hu": "könnyű",
     "pl": "łatwy / lekki",
     "en": "easy / light",
@@ -11112,7 +11138,7 @@
     "notes": ""
   },
   {
-    "id": 438,
+    "id": 440,
     "hu": "köszönni",
     "pl": "witać się / pozdrawiać",
     "en": "to greet",
@@ -11139,7 +11165,7 @@
     "notes": ""
   },
   {
-    "id": 439,
+    "id": 441,
     "hu": "kövér",
     "pl": "gruby",
     "en": "fat",
@@ -11164,7 +11190,7 @@
     "notes": ""
   },
   {
-    "id": 440,
+    "id": 442,
     "hu": "között",
     "pl": "między",
     "en": "between",
@@ -11187,7 +11213,7 @@
     "notes": ""
   },
   {
-    "id": 441,
+    "id": 443,
     "hu": "küldeni",
     "pl": "wysyłać",
     "en": "to send",
@@ -11212,7 +11238,7 @@
     "notes": ""
   },
   {
-    "id": 442,
+    "id": 444,
     "hu": "lakni",
     "pl": "mieszkać",
     "en": "to live / reside",
@@ -11239,7 +11265,7 @@
     "notes": ""
   },
   {
-    "id": 443,
+    "id": 445,
     "hu": "lakás",
     "pl": "mieszkanie",
     "en": "apartment",
@@ -11266,7 +11292,7 @@
     "notes": ""
   },
   {
-    "id": 444,
+    "id": 446,
     "hu": "lekvár",
     "pl": "dżem",
     "en": "jam",
@@ -11291,7 +11317,7 @@
     "notes": ""
   },
   {
-    "id": 445,
+    "id": 447,
     "hu": "lengyel",
     "pl": "polski",
     "en": "Polish",
@@ -11315,7 +11341,7 @@
     "notes": ""
   },
   {
-    "id": 446,
+    "id": 448,
     "hu": "lenni",
     "pl": "być / stać się",
     "en": "to be / become",
@@ -11340,7 +11366,7 @@
     "notes": ""
   },
   {
-    "id": 447,
+    "id": 449,
     "hu": "levél",
     "pl": "list",
     "en": "letter",
@@ -11365,7 +11391,7 @@
     "notes": ""
   },
   {
-    "id": 448,
+    "id": 450,
     "hu": "liter",
     "pl": "litr",
     "en": "litre",
@@ -11389,7 +11415,7 @@
     "notes": ""
   },
   {
-    "id": 449,
+    "id": 451,
     "hu": "láb",
     "pl": "noga / stopa",
     "en": "leg / foot",
@@ -11415,7 +11441,7 @@
     "notes": ""
   },
   {
-    "id": 450,
+    "id": 452,
     "hu": "lány",
     "pl": "córka / dziewczyna",
     "en": "daughter / girl",
@@ -11440,7 +11466,7 @@
     "notes": ""
   },
   {
-    "id": 451,
+    "id": 453,
     "hu": "ló",
     "pl": "koń",
     "en": "horse",
@@ -11466,7 +11492,7 @@
     "notes": ""
   },
   {
-    "id": 452,
+    "id": 454,
     "hu": "ma",
     "pl": "dzisiaj",
     "en": "today",
@@ -11489,7 +11515,7 @@
     "notes": ""
   },
   {
-    "id": 453,
+    "id": 455,
     "hu": "macska",
     "pl": "kot",
     "en": "cat",
@@ -11514,7 +11540,7 @@
     "notes": ""
   },
   {
-    "id": 454,
+    "id": 456,
     "hu": "maga",
     "pl": "siebie",
     "en": "yourself / oneself",
@@ -11536,7 +11562,7 @@
     "notes": ""
   },
   {
-    "id": 455,
+    "id": 457,
     "hu": "magyar",
     "pl": "węgierski",
     "en": "Hungarian",
@@ -11561,7 +11587,7 @@
     "notes": ""
   },
   {
-    "id": 456,
+    "id": 458,
     "hu": "mai menü",
     "pl": "danie dnia",
     "en": "special of the day",
@@ -11583,7 +11609,7 @@
     "notes": ""
   },
   {
-    "id": 457,
+    "id": 459,
     "hu": "majd",
     "pl": "później",
     "en": "later / then",
@@ -11605,7 +11631,7 @@
     "notes": ""
   },
   {
-    "id": 458,
+    "id": 460,
     "hu": "majom",
     "pl": "małpa",
     "en": "monkey",
@@ -11629,7 +11655,7 @@
     "notes": ""
   },
   {
-    "id": 459,
+    "id": 461,
     "hu": "maradni",
     "pl": "zostać",
     "en": "to stay",
@@ -11654,7 +11680,7 @@
     "notes": ""
   },
   {
-    "id": 460,
+    "id": 462,
     "hu": "marhahús",
     "pl": "wołowina",
     "en": "beef",
@@ -11677,7 +11703,7 @@
     "notes": ""
   },
   {
-    "id": 461,
+    "id": 463,
     "hu": "meccs",
     "pl": "mecz",
     "en": "match (game)",
@@ -11701,7 +11727,7 @@
     "notes": ""
   },
   {
-    "id": 462,
+    "id": 464,
     "hu": "meg",
     "pl": "i / podczas gdy",
     "en": "and / while / plus",
@@ -11722,7 +11748,7 @@
     "notes": ""
   },
   {
-    "id": 463,
+    "id": 465,
     "hu": "megbocsátani",
     "pl": "wybaczać",
     "en": "to forgive",
@@ -11746,7 +11772,7 @@
     "notes": ""
   },
   {
-    "id": 464,
+    "id": 466,
     "hu": "megint",
     "pl": "znowu",
     "en": "again",
@@ -11767,7 +11793,7 @@
     "notes": ""
   },
   {
-    "id": 465,
+    "id": 467,
     "hu": "meglátogatni",
     "pl": "odwiedzać",
     "en": "to visit",
@@ -11792,7 +11818,7 @@
     "notes": ""
   },
   {
-    "id": 466,
+    "id": 468,
     "hu": "megálló",
     "pl": "przystanek",
     "en": "stop (bus/tram)",
@@ -11817,7 +11843,7 @@
     "notes": ""
   },
   {
-    "id": 467,
+    "id": 469,
     "hu": "mellett",
     "pl": "obok",
     "en": "next to",
@@ -11840,7 +11866,7 @@
     "notes": ""
   },
   {
-    "id": 468,
+    "id": 470,
     "hu": "menni",
     "pl": "iść / jechać",
     "en": "to go",
@@ -11867,7 +11893,7 @@
     "notes": ""
   },
   {
-    "id": 469,
+    "id": 471,
     "hu": "mennyi",
     "pl": "ile",
     "en": "how much",
@@ -11889,7 +11915,7 @@
     "notes": ""
   },
   {
-    "id": 470,
+    "id": 472,
     "hu": "mennyibe kerül",
     "pl": "ile to kosztuje?",
     "en": "how much does it cost?",
@@ -11914,7 +11940,7 @@
     "notes": ""
   },
   {
-    "id": 471,
+    "id": 473,
     "hu": "menyasszony",
     "pl": "narzeczona / panna młoda",
     "en": "fiancée / bride",
@@ -11938,7 +11964,7 @@
     "notes": ""
   },
   {
-    "id": 472,
+    "id": 474,
     "hu": "menza",
     "pl": "stołówka",
     "en": "cafeteria",
@@ -11962,7 +11988,7 @@
     "notes": ""
   },
   {
-    "id": 473,
+    "id": 475,
     "hu": "mert",
     "pl": "ponieważ",
     "en": "because",
@@ -11983,7 +12009,7 @@
     "notes": ""
   },
   {
-    "id": 474,
+    "id": 476,
     "hu": "mexikói",
     "pl": "meksykański",
     "en": "Mexican",
@@ -12007,7 +12033,7 @@
     "notes": ""
   },
   {
-    "id": 475,
+    "id": 477,
     "hu": "mikor",
     "pl": "kiedy",
     "en": "when",
@@ -12030,7 +12056,7 @@
     "notes": ""
   },
   {
-    "id": 476,
+    "id": 478,
     "hu": "milyen",
     "pl": "jaki",
     "en": "what kind of",
@@ -12055,7 +12081,7 @@
     "notes": ""
   },
   {
-    "id": 477,
+    "id": 479,
     "hu": "minden",
     "pl": "każdy / wszystko",
     "en": "every / all",
@@ -12080,7 +12106,7 @@
     "notes": ""
   },
   {
-    "id": 478,
+    "id": 480,
     "hu": "mogyoró",
     "pl": "orzeszek ziemny",
     "en": "peanut",
@@ -12105,7 +12131,7 @@
     "notes": ""
   },
   {
-    "id": 479,
+    "id": 481,
     "hu": "mogyoróvaj",
     "pl": "masło orzechowe",
     "en": "peanut butter",
@@ -12129,7 +12155,7 @@
     "notes": ""
   },
   {
-    "id": 480,
+    "id": 482,
     "hu": "mondani",
     "pl": "mówić / powiedzieć",
     "en": "to say / tell",
@@ -12156,7 +12182,7 @@
     "notes": ""
   },
   {
-    "id": 481,
+    "id": 483,
     "hu": "mondat",
     "pl": "zdanie",
     "en": "sentence",
@@ -12181,7 +12207,7 @@
     "notes": ""
   },
   {
-    "id": 482,
+    "id": 484,
     "hu": "mongol",
     "pl": "mongolski",
     "en": "Mongolian",
@@ -12204,7 +12230,7 @@
     "notes": ""
   },
   {
-    "id": 483,
+    "id": 485,
     "hu": "mosdó",
     "pl": "toaleta",
     "en": "toilet / restroom",
@@ -12229,7 +12255,7 @@
     "notes": ""
   },
   {
-    "id": 484,
+    "id": 486,
     "hu": "mosni",
     "pl": "myć / prać",
     "en": "to wash / brush",
@@ -12256,7 +12282,7 @@
     "notes": ""
   },
   {
-    "id": 485,
+    "id": 487,
     "hu": "mosogatni",
     "pl": "zmywać naczynia",
     "en": "to wash the dishes",
@@ -12281,7 +12307,7 @@
     "notes": ""
   },
   {
-    "id": 486,
+    "id": 488,
     "hu": "munkás",
     "pl": "pracownik / robotnik",
     "en": "worker",
@@ -12306,7 +12332,7 @@
     "notes": ""
   },
   {
-    "id": 487,
+    "id": 489,
     "hu": "mutatni",
     "pl": "pokazywać",
     "en": "to show",
@@ -12331,7 +12357,7 @@
     "notes": ""
   },
   {
-    "id": 488,
+    "id": 490,
     "hu": "mák",
     "pl": "mak",
     "en": "poppy seed",
@@ -12354,7 +12380,7 @@
     "notes": ""
   },
   {
-    "id": 489,
+    "id": 491,
     "hu": "már",
     "pl": "już",
     "en": "already",
@@ -12376,7 +12402,7 @@
     "notes": ""
   },
   {
-    "id": 490,
+    "id": 492,
     "hu": "másfél",
     "pl": "półtora",
     "en": "one and a half",
@@ -12398,7 +12424,7 @@
     "notes": ""
   },
   {
-    "id": 491,
+    "id": 493,
     "hu": "másik",
     "pl": "inny",
     "en": "another / the other one",
@@ -12421,7 +12447,7 @@
     "notes": ""
   },
   {
-    "id": 492,
+    "id": 494,
     "hu": "mély",
     "pl": "głęboki",
     "en": "deep",
@@ -12446,7 +12472,7 @@
     "notes": ""
   },
   {
-    "id": 493,
+    "id": 495,
     "hu": "mérges",
     "pl": "zły / wściekły",
     "en": "angry",
@@ -12471,7 +12497,7 @@
     "notes": ""
   },
   {
-    "id": 494,
+    "id": 496,
     "hu": "mérni",
     "pl": "mierzyć",
     "en": "to measure",
@@ -12496,7 +12522,7 @@
     "notes": ""
   },
   {
-    "id": 495,
+    "id": 497,
     "hu": "mérnök",
     "pl": "inżynier",
     "en": "engineer",
@@ -12519,7 +12545,7 @@
     "notes": ""
   },
   {
-    "id": 496,
+    "id": 498,
     "hu": "méz",
     "pl": "miód",
     "en": "honey",
@@ -12542,7 +12568,7 @@
     "notes": ""
   },
   {
-    "id": 497,
+    "id": 499,
     "hu": "mögött",
     "pl": "za",
     "en": "behind",
@@ -12565,7 +12591,7 @@
     "notes": ""
   },
   {
-    "id": 498,
+    "id": 500,
     "hu": "műteni",
     "pl": "operować",
     "en": "to operate (surgery)",
@@ -12589,7 +12615,7 @@
     "notes": ""
   },
   {
-    "id": 499,
+    "id": 501,
     "hu": "művész",
     "pl": "artysta",
     "en": "artist",
@@ -12615,7 +12641,7 @@
     "notes": ""
   },
   {
-    "id": 500,
+    "id": 502,
     "hu": "nadrág",
     "pl": "spodnie",
     "en": "pants",
@@ -12640,7 +12666,7 @@
     "notes": ""
   },
   {
-    "id": 501,
+    "id": 503,
     "hu": "nagybácsi",
     "pl": "wujek",
     "en": "uncle",
@@ -12661,7 +12687,7 @@
     "notes": ""
   },
   {
-    "id": 502,
+    "id": 504,
     "hu": "nagymama",
     "pl": "babcia",
     "en": "grandma",
@@ -12685,7 +12711,7 @@
     "notes": ""
   },
   {
-    "id": 503,
+    "id": 505,
     "hu": "nagynéni",
     "pl": "ciocia",
     "en": "aunt",
@@ -12706,7 +12732,7 @@
     "notes": ""
   },
   {
-    "id": 504,
+    "id": 506,
     "hu": "nagypapa",
     "pl": "dziadek",
     "en": "grandpa",
@@ -12729,7 +12755,7 @@
     "notes": ""
   },
   {
-    "id": 505,
+    "id": 507,
     "hu": "nagyszülő",
     "pl": "dziadek / babcia",
     "en": "grandparent",
@@ -12754,7 +12780,7 @@
     "notes": ""
   },
   {
-    "id": 506,
+    "id": 508,
     "hu": "negyed",
     "pl": "kwadrans",
     "en": "quarter",
@@ -12779,7 +12805,7 @@
     "notes": ""
   },
   {
-    "id": 507,
+    "id": 509,
     "hu": "negyven",
     "pl": "czterdzieści",
     "en": "forty",
@@ -12802,7 +12828,7 @@
     "notes": ""
   },
   {
-    "id": 508,
+    "id": 510,
     "hu": "negyvenkettő",
     "pl": "czterdzieści dwa",
     "en": "forty-two",
@@ -12823,7 +12849,7 @@
     "notes": ""
   },
   {
-    "id": 509,
+    "id": 511,
     "hu": "negyvenöt",
     "pl": "czterdzieści pięć",
     "en": "forty-five",
@@ -12844,7 +12870,7 @@
     "notes": ""
   },
   {
-    "id": 510,
+    "id": 512,
     "hu": "nehéz",
     "pl": "ciężki / trudny",
     "en": "heavy / difficult",
@@ -12868,7 +12894,7 @@
     "notes": ""
   },
   {
-    "id": 511,
+    "id": 513,
     "hu": "nincs",
     "pl": "nie ma",
     "en": "there isn't / is not",
@@ -12892,7 +12918,7 @@
     "notes": ""
   },
   {
-    "id": 512,
+    "id": 514,
     "hu": "nyak",
     "pl": "szyja",
     "en": "neck",
@@ -12918,7 +12944,7 @@
     "notes": ""
   },
   {
-    "id": 513,
+    "id": 515,
     "hu": "nyelv",
     "pl": "język",
     "en": "language",
@@ -12945,7 +12971,7 @@
     "notes": ""
   },
   {
-    "id": 514,
+    "id": 516,
     "hu": "nyitva",
     "pl": "otwarty",
     "en": "open",
@@ -12970,7 +12996,7 @@
     "notes": ""
   },
   {
-    "id": 515,
+    "id": 517,
     "hu": "nyolc",
     "pl": "osiem",
     "en": "eight",
@@ -12995,7 +13021,7 @@
     "notes": ""
   },
   {
-    "id": 516,
+    "id": 518,
     "hu": "nyolcvan",
     "pl": "osiemdziesiąt",
     "en": "eighty",
@@ -13018,7 +13044,7 @@
     "notes": ""
   },
   {
-    "id": 517,
+    "id": 519,
     "hu": "nyolcvanöt",
     "pl": "osiemdziesiąt pięć",
     "en": "eighty-five",
@@ -13039,7 +13065,7 @@
     "notes": ""
   },
   {
-    "id": 518,
+    "id": 520,
     "hu": "nyugodt",
     "pl": "spokojny",
     "en": "calm / relaxed",
@@ -13064,7 +13090,7 @@
     "notes": ""
   },
   {
-    "id": 519,
+    "id": 521,
     "hu": "nyár",
     "pl": "lato",
     "en": "summer",
@@ -13090,7 +13116,7 @@
     "notes": ""
   },
   {
-    "id": 520,
+    "id": 522,
     "hu": "négy",
     "pl": "cztery",
     "en": "four",
@@ -13115,7 +13141,7 @@
     "notes": ""
   },
   {
-    "id": 521,
+    "id": 523,
     "hu": "négyes",
     "pl": "czwórka",
     "en": "number four",
@@ -13139,7 +13165,7 @@
     "notes": ""
   },
   {
-    "id": 522,
+    "id": 524,
     "hu": "néhány",
     "pl": "kilka",
     "en": "a few / some",
@@ -13160,7 +13186,7 @@
     "notes": ""
   },
   {
-    "id": 523,
+    "id": 525,
     "hu": "német",
     "pl": "niemiecki",
     "en": "German",
@@ -13185,7 +13211,7 @@
     "notes": ""
   },
   {
-    "id": 524,
+    "id": 526,
     "hu": "név",
     "pl": "imię",
     "en": "name",
@@ -13210,7 +13236,7 @@
     "notes": ""
   },
   {
-    "id": 525,
+    "id": 527,
     "hu": "nézni",
     "pl": "patrzeć / oglądać",
     "en": "to watch / look",
@@ -13237,7 +13263,7 @@
     "notes": ""
   },
   {
-    "id": 526,
+    "id": 528,
     "hu": "nővér",
     "pl": "starsza siostra",
     "en": "older sister",
@@ -13262,7 +13288,7 @@
     "notes": ""
   },
   {
-    "id": 527,
+    "id": 529,
     "hu": "oda",
     "pl": "tam (kierunek)",
     "en": "there / to there",
@@ -13284,7 +13310,7 @@
     "notes": ""
   },
   {
-    "id": 528,
+    "id": 530,
     "hu": "okos",
     "pl": "mądry",
     "en": "clever / smart",
@@ -13309,7 +13335,7 @@
     "notes": ""
   },
   {
-    "id": 529,
+    "id": 531,
     "hu": "olasz",
     "pl": "włoski",
     "en": "Italian",
@@ -13334,7 +13360,7 @@
     "notes": ""
   },
   {
-    "id": 530,
+    "id": 532,
     "hu": "olcsó",
     "pl": "tani",
     "en": "cheap",
@@ -13358,7 +13384,7 @@
     "notes": ""
   },
   {
-    "id": 531,
+    "id": 533,
     "hu": "olvasni",
     "pl": "czytać",
     "en": "to read",
@@ -13385,7 +13411,7 @@
     "notes": ""
   },
   {
-    "id": 532,
+    "id": 534,
     "hu": "onnan",
     "pl": "stamtąd",
     "en": "from there",
@@ -13407,7 +13433,7 @@
     "notes": ""
   },
   {
-    "id": 533,
+    "id": 535,
     "hu": "orosz",
     "pl": "rosyjski",
     "en": "Russian",
@@ -13432,7 +13458,7 @@
     "notes": ""
   },
   {
-    "id": 534,
+    "id": 536,
     "hu": "oroszlán",
     "pl": "lew",
     "en": "lion",
@@ -13457,7 +13483,7 @@
     "notes": ""
   },
   {
-    "id": 535,
+    "id": 537,
     "hu": "orr",
     "pl": "nos",
     "en": "nose",
@@ -13482,7 +13508,7 @@
     "notes": ""
   },
   {
-    "id": 536,
+    "id": 538,
     "hu": "osztrák",
     "pl": "austriacki",
     "en": "Austrian",
@@ -13505,7 +13531,7 @@
     "notes": ""
   },
   {
-    "id": 537,
+    "id": 539,
     "hu": "palacsinta",
     "pl": "naleśnik",
     "en": "pancake",
@@ -13530,7 +13556,7 @@
     "notes": ""
   },
   {
-    "id": 538,
+    "id": 540,
     "hu": "paradicsom",
     "pl": "pomidor",
     "en": "tomato",
@@ -13556,7 +13582,7 @@
     "notes": ""
   },
   {
-    "id": 539,
+    "id": 541,
     "hu": "pedig",
     "pl": "a / zaś",
     "en": "whereas / while",
@@ -13577,7 +13603,7 @@
     "notes": ""
   },
   {
-    "id": 540,
+    "id": 542,
     "hu": "perc",
     "pl": "minuta",
     "en": "minute",
@@ -13601,7 +13627,7 @@
     "notes": ""
   },
   {
-    "id": 541,
+    "id": 543,
     "hu": "persze",
     "pl": "jasne / oczywiście",
     "en": "of course",
@@ -13623,7 +13649,7 @@
     "notes": ""
   },
   {
-    "id": 542,
+    "id": 544,
     "hu": "pillangó",
     "pl": "motyl",
     "en": "butterfly",
@@ -13648,7 +13674,7 @@
     "notes": ""
   },
   {
-    "id": 543,
+    "id": 545,
     "hu": "pincér",
     "pl": "kelner",
     "en": "waiter",
@@ -13673,7 +13699,7 @@
     "notes": ""
   },
   {
-    "id": 544,
+    "id": 546,
     "hu": "pingvin",
     "pl": "pingwin",
     "en": "penguin",
@@ -13697,7 +13723,7 @@
     "notes": ""
   },
   {
-    "id": 545,
+    "id": 547,
     "hu": "polc",
     "pl": "półka",
     "en": "shelf",
@@ -13721,7 +13747,7 @@
     "notes": ""
   },
   {
-    "id": 546,
+    "id": 548,
     "hu": "politikus",
     "pl": "polityk",
     "en": "politician",
@@ -13745,7 +13771,7 @@
     "notes": ""
   },
   {
-    "id": 547,
+    "id": 549,
     "hu": "portugál",
     "pl": "portugalski",
     "en": "Portuguese",
@@ -13768,7 +13794,7 @@
     "notes": ""
   },
   {
-    "id": 548,
+    "id": 550,
     "hu": "postás",
     "pl": "listonosz",
     "en": "postman",
@@ -13793,7 +13819,7 @@
     "notes": ""
   },
   {
-    "id": 549,
+    "id": 551,
     "hu": "próbafülke",
     "pl": "przymierzalnia",
     "en": "fitting room",
@@ -13818,7 +13844,7 @@
     "notes": ""
   },
   {
-    "id": 550,
+    "id": 552,
     "hu": "pályaudvar",
     "pl": "dworzec kolejowy",
     "en": "train station",
@@ -13844,7 +13870,7 @@
     "notes": ""
   },
   {
-    "id": 551,
+    "id": 553,
     "hu": "példa",
     "pl": "przykład",
     "en": "example",
@@ -13869,7 +13895,7 @@
     "notes": ""
   },
   {
-    "id": 552,
+    "id": 554,
     "hu": "póló",
     "pl": "koszulka",
     "en": "t-shirt",
@@ -13893,7 +13919,7 @@
     "notes": ""
   },
   {
-    "id": 553,
+    "id": 555,
     "hu": "reggeli",
     "pl": "śniadanie",
     "en": "breakfast",
@@ -13919,7 +13945,7 @@
     "notes": ""
   },
   {
-    "id": 554,
+    "id": 556,
     "hu": "reggelizni",
     "pl": "jeść śniadanie",
     "en": "to have breakfast",
@@ -13945,7 +13971,7 @@
     "notes": ""
   },
   {
-    "id": 555,
+    "id": 557,
     "hu": "rendezni",
     "pl": "reżyserować / organizować",
     "en": "to direct / organize",
@@ -13970,7 +13996,7 @@
     "notes": ""
   },
   {
-    "id": 556,
+    "id": 558,
     "hu": "rendező",
     "pl": "reżyser",
     "en": "director",
@@ -13993,7 +14019,7 @@
     "notes": ""
   },
   {
-    "id": 557,
+    "id": 559,
     "hu": "rendőr",
     "pl": "policjant",
     "en": "policeman",
@@ -14018,7 +14044,7 @@
     "notes": ""
   },
   {
-    "id": 558,
+    "id": 560,
     "hu": "repülőgép",
     "pl": "samolot",
     "en": "airplane",
@@ -14043,7 +14069,7 @@
     "notes": ""
   },
   {
-    "id": 559,
+    "id": 561,
     "hu": "repülőtér",
     "pl": "lotnisko",
     "en": "airport",
@@ -14069,7 +14095,7 @@
     "notes": ""
   },
   {
-    "id": 560,
+    "id": 562,
     "hu": "riporter",
     "pl": "reporter",
     "en": "reporter",
@@ -14093,7 +14119,7 @@
     "notes": ""
   },
   {
-    "id": 561,
+    "id": 563,
     "hu": "rizs",
     "pl": "ryż",
     "en": "rice",
@@ -14117,7 +14143,7 @@
     "notes": ""
   },
   {
-    "id": 562,
+    "id": 564,
     "hu": "rokon",
     "pl": "krewny",
     "en": "relative",
@@ -14141,7 +14167,7 @@
     "notes": ""
   },
   {
-    "id": 563,
+    "id": 565,
     "hu": "rossz",
     "pl": "zły",
     "en": "bad",
@@ -14166,7 +14192,7 @@
     "notes": ""
   },
   {
-    "id": 564,
+    "id": 566,
     "hu": "rosszul",
     "pl": "źle",
     "en": "badly / sick",
@@ -14191,7 +14217,7 @@
     "notes": ""
   },
   {
-    "id": 565,
+    "id": 567,
     "hu": "ruha",
     "pl": "sukienka",
     "en": "dress",
@@ -14217,7 +14243,7 @@
     "notes": ""
   },
   {
-    "id": 566,
+    "id": 568,
     "hu": "rántotta",
     "pl": "jajecznica",
     "en": "scrambled eggs",
@@ -14241,7 +14267,7 @@
     "notes": ""
   },
   {
-    "id": 567,
+    "id": 569,
     "hu": "régi",
     "pl": "stary",
     "en": "old (things)",
@@ -14265,7 +14291,7 @@
     "notes": ""
   },
   {
-    "id": 568,
+    "id": 570,
     "hu": "répa",
     "pl": "marchewka",
     "en": "carrot",
@@ -14290,7 +14316,7 @@
     "notes": ""
   },
   {
-    "id": 569,
+    "id": 571,
     "hu": "rétes",
     "pl": "strudel",
     "en": "strudel",
@@ -14316,7 +14342,7 @@
     "notes": ""
   },
   {
-    "id": 570,
+    "id": 572,
     "hu": "rövid",
     "pl": "krótki",
     "en": "short",
@@ -14342,7 +14368,7 @@
     "notes": ""
   },
   {
-    "id": 571,
+    "id": 573,
     "hu": "sajnálni",
     "pl": "żałować",
     "en": "to feel sorry / regret",
@@ -14369,7 +14395,7 @@
     "notes": ""
   },
   {
-    "id": 572,
+    "id": 574,
     "hu": "sajt",
     "pl": "ser",
     "en": "cheese",
@@ -14395,7 +14421,7 @@
     "notes": ""
   },
   {
-    "id": 573,
+    "id": 575,
     "hu": "saját",
     "pl": "własny",
     "en": "own",
@@ -14418,7 +14444,7 @@
     "notes": ""
   },
   {
-    "id": 574,
+    "id": 576,
     "hu": "sarok",
     "pl": "pięta",
     "en": "heel",
@@ -14443,7 +14469,7 @@
     "notes": ""
   },
   {
-    "id": 575,
+    "id": 577,
     "hu": "savanyú",
     "pl": "kwaśny",
     "en": "sour",
@@ -14469,7 +14495,7 @@
     "notes": ""
   },
   {
-    "id": 576,
+    "id": 578,
     "hu": "segíteni",
     "pl": "pomagać",
     "en": "to help",
@@ -14495,7 +14521,7 @@
     "notes": ""
   },
   {
-    "id": 577,
+    "id": 579,
     "hu": "sok",
     "pl": "dużo",
     "en": "a lot of / many",
@@ -14522,7 +14548,7 @@
     "notes": ""
   },
   {
-    "id": 578,
+    "id": 580,
     "hu": "sonka",
     "pl": "szynka",
     "en": "ham",
@@ -14548,7 +14574,7 @@
     "notes": ""
   },
   {
-    "id": 579,
+    "id": 581,
     "hu": "sovány",
     "pl": "chudy",
     "en": "slim / thin",
@@ -14574,7 +14600,7 @@
     "notes": ""
   },
   {
-    "id": 580,
+    "id": 582,
     "hu": "spanyol",
     "pl": "hiszpański",
     "en": "Spanish",
@@ -14599,7 +14625,7 @@
     "notes": ""
   },
   {
-    "id": 581,
+    "id": 583,
     "hu": "sportoló",
     "pl": "sportowiec",
     "en": "athlete / sportsman",
@@ -14625,7 +14651,7 @@
     "notes": ""
   },
   {
-    "id": 582,
+    "id": 584,
     "hu": "szabadnap",
     "pl": "dzień wolny",
     "en": "day off",
@@ -14652,7 +14678,7 @@
     "notes": ""
   },
   {
-    "id": 583,
+    "id": 585,
     "hu": "szakács",
     "pl": "kucharz",
     "en": "cook",
@@ -14679,7 +14705,7 @@
     "notes": ""
   },
   {
-    "id": 584,
+    "id": 586,
     "hu": "szakáll",
     "pl": "broda",
     "en": "beard",
@@ -14703,7 +14729,7 @@
     "notes": ""
   },
   {
-    "id": 585,
+    "id": 587,
     "hu": "szalvéta",
     "pl": "serwetka",
     "en": "napkin",
@@ -14726,7 +14752,7 @@
     "notes": ""
   },
   {
-    "id": 586,
+    "id": 588,
     "hu": "szalámi",
     "pl": "salami",
     "en": "salami",
@@ -14751,7 +14777,7 @@
     "notes": ""
   },
   {
-    "id": 587,
+    "id": 589,
     "hu": "szar",
     "pl": "gówno",
     "en": "crap / shit",
@@ -14772,7 +14798,7 @@
     "notes": ""
   },
   {
-    "id": 588,
+    "id": 590,
     "hu": "szeles",
     "pl": "wietrzny",
     "en": "windy",
@@ -14798,7 +14824,7 @@
     "notes": ""
   },
   {
-    "id": 589,
+    "id": 591,
     "hu": "szelet",
     "pl": "kromka / plasterek",
     "en": "slice",
@@ -14824,7 +14850,7 @@
     "notes": ""
   },
   {
-    "id": 590,
+    "id": 592,
     "hu": "szem",
     "pl": "oko",
     "en": "eye",
@@ -14851,7 +14877,7 @@
     "notes": ""
   },
   {
-    "id": 591,
+    "id": 593,
     "hu": "szendvics",
     "pl": "kanapka",
     "en": "sandwich",
@@ -14877,7 +14903,7 @@
     "notes": ""
   },
   {
-    "id": 592,
+    "id": 594,
     "hu": "szerelmes",
     "pl": "zakochany",
     "en": "in love",
@@ -14902,7 +14928,7 @@
     "notes": ""
   },
   {
-    "id": 593,
+    "id": 595,
     "hu": "szerencsés",
     "pl": "szczęśliwy",
     "en": "lucky",
@@ -14927,7 +14953,7 @@
     "notes": ""
   },
   {
-    "id": 594,
+    "id": 596,
     "hu": "szoba",
     "pl": "pokój",
     "en": "room",
@@ -14954,7 +14980,7 @@
     "notes": ""
   },
   {
-    "id": 595,
+    "id": 597,
     "hu": "szokni",
     "pl": "mieć zwyczaj",
     "en": "to be used to / usually do",
@@ -14980,7 +15006,7 @@
     "notes": ""
   },
   {
-    "id": 596,
+    "id": 598,
     "hu": "szomjas",
     "pl": "spragniony",
     "en": "thirsty",
@@ -15007,7 +15033,7 @@
     "notes": ""
   },
   {
-    "id": 597,
+    "id": 599,
     "hu": "szomorú",
     "pl": "smutny",
     "en": "sad",
@@ -15033,7 +15059,7 @@
     "notes": ""
   },
   {
-    "id": 598,
+    "id": 600,
     "hu": "száj",
     "pl": "usta",
     "en": "mouth",
@@ -15059,7 +15085,7 @@
     "notes": ""
   },
   {
-    "id": 599,
+    "id": 601,
     "hu": "száraz",
     "pl": "suchy",
     "en": "dry",
@@ -15086,7 +15112,7 @@
     "notes": ""
   },
   {
-    "id": 600,
+    "id": 602,
     "hu": "száz",
     "pl": "sto",
     "en": "hundred",
@@ -15111,7 +15137,7 @@
     "notes": ""
   },
   {
-    "id": 601,
+    "id": 603,
     "hu": "szék",
     "pl": "krzesło",
     "en": "chair",
@@ -15137,7 +15163,7 @@
     "notes": ""
   },
   {
-    "id": 602,
+    "id": 604,
     "hu": "szél",
     "pl": "wiatr",
     "en": "wind",
@@ -15164,7 +15190,7 @@
     "notes": ""
   },
   {
-    "id": 603,
+    "id": 605,
     "hu": "széles",
     "pl": "szeroki",
     "en": "wide / broad",
@@ -15191,7 +15217,7 @@
     "notes": ""
   },
   {
-    "id": 604,
+    "id": 606,
     "hu": "színész",
     "pl": "aktor",
     "en": "actor",
@@ -15218,7 +15244,7 @@
     "notes": ""
   },
   {
-    "id": 605,
+    "id": 607,
     "hu": "színésznő",
     "pl": "aktorka",
     "en": "actress",
@@ -15244,7 +15270,7 @@
     "notes": ""
   },
   {
-    "id": 606,
+    "id": 608,
     "hu": "szólni",
     "pl": "odezwać się",
     "en": "to let know / speak up",
@@ -15270,7 +15296,7 @@
     "notes": ""
   },
   {
-    "id": 607,
+    "id": 609,
     "hu": "szörnyű",
     "pl": "okropny",
     "en": "terrible",
@@ -15296,7 +15322,7 @@
     "notes": ""
   },
   {
-    "id": 608,
+    "id": 610,
     "hu": "szülő",
     "pl": "rodzic",
     "en": "parent",
@@ -15323,7 +15349,7 @@
     "notes": ""
   },
   {
-    "id": 609,
+    "id": 611,
     "hu": "szőke",
     "pl": "blond",
     "en": "blonde",
@@ -15349,7 +15375,7 @@
     "notes": ""
   },
   {
-    "id": 610,
+    "id": 612,
     "hu": "szőr",
     "pl": "sierść",
     "en": "fur",
@@ -15374,7 +15400,7 @@
     "notes": ""
   },
   {
-    "id": 611,
+    "id": 613,
     "hu": "szőrös",
     "pl": "owłosiony",
     "en": "hairy",
@@ -15400,7 +15426,7 @@
     "notes": ""
   },
   {
-    "id": 612,
+    "id": 614,
     "hu": "sál",
     "pl": "szalik",
     "en": "scarf",
@@ -15424,7 +15450,7 @@
     "notes": ""
   },
   {
-    "id": 613,
+    "id": 615,
     "hu": "sárga",
     "pl": "żółty",
     "en": "yellow",
@@ -15450,7 +15476,7 @@
     "notes": ""
   },
   {
-    "id": 614,
+    "id": 616,
     "hu": "só",
     "pl": "sól",
     "en": "salt",
@@ -15476,7 +15502,7 @@
     "notes": ""
   },
   {
-    "id": 615,
+    "id": 617,
     "hu": "sógor",
     "pl": "szwagier",
     "en": "brother-in-law",
@@ -15501,7 +15527,7 @@
     "notes": ""
   },
   {
-    "id": 616,
+    "id": 618,
     "hu": "sós",
     "pl": "słony",
     "en": "salty",
@@ -15527,7 +15553,7 @@
     "notes": ""
   },
   {
-    "id": 617,
+    "id": 619,
     "hu": "sült",
     "pl": "pieczony / smażony",
     "en": "roasted / fried",
@@ -15553,7 +15579,7 @@
     "notes": ""
   },
   {
-    "id": 618,
+    "id": 620,
     "hu": "sütemény",
     "pl": "ciasto",
     "en": "cake / pastry",
@@ -15580,7 +15606,7 @@
     "notes": ""
   },
   {
-    "id": 619,
+    "id": 621,
     "hu": "sütni",
     "pl": "piec / smażyć / świecić",
     "en": "to bake / fry / shine",
@@ -15607,7 +15633,7 @@
     "notes": ""
   },
   {
-    "id": 620,
+    "id": 622,
     "hu": "takarítani",
     "pl": "sprzątać",
     "en": "to clean",
@@ -15633,7 +15659,7 @@
     "notes": ""
   },
   {
-    "id": 621,
+    "id": 623,
     "hu": "találkozni",
     "pl": "spotykać się",
     "en": "to meet",
@@ -15659,7 +15685,7 @@
     "notes": ""
   },
   {
-    "id": 622,
+    "id": 624,
     "hu": "találni",
     "pl": "znaleźć",
     "en": "to find",
@@ -15686,7 +15712,7 @@
     "notes": ""
   },
   {
-    "id": 623,
+    "id": 625,
     "hu": "tanácsolni",
     "pl": "radzić",
     "en": "to advise",
@@ -15711,7 +15737,7 @@
     "notes": ""
   },
   {
-    "id": 624,
+    "id": 626,
     "hu": "tanítani",
     "pl": "uczyć (kogoś)",
     "en": "to teach",
@@ -15738,7 +15764,7 @@
     "notes": ""
   },
   {
-    "id": 625,
+    "id": 627,
     "hu": "tartalmazni",
     "pl": "zawierać",
     "en": "to contain / include",
@@ -15763,7 +15789,7 @@
     "notes": ""
   },
   {
-    "id": 626,
+    "id": 628,
     "hu": "tartozni",
     "pl": "być winnym",
     "en": "to owe",
@@ -15787,7 +15813,7 @@
     "notes": ""
   },
   {
-    "id": 627,
+    "id": 629,
     "hu": "tavasz",
     "pl": "wiosna",
     "en": "spring",
@@ -15814,7 +15840,7 @@
     "notes": ""
   },
   {
-    "id": 628,
+    "id": 630,
     "hu": "te",
     "pl": "ty",
     "en": "you (informal)",
@@ -15838,7 +15864,7 @@
     "notes": ""
   },
   {
-    "id": 629,
+    "id": 631,
     "hu": "tej",
     "pl": "mleko",
     "en": "milk",
@@ -15866,7 +15892,7 @@
     "notes": ""
   },
   {
-    "id": 630,
+    "id": 632,
     "hu": "tejföl",
     "pl": "śmietana",
     "en": "sour cream",
@@ -15891,7 +15917,7 @@
     "notes": ""
   },
   {
-    "id": 631,
+    "id": 633,
     "hu": "telefonálni",
     "pl": "dzwonić",
     "en": "to phone",
@@ -15917,7 +15943,7 @@
     "notes": ""
   },
   {
-    "id": 632,
+    "id": 634,
     "hu": "tenger",
     "pl": "morze",
     "en": "sea",
@@ -15944,7 +15970,7 @@
     "notes": ""
   },
   {
-    "id": 633,
+    "id": 635,
     "hu": "teniszezni",
     "pl": "grać w tenisa",
     "en": "to play tennis",
@@ -15970,7 +15996,7 @@
     "notes": ""
   },
   {
-    "id": 634,
+    "id": 636,
     "hu": "tenni",
     "pl": "kłaść",
     "en": "to put",
@@ -15997,7 +16023,7 @@
     "notes": ""
   },
   {
-    "id": 635,
+    "id": 637,
     "hu": "terem",
     "pl": "sala",
     "en": "hall / room",
@@ -16020,7 +16046,7 @@
     "notes": ""
   },
   {
-    "id": 636,
+    "id": 638,
     "hu": "test",
     "pl": "ciało",
     "en": "body",
@@ -16046,7 +16072,7 @@
     "notes": ""
   },
   {
-    "id": 637,
+    "id": 639,
     "hu": "tetszeni",
     "pl": "podobać się",
     "en": "to be pleasing to",
@@ -16071,7 +16097,7 @@
     "notes": ""
   },
   {
-    "id": 638,
+    "id": 640,
     "hu": "ti",
     "pl": "wy",
     "en": "you (plural)",
@@ -16094,7 +16120,7 @@
     "notes": ""
   },
   {
-    "id": 639,
+    "id": 641,
     "hu": "tigris",
     "pl": "tygrys",
     "en": "tiger",
@@ -16120,7 +16146,7 @@
     "notes": ""
   },
   {
-    "id": 640,
+    "id": 642,
     "hu": "tiszta",
     "pl": "czysty",
     "en": "clean",
@@ -16147,7 +16173,7 @@
     "notes": ""
   },
   {
-    "id": 641,
+    "id": 643,
     "hu": "titkárnő",
     "pl": "sekretarka",
     "en": "secretary",
@@ -16171,7 +16197,7 @@
     "notes": ""
   },
   {
-    "id": 642,
+    "id": 644,
     "hu": "tizenegy",
     "pl": "jedenaście",
     "en": "eleven",
@@ -16195,7 +16221,7 @@
     "notes": ""
   },
   {
-    "id": 643,
+    "id": 645,
     "hu": "tizenhat",
     "pl": "szesnaście",
     "en": "sixteen",
@@ -16218,7 +16244,7 @@
     "notes": ""
   },
   {
-    "id": 644,
+    "id": 646,
     "hu": "tizenkettő",
     "pl": "dwanaście",
     "en": "twelve",
@@ -16242,7 +16268,7 @@
     "notes": ""
   },
   {
-    "id": 645,
+    "id": 647,
     "hu": "tizenkilenc",
     "pl": "dziewiętnaście",
     "en": "nineteen",
@@ -16265,7 +16291,7 @@
     "notes": ""
   },
   {
-    "id": 646,
+    "id": 648,
     "hu": "tizennégy",
     "pl": "czternaście",
     "en": "fourteen",
@@ -16289,7 +16315,7 @@
     "notes": ""
   },
   {
-    "id": 647,
+    "id": 649,
     "hu": "tojás",
     "pl": "jajko",
     "en": "egg",
@@ -16315,7 +16341,7 @@
     "notes": ""
   },
   {
-    "id": 648,
+    "id": 650,
     "hu": "torok",
     "pl": "gardło",
     "en": "throat",
@@ -16341,7 +16367,7 @@
     "notes": ""
   },
   {
-    "id": 649,
+    "id": 651,
     "hu": "tovább",
     "pl": "dalej",
     "en": "further / any longer",
@@ -16368,7 +16394,7 @@
     "notes": ""
   },
   {
-    "id": 650,
+    "id": 652,
     "hu": "továbbítani",
     "pl": "przekazywać",
     "en": "to forward",
@@ -16394,7 +16420,7 @@
     "notes": ""
   },
   {
-    "id": 651,
+    "id": 653,
     "hu": "turista",
     "pl": "turysta",
     "en": "tourist",
@@ -16419,7 +16445,7 @@
     "notes": ""
   },
   {
-    "id": 652,
+    "id": 654,
     "hu": "táska",
     "pl": "torba",
     "en": "bag",
@@ -16444,7 +16470,7 @@
     "notes": ""
   },
   {
-    "id": 653,
+    "id": 655,
     "hu": "tél",
     "pl": "zima",
     "en": "winter",
@@ -16471,7 +16497,7 @@
     "notes": ""
   },
   {
-    "id": 654,
+    "id": 656,
     "hu": "térd",
     "pl": "kolano",
     "en": "knee",
@@ -16496,7 +16522,7 @@
     "notes": ""
   },
   {
-    "id": 655,
+    "id": 657,
     "hu": "tészta",
     "pl": "makaron",
     "en": "pasta",
@@ -16521,7 +16547,7 @@
     "notes": ""
   },
   {
-    "id": 656,
+    "id": 658,
     "hu": "tévé",
     "pl": "telewizor",
     "en": "TV",
@@ -16546,7 +16572,7 @@
     "notes": ""
   },
   {
-    "id": 657,
+    "id": 659,
     "hu": "tíz",
     "pl": "dziesięć",
     "en": "ten",
@@ -16571,7 +16597,7 @@
     "notes": ""
   },
   {
-    "id": 658,
+    "id": 660,
     "hu": "tök",
     "pl": "dynia",
     "en": "pumpkin",
@@ -16596,7 +16622,7 @@
     "notes": ""
   },
   {
-    "id": 659,
+    "id": 661,
     "hu": "tökéletes",
     "pl": "doskonały",
     "en": "perfect",
@@ -16621,7 +16647,7 @@
     "notes": ""
   },
   {
-    "id": 660,
+    "id": 662,
     "hu": "törni",
     "pl": "łamać",
     "en": "to break / crack",
@@ -16648,7 +16674,7 @@
     "notes": ""
   },
   {
-    "id": 661,
+    "id": 663,
     "hu": "török",
     "pl": "turecki",
     "en": "Turkish",
@@ -16673,7 +16699,7 @@
     "notes": ""
   },
   {
-    "id": 662,
+    "id": 664,
     "hu": "túl",
     "pl": "zbyt",
     "en": "too / way too",
@@ -16699,7 +16725,7 @@
     "notes": ""
   },
   {
-    "id": 663,
+    "id": 665,
     "hu": "túró",
     "pl": "twaróg",
     "en": "cottage cheese / curd",
@@ -16723,7 +16749,7 @@
     "notes": ""
   },
   {
-    "id": 664,
+    "id": 666,
     "hu": "tükör",
     "pl": "lustro",
     "en": "mirror",
@@ -16748,7 +16774,7 @@
     "notes": ""
   },
   {
-    "id": 665,
+    "id": 667,
     "hu": "tüsszenteni",
     "pl": "kichać",
     "en": "to sneeze",
@@ -16773,7 +16799,7 @@
     "notes": ""
   },
   {
-    "id": 666,
+    "id": 668,
     "hu": "tűz",
     "pl": "ogień",
     "en": "fire",
@@ -16799,7 +16825,7 @@
     "notes": ""
   },
   {
-    "id": 667,
+    "id": 669,
     "hu": "tűzoltó",
     "pl": "strażak",
     "en": "firefighter",
@@ -16824,7 +16850,7 @@
     "notes": ""
   },
   {
-    "id": 668,
+    "id": 670,
     "hu": "uborka",
     "pl": "ogórek",
     "en": "cucumber",
@@ -16849,7 +16875,7 @@
     "notes": ""
   },
   {
-    "id": 669,
+    "id": 671,
     "hu": "ugatni",
     "pl": "szczekać",
     "en": "to bark",
@@ -16873,7 +16899,7 @@
     "notes": ""
   },
   {
-    "id": 670,
+    "id": 672,
     "hu": "ujj",
     "pl": "palec",
     "en": "finger",
@@ -16898,7 +16924,7 @@
     "notes": ""
   },
   {
-    "id": 671,
+    "id": 673,
     "hu": "unalmas",
     "pl": "nudny",
     "en": "boring",
@@ -16924,7 +16950,7 @@
     "notes": ""
   },
   {
-    "id": 672,
+    "id": 674,
     "hu": "unoka",
     "pl": "wnuk / wnuczka",
     "en": "grandchild",
@@ -16946,7 +16972,7 @@
     "notes": ""
   },
   {
-    "id": 673,
+    "id": 675,
     "hu": "unokahúg",
     "pl": "siostrzenica / bratanica",
     "en": "niece",
@@ -16969,7 +16995,7 @@
     "notes": ""
   },
   {
-    "id": 674,
+    "id": 676,
     "hu": "unokatestvér",
     "pl": "kuzyn",
     "en": "cousin",
@@ -16991,7 +17017,7 @@
     "notes": ""
   },
   {
-    "id": 675,
+    "id": 677,
     "hu": "unokaöcs",
     "pl": "siostrzeniec / bratanek",
     "en": "nephew",
@@ -17013,7 +17039,7 @@
     "notes": ""
   },
   {
-    "id": 676,
+    "id": 678,
     "hu": "untatni",
     "pl": "nudzić",
     "en": "to bore",
@@ -17038,7 +17064,7 @@
     "notes": ""
   },
   {
-    "id": 677,
+    "id": 679,
     "hu": "utazni",
     "pl": "podróżować",
     "en": "to travel",
@@ -17065,7 +17091,7 @@
     "notes": ""
   },
   {
-    "id": 678,
+    "id": 680,
     "hu": "utálni",
     "pl": "nienawidzić",
     "en": "to hate",
@@ -17091,7 +17117,7 @@
     "notes": ""
   },
   {
-    "id": 679,
+    "id": 681,
     "hu": "utánozni",
     "pl": "naśladować",
     "en": "to imitate",
@@ -17114,7 +17140,7 @@
     "notes": ""
   },
   {
-    "id": 680,
+    "id": 682,
     "hu": "vacsora",
     "pl": "kolacja",
     "en": "supper / dinner",
@@ -17140,7 +17166,7 @@
     "notes": ""
   },
   {
-    "id": 681,
+    "id": 683,
     "hu": "vacsorázni",
     "pl": "jeść kolację",
     "en": "to have dinner",
@@ -17165,7 +17191,7 @@
     "notes": ""
   },
   {
-    "id": 682,
+    "id": 684,
     "hu": "vaj",
     "pl": "masło",
     "en": "butter",
@@ -17190,7 +17216,7 @@
     "notes": ""
   },
   {
-    "id": 683,
+    "id": 685,
     "hu": "vajas",
     "pl": "maślany",
     "en": "buttery",
@@ -17214,7 +17240,7 @@
     "notes": ""
   },
   {
-    "id": 684,
+    "id": 686,
     "hu": "valaki",
     "pl": "ktoś",
     "en": "someone",
@@ -17237,7 +17263,7 @@
     "notes": ""
   },
   {
-    "id": 685,
+    "id": 687,
     "hu": "valami",
     "pl": "coś",
     "en": "something / anything",
@@ -17260,7 +17286,7 @@
     "notes": ""
   },
   {
-    "id": 686,
+    "id": 688,
     "hu": "van",
     "pl": "być / istnieć / mieć",
     "en": "to be / exist / have",
@@ -17286,7 +17312,7 @@
     "notes": ""
   },
   {
-    "id": 687,
+    "id": 689,
     "hu": "vegetáriánus",
     "pl": "wegetariański",
     "en": "vegetarian",
@@ -17311,7 +17337,7 @@
     "notes": ""
   },
   {
-    "id": 688,
+    "id": 690,
     "hu": "vendég",
     "pl": "gość",
     "en": "guest",
@@ -17338,7 +17364,7 @@
     "notes": ""
   },
   {
-    "id": 689,
+    "id": 691,
     "hu": "venni",
     "pl": "kupować",
     "en": "to buy",
@@ -17365,7 +17391,7 @@
     "notes": ""
   },
   {
-    "id": 690,
+    "id": 692,
     "hu": "veszélyes",
     "pl": "niebezpieczny",
     "en": "dangerous",
@@ -17391,7 +17417,7 @@
     "notes": ""
   },
   {
-    "id": 691,
+    "id": 693,
     "hu": "vezetni",
     "pl": "prowadzić (samochód)",
     "en": "to drive",
@@ -17418,7 +17444,7 @@
     "notes": ""
   },
   {
-    "id": 692,
+    "id": 694,
     "hu": "villamos",
     "pl": "tramwaj",
     "en": "tram",
@@ -17442,7 +17468,7 @@
     "notes": ""
   },
   {
-    "id": 693,
+    "id": 695,
     "hu": "vinni",
     "pl": "nieść",
     "en": "to carry / take",
@@ -17469,7 +17495,7 @@
     "notes": ""
   },
   {
-    "id": 694,
+    "id": 696,
     "hu": "viszketni",
     "pl": "swędzieć",
     "en": "to itch",
@@ -17494,7 +17520,7 @@
     "notes": ""
   },
   {
-    "id": 695,
+    "id": 697,
     "hu": "vágni",
     "pl": "ciąć",
     "en": "to cut",
@@ -17521,7 +17547,7 @@
     "notes": ""
   },
   {
-    "id": 696,
+    "id": 698,
     "hu": "válasz",
     "pl": "odpowiedź",
     "en": "answer",
@@ -17546,7 +17572,7 @@
     "notes": ""
   },
   {
-    "id": 697,
+    "id": 699,
     "hu": "válaszolni",
     "pl": "odpowiadać",
     "en": "to answer",
@@ -17572,7 +17598,7 @@
     "notes": ""
   },
   {
-    "id": 698,
+    "id": 700,
     "hu": "váll",
     "pl": "bark",
     "en": "shoulder",
@@ -17597,7 +17623,7 @@
     "notes": ""
   },
   {
-    "id": 699,
+    "id": 701,
     "hu": "vér",
     "pl": "krew",
     "en": "blood",
@@ -17623,7 +17649,7 @@
     "notes": ""
   },
   {
-    "id": 700,
+    "id": 702,
     "hu": "vérezni",
     "pl": "krwawić",
     "en": "to bleed",
@@ -17649,7 +17675,7 @@
     "notes": ""
   },
   {
-    "id": 701,
+    "id": 703,
     "hu": "vörös",
     "pl": "rudy",
     "en": "red-headed",
@@ -17675,7 +17701,7 @@
     "notes": ""
   },
   {
-    "id": 702,
+    "id": 704,
     "hu": "vőlegény",
     "pl": "narzeczony / pan młody",
     "en": "fiancé / groom",
@@ -17700,7 +17726,7 @@
     "notes": ""
   },
   {
-    "id": 703,
+    "id": 705,
     "hu": "zavarni",
     "pl": "przeszkadzać",
     "en": "to bother / disturb",
@@ -17726,7 +17752,7 @@
     "notes": ""
   },
   {
-    "id": 704,
+    "id": 706,
     "hu": "zebra",
     "pl": "zebra",
     "en": "zebra",
@@ -17748,7 +17774,7 @@
     "notes": ""
   },
   {
-    "id": 705,
+    "id": 707,
     "hu": "zene",
     "pl": "muzyka",
     "en": "music",
@@ -17775,7 +17801,7 @@
     "notes": ""
   },
   {
-    "id": 706,
+    "id": 708,
     "hu": "zeneszerző",
     "pl": "kompozytor",
     "en": "composer",
@@ -17801,7 +17827,7 @@
     "notes": ""
   },
   {
-    "id": 707,
+    "id": 709,
     "hu": "zenész",
     "pl": "muzyk",
     "en": "musician",
@@ -17827,7 +17853,7 @@
     "notes": ""
   },
   {
-    "id": 708,
+    "id": 710,
     "hu": "zsiráf",
     "pl": "żyrafa",
     "en": "giraffe",
@@ -17849,7 +17875,7 @@
     "notes": ""
   },
   {
-    "id": 709,
+    "id": 711,
     "hu": "zárva",
     "pl": "zamknięty",
     "en": "closed",
@@ -17875,7 +17901,7 @@
     "notes": ""
   },
   {
-    "id": 710,
+    "id": 712,
     "hu": "zöld",
     "pl": "zielony",
     "en": "green",
@@ -17901,7 +17927,7 @@
     "notes": ""
   },
   {
-    "id": 711,
+    "id": 713,
     "hu": "zöldség",
     "pl": "warzywo",
     "en": "vegetable",
@@ -17927,7 +17953,7 @@
     "notes": ""
   },
   {
-    "id": 712,
+    "id": 714,
     "hu": "ágy",
     "pl": "łóżko",
     "en": "bed",
@@ -17953,7 +17979,7 @@
     "notes": ""
   },
   {
-    "id": 713,
+    "id": 715,
     "hu": "állat",
     "pl": "zwierzę",
     "en": "animal",
@@ -17980,7 +18006,7 @@
     "notes": ""
   },
   {
-    "id": 714,
+    "id": 716,
     "hu": "állatkert",
     "pl": "zoo",
     "en": "zoo",
@@ -18005,7 +18031,7 @@
     "notes": ""
   },
   {
-    "id": 715,
+    "id": 717,
     "hu": "álmos",
     "pl": "śpiący",
     "en": "sleepy",
@@ -18031,7 +18057,7 @@
     "notes": ""
   },
   {
-    "id": 716,
+    "id": 718,
     "hu": "általában",
     "pl": "ogólnie / zwykle",
     "en": "generally / usually",
@@ -18056,7 +18082,7 @@
     "notes": ""
   },
   {
-    "id": 717,
+    "id": 719,
     "hu": "ár",
     "pl": "cena",
     "en": "price",
@@ -18081,7 +18107,7 @@
     "notes": ""
   },
   {
-    "id": 718,
+    "id": 720,
     "hu": "édes",
     "pl": "słodki",
     "en": "sweet",
@@ -18108,7 +18134,7 @@
     "notes": ""
   },
   {
-    "id": 719,
+    "id": 721,
     "hu": "éhes",
     "pl": "głodny",
     "en": "hungry",
@@ -18135,7 +18161,7 @@
     "notes": ""
   },
   {
-    "id": 720,
+    "id": 722,
     "hu": "éjfél",
     "pl": "północ",
     "en": "midnight",
@@ -18157,7 +18183,7 @@
     "notes": ""
   },
   {
-    "id": 721,
+    "id": 723,
     "hu": "élvezni",
     "pl": "cieszyć się (czymś)",
     "en": "to enjoy",
@@ -18183,7 +18209,7 @@
     "notes": ""
   },
   {
-    "id": 722,
+    "id": 724,
     "hu": "én",
     "pl": "ja",
     "en": "I",
@@ -18206,7 +18232,7 @@
     "notes": ""
   },
   {
-    "id": 723,
+    "id": 725,
     "hu": "énekesnő",
     "pl": "piosenkarka",
     "en": "female singer",
@@ -18232,7 +18258,7 @@
     "notes": ""
   },
   {
-    "id": 724,
+    "id": 726,
     "hu": "építeni",
     "pl": "budować",
     "en": "to build",
@@ -18258,7 +18284,7 @@
     "notes": ""
   },
   {
-    "id": 725,
+    "id": 727,
     "hu": "épület",
     "pl": "budynek",
     "en": "building",
@@ -18283,7 +18309,7 @@
     "notes": ""
   },
   {
-    "id": 726,
+    "id": 728,
     "hu": "érkezni",
     "pl": "przybywać",
     "en": "to arrive",
@@ -18308,7 +18334,7 @@
     "notes": ""
   },
   {
-    "id": 727,
+    "id": 729,
     "hu": "érteni",
     "pl": "rozumieć",
     "en": "to understand",
@@ -18336,7 +18362,7 @@
     "notes": ""
   },
   {
-    "id": 728,
+    "id": 730,
     "hu": "étel",
     "pl": "jedzenie",
     "en": "food",
@@ -18362,7 +18388,7 @@
     "notes": ""
   },
   {
-    "id": 729,
+    "id": 731,
     "hu": "így",
     "pl": "tak (w ten sposób)",
     "en": "like this",
@@ -18385,7 +18411,7 @@
     "notes": ""
   },
   {
-    "id": 730,
+    "id": 732,
     "hu": "ígérni",
     "pl": "obiecywać",
     "en": "to promise",
@@ -18410,7 +18436,7 @@
     "notes": ""
   },
   {
-    "id": 731,
+    "id": 733,
     "hu": "író",
     "pl": "pisarz",
     "en": "writer",
@@ -18436,7 +18462,7 @@
     "notes": ""
   },
   {
-    "id": 732,
+    "id": 734,
     "hu": "ízleni",
     "pl": "smakować",
     "en": "to taste good to",
@@ -18462,7 +18488,7 @@
     "notes": ""
   },
   {
-    "id": 733,
+    "id": 735,
     "hu": "óta",
     "pl": "od",
     "en": "since / for",
@@ -18484,7 +18510,7 @@
     "notes": ""
   },
   {
-    "id": 734,
+    "id": 736,
     "hu": "óvónő",
     "pl": "przedszkolanka",
     "en": "kindergarten teacher",
@@ -18509,7 +18535,7 @@
     "notes": ""
   },
   {
-    "id": 735,
+    "id": 737,
     "hu": "öcs",
     "pl": "młodszy brat",
     "en": "younger brother",
@@ -18532,7 +18558,7 @@
     "notes": ""
   },
   {
-    "id": 736,
+    "id": 738,
     "hu": "ön",
     "pl": "pan / pani",
     "en": "you (formal)",
@@ -18557,7 +18583,7 @@
     "notes": ""
   },
   {
-    "id": 737,
+    "id": 739,
     "hu": "önteni",
     "pl": "lać",
     "en": "to pour",
@@ -18583,7 +18609,7 @@
     "notes": ""
   },
   {
-    "id": 738,
+    "id": 740,
     "hu": "önök",
     "pl": "państwo",
     "en": "you (plural, formal)",
@@ -18608,7 +18634,7 @@
     "notes": ""
   },
   {
-    "id": 739,
+    "id": 741,
     "hu": "öreg",
     "pl": "stary",
     "en": "old",
@@ -18635,7 +18661,7 @@
     "notes": ""
   },
   {
-    "id": 740,
+    "id": 742,
     "hu": "öt",
     "pl": "pięć",
     "en": "five",
@@ -18660,7 +18686,7 @@
     "notes": ""
   },
   {
-    "id": 741,
+    "id": 743,
     "hu": "ötlet",
     "pl": "pomysł",
     "en": "idea",
@@ -18685,7 +18711,7 @@
     "notes": ""
   },
   {
-    "id": 742,
+    "id": 744,
     "hu": "ötszáz",
     "pl": "pięćset",
     "en": "five hundred",
@@ -18706,7 +18732,7 @@
     "notes": ""
   },
   {
-    "id": 743,
+    "id": 745,
     "hu": "ötven",
     "pl": "pięćdziesiąt",
     "en": "fifty",
@@ -18729,7 +18755,7 @@
     "notes": ""
   },
   {
-    "id": 744,
+    "id": 746,
     "hu": "ötvenhárom",
     "pl": "pięćdziesiąt trzy",
     "en": "fifty-three",
@@ -18750,7 +18776,7 @@
     "notes": ""
   },
   {
-    "id": 745,
+    "id": 747,
     "hu": "ötvenkettő",
     "pl": "pięćdziesiąt dwa",
     "en": "fifty-two",
@@ -18771,7 +18797,7 @@
     "notes": ""
   },
   {
-    "id": 746,
+    "id": 748,
     "hu": "ötös",
     "pl": "piątka",
     "en": "number five",
@@ -18795,7 +18821,7 @@
     "notes": ""
   },
   {
-    "id": 747,
+    "id": 749,
     "hu": "öv",
     "pl": "pasek",
     "en": "belt",
@@ -18819,7 +18845,7 @@
     "notes": ""
   },
   {
-    "id": 748,
+    "id": 750,
     "hu": "úgy",
     "pl": "tak (w tamten sposób)",
     "en": "like that",
@@ -18842,7 +18868,7 @@
     "notes": ""
   },
   {
-    "id": 749,
+    "id": 751,
     "hu": "új",
     "pl": "nowy",
     "en": "new",
@@ -18869,7 +18895,7 @@
     "notes": ""
   },
   {
-    "id": 750,
+    "id": 752,
     "hu": "újra",
     "pl": "ponownie",
     "en": "once again / anew",
@@ -18895,7 +18921,7 @@
     "notes": ""
   },
   {
-    "id": 751,
+    "id": 753,
     "hu": "újság",
     "pl": "gazeta",
     "en": "newspaper",
@@ -18921,7 +18947,7 @@
     "notes": ""
   },
   {
-    "id": 752,
+    "id": 754,
     "hu": "úszni",
     "pl": "pływać",
     "en": "to swim",
@@ -18948,7 +18974,7 @@
     "notes": ""
   },
   {
-    "id": 753,
+    "id": 755,
     "hu": "ügyvéd",
     "pl": "prawnik",
     "en": "lawyer",
@@ -18973,7 +18999,7 @@
     "notes": ""
   },
   {
-    "id": 754,
+    "id": 756,
     "hu": "ünnepnap",
     "pl": "święto",
     "en": "holiday",
@@ -18998,7 +19024,7 @@
     "notes": ""
   },
   {
-    "id": 755,
+    "id": 757,
     "hu": "üveg",
     "pl": "butelka",
     "en": "bottle",
@@ -19023,7 +19049,7 @@
     "notes": ""
   },
   {
-    "id": 756,
+    "id": 758,
     "hu": "üzenet",
     "pl": "wiadomość",
     "en": "message",
@@ -19048,7 +19074,7 @@
     "notes": ""
   },
   {
-    "id": 757,
+    "id": 759,
     "hu": "üzlet",
     "pl": "sklep",
     "en": "store / shop",
@@ -19073,7 +19099,7 @@
     "notes": ""
   },
   {
-    "id": 758,
+    "id": 760,
     "hu": "ő",
     "pl": "on / ona",
     "en": "he / she",
@@ -19096,7 +19122,7 @@
     "notes": ""
   },
   {
-    "id": 759,
+    "id": 761,
     "hu": "ők",
     "pl": "oni",
     "en": "they",
@@ -19119,7 +19145,7 @@
     "notes": ""
   },
   {
-    "id": 760,
+    "id": 762,
     "hu": "ősz",
     "pl": "jesień",
     "en": "autumn",
@@ -19146,7 +19172,7 @@
     "notes": ""
   },
   {
-    "id": 761,
+    "id": 763,
     "hu": "ősz",
     "pl": "siwy",
     "en": "gray-haired",
@@ -19169,7 +19195,7 @@
     "notes": ""
   },
   {
-    "id": 762,
+    "id": 764,
     "hu": "őszinte",
     "pl": "szczery",
     "en": "honest",
@@ -19195,7 +19221,7 @@
     "notes": ""
   },
   {
-    "id": 763,
+    "id": 765,
     "hu": "őszintén",
     "pl": "szczerze",
     "en": "sincerely / honestly",
