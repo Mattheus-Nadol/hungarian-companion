@@ -19,10 +19,10 @@
   - creates new entries with fields: `id`, `hu` (lemma), `pl`, `en`, `type`, `example`, `pattern`, `family`, `related`, `tags`, `forms`, `date_added`.
   - for incoming forms matching existing lemmas, append missing forms into existing `forms` arrays (avoid duplicates).
   - assign new numeric `id`s incrementally (preserve existing order; avoid full resort).
-- Provide `--dry-run` default; require explicit `--apply` to write changes.
-- Create timestamped backup before writes: `data/vocabulary.json.bak.<ts>`.
-- Use machine-action JSON (array of action objects) for per-lemma decisions and auditable applies.
-- Respect safety: DO NOT auto-reconstruct infinitives. Instead generate `reports/missing_infinitive.md` for manual review.
+- [x] Provide `--dry-run` default; require explicit `--apply` to write changes.
+- [x] Create timestamped backup before writes: `data/vocabulary.json.bak.<ts>`.
+- [x] Use machine-action JSON (array of action objects) for per-lemma decisions and auditable applies.
+- [x] Respect safety: DO NOT auto-reconstruct infinitives. Instead generate `reports/missing_infinitive.md` for manual review.
 - Estimated effort: medium (Python/Node script + tests).
 
 ## Medium — Sorting, Examples & IGEKÖTŐ Handling
@@ -39,8 +39,8 @@
 - Estimated effort: medium.
 
 ## Medium — Scripts & Repo Hygiene
-- Identify one-off/used-once files in `data/` and `scripts/`. Move confirmed one-off items to `archive/` (preserve backups) or delete after backup.
-- Update `README.md` / `docs/` with an inventory of moved files and reasons.
+- [x] Identify one-off/used-once files in `data/` and `scripts/`. Move confirmed one-off items to `archive/` (preserve backups) or delete after backup.
+- [ ] Update `README.md` / `docs/` with an inventory of moved files and reasons.
 - Explain purpose of `package.json` (project metadata, scripts, deps) and `package-lock.json` (locked dependency tree). Consider keeping/removing Node artifacts based on JS tooling usage.
 - Estimated effort: small→medium.
 
@@ -50,8 +50,9 @@
 
 ## Low — Misc / Safety & Tests
 - Add tests/assertions for IGEKÖTŐ example generation and forms merging.
-- Ensure all import and transform scripts have `--dry-run` and create backups by default.
-- Store human-review reports in `reports/` and keep action JSON files for audit and re-application.
+- Add tests/assertions for IGEKÖTŐ example generation and forms merging.
+- [x] Ensure all import and transform scripts have `--dry-run` and create backups by default.
+- [x] Store human-review reports in `reports/` and keep action JSON files for audit and re-application.
 
 ---
 
@@ -66,9 +67,9 @@
 
 # Agent Implementation Plan (step-by-step)
 1. Create `docs/checklist.md` with the prioritized checklist above.
-2. Backup: copy `data/`, `scripts/`, and relevant JSON files to `archive/backup_<timestamp>/`.
-3. Repo scan: search for candidate one-off files in `data/` and `scripts/` (age, usage, references, `stubs_created.json`). Produce candidate move list for user confirmation.
-4. After user confirmation, move/archive selected files (preserve relative structure) into `archive/` and update `README.md` / `docs/` with inventory.
+2. [x] Backup: copy `data/`, `scripts/`, and relevant JSON files to `archive/backup_<timestamp>/`.
+3. [x] Repo scan: search for candidate one-off files in `data/` and `scripts/` (age, usage, references, `stubs_created.json`). Produce candidate move list for user confirmation.
+4. [x] After user confirmation, move/archive selected files (preserve relative structure) into `archive/` and update `README.md` / `docs/` with inventory.
 5. UI patches (dry-run PRs / patches):
    - Add CSS focus outline / `:focus-visible` rules for tiles.
    - Adjust related-link color variables for accessible contrast.
