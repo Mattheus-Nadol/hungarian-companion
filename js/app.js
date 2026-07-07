@@ -83,6 +83,11 @@ const Pages = {
     }
 };
 
+// Scroll restore helper: when a collapse triggers history navigation or a render
+// that would otherwise jump, set `pendingScrollRestore` to the y-offset to
+// restore after the next render triggered by popstate/hashchange.
+let pendingScrollRestore = null;
+
 // Navigation helper using history API for predictable Back behavior.
 function navigate(page) {
     if (page === 'home') {
@@ -234,8 +239,8 @@ function render() {
 
 // Build the tag filter checkboxes and type options from the loaded words
 function populateFilterControls() {
-    const typeEl = document.getElementById('filter-type');
     const tagsContainer = document.getElementById('filter-tags');
+    const typeEl = document.getElementById('filter-type');
     if (!typeEl || !tagsContainer || !Array.isArray(words) || words.length === 0) return;
 
     // populate types
@@ -379,7 +384,7 @@ function renderWordList(list) {
                 <h2>${escapeHtml(word.hu)}</h2>
                 <p>${escapeHtml(word.pl || '')} <span style="font-weight:600; margin-left:8px">${escapeHtml(word.en || '')}</span></p>
             </div>
-            <div id="panel-${escapeHtml(String(word.id))}" class="panel" style="display:none;" aria-hidden="true"></div>
+            <div id="panel-${escapeHtml(String(word.id))}" class="panel" style="max-height:0; padding:0 12px;" aria-hidden="true"></div>
         </div>
     `).join("");
 }
@@ -429,50 +434,59 @@ function toggleCardDetails(id) {
     const panel = card.querySelector('.panel');
     const isExpanded = card.classList.contains('expanded');
 
-    // collapse any other expanded cards
-    document.querySelectorAll('.card.expanded').forEach(c => {
-        if (c !== card) {
-            c.classList.remove('expanded');
-            const p = c.querySelector('.panel');
-            if (p) p.style.display = 'none';
-        }
-    });
+    // Note: closing of other expanded cards is handled before opening (see closeAllExcept)
 
     if (isExpanded) {
         // collapse
-        card.classList.remove('expanded');
-        if (panel) panel.style.display = 'none';
+        // remember current scroll position so we can restore it after any
+        // history/popstate/hashchange-driven render that might otherwise jump
+        try { pendingScrollRestore = window.scrollY || window.pageYOffset || 0; } catch (e) { pendingScrollRestore = null; }
 
-        if (location.hash && location.hash.startsWith('#/word/')) {
-            // go back in history to restore previous app state (will trigger popstate/hashchange)
-            try { history.back(); } catch (e) { history.replaceState(null, '', '#/explore'); }
-        } else {
-            // ensure state and hash are consistent
+        // animate close; perform navigation/restore only after animation completes
+        const afterClose = () => {
+            // avoid calling history.back() — that can trigger browser-driven scroll
+            // restoration which conflicts with our manual handling. Instead normalize
+            // to the explore hash and render, then restore the per-card preScroll.
             try { history.replaceState(null, '', '#/explore'); } catch (e) { location.hash = '#/explore'; }
             App.selectedWordId = null;
             render();
+            try {
+                const per = card && card.dataset && card.dataset.preScroll ? Number(card.dataset.preScroll) : null;
+                const to = (per !== null && !Number.isNaN(per)) ? per : pendingScrollRestore;
+                if (to !== null && to !== undefined) {
+                    try { window.scrollTo(0, to); } catch (e) {}
+                }
+            } catch (e) {}
+            pendingScrollRestore = null;
+        };
+
+        // diagnostic snapshot before collapse
+        let diagPre = { id: id, ts: Date.now() };
+        try {
+            diagPre.preScroll = window.scrollY || window.pageYOffset || 0;
+            diagPre.preTop = card.getBoundingClientRect().top;
+            diagPre.panelHeight = panel ? panel.scrollHeight : null;
+        } catch (e) { /* ignore */ }
+
+        const diagAfterClose = () => {
+            const diagPost = { id: id, ts: Date.now() };
+            try {
+                diagPost.postScroll = window.scrollY || window.pageYOffset || 0;
+                diagPost.postTop = card.getBoundingClientRect().top;
+                diagPost.scrollDelta = (typeof diagPre.preScroll === 'number') ? (diagPost.postScroll - diagPre.preScroll) : null;
+                diagPost.topDelta = (typeof diagPre.preTop === 'number') ? (diagPost.postTop - diagPre.preTop) : null;
+            } catch (e) { /* ignore */ }
+            // diag removed
+            try { afterClose(); } catch (e) { console.warn('afterClose error', e); }
+        };
+
+        try { closePanel(card, panel, diagAfterClose); } catch (e) {
+            card.classList.remove('expanded');
+            if (panel) panel.style.display = 'none';
+            // still log diagnostic info when fallback path used
+            // diag removed
+            afterClose();
         }
-        // update ARIA state on collapse
-        try {
-            const cm = document.querySelector(`.card[data-id="${id}"] .card-main`);
-            const panelEl = document.getElementById(`panel-${id}`);
-            if (cm) cm.setAttribute('aria-expanded', 'false');
-            if (panelEl) panelEl.setAttribute('aria-hidden', 'true');
-        } catch (e) {}
-        // deactivate focus trap and remove dialog attributes
-        try {
-            const panelEl = document.getElementById(`panel-${id}`);
-            if (panelEl && panelEl._deactivateTrap) panelEl._deactivateTrap();
-            if (panelEl) {
-                panelEl.removeAttribute('role');
-                panelEl.removeAttribute('aria-modal');
-                panelEl.removeAttribute('aria-labelledby');
-                panelEl.tabIndex = -1;
-            }
-            // restore focus to the card main
-            const cm = document.querySelector(`.card[data-id="${id}"] .card-main`);
-            if (cm && typeof cm.focus === 'function') cm.focus();
-        } catch (e) {}
         App.selectedWordId = null;
         return;
     }
@@ -481,17 +495,44 @@ function toggleCardDetails(id) {
     const word = words.find(w => Number(w.id) === Number(id));
     if (!word) return;
 
-    // fill panel content
-    if (panel) panel.innerHTML = buildDetailsHtml(word);
+    // Ensure other expanded cards close first (animate), then open this one
+    closeAllExcept(card).then(() => {
+        // fill panel content
+        if (panel) panel.innerHTML = buildDetailsHtml(word);
 
-    card.classList.add('expanded');
-    if (panel) panel.style.display = 'block';
+        // diagnostic snapshot before expand
+        let diagOpenPre = { id: id, ts: Date.now() };
+        try {
+            diagOpenPre.preScroll = window.scrollY || window.pageYOffset || 0;
+            diagOpenPre.cardTop = card.getBoundingClientRect().top;
+            diagOpenPre.panelHeightBefore = panel ? panel.scrollHeight : null;
+            // diag removed
+        } catch (e) {}
+
+        // animate open
+        openPanel(card, panel);
+
+        // after opening, ensure panel is fully visible on small viewports
+        setTimeout(() => {
+            adjustScrollForPanel(card, panel);
+            try {
+                const diagOpenPost = {
+                    id: id,
+                    ts: Date.now(),
+                    postScroll: window.scrollY || window.pageYOffset || 0,
+                    cardTopAfter: card.getBoundingClientRect().top,
+                    panelHeightAfter: panel ? panel.scrollHeight : null
+                };
+                // diag removed
+            } catch (e) {}
+        }, 340);
+    });
 
     // scroll expanded card into view and focus header for keyboard users
     try {
         card.scrollIntoView({ behavior: 'smooth', block: 'center' });
         const heading = card.querySelector('.card-main h2');
-        if (heading && typeof heading.focus === 'function') heading.focus();
+        if (heading) safeFocus(heading);
     } catch (e) {}
 
     // push a history entry for the opened word (so back behaves correctly)
@@ -519,19 +560,91 @@ function toggleCardDetails(id) {
     } catch (e) {}
 }
 
+// Smooth open/close helpers for panels using max-height transitions
+function openPanel(card, panel) {
+    if (!panel || !card) return;
+    // ensure panel has content and is visible for measurement
+    panel.style.display = 'block';
+    panel.style.overflow = 'hidden';
+    // compute the target height
+    const target = panel.scrollHeight + 'px';
+    // apply starting point for transition
+    panel.style.maxHeight = '0px';
+    // force reflow
+    // eslint-disable-next-line no-unused-expressions
+    panel.offsetHeight;
+    card.classList.add('expanded');
+    panel.style.transition = 'max-height 280ms ease, padding 200ms ease';
+    panel.style.maxHeight = target;
+    // when transition ends, clear max-height so content can size naturally
+    const onEnd = (e) => {
+        if (e.propertyName === 'max-height') {
+            panel.style.maxHeight = '';
+            panel.style.overflow = '';
+            panel.removeEventListener('transitionend', onEnd);
+        }
+    };
+    panel.addEventListener('transitionend', onEnd);
+}
+
+function closePanel(card, panel, cb) {
+    if (!panel || !card) return;
+    panel.style.overflow = 'hidden';
+    // set explicit height to current content height to start transition
+    const current = panel.scrollHeight + 'px';
+    panel.style.maxHeight = current;
+    // force reflow
+    // eslint-disable-next-line no-unused-expressions
+    panel.offsetHeight;
+    panel.style.transition = 'max-height 280ms ease, padding 200ms ease';
+    panel.style.maxHeight = '0px';
+    const onEnd = (e) => {
+        if (e.propertyName === 'max-height') {
+            card.classList.remove('expanded');
+            panel.style.display = 'none';
+            panel.style.overflow = '';
+            // update ARIA and deactivate focus trap
+            try {
+                const cm = card.querySelector('.card-main');
+                if (cm) cm.setAttribute('aria-expanded', 'false');
+                if (panel) panel.setAttribute('aria-hidden', 'true');
+                if (panel && panel._deactivateTrap) panel._deactivateTrap();
+                if (panel) {
+                    panel.removeAttribute('role');
+                    panel.removeAttribute('aria-modal');
+                    panel.removeAttribute('aria-labelledby');
+                    panel.tabIndex = -1;
+                }
+                if (cm) safeFocus(cm);
+            } catch (e) {}
+            panel.removeEventListener('transitionend', onEnd);
+            try { if (typeof cb === 'function') cb(); } catch (err) { console.warn('closePanel callback error', err); }
+        }
+    };
+    panel.addEventListener('transitionend', onEnd);
+}
+
 function buildDetailsHtml(word) {
     const related = Array.isArray(word.related) ? word.related : (word.related ? [word.related] : []);
     const tags = Array.isArray(word.tags) ? word.tags.join(', ') : (word.tags || '');
     const forms = Array.isArray(word.forms) ? word.forms.join(', ') : (word.forms || '');
 
     const relatedHtml = related.length === 0 ? '<em>—</em>' : related.map(r => {
+        // numeric id reference: only link if the id exists in the dataset
         if (typeof r === 'number' || String(r).match(/^\d+$/)) {
             const rid = Number(r);
-            return `<a href="#/word/${rid}" onclick="event.stopPropagation(); openRelated(${rid}); return false;">${rid}</a>`;
+            const foundById = words.find(w => Number(w.id) === rid);
+            if (foundById) {
+                return `<a href="#/explore" onclick="event.stopPropagation(); relatedClick(${rid}); return false;">${rid}</a>`;
+            }
+            return `<span>${rid}</span>`;
         }
-        const found = words.find(w => (w.hu && w.hu.toLowerCase() === String(r).toLowerCase()) || (w.en && w.en.toLowerCase() === String(r).toLowerCase()));
+
+        // string token: only link when a matching word is found (by hu or en); otherwise render plain text
+        const s = String(r);
+        const found = words.find(w => (w.hu && w.hu.toLowerCase() === s.toLowerCase()) || (w.en && w.en.toLowerCase() === s.toLowerCase()));
         if (found) {
-            return `<a href="#/word/${found.id}" onclick="event.stopPropagation(); openRelated(${found.id}); return false;">${escapeHtml(String(r))}</a>`;
+            return `<a href="#/explore" onclick="event.stopPropagation(); relatedClick(${found.id}); return false;">${escapeHtml(String(r))}</a>`;
         }
         return `<span>${escapeHtml(String(r))}</span>`;
     }).join(', ');
@@ -573,6 +686,33 @@ function buildDetailsHtml(word) {
     `;
 }
 
+// When a related token is clicked, populate the search input and trigger filtering
+function relatedClick(ref) {
+    try {
+        let text = '';
+        if (typeof ref === 'number' || String(ref).match(/^\d+$/)) {
+            const w = words.find(w => Number(w.id) === Number(ref));
+            text = w ? (w.hu || String(ref)) : String(ref);
+        } else {
+            // ref may be a quoted string from the template; coerce to string
+            const s = String(ref);
+            const found = words.find(w => (w.hu && w.hu.toLowerCase() === s.toLowerCase()) || (w.en && w.en.toLowerCase() === s.toLowerCase()));
+            text = found ? (found.hu || s) : s;
+        }
+
+        App.currentPage = 'explore';
+        App.searchQuery = (text || '').toLowerCase().trim();
+        try { history.pushState({ view: 'explore', q: App.searchQuery }, '', '#/explore'); } catch (e) {}
+        render();
+        setTimeout(() => {
+            const s = document.getElementById('search');
+            if (s) { safeFocus(s); try { s.select(); } catch (e) {} }
+        }, 60);
+    } catch (e) {
+        console.warn('relatedClick error', e);
+    }
+}
+
 function toggleRawJson(id) {
     const el = document.getElementById(`raw-json-${id}`);
     if (!el) return;
@@ -593,6 +733,81 @@ window.addEventListener('hashchange', () => {
     parseHash();
     render();
 });
+
+// After renders caused by navigation events, restore scroll position if requested
+function maybeRestorePendingScroll() {
+    if (pendingScrollRestore !== null) {
+        try {
+            window.scrollTo(0, pendingScrollRestore);
+        } catch (e) {}
+        pendingScrollRestore = null;
+    }
+}
+
+// wire into navigation listeners so the scroll restore runs after render()
+window.addEventListener('popstate', () => {
+    // slight delay to allow render() DOM updates to settle
+    setTimeout(maybeRestorePendingScroll, 20);
+});
+window.addEventListener('hashchange', () => {
+    setTimeout(maybeRestorePendingScroll, 20);
+});
+
+// Close all other expanded cards and return a Promise that resolves when done
+function closeAllExcept(card) {
+    return new Promise(resolve => {
+        const others = Array.from(document.querySelectorAll('.card.expanded')).filter(c => c !== card);
+        if (others.length === 0) return resolve();
+        let remaining = others.length;
+        const done = () => {
+            remaining -= 1;
+            if (remaining <= 0) resolve();
+        };
+        // safety timeout
+        const timer = setTimeout(() => { try { resolve(); } catch (e) {} }, 500);
+        others.forEach(c => {
+            const p = c.querySelector('.panel');
+            if (p) {
+                try {
+                    closePanel(c, p, () => { done(); });
+                } catch (e) {
+                    c.classList.remove('expanded');
+                    if (p) p.style.display = 'none';
+                    done();
+                }
+            } else {
+                c.classList.remove('expanded');
+                done();
+            }
+        });
+        // resolve will be called either by done() or timer; clear timer when resolved
+        const checker = setInterval(() => { if (remaining <= 0) { clearInterval(checker); clearTimeout(timer); } }, 50);
+    });
+}
+
+// Ensure the opened panel is fully visible in viewport (mobile-friendly)
+function adjustScrollForPanel(card, panel) {
+    if (!card || !panel) return;
+    try {
+        const rect = panel.getBoundingClientRect();
+        const cardRect = card.getBoundingClientRect();
+        const headerHeight = document.querySelector('header') ? document.querySelector('header').offsetHeight : 0;
+        const padding = 12;
+        // If top of card is above header (i.e., hidden), scroll so card top is below header
+        if (cardRect.top < headerHeight + padding) {
+            const scrollBy = cardRect.top - headerHeight - padding;
+            window.scrollBy({ top: scrollBy, behavior: 'smooth' });
+            return;
+        }
+        // If panel bottom is below viewport, scroll up so bottom fits
+        const bottomOverflow = rect.bottom - (window.innerHeight - padding);
+        if (bottomOverflow > 0) {
+            window.scrollBy({ top: bottomOverflow + 8, behavior: 'smooth' });
+        }
+    } catch (e) {
+        // ignore
+    }
+}
 
 // Keyboard handlers
 function handleCardKeydown(event, id) {
@@ -652,9 +867,18 @@ function activateFocusTrap(panelEl) {
     // focus the first interactive element (close button) for screen-reader users
     setTimeout(() => {
         const closeBtn = panelEl.querySelector('button.close-btn');
-        if (closeBtn && typeof closeBtn.focus === 'function') closeBtn.focus();
-        else if (first && typeof first.focus === 'function') first.focus();
+        if (closeBtn && typeof closeBtn.focus === 'function') {
+            try { closeBtn.focus({preventScroll:true}); } catch (e) { closeBtn.focus(); }
+        } else if (first && typeof first.focus === 'function') {
+            try { first.focus({preventScroll:true}); } catch (e) { first.focus(); }
+        }
     }, 10);
+}
+
+// Helper to focus an element without causing browser scroll when possible
+function safeFocus(el) {
+    if (!el || typeof el.focus !== 'function') return;
+    try { el.focus({preventScroll:true}); } catch (e) { try { el.focus(); } catch (err) {} }
 }
 
 // Simple HTML escape to avoid injecting raw JSON into the page

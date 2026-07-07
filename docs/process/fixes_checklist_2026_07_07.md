@@ -1,9 +1,9 @@
 # Checklist — Prioritized Tasks
 
 ## Critical — Accessibility & Visibility
-- Add high-contrast focus outline around clicked tile so active field is obvious.
-- Fix related-link color contrast so linked words remain readable against the navy background.
-- Ensure mobile Search returns to zoom-out after use (restore viewport scale).
+- [x] Add high-contrast focus outline around clicked tile so active field is obvious.
+- [x] Fix related-link color contrast so linked words remain readable against the navy background.
+- [x] Ensure mobile Search returns to zoom-out after use (restore viewport scale).
 - Estimated effort: small (CSS + small JS changes).
 
 ## High — UX Behavior Fixes
@@ -44,6 +44,8 @@
 - [ ] Update `README.md` / `docs/` with an inventory of moved files and reasons.
 - Explain purpose of `package.json` (project metadata, scripts, deps) and `package-lock.json` (locked dependency tree). Consider keeping/removing Node artifacts based on JS tooling usage.
 - Estimated effort: small→medium.
+
+ - [x] Add `scripts/serve.sh` helper for local testing (python3 -m http.server).
 
 ## Low — CI / Actions Housekeeping
 - Audit `.github/workflows/*.yml`: list jobs (accessibility check, UI smoke, data validate, pages deploy, cloud agent). Consolidate or disable redundant jobs; ensure tests run only on relevant events.
@@ -106,3 +108,14 @@
 - `archive/` (backups and moved one-off files)
 - `js/app.js`, `js/families.js`, `css/style.css`, `index.html` (UI changes)
 - `.github/workflows/*.yml` (CI audit)
+
+---
+
+## Additional Changes Completed During This Session
+- `scripts/serve.sh` — added a lightweight helper for starting a local development server (`python3 -m http.server`).
+- `css/style.css` — added a prominent outline for expanded tiles, matching the `related` link color (`#ffd166`).
+- `js/app.js` — minor improvement: the search input now loses focus after pressing Enter to prevent automatic zoom on mobile devices.
+- Moved one-off files to `archive/backup_20260707214216` (backups preserved).
+- Reports and action files: `reports/missing_infinitive.md`, `reports/missing_infinitive_actions.json`, `reports/map_forms_proposals.json` — generated during this session (proposals only, dry-run).
+
+The agent will update this checklist after completing each task and will pause before making additional commits until your confirmation.

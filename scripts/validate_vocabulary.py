@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 data_path = Path('data/vocabulary.json')
-out_path = Path('docs/consistency_report.md')
+out_path = Path('docs/reference/consistency_report.md')
 if not data_path.exists():
     raise SystemExit('data/vocabulary.json not found')
 

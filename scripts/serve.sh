@@ -19,4 +19,11 @@ else
   exit 1
 fi
 
+# To run the server, execute this script in your terminal. You can specify a port and directory if desired. 
+# For example:
+# ./scripts/serve.sh 8080 public
+# If you are in the main project directory and want to serve the default directory (current directory) on port 8000, 
+# simply run:
+# ./scripts/serve.sh
+
 # In order to shut down the server, press Ctrl+C in the terminal where this script is running.
