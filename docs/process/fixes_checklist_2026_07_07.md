@@ -45,6 +45,8 @@
 - Explain purpose of `package.json` (project metadata, scripts, deps) and `package-lock.json` (locked dependency tree). Consider keeping/removing Node artifacts based on JS tooling usage.
 - Estimated effort: small→medium.
 
+ - [x] Add temporary ESLint config and run autofix (warnings remain; address in separate follow-up)
+
  - [x] Add `scripts/serve.sh` helper for local testing (python3 -m http.server).
 
 ## Low — CI / Actions Housekeeping
@@ -117,5 +119,7 @@
 - `js/app.js` — minor improvement: the search input now loses focus after pressing Enter to prevent automatic zoom on mobile devices.
 - Moved one-off files to `archive/backup_20260707214216` (backups preserved).
 - Reports and action files: `reports/missing_infinitive.md`, `reports/missing_infinitive_actions.json`, `reports/map_forms_proposals.json` — generated during this session (proposals only, dry-run).
+ - Added temporary ESLint config: `eslint.config.cjs` (flat config compatible with ESLint v10) and ran `npx eslint --fix` on `js/app.js`; autofixes applied but 33 warnings remain (mostly `no-unused-vars`) — these will be handled in a separate PR.
+ - Created branch `feat/ui-a11y-fixes-2026-07-08` and opened pull request #11 consolidating the UI/a11y changes.
 
 The agent will update this checklist after completing each task and will pause before making additional commits until your confirmation.
