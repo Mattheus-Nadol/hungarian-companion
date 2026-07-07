@@ -23,6 +23,7 @@
 - [x] Create timestamped backup before writes: `data/vocabulary.json.bak.<ts>`.
 - [x] Use machine-action JSON (array of action objects) for per-lemma decisions and auditable applies.
 - [x] Respect safety: DO NOT auto-reconstruct infinitives. Instead generate `reports/missing_infinitive.md` for manual review.
+- [ ] Apply proposed `hu`/`forms` mappings only after per-lemma confirmation recorded in action JSON (`reports/missing_infinitive_actions.json`).
 - Estimated effort: medium (Python/Node script + tests).
 
 ## Medium — Sorting, Examples & IGEKÖTŐ Handling
@@ -77,12 +78,12 @@
    - Make Tag filters collapsible.
    - Prevent scroll-jump on close; add A→Z sort and top-button.
    - Run local UI spec tests (`tests/ui.spec.js`) and report regressions.
-6. Implement `scripts/import_raw_notes.py`:
+6. [ ] Implement `scripts/import_raw_notes.py`:
    - Conservative parsing of `raw_notes.md` to extract candidate forms and infinitives.
    - Produce a proposals report (`reports/missing_infinitive.md`) and an action JSON (`reports/missing_infinitive_actions.json`).
    - Provide `--dry-run` (default) and `--apply` to write; create backups when applying.
    - Respect per-lemma apply flow: do not modify `forms` unless action JSON explicitly says so.
-7. Implement IGEKÖTŐ detection/tagging:
+- 7. [ ] Implement IGEKÖTŐ detection/tagging:
    - Use the prefix list above and add tag `IGEKÖTŐ`.
    - On import, flag candidate igekötő forms and attach to `tags`.
    - Generate or template examples if missing; mark for review.
