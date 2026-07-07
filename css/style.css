@@ -57,6 +57,7 @@ input#search{
   color:inherit;
   box-sizing:border-box;
   outline:none;
+  font-size:16px; /* prevent mobile zoom when focusing */
 }
 input#search::placeholder{color:var(--muted)}
 
@@ -106,8 +107,20 @@ button.close-btn{
 .card.expanded {
   transform: translateY(-2px);
   box-shadow: 0 12px 30px rgba(2,6,23,0.6);
+  /* Visual selection ring using the related-link color */
+  border: 1px solid rgba(255,209,102,0.9);
+  outline: 3px solid rgba(255,209,102,0.12);
+  outline-offset: 6px;
 }
 .card.expanded .panel {
   max-height: 1000px;           /* large enough for most panels — adjust if needed */
   padding: 12px;
 }
+
+/* Accessibility: high-contrast focus for interactive card headers */
+.card-main{outline:none}
+.card-main:focus-visible{outline:3px solid #ffd166;outline-offset:4px;border-radius:8px}
+
+/* Improve link contrast inside cards and family lists */
+.card a, .family-card a, #family-members-list a{color:#ffd166}
+.card a:focus-visible, .family-card a:focus-visible, #family-members-list a:focus-visible{outline:2px solid #ffd166;outline-offset:3px}
