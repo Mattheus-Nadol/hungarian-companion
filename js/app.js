@@ -50,6 +50,7 @@ const Pages = {
                 id="search"
                 placeholder="Search..."
                 oninput="filterWords()"
+                onkeydown="if(event.key==='Enter'){this.blur();}"
             >
 
                         <div class="filters" style="margin-top:8px; display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
