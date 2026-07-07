@@ -571,7 +571,7 @@ function openPanel(card, panel) {
     // apply starting point for transition
     panel.style.maxHeight = '0px';
     // force reflow
-    // eslint-disable-next-line no-unused-expressions
+     
     panel.offsetHeight;
     card.classList.add('expanded');
     panel.style.transition = 'max-height 280ms ease, padding 200ms ease';
@@ -594,7 +594,7 @@ function closePanel(card, panel, cb) {
     const current = panel.scrollHeight + 'px';
     panel.style.maxHeight = current;
     // force reflow
-    // eslint-disable-next-line no-unused-expressions
+     
     panel.offsetHeight;
     panel.style.transition = 'max-height 280ms ease, padding 200ms ease';
     panel.style.maxHeight = '0px';
