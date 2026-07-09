@@ -1,4 +1,4 @@
-Celownik -nak/-nek = komu? / dla kogo? 
+# Celownik -nak/-nek = komu? / dla kogo? 
 do rzeczowników 
 Adok Katinak egy ajándékot. = Daję Kati prezent.
 Küldök neked egy üzenetet. = Wysyłam ci wiadomość.
@@ -13,6 +13,36 @@ Küldök neked egy üzenetet. = Wysyłam ci wiadomość.
 
 
 Random tips
+
+# Zaimki osobowe 
+Engem - me 
+Téged - you
+Őt - her/him 
+Önt - You (formal)
+Minket - us 
+Titeket - you (pl)
+Őket - them 
+Önöket - You (pl) (formal)
+Magamat - myself 
+Magadat - yourself 
+
+Expressing emotions
+én → te/ti     → -lak / -lek (optionally add titeket)
+én → ő/ők     → definite (-om/-em)
+# examples:
+Szeretlek - I love you 
+Látlak - I see you 
+Várlak - I am waiting for you 
+Ismerlek - I know you 
+Hallak - I hear you 
+A nagymamám nem hall minket - my grandma doesn’t hear us 
+Nézlek - I am looking at you 
+Utállak - I hate you 
+Imádlak - I adore you 
+Imád engem - he adores me 
+Imádnak engem - they adore me 
+Hallgatlak - I am listening to you 
+
 
 majd = później / potem / kiedyś / dopiero
 (Majd jövök. - Później przychodzę.Przyjdę później. I will come later.) 
