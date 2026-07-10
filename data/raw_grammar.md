@@ -14,6 +14,146 @@ Küldök neked egy üzenetet. = Wysyłam ci wiadomość.
 
 Random tips
 
+### Plural (Többes szám)
+
+# Basic plural
+
+Singular → Plural
+
+kutya → kutyák
+könyv → könyvek
+autó → autók
+
+Rule:
+Plural is formed with **-k** (the connecting vowel follows vowel harmony).
+
+# After numbers → use SINGULAR ✅
+
+Hungarian uses the singular noun after numbers.
+
+egy kutya
+két kutya
+öt kutya
+huszonnyolc kutya
+száz könyv
+
+❌ két kutyák
+
+Reason:
+The number already expresses plurality.
+
+# After quantity words → usually SINGULAR ✅
+
+sok kutya
+sok ember
+kevés pénz
+néhány könyv
+rengeteg autó
+
+Reason:
+The quantity word already expresses "more than one".
+
+# Generic statements (species / class) → usually SINGULAR ✅
+
+A kutya hűséges.
+Dogs are faithful.
+
+A tigris veszélyes.
+Tigers are dangerous.
+
+A macska szeret aludni.
+Cats like sleeping.
+
+Meaning:
+The singular represents the whole species or class.
+
+# Specific group → use PLURAL ✅
+
+A kutyák a kertben vannak.
+The dogs are in the garden.
+
+A tigrisek az állatkertben vannak.
+The tigers are in the zoo.
+
+Meaning:
+Now we are talking about particular animals or objects.
+
+# Possessed nouns
+
+Numbers do NOT change the rule.
+
+két barátom
+my two friends
+
+három testvérem
+my three siblings
+
+❌ két barátaim
+
+Rule:
+Number → singular noun
+Possession → possessive suffix
+
+# Predicate agreement
+
+Plural subject → plural adjective / predicate.
+
+A kutyák nagyok.
+The dogs are big.
+
+Az autók gyorsak.
+The cars are fast.
+
+But:
+
+Két kutya van.
+There are two dogs.
+
+(The noun stays singular because of the number.)
+
+# Core intuition
+
+Hungarian usually avoids marking plurality twice.
+
+If plurality is already clear from:
+- a number,
+- a quantity word,
+- or a generic meaning,
+
+the noun usually remains singular.
+
+Plural (-k) is mainly used when the noun itself must indicate "more than one".
+
+# Common mistakes
+
+❌ két kutyák
+✅ két kutya
+
+❌ sok könyvek
+✅ sok könyv
+
+❌ három barátaim
+✅ három barátom
+
+❌ A tigrisek veszélyes.
+(when talking about the species)
+
+✅ A tigris veszélyes.
+
+
+# Quick summary
+
+Use **singular**:
+- after numbers
+- after quantity words
+- when talking about a species or class in general
+
+Use **plural**:
+- when referring to a specific group
+- when nothing else already indicates plurality
+
+---
+
 # Zaimki osobowe 
 Engem - me 
 Téged - you
