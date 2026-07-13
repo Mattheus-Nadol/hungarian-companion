@@ -14,6 +14,30 @@ Küldök neked egy üzenetet. = Wysyłam ci wiadomość.
 
 Random tips
 
+## Asking someone's name
+
+Mi a neved?
+= What's your name?
+(literally: What is your name?)
+
+Hogy hívnak?
+= What's your name?
+(literally: What do people call you?)
+
+Hogy hívjalak?
+= What should I call you?
+= How should I address you?
+
+A nevem Mateusz.
+= My name is Mateusz.
+
+Mateusznak hívnak.
+= They call me Mateusz. (= My name is Mateusz.)
+
+Pattern:
+hívnak → they call (you)
+hívjalak → I should call you (I → you)
+
 ### Plural (Többes szám)
 
 # Basic plural
