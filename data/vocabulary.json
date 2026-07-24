@@ -18483,8 +18483,8 @@
   {
   "id": 762,
   "hu": "jelent",
-  "pl": "znaczyć; oznaczać",
-  "en": "to mean; to signify",
+  "pl": "znaczy / oznaczać",
+  "en": "to mean / to signify",
   "type": "verb",
   "example": {
     "hu": "Mit jelent ez a szó?",
@@ -18504,8 +18504,8 @@
   {
   "id": 763,
   "hu": "egyszerű",
-  "pl": "prosty; łatwy",
-  "en": "simple; easy",
+  "pl": "prosty / łatwy",
+  "en": "simple / easy",
   "type": "adjective",
   "example": {
     "hu": "Ez egy egyszerű kérdés.",
@@ -18549,8 +18549,8 @@
   {
   "id": 765,
   "hu": "aranyos",
-  "pl": "uroczy; słodki",
-  "en": "cute; adorable",
+  "pl": "uroczy / słodki",
+  "en": "cute / adorable",
   "type": "adjective",
   "example": {
     "hu": "A kutyám nagyon aranyos.",
@@ -18571,7 +18571,7 @@
   "id": 766,
   "hu": "majdnem",
   "pl": "prawie",
-  "en": "almost; nearly",
+  "en": "almost / nearly",
   "type": "adverb",
   "example": {
     "hu": "Majdnem értem.",
@@ -18593,8 +18593,8 @@
   {
   "id": 767,
   "hu": "teljesen",
-  "pl": "całkowicie; zupełnie",
-  "en": "completely; totally",
+  "pl": "całkowicie / zupełnie",
+  "en": "completely / totally",
   "type": "adverb",
   "example": {
     "hu": "Teljesen üres.",
@@ -18615,7 +18615,7 @@
   "id": 768,
   "hu": "séta",
   "pl": "spacer",
-  "en": "walk; stroll",
+  "en": "walk / stroll",
   "type": "noun",
   "example": {
     "hu": "Szeretem a sétát.",
