@@ -18429,4 +18429,55 @@
     "notes": [],
     "forms": []
   }
+  {
+  "id": 760,
+  "hu": "levél",
+  "pl": "liść",
+  "en": "leaf",
+  "type": "noun",
+  "example": {
+    "hu": "Egy levél leesett a fáról.",
+    "pl": "Jeden liść spadł z drzewa."
+  },
+  "pattern": "article + noun",
+  "related": [
+    "fa",
+    "erdő",
+    "zöld"
+  ],
+  "tags": [
+    "common",
+    "nature"
+  ],
+  "notes": [
+    "Different meaning of 'levél': leaf. The same Hungarian word 'levél' also means letter."
+  ],
+  "forms": [
+    "levelek"
+  ]
+  }
+  {
+  "id": 761,
+  "hu": "üres",
+  "pl": "pusty",
+  "en": "empty",
+  "type": "adjective",
+  "example": {
+    "hu": "Az üveg üres.",
+    "pl": "Butelka jest pusta."
+  },
+  "pattern": "article + adjective + noun",
+  "related": [
+    "tele"
+  ],
+  "tags": [
+    "common",
+    "description",
+    "state"
+  ],
+  "notes": [],
+  "forms": [
+    "üresek"
+  ]
+  }
 ]
