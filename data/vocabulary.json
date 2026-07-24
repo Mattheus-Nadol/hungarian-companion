@@ -18479,5 +18479,179 @@
   "forms": [
     "üresek"
   ]
+  },
+  {
+  "id": 762,
+  "hu": "jelent",
+  "pl": "znaczyć; oznaczać",
+  "en": "to mean; to signify",
+  "type": "verb",
+  "example": {
+    "hu": "Mit jelent ez a szó?",
+    "pl": "Co znaczy to słowo?"
+  },
+  "pattern": "mit jelent + noun",
+  "related": [
+    "jelentés"
+  ],
+  "tags": [
+    "common",
+    "communication"
+  ],
+  "notes": [],
+  "forms": []
+  },
+  {
+  "id": 763,
+  "hu": "egyszerű",
+  "pl": "prosty; łatwy",
+  "en": "simple; easy",
+  "type": "adjective",
+  "example": {
+    "hu": "Ez egy egyszerű kérdés.",
+    "pl": "To jest proste pytanie."
+  },
+  "pattern": "article + adjective + noun",
+  "related": [
+    "könnyű",
+    "nehéz"
+  ],
+  "tags": [
+    "common",
+    "description"
+  ],
+  "notes": [],
+  "forms": []
+  },
+  {
+  "id": 764,
+  "hu": "stresszes",
+  "pl": "stresujący",
+  "en": "stressful",
+  "type": "adjective",
+  "example": {
+    "hu": "Ez egy stresszes nap.",
+    "pl": "To jest stresujący dzień."
+  },
+  "pattern": "article + adjective + noun",
+  "related": [
+    "nehéz",
+    "stressz"
+  ],
+  "tags": [
+    "common",
+    "description",
+    "state"
+  ],
+  "notes": [],
+  "forms": []
+  },
+  {
+  "id": 765,
+  "hu": "aranyos",
+  "pl": "uroczy; słodki",
+  "en": "cute; adorable",
+  "type": "adjective",
+  "example": {
+    "hu": "A kutyám nagyon aranyos.",
+    "pl": "Mój pies jest bardzo uroczy."
+  },
+  "pattern": "noun + adverb + adjective",
+  "related": [
+    "cuki"
+  ],
+  "tags": [
+    "common",
+    "description"
+  ],
+  "notes": [],
+  "forms": []
+  },
+  {
+  "id": 766,
+  "hu": "majdnem",
+  "pl": "prawie",
+  "en": "almost; nearly",
+  "type": "adverb",
+  "example": {
+    "hu": "Majdnem értem.",
+    "pl": "Prawie rozumiem."
+  },
+  "pattern": "adverb + verb",
+  "related": [
+    "már",
+    "még"
+  ],
+  "tags": [
+    "common",
+    "time",
+    "degree"
+  ],
+  "notes": [],
+  "forms": []
+  },
+  {
+  "id": 767,
+  "hu": "teljesen",
+  "pl": "całkowicie; zupełnie",
+  "en": "completely; totally",
+  "type": "adverb",
+  "example": {
+    "hu": "Teljesen üres.",
+    "pl": "Jest całkowicie pusty."
+  },
+  "pattern": "adverb + adjective",
+  "related": [
+    "majdnem"
+  ],
+  "tags": [
+    "common",
+    "degree"
+  ],
+  "notes": [],
+  "forms": []
+  },
+  {
+  "id": 768,
+  "hu": "séta",
+  "pl": "spacer",
+  "en": "walk; stroll",
+  "type": "noun",
+  "example": {
+    "hu": "Szeretem a sétát.",
+    "pl": "Lubię spacer."
+  },
+  "pattern": "article + noun",
+  "related": [
+    "sétál"
+  ],
+  "tags": [
+    "common",
+    "activity"
+  ],
+  "notes": [],
+  "forms": []
+  },
+  {
+  "id": 769,
+  "hu": "lecke",
+  "pl": "lekcja",
+  "en": "lesson",
+  "type": "noun",
+  "example": {
+    "hu": "Ez az első leckém.",
+    "pl": "To jest moja pierwsza lekcja."
+  },
+  "pattern": "demonstrative + ordinal + possessive noun",
+  "related": [
+    "tanul",
+    "tanulás"
+  ],
+  "tags": [
+    "common",
+    "education"
+  ],
+  "notes": [],
+  "forms": []
   }
 ]
