@@ -1537,7 +1537,7 @@
   },
   {
     "id": 62,
-    "hu": "sétál",
+    "hu": "sétálni",
     "pl": "spacerować",
     "en": "to walk",
     "type": "verb",
@@ -1558,10 +1558,11 @@
       "movement"
     ],
     "notes": [
-      "forms included separately in list"
+      "forms included separately in list",
+      "Ma a családdal sétáltunk. — Dzisiaj spacerowaliśmy z rodziną."
     ],
     "forms": [
-      "sétálni"
+      "sétál", "sétáltunk"
     ]
   },
   {
@@ -3036,7 +3037,7 @@
   },
   {
     "id": 120,
-    "hu": "eszik",
+    "hu": "enni",
     "pl": "jeść",
     "en": "to eat",
     "type": "verb",
@@ -3058,8 +3059,11 @@
       "common",
       "food"
     ],
-    "notes": [],
-    "forms": []
+    "notes": [
+      "ettünk = jedliśmy ogólnie / coś",
+      "ettük = jedliśmy konkretną rzecz"
+    ],
+    "forms": ["eszik", "ettünk", "ettük", "ettem"]
   },
   {
     "id": 121,
@@ -18653,5 +18657,233 @@
   ],
   "notes": [],
   "forms": []
-  }
+  },
+  {
+  "id": 770,
+  "hu": "autózni",
+  "pl": "jeździć samochodem",
+  "en": "to drive / to go by car",
+  "type": "verb",
+  "example": {
+    "hu": "Ma autóztunk a városban.",
+    "pl": "Dzisiaj jeździliśmy samochodem po mieście."
+  },
+  "pattern": "autózni → autóztunk",
+  "related": [],
+  "tags": [
+    "common",
+    "transport"
+  ],
+  "notes": [
+    "autóztunk = jeździliśmy samochodem (czas przeszły, 1. osoba liczby mnogiej)"
+  ],
+  "forms": [
+    "autóztunk"
+  ]
+},
+{
+  "id": 771,
+  "hu": "emlékezni",
+  "pl": "pamiętać / przypominać sobie",
+  "en": "to remember",
+  "type": "verb",
+  "example": {
+    "hu": "Sok szót tudok, de nem emlékszem rájuk.",
+    "pl": "Znam dużo słów, ale ich nie pamiętam."
+  },
+  "pattern": "emlékezni → emlékszem",
+  "related": [],
+  "tags": [
+    "common",
+    "memory"
+  ],
+  "notes": [
+    "emlékszem = pamiętam",
+    "nem emlékszem = nie pamiętam",
+    "rájuk = ich / na nich — w konstrukcji „nem emlékszem rájuk” oznacza „ich nie pamiętam / nie pamiętam ich”",
+    "Sok szót tudok, de nem emlékszem rájuk. — Znam dużo słów, ale ich nie pamiętam."
+  ],
+  "forms": [
+    "emlékszem",
+    "nem emlékszem"
+  ]
+},
+{
+  "id": 772,
+  "hu": "popzene",
+  "pl": "muzyka pop",
+  "en": "pop music",
+  "type": "noun",
+  "example": {
+    "hu": "Popzenét hallgatok.",
+    "pl": "Słucham muzyki pop."
+  },
+  "pattern": "popzene → popzenét",
+  "related": [],
+  "tags": [
+    "music",
+    "common"
+  ],
+  "notes": [
+    "Popzenét hallgatok. — Słucham muzyki pop."
+  ],
+  "forms": [
+    "popzenét"
+  ]
+},
+{
+  "id": 773,
+  "hu": "melyik",
+  "pl": "który / która / które",
+  "en": "which",
+  "type": "pronoun",
+  "example": {
+    "hu": "Melyik dalt szereted?",
+    "pl": "Którą piosenkę lubisz?"
+  },
+  "pattern": "melyik + rzeczownik",
+  "related": [
+    "milyen"
+  ],
+  "tags": [
+    "question",
+    "common"
+  ],
+  "notes": [
+    "melyik = który konkretnie? — wybór konkretnej osoby lub rzeczy.",
+    "melyik → który konkretnie?",
+    "milyen → jaki / jakiego rodzaju?",
+    "Melyik dalt szereted? — Którą piosenkę lubisz?"
+  ],
+  "forms": []
+},
+{
+  "id": 774,
+  "hu": "olyan",
+  "pl": "taki / taka / takie",
+  "en": "such / like that",
+  "type": "pronoun",
+  "example": {
+    "hu": "Ez olyan, mint az.",
+    "pl": "To jest takie jak tamto."
+  },
+  "pattern": "olyan, mint + rzeczownik / zaimek",
+  "related": [
+    "mint",
+    "hasonló"
+  ],
+  "tags": [
+    "common",
+    "pattern"
+  ],
+  "notes": [
+    "Struktura: olyan, mint + rzeczownik / zaimek = taki jak...",
+    "Ez olyan, mint az. — To jest takie jak tamto.",
+    "olyan, mint = taki jak"
+  ],
+  "forms": []
+},
+{
+  "id": 775,
+  "hu": "hasonló",
+  "pl": "podobny",
+  "en": "similar",
+  "type": "adjective",
+  "example": {
+    "hu": "Ez hasonló ahhoz.",
+    "pl": "To jest podobne do tamtego."
+  },
+  "pattern": "hasonló + -hoz/-hez/-höz",
+  "related": [
+    "olyan",
+    "mint"
+  ],
+  "tags": [
+    "common",
+    "comparison"
+  ],
+  "notes": [
+    "Ez hasonló ahhoz. — To jest podobne do tamtego.",
+    "hasonló = podobny / podobne"
+  ],
+  "forms": []
+},
+{
+  "id": 776,
+  "hu": "fárasztó",
+  "pl": "męczący",
+  "en": "tiring / exhausting",
+  "type": "adjective",
+  "example": {
+    "hu": "Ez nagyon fárasztó.",
+    "pl": "To jest bardzo męczące."
+  },
+  "pattern": "fáradt vs fárasztó",
+  "related": [
+    "fáradt"
+  ],
+  "tags": [
+    "common",
+    "description"
+  ],
+  "notes": [
+    "fáradt = zmęczony — osoba jest zmęczona.",
+    "fárasztó = męczący — coś jest męczące.",
+    "Ez nagyon fárasztó. — To jest bardzo męczące."
+  ],
+  "forms": []
+},
+{
+  "id": 777,
+  "hu": "kezdő",
+  "pl": "początkujący",
+  "en": "beginner",
+  "type": "adjective",
+  "example": {
+    "hu": "Kezdő vagyok.",
+    "pl": "Jestem początkujący."
+  },
+  "pattern": "kezd → kezdő",
+  "related": [
+    "kezd",
+    "kezdődik"
+  ],
+  "tags": [
+    "common",
+    "learning"
+  ],
+  "notes": [
+    "Kezdő vagyok. — Jestem początkujący.",
+    "kezdő = początkujący",
+    "Słowo jest związane z kezd = zaczynać."
+  ],
+  "forms": []
+},
+{
+  "id": 778,
+  "hu": "mint",
+  "pl": "jak / niż",
+  "en": "like / than",
+  "type": "conjunction",
+  "example": {
+    "hu": "Ez olyan, mint az.",
+    "pl": "To jest takie jak tamto."
+  },
+  "pattern": "olyan, mint + rzeczownik / zaimek",
+  "related": [
+    "olyan",
+    "hasonló"
+  ],
+  "tags": [
+    "common",
+    "comparison",
+    "pattern"
+  ],
+  "notes": [
+    "olyan, mint = taki jak",
+    "Ez olyan, mint az. — To jest takie jak tamto.",
+    "mint może również oznaczać „niż” w konstrukcjach porównawczych."
+  ],
+  "forms": []
+}
 ]
