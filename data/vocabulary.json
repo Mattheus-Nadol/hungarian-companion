@@ -1026,8 +1026,8 @@
       "education",
       "school"
     ],
-    "notes": [],
-    "forms": []
+    "notes": ["iskolai = szkolny — forma przymiotnikowa od iskola"],
+    "forms": ["iskolai"]
   },
   {
     "id": 42,
@@ -12661,8 +12661,10 @@
       "common",
       "hobby"
     ],
-    "notes": [],
-    "forms": []
+    "notes": [
+      "néz ki = wyglądać / prezentować się; w zdaniu: Nagyon jól néz ki! = Wygląda świetnie!"
+    ],
+    "forms": ["néz ki"]
   },
   {
     "id": 522,
@@ -18443,11 +18445,12 @@
     "hu": "Egy levél leesett a fáról.",
     "pl": "Jeden liść spadł z drzewa."
   },
-  "pattern": "article + noun",
+  "pattern": "egy levél / a levél",
   "related": [
     "fa",
     "erdő",
-    "zöld"
+    "zöld",
+    "levél"
   ],
   "tags": [
     "common",
@@ -18459,8 +18462,8 @@
   "forms": [
     "levelek"
   ]
-  },
-  {
+},
+{
   "id": 761,
   "hu": "üres",
   "pl": "pusty",
@@ -18470,9 +18473,12 @@
     "hu": "Az üveg üres.",
     "pl": "Butelka jest pusta."
   },
-  "pattern": "article + adjective + noun",
+  "pattern": "valami + üres",
   "related": [
-    "tele"
+    "tele",
+    "teli",
+    "üveg",
+    "doboz"
   ],
   "tags": [
     "common",
@@ -18483,51 +18489,63 @@
   "forms": [
     "üresek"
   ]
-  },
-  {
+},
+{
   "id": 762,
-  "hu": "jelent",
-  "pl": "znaczy / oznaczać",
+  "hu": "jelenteni",
+  "pl": "znaczyć / oznaczać",
   "en": "to mean / to signify",
   "type": "verb",
   "example": {
     "hu": "Mit jelent ez a szó?",
     "pl": "Co znaczy to słowo?"
   },
-  "pattern": "mit jelent + noun",
+  "pattern": "mit jelent + szó",
   "related": [
-    "jelentés"
+    "jelentés",
+    "szó",
+    "érteni",
+    "magyarázni"
   ],
   "tags": [
     "common",
     "communication"
   ],
-  "notes": [],
-  "forms": []
-  },
-  {
+  "notes": [
+    "jelent = znaczy / oznacza",
+    "Mit jelent ez? — Co to znaczy?"
+  ],
+  "forms": [
+    "jelent"
+  ]
+},
+{
   "id": 763,
   "hu": "egyszerű",
   "pl": "prosty / łatwy",
   "en": "simple / easy",
   "type": "adjective",
   "example": {
-    "hu": "Ez egy egyszerű kérdés.",
-    "pl": "To jest proste pytanie."
+    "hu": "Kérlek, használj egyszerű szavakat.",
+    "pl": "Proszę, używaj prostych słów."
   },
-  "pattern": "article + adjective + noun",
+  "pattern": "egyszerű + noun",
   "related": [
     "könnyű",
-    "nehéz"
+    "nehéz",
+    "bonyolult",
+    "szó"
   ],
   "tags": [
     "common",
     "description"
   ],
-  "notes": [],
+  "notes": [
+    "Kérlek, használj egyszerű szavakat. — Proszę, używaj prostych słów."
+  ],
   "forms": []
-  },
-  {
+},
+{
   "id": 764,
   "hu": "stresszes",
   "pl": "stresujący",
@@ -18537,10 +18555,12 @@
     "hu": "Ez egy stresszes nap.",
     "pl": "To jest stresujący dzień."
   },
-  "pattern": "article + adjective + noun",
+  "pattern": "stresszes + noun",
   "related": [
+    "stressz",
     "nehéz",
-    "stressz"
+    "fárasztó",
+    "nap"
   ],
   "tags": [
     "common",
@@ -18549,8 +18569,8 @@
   ],
   "notes": [],
   "forms": []
-  },
-  {
+},
+{
   "id": 765,
   "hu": "aranyos",
   "pl": "uroczy / słodki",
@@ -18560,9 +18580,12 @@
     "hu": "A kutyám nagyon aranyos.",
     "pl": "Mój pies jest bardzo uroczy."
   },
-  "pattern": "noun + adverb + adjective",
+  "pattern": "valaki + nagyon + aranyos",
   "related": [
-    "cuki"
+    "cuki",
+    "kedves",
+    "szép",
+    "kutya"
   ],
   "tags": [
     "common",
@@ -18570,8 +18593,8 @@
   ],
   "notes": [],
   "forms": []
-  },
-  {
+},
+{
   "id": 766,
   "hu": "majdnem",
   "pl": "prawie",
@@ -18581,10 +18604,12 @@
     "hu": "Majdnem értem.",
     "pl": "Prawie rozumiem."
   },
-  "pattern": "adverb + verb",
+  "pattern": "majdnem + verb",
   "related": [
     "már",
-    "még"
+    "még",
+    "teljesen",
+    "érteni"
   ],
   "tags": [
     "common",
@@ -18593,8 +18618,8 @@
   ],
   "notes": [],
   "forms": []
-  },
-  {
+},
+{
   "id": 767,
   "hu": "teljesen",
   "pl": "całkowicie / zupełnie",
@@ -18604,9 +18629,12 @@
     "hu": "Teljesen üres.",
     "pl": "Jest całkowicie pusty."
   },
-  "pattern": "adverb + adjective",
+  "pattern": "teljesen + adjective",
   "related": [
-    "majdnem"
+    "majdnem",
+    "nagyon",
+    "üres",
+    "tele"
   ],
   "tags": [
     "common",
@@ -18614,8 +18642,8 @@
   ],
   "notes": [],
   "forms": []
-  },
-  {
+},
+{
   "id": 768,
   "hu": "séta",
   "pl": "spacer",
@@ -18625,18 +18653,25 @@
     "hu": "Szeretem a sétát.",
     "pl": "Lubię spacer."
   },
-  "pattern": "article + noun",
+  "pattern": "szeret + noun",
   "related": [
-    "sétál"
+    "sétálni",
+    "sétál",
+    "kutya",
+    "park"
   ],
   "tags": [
     "common",
     "activity"
   ],
-  "notes": [],
-  "forms": []
-  },
-  {
+  "notes": [
+    "Szeretem a sétát. — Lubię spacer."
+  ],
+  "forms": [
+    "sétát"
+  ]
+},
+{
   "id": 769,
   "hu": "lecke",
   "pl": "lekcja",
@@ -18646,19 +18681,23 @@
     "hu": "Ez az első leckém.",
     "pl": "To jest moja pierwsza lekcja."
   },
-  "pattern": "demonstrative + ordinal + possessive noun",
+  "pattern": "első + lecke",
   "related": [
-    "tanul",
-    "tanulás"
+    "tanulni",
+    "tanulás",
+    "iskola",
+    "óra"
   ],
   "tags": [
     "common",
     "education"
   ],
   "notes": [],
-  "forms": []
-  },
-  {
+  "forms": [
+    "leckém"
+  ]
+},
+{
   "id": 770,
   "hu": "autózni",
   "pl": "jeździć samochodem",
@@ -18668,14 +18707,19 @@
     "hu": "Ma autóztunk a városban.",
     "pl": "Dzisiaj jeździliśmy samochodem po mieście."
   },
-  "pattern": "autózni → autóztunk",
-  "related": [],
+  "pattern": "valaki + autózik + valahol",
+  "related": [
+    "autó",
+    "vezetni",
+    "utazni",
+    "város"
+  ],
   "tags": [
     "common",
     "transport"
   ],
   "notes": [
-    "autóztunk = jeździliśmy samochodem (czas przeszły, 1. osoba liczby mnogiej)"
+    "autóztunk = jeździliśmy samochodem — czas przeszły, 1. osoba liczby mnogiej."
   ],
   "forms": [
     "autóztunk"
@@ -18691,8 +18735,13 @@
     "hu": "Sok szót tudok, de nem emlékszem rájuk.",
     "pl": "Znam dużo słów, ale ich nie pamiętam."
   },
-  "pattern": "emlékezni → emlékszem",
-  "related": [],
+  "pattern": "valaki + emlékszik + valamire",
+  "related": [
+    "emlék",
+    "emlékezés",
+    "emlékeztetni",
+    "tudni"
+  ],
   "tags": [
     "common",
     "memory"
@@ -18700,7 +18749,7 @@
   "notes": [
     "emlékszem = pamiętam",
     "nem emlékszem = nie pamiętam",
-    "rájuk = ich / na nich — w konstrukcji „nem emlékszem rájuk” oznacza „ich nie pamiętam / nie pamiętam ich”",
+    "rájuk = ich / na nich — w konstrukcji „nem emlékszem rájuk” oznacza „ich nie pamiętam / nie pamiętam ich”.",
     "Sok szót tudok, de nem emlékszem rájuk. — Znam dużo słów, ale ich nie pamiętam."
   ],
   "forms": [
@@ -18718,8 +18767,13 @@
     "hu": "Popzenét hallgatok.",
     "pl": "Słucham muzyki pop."
   },
-  "pattern": "popzene → popzenét",
-  "related": [],
+  "pattern": "popzenét + hallgat",
+  "related": [
+    "zene",
+    "hallgatni",
+    "zenét",
+    "koncert"
+  ],
   "tags": [
     "music",
     "common"
@@ -18741,9 +18795,12 @@
     "hu": "Melyik dalt szereted?",
     "pl": "Którą piosenkę lubisz?"
   },
-  "pattern": "melyik + rzeczownik",
+  "pattern": "melyik + noun",
   "related": [
-    "milyen"
+    "milyen",
+    "ez",
+    "az",
+    "mi"
   ],
   "tags": [
     "question",
@@ -18751,8 +18808,7 @@
   ],
   "notes": [
     "melyik = który konkretnie? — wybór konkretnej osoby lub rzeczy.",
-    "melyik → który konkretnie?",
-    "milyen → jaki / jakiego rodzaju?",
+    "milyen = jaki / jakiego rodzaju?",
     "Melyik dalt szereted? — Którą piosenkę lubisz?"
   ],
   "forms": []
@@ -18767,10 +18823,12 @@
     "hu": "Ez olyan, mint az.",
     "pl": "To jest takie jak tamto."
   },
-  "pattern": "olyan, mint + rzeczownik / zaimek",
+  "pattern": "olyan, mint + noun / pronoun",
   "related": [
     "mint",
-    "hasonló"
+    "hasonló",
+    "ilyen",
+    "az"
   ],
   "tags": [
     "common",
@@ -18793,10 +18851,12 @@
     "hu": "Ez hasonló ahhoz.",
     "pl": "To jest podobne do tamtego."
   },
-  "pattern": "hasonló + -hoz/-hez/-höz",
+  "pattern": "valami + hasonló + valamihez",
   "related": [
+    "hasonlítani",
     "olyan",
-    "mint"
+    "mint",
+    "ugyanolyan"
   ],
   "tags": [
     "common",
@@ -18804,7 +18864,7 @@
   ],
   "notes": [
     "Ez hasonló ahhoz. — To jest podobne do tamtego.",
-    "hasonló = podobny / podobne"
+    "hasonló + -hoz/-hez/-höz = podobny do czegoś."
   ],
   "forms": []
 },
@@ -18818,9 +18878,12 @@
     "hu": "Ez nagyon fárasztó.",
     "pl": "To jest bardzo męczące."
   },
-  "pattern": "fáradt vs fárasztó",
+  "pattern": "valami + nagyon + fárasztó",
   "related": [
-    "fáradt"
+    "fáradt",
+    "fáradni",
+    "nehéz",
+    "kimerítő"
   ],
   "tags": [
     "common",
@@ -18843,10 +18906,12 @@
     "hu": "Kezdő vagyok.",
     "pl": "Jestem początkujący."
   },
-  "pattern": "kezd → kezdő",
+  "pattern": "kezdő + vagyok",
   "related": [
     "kezd",
-    "kezdődik"
+    "kezdődik",
+    "kezdés",
+    "haladó"
   ],
   "tags": [
     "common",
@@ -18854,7 +18919,7 @@
   ],
   "notes": [
     "Kezdő vagyok. — Jestem początkujący.",
-    "kezdő = początkujący",
+    "kezdő = początkujący.",
     "Słowo jest związane z kezd = zaczynać."
   ],
   "forms": []
@@ -18869,10 +18934,12 @@
     "hu": "Ez olyan, mint az.",
     "pl": "To jest takie jak tamto."
   },
-  "pattern": "olyan, mint + rzeczownik / zaimek",
+  "pattern": "olyan, mint + noun / pronoun",
   "related": [
     "olyan",
-    "hasonló"
+    "hasonló",
+    "ugyanolyan",
+    "más"
   ],
   "tags": [
     "common",
@@ -18885,5 +18952,573 @@
     "mint może również oznaczać „niż” w konstrukcjach porównawczych."
   ],
   "forms": []
+},
+{
+  "id": 779,
+  "hu": "festeni",
+  "pl": "malować",
+  "en": "to paint",
+  "type": "verb",
+  "example": {
+    "hu": "Szeretek festeni.",
+    "pl": "Lubię malować."
+  },
+  "pattern": "valaki + fest + valamit",
+  "related": [
+    "festmény",
+    "festő",
+    "rajzolni",
+    "művész"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "hobby",
+    "art"
+  ],
+  "notes": [],
+  "forms": [
+    "festesz",
+    "fested",
+    "fest",
+    "festi",
+    "festenek"
+  ]
+},
+{
+  "id": 780,
+  "hu": "fényképezni",
+  "pl": "robić zdjęcia / fotografować",
+  "en": "to take photos / photograph",
+  "type": "verb",
+  "example": {
+    "hu": "Szeretek fényképezni.",
+    "pl": "Lubię robić zdjęcia."
+  },
+  "pattern": "valaki + fényképez + valakit / valamit",
+  "related": [
+    "fénykép",
+    "kép",
+    "fotó",
+    "fotózni"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "hobby"
+  ],
+  "notes": [],
+  "forms": [
+    "fényképezel",
+    "fényképez"
+  ]
+},
+{
+  "id": 781,
+  "hu": "fénykép",
+  "pl": "zdjęcie / fotografia",
+  "en": "photo / photograph",
+  "type": "noun",
+  "example": {
+    "hu": "Van egy régi fényképem a családomról.",
+    "pl": "Mam stare zdjęcie mojej rodziny."
+  },
+  "pattern": "fénykép + -en → fényképen",
+  "related": [
+    "kép",
+    "fényképezni",
+    "fotó",
+    "fotózni"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "hobby"
+  ],
+  "notes": [],
+  "forms": [
+    "fényképen"
+  ]
+},
+{
+  "id": 782,
+  "hu": "kép",
+  "pl": "obraz / zdjęcie / obrazek",
+  "en": "picture / image / photo",
+  "type": "noun",
+  "example": {
+    "hu": "Ez a kép nagyon szép.",
+    "pl": "Ten obrazek jest bardzo ładny."
+  },
+  "pattern": "kép + -et → képet / kép + -en → képen",
+  "related": [
+    "fénykép",
+    "képes",
+    "képzelni",
+    "nézni"
+  ],
+  "tags": [
+    "A1",
+    "common"
+  ],
+  "notes": [],
+  "forms": [
+    "képet",
+    "képen"
+  ]
+},
+{
+  "id": 783,
+  "hu": "zenélni",
+  "pl": "grać muzykę / grać na instrumencie",
+  "en": "to play music / play an instrument",
+  "type": "verb",
+  "example": {
+    "hu": "Szeretek zenélni.",
+    "pl": "Lubię grać muzykę."
+  },
+  "pattern": "valaki + zenél",
+  "related": [
+    "zene",
+    "zenész",
+    "hegedülni",
+    "játszani"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "hobby",
+    "music"
+  ],
+  "notes": [],
+  "forms": [
+    "zenélek",
+    "zenélnek"
+  ]
+},
+{
+  "id": 784,
+  "hu": "hegedülni",
+  "pl": "grać na skrzypcach",
+  "en": "to play the violin",
+  "type": "verb",
+  "example": {
+    "hu": "Hegedülök.",
+    "pl": "Gram na skrzypcach."
+  },
+  "pattern": "valaki + hegedül",
+  "related": [
+    "hegedű",
+    "zenélni",
+    "zene",
+    "zenész"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "hobby",
+    "music"
+  ],
+  "notes": [],
+  "forms": [
+    "hegedülök",
+    "hegedülsz",
+    "hegedül",
+    "hegedültök"
+  ]
+},
+{
+  "id": 785,
+  "hu": "gyönyörű",
+  "pl": "piękny / przepiękny / cudowny",
+  "en": "beautiful / gorgeous",
+  "type": "adjective",
+  "example": {
+    "hu": "Gyönyörű ez a kép.",
+    "pl": "Ten obraz jest przepiękny."
+  },
+  "pattern": "gyönyörű + főnév / valami + gyönyörű",
+  "related": [
+    "szép",
+    "csodálatos",
+    "aranyos",
+    "gyönyörűen"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "description"
+  ],
+  "notes": [],
+  "forms": []
+},
+{
+  "id": 786,
+  "hu": "lent",
+  "pl": "na dole / poniżej / na dole",
+  "en": "down / below / downstairs",
+  "type": "adverb",
+  "example": {
+    "hu": "Ron lent van.",
+    "pl": "Ron jest na dole."
+  },
+  "pattern": "valami / valaki + lent van",
+  "related": [
+    "fent",
+    "alatt",
+    "le",
+    "lenn"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "location"
+  ],
+  "notes": [],
+  "forms": []
+},
+{
+  "id": 787,
+  "hu": "fent",
+  "pl": "na górze / wysoko / tam na górze",
+  "en": "up / upstairs / up there",
+  "type": "adverb",
+  "example": {
+    "hu": "Ron fent van.",
+    "pl": "Ron jest na górze."
+  },
+  "pattern": "valami / valaki + fent van",
+  "related": [
+    "lent",
+    "fölött",
+    "fel",
+    "fenn"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "location"
+  ],
+  "notes": [],
+  "forms": []
+},
+{
+  "id": 788,
+  "hu": "elöl",
+  "pl": "z przodu / na przodzie",
+  "en": "at the front / in front",
+  "type": "adverb",
+  "example": {
+    "hu": "Én ülök elöl.",
+    "pl": "Ja siedzę z przodu."
+  },
+  "pattern": "valaki / valami + elöl van",
+  "related": [
+    "hátul",
+    "előtt",
+    "elől",
+    "első"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "location"
+  ],
+  "notes": [],
+  "forms": []
+},
+{
+  "id": 789,
+  "hu": "hátul",
+  "pl": "z tyłu / z tyłu miejsca",
+  "en": "at the back / in the back",
+  "type": "adverb",
+  "example": {
+    "hu": "Én ülök hátul.",
+    "pl": "Ja siedzę z tyłu."
+  },
+  "pattern": "valaki / valami + hátul van",
+  "related": [
+    "elöl",
+    "mögött",
+    "hát",
+    "hátsó"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "location"
+  ],
+  "notes": [],
+  "forms": []
+},
+{
+  "id": 790,
+  "hu": "balett",
+  "pl": "balet",
+  "en": "ballet",
+  "type": "noun",
+  "example": {
+    "hu": "Szeretem a balettet.",
+    "pl": "Lubię balet."
+  },
+  "pattern": "balett + -et → balettet",
+  "related": [
+    "tánc",
+    "táncolni",
+    "előadás",
+    "színház"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "hobby",
+    "art"
+  ],
+  "notes": [],
+  "forms": [
+    "balettet"
+  ]
+},
+{
+  "id": 791,
+  "hu": "koncert",
+  "pl": "koncert",
+  "en": "concert",
+  "type": "noun",
+  "example": {
+    "hu": "A koncerten zenélnek.",
+    "pl": "Na koncercie grają muzykę."
+  },
+  "pattern": "koncert + -en → koncerten",
+  "related": [
+    "zene",
+    "zenélni",
+    "előadás",
+    "énekes"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "music",
+    "hobby"
+  ],
+  "notes": [],
+  "forms": [
+    "koncerten"
+  ]
+},
+{
+  "id": 792,
+  "hu": "előadás",
+  "pl": "występ / przedstawienie / wykład",
+  "en": "performance / show / lecture",
+  "type": "noun",
+  "example": {
+    "hu": "Nagyon jó volt az előadás.",
+    "pl": "Występ był bardzo dobry."
+  },
+  "pattern": "egy + előadás / az + előadás",
+  "related": [
+    "előadni",
+    "koncert",
+    "színház",
+    "balett"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "education",
+    "art"
+  ],
+  "notes": [],
+  "forms": []
+},
+{
+  "id": 793,
+  "hu": "okés",
+  "pl": "OK / w porządku",
+  "en": "OK / all right",
+  "type": "adjective",
+  "example": {
+    "hu": "Minden okés.",
+    "pl": "Wszystko jest OK."
+  },
+  "pattern": "valami + okés",
+  "related": [
+    "jó",
+    "rendben",
+    "persze",
+    "király"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "conversation"
+  ],
+  "notes": [],
+  "forms": []
+},
+{
+  "id": 794,
+  "hu": "dolog",
+  "pl": "rzecz / sprawa",
+  "en": "thing / matter",
+  "type": "noun",
+  "example": {
+    "hu": "Ez egy fontos dolog.",
+    "pl": "To jest ważna rzecz."
+  },
+  "pattern": "egy + dolog / valami + dolog",
+  "related": [
+    "valami",
+    "ügy",
+    "tárgy",
+    "dolgot"
+  ],
+  "tags": [
+    "A1",
+    "common"
+  ],
+  "notes": [],
+  "forms": [
+    "dolgot"
+  ]
+},
+{
+  "id": 795,
+  "hu": "füstölt",
+  "pl": "wędzony / wędzona / wędzone",
+  "en": "smoked",
+  "type": "adjective",
+  "example": {
+    "hu": "Füstölt sajtot kérek.",
+    "pl": "Poproszę wędzony ser."
+  },
+  "pattern": "füstölt + főnév",
+  "related": [
+    "füst",
+    "sajt",
+    "sajtos",
+    "füstölni"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "food"
+  ],
+  "notes": [
+    "füstölt sajtos = z wędzonym serem"
+  ],
+  "forms": []
+},
+{
+  "id": 796,
+  "hu": "hagyma",
+  "pl": "cebula",
+  "en": "onion",
+  "type": "noun",
+  "example": {
+    "hu": "Kérek egy hagymás lángost.",
+    "pl": "Poproszę langosza z cebulą."
+  },
+  "pattern": "hagyma + -s → hagymás",
+  "related": [
+    "fokhagyma",
+    "hagymás",
+    "zöldség",
+    "sajt"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "food"
+  ],
+  "notes": [],
+  "forms": [
+    "hagymás"
+  ]
+},
+{
+  "id": 797,
+  "hu": "fokhagyma",
+  "pl": "czosnek",
+  "en": "garlic",
+  "type": "noun",
+  "example": {
+    "hu": "Kérek egy fokhagymás lángost.",
+    "pl": "Poproszę langosza z czosnkiem."
+  },
+  "pattern": "fokhagyma + -s → fokhagymás",
+  "related": [
+    "hagyma",
+    "fokhagymás",
+    "zöldség",
+    "lángos"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "food"
+  ],
+  "notes": [],
+  "forms": [
+    "fokhagymás"
+  ]
+},
+{
+  "id": 798,
+  "hu": "hangzani",
+  "pl": "brzmieć",
+  "en": "to sound",
+  "type": "verb",
+  "example": {
+    "hu": "Jól hangzik!",
+    "pl": "Brzmi dobrze!"
+  },
+  "pattern": "valami + jól / rosszul + hangzik",
+  "related": [
+    "hallani",
+    "hang",
+    "jól",
+    "rosszul"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "communication"
+  ],
+  "notes": [],
+  "forms": [
+    "hangzik"
+  ]
+},
+{
+  "id": 799,
+  "hu": "tűnni",
+  "pl": "wydawać się / wyglądać na",
+  "en": "to seem / appear",
+  "type": "verb",
+  "example": {
+    "hu": "Nagyon finomnak tűnik!",
+    "pl": "Wygląda na bardzo smaczne!"
+  },
+  "pattern": "valami + melléknév + -nak/-nek + tűnik",
+  "related": [
+    "látszani",
+    "nézni",
+    "finom",
+    "gondolni"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "description"
+  ],
+  "notes": [],
+  "forms": [
+    "tűnik"
+  ]
 }
+
 ]
