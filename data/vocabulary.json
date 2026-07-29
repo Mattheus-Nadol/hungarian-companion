@@ -19519,6 +19519,200 @@
   "forms": [
     "tűnik"
   ]
+},
+{
+  "id": 800,
+  "hu": "baszd meg",
+  "pl": "pieprz się / odpierdol się / kurwa",
+  "en": "fuck you / fuck it / damn",
+  "type": "expression",
+  "example": {
+    "hu": "Baszd meg, ezt teljesen elfelejtettem!",
+    "pl": "Kurwa, całkowicie o tym zapomniałem!"
+  },
+  "pattern": "baszd meg + sentence",
+  "related": [
+    "bazmeg",
+    "kurva",
+    "fasz"
+  ],
+  "tags": [
+    "vulgar",
+    "casual",
+    "emotion"
+  ],
+  "notes": [
+    "Bardzo wulgarne wyrażenie. Może być używane jako obraźliwe „pieprz się / odpierdol się”, ale także jako wykrzyknik wyrażający złość, zaskoczenie lub frustrację.",
+    "bazmeg = potoczna, mówiona forma baszd meg."
+  ],
+  "forms": [
+    "bazmeg"
+  ]
+},
+{
+  "id": 801,
+  "hu": "kurva anyád",
+  "pl": "twoja kurwa matka",
+  "en": "your fucking whore mother",
+  "type": "expression",
+  "example": {
+    "hu": "Kurva anyád!",
+    "pl": "Twoja kurwa matka!"
+  },
+  "pattern": "kurva + anyád",
+  "related": [
+    "kurva",
+    "anya",
+    "kurva nyád"
+  ],
+  "tags": [
+    "vulgar",
+    "insult",
+    "casual"
+  ],
+  "notes": [
+    "Bardzo wulgarna obelga.",
+    "kurva nyád = skrócona, potoczna forma kurva anyád."
+  ],
+  "forms": [
+    "kurva nyád"
+  ]
+},
+{
+  "id": 802,
+  "hu": "fasz",
+  "pl": "chuj / kutas",
+  "en": "dick / cock",
+  "type": "noun",
+  "example": {
+    "hu": "Faszom a füledbe!",
+    "pl": "Mój chuj do twojego ucha!"
+  },
+  "pattern": "fasz + possessive suffix",
+  "related": [
+    "faszom",
+    "kurva",
+    "baszd meg"
+  ],
+  "tags": [
+    "vulgar",
+    "body",
+    "casual"
+  ],
+  "notes": [
+    "Bardzo wulgarne słowo oznaczające penis.",
+    "faszom = mój chuj / mój kutas; forma używana także w wulgarnych wyrażeniach i wykrzyknieniach.",
+    "Faszom a füledbe! — bardzo wulgarne wyrażenie; dosłownie „mój chuj do twojego ucha”."
+  ],
+  "forms": [
+    "faszom"
+  ]
+},
+{
+  "id": 803,
+  "hu": "király",
+  "pl": "super / zajebisty / cool",
+  "en": "awesome / cool / great",
+  "type": "adjective",
+  "example": {
+    "hu": "Ez király!",
+    "pl": "To jest super!"
+  },
+  "pattern": "király + noun",
+  "related": [
+    "szuper",
+    "jó",
+    "nagyon jó"
+  ],
+  "tags": [
+    "slang",
+    "casual",
+    "emotion"
+  ],
+  "notes": [
+    "Slangowe znaczenie: „super / zajebisty / cool”. Nie jest to przekleństwo.",
+    "Dosłownie király oznacza „król”."
+  ],
+  "forms": []
+},
+{
+  "id": 804,
+  "hu": "szuper",
+  "pl": "super / świetny",
+  "en": "super / great",
+  "type": "adjective",
+  "example": {
+    "hu": "Ez a film szuper!",
+    "pl": "Ten film jest świetny!"
+  },
+  "pattern": "noun + szuper",
+  "related": [
+    "király",
+    "jó",
+    "nagyon jó"
+  ],
+  "tags": [
+    "common",
+    "casual",
+    "emotion"
+  ],
+  "notes": [],
+  "forms": []
+},
+{
+  "id": 805,
+  "hu": "baromi jó",
+  "pl": "cholernie dobry / zajebiście dobry",
+  "en": "damn good / fucking good",
+  "type": "expression",
+  "example": {
+    "hu": "Ez a pizza baromi jó!",
+    "pl": "Ta pizza jest zajebiście dobra!"
+  },
+  "pattern": "baromi jó",
+  "related": [
+    "jó",
+    "nagyon jó",
+    "kurva jó",
+    "baszott jó"
+  ],
+  "tags": [
+    "slang",
+    "casual",
+    "emotion"
+  ],
+  "notes": [
+    "Mocno potoczne wyrażenie wzmacniające znaczenie „jó” = dobry."
+  ],
+  "forms": []
+},
+{
+  "id": 806,
+  "hu": "baszott jó",
+  "pl": "zajebiście dobry / kurwa dobry",
+  "en": "fucking good / fucking great",
+  "type": "expression",
+  "example": {
+    "hu": "Ez a koncert baszott jó!",
+    "pl": "Ten koncert jest zajebiście dobry!"
+  },
+  "pattern": "baszott jó",
+  "related": [
+    "jó",
+    "nagyon jó",
+    "kurva jó",
+    "baromi jó"
+  ],
+  "tags": [
+    "vulgar",
+    "slang",
+    "casual",
+    "emotion"
+  ],
+  "notes": [
+    "Bardzo wulgarne, potoczne wyrażenie wzmacniające znaczenie „jó” = dobry."
+  ],
+  "forms": []
 }
 
 ]
