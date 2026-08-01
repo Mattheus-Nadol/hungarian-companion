@@ -19713,6 +19713,44 @@
     "Bardzo wulgarne, potoczne wyrażenie wzmacniające znaczenie „jó” = dobry."
   ],
   "forms": []
+},
+{
+  "id": 807,
+  "hu": "kinézni",
+  "pl": "wyglądać / prezentować się",
+  "en": "to look / to appear",
+  "type": "verb",
+  "example": {
+    "hu": "Ma nagyon jól kinézel.",
+    "pl": "Dzisiaj wyglądasz bardzo dobrze."
+  },
+  "pattern": "1. valaki + kinéz\n2. valaki + néz ki",
+  "related": [
+    "nézni",
+    "kinézet",
+    "megnézni",
+    "látni",
+    "szép",
+    "aranyos"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "appearance",
+    "compliment"
+  ],
+  "notes": [
+    "Prefiks „ki-” często oddziela się od czasownika w pytaniach i przeczeniach,\nnp. „Hogy nézel ki?” oraz „Nem néz ki jól.”"
+  ],
+  "forms": [
+    "kinézek",
+    "kinézel",
+    "kinéz",
+    "kinézünk",
+    "kinéztek",
+    "kinéznek",
+    "néz ki"
+  ]
 }
 
 ]
