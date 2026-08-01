@@ -19751,6 +19751,139 @@
     "kinéznek",
     "néz ki"
   ]
+},
+{
+  "id": 808,
+  "hu": "tegnap",
+  "pl": "wczoraj",
+  "en": "yesterday",
+  "type": "adverb",
+  "example": {
+    "hu": "Tegnap otthon maradtam.",
+    "pl": "Wczoraj zostałem w domu."
+  },
+  "pattern": "tegnap + czasownik",
+  "related": [
+    "ma",
+    "holnap",
+    "tegnapelőtt",
+    "múlt"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "time"
+  ],
+  "notes": [],
+  "forms": []
+},
+{
+  "id": 809,
+  "hu": "tegnapelőtt",
+  "pl": "przedwczoraj",
+  "en": "the day before yesterday",
+  "type": "adverb",
+  "example": {
+    "hu": "Tegnapelőtt Budapesten voltam.",
+    "pl": "Przedwczoraj byłem w Budapeszcie."
+  },
+  "pattern": "tegnapelőtt + czasownik",
+  "related": [
+    "tegnap",
+    "ma",
+    "holnap",
+    "múlt"
+  ],
+  "tags": [
+    "A2",
+    "common",
+    "time"
+  ],
+  "notes": [],
+  "forms": []
+},
+{
+  "id": 810,
+  "hu": "is",
+  "pl": "też / również",
+  "en": "too / also",
+  "type": "particle",
+  "example": {
+    "hu": "Én is szeretem a lángost.",
+    "pl": "Ja też lubię lángos."
+  },
+  "pattern": "rzeczownik / zaimek + is",
+  "related": [
+    "és",
+    "még",
+    "sem"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "grammar"
+  ],
+  "notes": [
+    "Dodawane po wyrazie, którego dotyczy ('też')."
+  ],
+  "forms": []
+},
+{
+  "id": 811,
+  "hu": "akkor",
+  "pl": "wtedy / więc / zatem",
+  "en": "then / in that case",
+  "type": "adverb",
+  "example": {
+    "hu": "Akkor még egyet kérek.",
+    "pl": "To w takim razie poproszę jeszcze jednego."
+  },
+  "pattern": "akkor + zdanie",
+  "related": [
+    "most",
+    "majd",
+    "még",
+    "tehát"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "time",
+    "conversation"
+  ],
+  "notes": [
+    "Może oznaczać zarówno 'wtedy', jak i 'w takim razie', zależnie od kontekstu."
+  ],
+  "forms": []
+},
+{
+  "id": 812,
+  "hu": "múlt",
+  "pl": "zeszły / ubiegły / miniony",
+  "en": "last / previous / past",
+  "type": "adjective",
+  "example": {
+    "hu": "Múlt hétvégén ettem lángost.",
+    "pl": "W zeszły weekend jadłem lángos."
+  },
+  "pattern": "múlt + rzeczownik",
+  "related": [
+    "tegnap",
+    "tegnapelőtt",
+    "hét",
+    "hétvége",
+    "tavaly"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "time"
+  ],
+  "notes": [
+    "Najczęściej używane z określeniami czasu, np. múlt hét, múlt hónap, múlt év."
+  ],
+  "forms": []
 }
+
 
 ]
