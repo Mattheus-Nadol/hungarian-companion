@@ -19883,6 +19883,42 @@
     "Najczęściej używane z określeniami czasu, np. múlt hét, múlt hónap, múlt év."
   ],
   "forms": []
+},
+{
+  "id": 813,
+  "hu": "foglalkozni",
+  "pl": "zajmować się",
+  "en": "to deal with / to work with / to be engaged in",
+  "type": "verb",
+  "example": {
+    "hu": "Informatikával foglalkozom.",
+    "pl": "Zajmuję się informatyką."
+  },
+  "pattern": "1. valaki + valamivel foglalkozik\n2. X-val / X-vel + foglalkozik",
+  "related": [
+    "munka",
+    "dolgozni",
+    "tanulni",
+    "informatika",
+    "munkahely"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "work",
+    "conversation"
+  ],
+  "notes": [
+    "Najczęściej używane w pytaniu „Mivel foglalkozol?” (= Czym się zajmujesz? / Co robisz zawodowo?)."
+  ],
+  "forms": [
+    "foglalkozom",
+    "foglalkozol",
+    "foglalkozik",
+    "foglalkozunk",
+    "foglalkoztok",
+    "foglalkoznak"
+  ]
 }
 
 

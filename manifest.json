@@ -78,6 +78,19 @@
           "type": "image/png"
         }
       ]
+    },
+    {
+      "name": "Grammar Reference",
+      "short_name": "Grammar",
+      "description": "Open the grammar reference",
+      "url": "./index.html#/grammar",
+      "icons": [
+        {
+          "src": "assets/icons/icon-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
     }
   ]
 }

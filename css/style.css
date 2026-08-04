@@ -146,3 +146,79 @@ button.close-btn{
 /* Improve link contrast inside cards and family lists */
 .card a, .family-card a, #family-members-list a{color:#ffd166}
 .card a:focus-visible, .family-card a:focus-visible, #family-members-list a:focus-visible{outline:2px solid #ffd166;outline-offset:3px}
+
+/* Grammar section tiles and content */
+.grammar-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));
+  gap:12px;
+  margin-top:16px;
+}
+
+.grammar-tile{
+  text-align:left;
+  width:100%;
+  min-height:110px;
+  padding:16px;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,0.08);
+  background:var(--glass);
+  color:inherit;
+  cursor:pointer;
+  transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+
+.grammar-tile:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 24px rgba(0,0,0,.3);
+  border-color:rgba(255,255,255,0.18);
+}
+
+.grammar-tile h2{
+  margin:0 0 8px;
+  font-size:16px;
+}
+
+.grammar-tile p{
+  margin:0;
+  color:var(--muted);
+  font-size:13px;
+}
+
+.grammar-detail{
+  margin-top:16px;
+}
+
+.grammar-markdown{
+  margin-top:16px;
+  line-height:1.6;
+}
+
+.grammar-markdown h2,
+.grammar-markdown h3,
+.grammar-markdown h4,
+.grammar-markdown h5,
+.grammar-markdown h6{
+  margin:1.2em 0 .5em;
+}
+
+.grammar-markdown p{
+  margin:.6em 0;
+}
+
+.grammar-markdown ul,
+.grammar-markdown ol{
+  padding-left:1.4em;
+}
+
+.grammar-markdown pre{
+  overflow:auto;
+  padding:12px;
+  border-radius:10px;
+  background:rgba(255,255,255,0.04);
+}
+
+.grammar-markdown code{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size:.95em;
+}

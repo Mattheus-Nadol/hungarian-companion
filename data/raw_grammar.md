@@ -1,3 +1,130 @@
+Demonstrative Pronouns + Cases / Postpositions
+Core Rule
+If a noun takes a **case suffix** or a **postposition**, the demonstrative pronoun (**ez / az**) must take **the same case or postposition**.
+This is called **demonstrative agreement**.
+
+Examples
+ez a könyv → ezt a könyvet
+(this book → this book (ACC))
+ez a ház → ebben a házban
+(this house → in this house)
+ez a fa → ez alatt a fa alatt
+(this tree → under this tree)
+
+With postpositions
+ez előtt a ház előtt = in front of this house
+ez mögött a fal mögött = behind this wall
+ez mellett az autó mellett = next to this car
+ez alatt a fa alatt = under this tree
+
+Important
+❌ ez a házban
+✅ ebben a házban
+❌ ez a könyvet
+✅ ezt a könyvet
+❌ ez a fa alatt
+✅ ez alatt a fa alatt
+Mini rule
+When using **ez / az**, always "copy" the noun's **case suffix** or **postposition** onto the demonstrative.
+
+Hungarian Definite & Indefinite – Additional Notes
+Choosing the conjugation
+
+Indefinite → general / non-specific object
+• Olvasok egy könyvet.
+• Főzünk vacsorát.
+Definite → specific object
+• Olvasom a könyvet.
+• Ezt csináljuk.
+• Látom Pétert.
+Typical definite triggers:
+• a / az (the)
+• ezt / azt (this / that)
+• possessives (my, your...)
+• proper names (Péter, Anna...)
+---
+Plural shortcuts (definite)
+WE
+-unk/-ünk → -juk/-jük
+csinálunk → csináljuk
+látunk → látjuk
+YOU (plural)
+-tok/-tek/-tök → -játok / -itek
+csináltok → csináljátok
+kértek → kéritek
+THEY
+-ja → -ják
+-i → -ik
+várja → várják
+kéri → kérik
+---
+Useful observation
+3rd person singular often helps predict the plural definite forms:
+várja → várjátok → várják
+kéri → kéritek → kérik
+(The 1st person plural has its own pattern: -juk/-jük.)
+---
+2nd person singular (indefinite)
+-sz → after most stems
+-el/-ol/-öl → after stems ending in s, sz, z, dz
+vársz
+kérsz
+ülsz
+nézel
+főzöl
+olvasol
+---
+Remember
+The hardest part is usually NOT the endings.
+First decide:
+"Is the object specific?"
+Only then choose:
+• indefinite
+• definite
+
+
+
+## is
+
+is = also / too / as well
+
+Én is. = Me too.
+Te is. = You too.
+Mi is. = We too.
+Ez is. = This too.
+
+Rule:
+"is" comes immediately after the word it modifies.
+
+Predicate adjectives (plural)
+When an adjective comes AFTER the noun (is used with "to be"), it agrees with the subject.
+Singular:
+A ház nagy. - The house is big.
+Plural:
+A házak nagyok. - The houses are big.
+Pattern:
+adjective + plural ending (-k with vowel harmony)
+Question:
+Milyen? = What is ... like?
+Milyenek? = What are ... like?
+Rule:
+Before a noun → no plural
+• piros alma
+• piros almák
+After "to be" → adjective becomes plural
+• Az alma piros.
+• Az almák pirosak.
+
+ Possessive Plural — Quick Pattern
+ONE → MANY = add -i- before the possessive ending
+én: -m → -im (barátom → barátaim)
+te: -d → -id (barátod → barátaid)
+ő: -ja/-je/-a/-e → -i (barátja → barátai)
+mi: -nk → -ink (barátunk → barátaink)
+ti: -tok/-tek/-tök → -itok/-itek (barátotok → barátaitok)
+ők: -juk/-jük/-uk/-ük → -ik (barátjuk → barátaik)
+Example: videód → videóid = your video → your videos
+
 # Celownik -nak/-nek = komu? / dla kogo? 
 do rzeczowników 
 Adok Katinak egy ajándékot. = Daję Kati prezent.
@@ -9,7 +136,6 @@ Küldök neked egy üzenetet. = Wysyłam ci wiadomość.
 	•	nekünk = nam
 	•	nektek = wam
 	•	nekik = im
-
 
 
 Random tips
