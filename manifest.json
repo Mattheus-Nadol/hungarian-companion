@@ -1,35 +1,35 @@
 {
-  "id": "/",
+  "id": "./",
   "name": "Hungarian Companion",
   "short_name": "Hungarian",
   "description": "Interactive companion for learning Hungarian with vocabulary, grammar, quizzes and word families.",
-  "start_url": "/index.html",
-  "scope": "/",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
   "theme_color": "#0f172a",
   "background_color": "#0f172a",
   "icons": [
     {
-      "src": "/assets/icons/icon-192.png",
+      "src": "assets/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/assets/icons/icon-512.png",
+      "src": "assets/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/assets/icons/icon-maskable-192.png",
+      "src": "assets/icons/icon-maskable-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/assets/icons/icon-maskable-512.png",
+      "src": "assets/icons/icon-maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -37,14 +37,14 @@
   ],
   "screenshots": [
     {
-      "src": "/assets/icons/screenshot-540x720.png",
+      "src": "assets/icons/screenshot-540x720.png",
       "sizes": "540x720",
       "type": "image/png",
       "form_factor": "narrow",
       "label": "Mobile view of Hungarian Companion"
     },
     {
-      "src": "/assets/icons/screenshot-1280x720.png",
+      "src": "assets/icons/screenshot-1280x720.png",
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide",
@@ -57,10 +57,10 @@
       "name": "Explore Vocabulary",
       "short_name": "Explore",
       "description": "Browse Hungarian vocabulary",
-      "url": "/index.html#/explore",
+      "url": "./index.html#/explore",
       "icons": [
         {
-          "src": "/assets/icons/icon-96.png",
+          "src": "assets/icons/icon-96.png",
           "sizes": "96x96",
           "type": "image/png"
         }
@@ -70,10 +70,10 @@
       "name": "Word Families",
       "short_name": "Families",
       "description": "Explore word families",
-      "url": "/index.html#/families",
+      "url": "./index.html#/families",
       "icons": [
         {
-          "src": "/assets/icons/icon-96.png",
+          "src": "assets/icons/icon-96.png",
           "sizes": "96x96",
           "type": "image/png"
         }
