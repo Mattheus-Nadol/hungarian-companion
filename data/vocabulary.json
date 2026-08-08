@@ -19883,6 +19883,682 @@
     "Najczęściej używane z określeniami czasu, np. múlt hét, múlt hónap, múlt év."
   ],
   "forms": []
+},
+{
+  "id": 813,
+  "hu": "foglalkozni",
+  "pl": "zajmować się",
+  "en": "to deal with / to work with / to be engaged in",
+  "type": "verb",
+  "example": {
+    "hu": "Informatikával foglalkozom.",
+    "pl": "Zajmuję się informatyką."
+  },
+  "pattern": "1. valaki + valamivel foglalkozik\n2. X-val / X-vel + foglalkozik",
+  "related": [
+    "munka",
+    "dolgozni",
+    "tanulni",
+    "informatika",
+    "munkahely"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "work",
+    "conversation"
+  ],
+  "notes": [
+    "Najczęściej używane w pytaniu „Mivel foglalkozol?” (= Czym się zajmujesz? / Co robisz zawodowo?)."
+  ],
+  "forms": [
+    "foglalkozom",
+    "foglalkozol",
+    "foglalkozik",
+    "foglalkozunk",
+    "foglalkoztok",
+    "foglalkoznak"
+  ]
+},
+{
+  "id": 814,
+  "hu": "röplabda",
+  "pl": "siatkówka",
+  "en": "volleyball",
+  "type": "noun",
+  "example": {
+    "hu": "Szeretem a röplabdát.",
+    "pl": "Lubię siatkówkę."
+  },
+  "pattern": "noun + -t",
+  "related": [
+    "labda",
+    "csapat",
+    "játékos",
+    "pálya"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport"
+  ],
+  "notes": [],
+  "forms": [
+    "röplabdát"
+  ]
+},
+{
+  "id": 815,
+  "hu": "foci",
+  "pl": "piłka nożna",
+  "en": "soccer / football",
+  "type": "noun",
+  "example": {
+    "hu": "Szeretem a focit.",
+    "pl": "Lubię piłkę nożną."
+  },
+  "pattern": "noun + -t",
+  "related": [
+    "labda",
+    "csapat",
+    "játékos",
+    "kapus"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport"
+  ],
+  "notes": [
+    "Potoczne słowo na piłkę nożną; bardziej formalne określenie to „labdarúgás”."
+  ],
+  "forms": [
+    "focit"
+  ]
+},
+{
+  "id": 816,
+  "hu": "kosárlabda",
+  "pl": "koszykówka",
+  "en": "basketball",
+  "type": "noun",
+  "example": {
+    "hu": "A kosárlabda nagyon népszerű sport.",
+    "pl": "Koszykówka to bardzo popularny sport."
+  },
+  "pattern": "noun + -t",
+  "related": [
+    "labda",
+    "csapat",
+    "játékos",
+    "pálya"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport"
+  ],
+  "notes": [],
+  "forms": [
+    "kosárlabdát"
+  ]
+},
+{
+  "id": 817,
+  "hu": "kézilabdázni",
+  "pl": "grać w piłkę ręczną",
+  "en": "to play handball",
+  "type": "verb",
+  "example": {
+    "hu": "Szeretek kézilabdázni.",
+    "pl": "Lubię grać w piłkę ręczną."
+  },
+  "pattern": "valaki + kézilabdázik",
+  "related": [
+    "kézilabda",
+    "labda",
+    "csapat",
+    "játékos"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport"
+  ],
+  "notes": [
+    "Czasownik utworzony od „kézilabda” = piłka ręczna."
+  ],
+  "forms": []
+},
+{
+  "id": 818,
+  "hu": "vízilabda",
+  "pl": "piłka wodna",
+  "en": "water polo",
+  "type": "noun",
+  "example": {
+    "hu": "A vízilabdát szeretem nézni.",
+    "pl": "Lubię oglądać piłkę wodną."
+  },
+  "pattern": "noun + -t",
+  "related": [
+    "labda",
+    "úszás",
+    "csapat",
+    "kapus"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport"
+  ],
+  "notes": [],
+  "forms": [
+    "vízilabdát"
+  ]
+},
+{
+  "id": 819,
+  "hu": "csapat",
+  "pl": "drużyna / zespół",
+  "en": "team",
+  "type": "noun",
+  "example": {
+    "hu": "Ez egy nagyon jó csapat.",
+    "pl": "To jest bardzo dobra drużyna."
+  },
+  "pattern": "ez + egy + adjective + noun",
+  "related": [
+    "játékos",
+    "csapatjátékos",
+    "edző",
+    "szurkoló"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "team"
+  ],
+  "notes": [],
+  "forms": []
+},
+{
+  "id": 820,
+  "hu": "térdsérülés",
+  "pl": "kontuzja kolana / uraz kolana",
+  "en": "knee injury",
+  "type": "noun",
+  "example": {
+    "hu": "Térdsérülése van.",
+    "pl": "Ma kontuzję kolana."
+  },
+  "pattern": "noun + -e + van",
+  "related": [
+    "térd",
+    "sérülés",
+    "sportsérülés"
+  ],
+  "tags": [
+    "common",
+    "sport",
+    "injury"
+  ],
+  "notes": [
+    "„Térdsérülése van” dosłownie: „ma swój uraz kolana”; węgierski używa konstrukcji z „van” do wyrażania posiadania."
+  ],
+  "forms": [
+    "térdsérülése"
+  ]
+},
+{
+  "id": 821,
+  "hu": "sportsérülés",
+  "pl": "kontuzja sportowa / uraz sportowy",
+  "en": "sports injury",
+  "type": "noun",
+  "example": {
+    "hu": "Ez egy gyakori sportsérülés.",
+    "pl": "To częsta kontuzja sportowa."
+  },
+  "pattern": "sport + sérülés",
+  "related": [
+    "sport",
+    "sérülés",
+    "térdsérülés"
+  ],
+  "tags": [
+    "common",
+    "sport",
+    "injury"
+  ],
+  "notes": [
+    "Złożenie: sport + sérülés = kontuzja sportowa."
+  ],
+  "forms": []
+},
+{
+  "id": 822,
+  "hu": "sérülés",
+  "pl": "kontuzja / uraz / obrażenie",
+  "en": "injury",
+  "type": "noun",
+  "example": {
+    "hu": "A sérülés miatt nem játszik.",
+    "pl": "Z powodu kontuzji nie gra."
+  },
+  "pattern": "noun + miatt",
+  "related": [
+    "sportsérülés",
+    "térdsérülés",
+    "fájdalom"
+  ],
+  "tags": [
+    "common",
+    "injury",
+    "sport"
+  ],
+  "notes": [],
+  "forms": []
+},
+{
+  "id": 823,
+  "hu": "úszás",
+  "pl": "pływanie",
+  "en": "swimming",
+  "type": "noun",
+  "example": {
+    "hu": "Az úszás egészséges.",
+    "pl": "Pływanie jest zdrowe."
+  },
+  "pattern": "verb → -ás/-és",
+  "related": [
+    "úszni",
+    "úszó",
+    "egészséges"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "activity"
+  ],
+  "notes": [
+    "„úszik → úszás”: przyrostek -ás/-és tworzy rzeczownik oznaczający czynność."
+  ],
+  "forms": []
+},
+{
+  "id": 824,
+  "hu": "úszó",
+  "pl": "pływak / pływaczka",
+  "en": "swimmer",
+  "type": "noun",
+  "example": {
+    "hu": "Az úszó nagyon gyors.",
+    "pl": "Pływak jest bardzo szybki."
+  },
+  "pattern": "verb → -ó/-ő",
+  "related": [
+    "úszni",
+    "úszás",
+    "futó",
+    "játékos"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "person"
+  ],
+  "notes": [
+    "„úszik → úszó”: -ó/-ő może tworzyć określenie osoby wykonującej czynność."
+  ],
+  "forms": []
+},
+{
+  "id": 825,
+  "hu": "egészséges",
+  "pl": "zdrowy / zdrowa / zdrowe",
+  "en": "healthy",
+  "type": "adjective",
+  "example": {
+    "hu": "Az úszás egészséges.",
+    "pl": "Pływanie jest zdrowe."
+  },
+  "pattern": "noun + egészséges",
+  "related": [
+    "egészség",
+    "úszás",
+    "sport"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "health"
+  ],
+  "notes": [],
+  "forms": []
+},
+{
+  "id": 826,
+  "hu": "edző",
+  "pl": "trener / trenerka",
+  "en": "coach",
+  "type": "noun",
+  "example": {
+    "hu": "Az edző beszél a csapattal.",
+    "pl": "Trener rozmawia z drużyną."
+  },
+  "pattern": "verb → -ó/-ő",
+  "related": [
+    "edzeni",
+    "csapat",
+    "játékos",
+    "szurkoló"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "person"
+  ],
+  "notes": [
+    "„edz → edző”: osoba, która trenuje innych."
+  ],
+  "forms": [
+    "edzőt"
+  ]
+},
+{
+  "id": 827,
+  "hu": "csapatjátékos",
+  "pl": "zawodnik drużyny / gracz zespołowy",
+  "en": "team player",
+  "type": "noun",
+  "example": {
+    "hu": "Ő egy igazi csapatjátékos.",
+    "pl": "On jest prawdziwym graczem zespołowym."
+  },
+  "pattern": "csapat + játékos",
+  "related": [
+    "csapat",
+    "játékos",
+    "csapattárs"
+  ],
+  "tags": [
+    "A2",
+    "common",
+    "sport",
+    "team"
+  ],
+  "notes": [
+    "Złożenie: csapat + játékos = zawodnik / gracz zespołowy."
+  ],
+  "forms": []
+},
+{
+  "id": 828,
+  "hu": "játékos",
+  "pl": "gracz / zawodnik",
+  "en": "player",
+  "type": "noun",
+  "example": {
+    "hu": "A játékos nagyon gyors.",
+    "pl": "Zawodnik jest bardzo szybki."
+  },
+  "pattern": "játék + -os",
+  "related": [
+    "játék",
+    "csapatjátékos",
+    "csapat",
+    "edző"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "person"
+  ],
+  "notes": [
+    "„játék → játékos”: gracz, osoba uczestnicząca w grze."
+  ],
+  "forms": []
+},
+{
+  "id": 829,
+  "hu": "szurkoló",
+  "pl": "kibic / fan",
+  "en": "fan / supporter",
+  "type": "noun",
+  "example": {
+    "hu": "A szurkolók támogatják a csapatot.",
+    "pl": "Kibice wspierają drużynę."
+  },
+  "pattern": "verb → -ó/-ő",
+  "related": [
+    "szurkolni",
+    "csapat",
+    "játékos",
+    "edző"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "person"
+  ],
+  "notes": [
+    "„szurkol → szurkoló”: osoba, która kibicuje."
+  ],
+  "forms": [
+    "szurkolók"
+  ]
+},
+{
+  "id": 830,
+  "hu": "evezés",
+  "pl": "wioślarstwo / wiosłowanie",
+  "en": "rowing",
+  "type": "noun",
+  "example": {
+    "hu": "Az evezés nagyon érdekes sport.",
+    "pl": "Wioślarstwo to bardzo ciekawy sport."
+  },
+  "pattern": "verb → -ás/-és",
+  "related": [
+    "evezni",
+    "sport",
+    "úszás"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "activity"
+  ],
+  "notes": [
+    "„evez → evezés”: rzeczownik oznaczający czynność."
+  ],
+  "forms": []
+},
+{
+  "id": 831,
+  "hu": "pálya",
+  "pl": "boisko / kort / tor",
+  "en": "field / court / track",
+  "type": "noun",
+  "example": {
+    "hu": "A játékosok a pályán vannak.",
+    "pl": "Zawodnicy są na boisku."
+  },
+  "pattern": "noun + -n → location",
+  "related": [
+    "foci",
+    "tenisz",
+    "csapat",
+    "játékos"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "place"
+  ],
+  "notes": [
+    "„pálya → pályán”: na boisku / korcie / torze."
+  ],
+  "forms": [
+    "pályán"
+  ]
+},
+{
+  "id": 832,
+  "hu": "futó",
+  "pl": "biegacz / biegaczka",
+  "en": "runner",
+  "type": "noun",
+  "example": {
+    "hu": "A futó gyorsan fut.",
+    "pl": "Biegacz szybko biegnie."
+  },
+  "pattern": "verb → -ó/-ő",
+  "related": [
+    "futni",
+    "futás",
+    "úszó",
+    "játékos"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "person"
+  ],
+  "notes": [
+    "„fut → futó”: osoba wykonująca czynność biegania."
+  ],
+  "forms": []
+},
+{
+  "id": 833,
+  "hu": "bajnok",
+  "pl": "mistrz / mistrzyni / champion",
+  "en": "champion",
+  "type": "noun",
+  "example": {
+    "hu": "Ő egy igazi bajnok.",
+    "pl": "On jest prawdziwym mistrzem."
+  },
+  "pattern": "noun + -ok → plural",
+  "related": [
+    "győzelem",
+    "győztes",
+    "sport",
+    "játékos"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "achievement"
+  ],
+  "notes": [],
+  "forms": [
+    "bajnokok"
+  ]
+},
+{
+  "id": 834,
+  "hu": "kapus",
+  "pl": "bramkarz / bramkarka",
+  "en": "goalkeeper / goalie",
+  "type": "noun",
+  "example": {
+    "hu": "A kapus védi a kaput.",
+    "pl": "Bramkarz broni bramki."
+  },
+  "pattern": "kapu + -s",
+  "related": [
+    "kapu",
+    "foci",
+    "csapat",
+    "játékos"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "person"
+  ],
+  "notes": [
+    "„kapu + -s → kapus”: osoba związana z bramką, czyli bramkarz."
+  ],
+  "forms": [
+    "kapust"
+  ]
+},
+{
+  "id": 835,
+  "hu": "edzeni",
+  "pl": "trenować / ćwiczyć",
+  "en": "to train / to work out",
+  "type": "verb",
+  "example": {
+    "hu": "A játékosok minden nap edzenek.",
+    "pl": "Zawodnicy trenują codziennie."
+  },
+  "pattern": "valaki + edz",
+  "related": [
+    "edző",
+    "sport",
+    "játékos",
+    "csapat"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "activity"
+  ],
+  "notes": [
+    "„edz → edző”: od tego samego czasownika pochodzi słowo „edző” = trener."
+  ],
+  "forms": [
+    "edzek",
+    "edzel",
+    "edz",
+    "edzünk",
+    "edzetek",
+    "edzenek"
+  ]
+},
+{
+  "id": 836,
+  "hu": "kézilabda",
+  "pl": "piłka ręczna",
+  "en": "handball",
+  "type": "noun",
+  "example": {
+    "hu": "A kézilabda csapatsport.",
+    "pl": "Piłka ręczna to sport zespołowy."
+  },
+  "pattern": "kéz + labda",
+  "related": [
+    "labda",
+    "kézilabdázni",
+    "csapat",
+    "játékos"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport"
+  ],
+  "notes": [
+    "Złożenie: kéz + labda = dosłownie „piłka ręczna”."
+  ],
+  "forms": []
 }
 
 
