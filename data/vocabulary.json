@@ -20559,6 +20559,302 @@
     "Złożenie: kéz + labda = dosłownie „piłka ręczna”."
   ],
   "forms": []
+},
+{
+  "id": 837,
+  "hu": "faszul",
+  "pl": "źle / w pokręcony sposób / jak gówno",
+  "en": "badly / in a fucked-up way",
+  "type": "adverb",
+  "example": {
+    "hu": "Faszul ugró nyulak.",
+    "pl": "Króliki skaczące jak gówno."
+  },
+  "pattern": "faszul + participle/adjective",
+  "related": [
+    "fasz",
+    "rosszul",
+    "rossz"
+  ],
+  "tags": [
+    "slang",
+    "vulgar",
+    "casual"
+  ],
+  "notes": [
+    "Wulgarne, slangowe słowo; przydatne głównie do rozumienia żartów, memów i potocznego języka."
+  ],
+  "forms": []
+},
+{
+  "id": 838,
+  "hu": "ugrani",
+  "pl": "skakać",
+  "en": "to jump",
+  "type": "verb",
+  "example": {
+    "hu": "A nyúl ugrik.",
+    "pl": "Królik skacze."
+  },
+  "pattern": "valaki + ugrik",
+  "related": [
+    "ugró",
+    "ugrálni",
+    "futni"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "movement"
+  ],
+  "notes": [],
+  "forms": [
+    "ugrik"
+  ]
+},
+{
+  "id": 839,
+  "hu": "ugró",
+  "pl": "skaczący / skacząca / skaczące",
+  "en": "jumping",
+  "type": "adjective",
+  "example": {
+    "hu": "Faszul ugró nyulak.",
+    "pl": "Króliki skaczące jak gówno."
+  },
+  "pattern": "verb → -ó/-ő",
+  "related": [
+    "ugrani",
+    "ugrik",
+    "úszó",
+    "futó"
+  ],
+  "tags": [
+    "A2",
+    "common",
+    "description"
+  ],
+  "notes": [
+    "„ugrik → ugró”: forma -ó/-ő opisująca osobę lub rzecz wykonującą czynność."
+  ],
+  "forms": []
+},
+{
+  "id": 840,
+  "hu": "nyúl",
+  "pl": "królik",
+  "en": "rabbit",
+  "type": "noun",
+  "example": {
+    "hu": "A nyúl ugrik.",
+    "pl": "Królik skacze."
+  },
+  "pattern": "article + noun",
+  "related": [
+    "ugrani",
+    "ugró",
+    "állat"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "animal"
+  ],
+  "notes": [],
+  "forms": [
+    "nyulak",
+    "nyulat",
+    "nyulakat"
+  ]
+},
+{
+  "id": 841,
+  "hu": "váratlan",
+  "pl": "nieoczekiwany / niespodziewany",
+  "en": "unexpected",
+  "type": "adjective",
+  "example": {
+    "hu": "Ez egy váratlan találkozás.",
+    "pl": "To jest niespodziewane spotkanie."
+  },
+  "pattern": "adjective + noun",
+  "related": [
+    "várni",
+    "találkozás",
+    "meglepetés"
+  ],
+  "tags": [
+    "A2",
+    "common",
+    "description"
+  ],
+  "notes": [
+    "„váratlan” odnosi się do czegoś, czego się nie oczekiwało."
+  ],
+  "forms": []
+},
+{
+  "id": 842,
+  "hu": "találkozás",
+  "pl": "spotkanie / spotkanie się / napotkanie",
+  "en": "meeting / encounter",
+  "type": "noun",
+  "example": {
+    "hu": "A váratlan találkozások érdekesek.",
+    "pl": "Niespodziewane spotkania są ciekawe."
+  },
+  "pattern": "adjective + noun",
+  "related": [
+    "találkozni",
+    "váratlan",
+    "találkozik"
+  ],
+  "tags": [
+    "A2",
+    "common",
+    "social"
+  ],
+  "notes": [
+    "„találkozás” pochodzi od „találkozni / találkozik” = spotykać się / spotkać się."
+  ],
+  "forms": [
+    "találkozások",
+    "találkozást",
+    "találkozásokhoz"
+  ]
+},
+{
+  "id": 843,
+  "hu": "seb",
+  "pl": "rana / uraz",
+  "en": "wound / injury",
+  "type": "noun",
+  "example": {
+    "hu": "A seb fáj.",
+    "pl": "Rana boli."
+  },
+  "pattern": "article + noun",
+  "related": [
+    "sérülés",
+    "tapasz",
+    "sebtapasz"
+  ],
+  "tags": [
+    "common",
+    "body",
+    "injury"
+  ],
+  "notes": [],
+  "forms": []
+},
+{
+  "id": 844,
+  "hu": "tapasz",
+  "pl": "plaster / opatrunek",
+  "en": "plaster / bandage",
+  "type": "noun",
+  "example": {
+    "hu": "Tegyél egy tapaszt a sebre.",
+    "pl": "Naklej plaster na ranę."
+  },
+  "pattern": "tapasz + -t",
+  "related": [
+    "seb",
+    "sebtapasz",
+    "sérülés"
+  ],
+  "tags": [
+    "common",
+    "health"
+  ],
+  "notes": [],
+  "forms": [
+    "tapaszt"
+  ]
+},
+{
+  "id": 845,
+  "hu": "sebtapasz",
+  "pl": "plaster na ranę / plaster opatrunkowy",
+  "en": "band-aid / wound plaster",
+  "type": "noun",
+  "example": {
+    "hu": "A sebtapasz a sebhez kell.",
+    "pl": "Potrzebujesz plastra na ranę."
+  },
+  "pattern": "seb + tapasz",
+  "related": [
+    "seb",
+    "tapasz",
+    "sérülés"
+  ],
+  "tags": [
+    "common",
+    "health",
+    "injury"
+  ],
+  "notes": [
+    "Złożenie: „seb + tapasz” = plaster na ranę."
+  ],
+  "forms": []
+},
+{
+  "id": 846,
+  "hu": "hónap",
+  "pl": "miesiąc",
+  "en": "month",
+  "type": "noun",
+  "example": {
+    "hu": "Egy hónappal ezelőtt találkoztunk.",
+    "pl": "Spotkaliśmy się miesiąc temu."
+  },
+  "pattern": "hónap + -val/-vel → hónappal",
+  "related": [
+    "múlt hónap",
+    "jövő hónap",
+    "nap",
+    "év"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "time"
+  ],
+  "notes": [
+    "W konstrukcji „egy hónappal ezelőtt” = miesiąc temu. W „hónappal” spółgłoska z -val/-vel upodabnia się do końcowej spółgłoski rzeczownika."
+  ],
+  "forms": [
+    "hónapok",
+    "hónapot",
+    "hónappal"
+  ]
+},
+{
+  "id": 847,
+  "hu": "ezelőtt",
+  "pl": "temu / wcześniej / przedtem",
+  "en": "ago / before",
+  "type": "adverb",
+  "example": {
+    "hu": "Két nappal ezelőtt itt voltam.",
+    "pl": "Dwa dni temu tutaj byłem."
+  },
+  "pattern": "[X + -val/-vel] + ezelőtt",
+  "related": [
+    "múlt",
+    "tegnap",
+    "nap",
+    "hónap"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "time"
+  ],
+  "notes": [
+    "Konstrukcja „X + -val/-vel + ezelőtt” oznacza „X temu”, np. „egy hónappal ezelőtt” = miesiąc temu."
+  ],
+  "forms": []
 }
 
 
