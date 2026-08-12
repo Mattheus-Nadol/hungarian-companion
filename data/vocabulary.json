@@ -20855,6 +20855,41 @@
     "Konstrukcja „X + -val/-vel + ezelőtt” oznacza „X temu”, np. „egy hónappal ezelőtt” = miesiąc temu."
   ],
   "forms": []
+},
+{
+  "id": 848,
+  "hu": "kedv",
+  "pl": "ochota / chęć / nastrój / upodobanie",
+  "en": "mood / desire / inclination / willingness",
+  "type": "noun",
+  "example": {
+    "hu": "Van kedvem olvasni.",
+    "pl": "Mam ochotę czytać."
+  },
+  "pattern": "van/nincs kedve + infinitive",
+  "related": [
+    "kedves",
+    "kedvelni",
+    "szeretni",
+    "olvasni"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "feeling",
+    "conversation"
+  ],
+  "notes": [
+    "„Van kedvem + bezokolicznik” = mam ochotę coś zrobić; „Nincs kedvem + bezokolicznik” = nie mam ochoty czegoś robić."
+  ],
+  "forms": [
+    "kedvem",
+    "kedved",
+    "kedve",
+    "kedvünk",
+    "kedvetek",
+    "kedvük"
+  ]
 }
 
 
