@@ -19919,6 +19919,1371 @@
     "foglalkoztok",
     "foglalkoznak"
   ]
+},
+{
+  "id": 814,
+  "hu": "röplabda",
+  "pl": "siatkówka",
+  "en": "volleyball",
+  "type": "noun",
+  "example": {
+    "hu": "Szeretem a röplabdát.",
+    "pl": "Lubię siatkówkę."
+  },
+  "pattern": "noun + -t",
+  "related": [
+    "labda",
+    "csapat",
+    "játékos",
+    "pálya"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport"
+  ],
+  "notes": [],
+  "forms": [
+    "röplabdát"
+  ]
+},
+{
+  "id": 815,
+  "hu": "foci",
+  "pl": "piłka nożna",
+  "en": "soccer / football",
+  "type": "noun",
+  "example": {
+    "hu": "Szeretem a focit.",
+    "pl": "Lubię piłkę nożną."
+  },
+  "pattern": "noun + -t",
+  "related": [
+    "labda",
+    "csapat",
+    "játékos",
+    "kapus"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport"
+  ],
+  "notes": [
+    "Potoczne słowo na piłkę nożną; bardziej formalne określenie to „labdarúgás”."
+  ],
+  "forms": [
+    "focit"
+  ]
+},
+{
+  "id": 816,
+  "hu": "kosárlabda",
+  "pl": "koszykówka",
+  "en": "basketball",
+  "type": "noun",
+  "example": {
+    "hu": "A kosárlabda nagyon népszerű sport.",
+    "pl": "Koszykówka to bardzo popularny sport."
+  },
+  "pattern": "noun + -t",
+  "related": [
+    "labda",
+    "csapat",
+    "játékos",
+    "pálya"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport"
+  ],
+  "notes": [],
+  "forms": [
+    "kosárlabdát"
+  ]
+},
+{
+  "id": 817,
+  "hu": "kézilabdázni",
+  "pl": "grać w piłkę ręczną",
+  "en": "to play handball",
+  "type": "verb",
+  "example": {
+    "hu": "Szeretek kézilabdázni.",
+    "pl": "Lubię grać w piłkę ręczną."
+  },
+  "pattern": "valaki + kézilabdázik",
+  "related": [
+    "kézilabda",
+    "labda",
+    "csapat",
+    "játékos"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport"
+  ],
+  "notes": [
+    "Czasownik utworzony od „kézilabda” = piłka ręczna."
+  ],
+  "forms": []
+},
+{
+  "id": 818,
+  "hu": "vízilabda",
+  "pl": "piłka wodna",
+  "en": "water polo",
+  "type": "noun",
+  "example": {
+    "hu": "A vízilabdát szeretem nézni.",
+    "pl": "Lubię oglądać piłkę wodną."
+  },
+  "pattern": "noun + -t",
+  "related": [
+    "labda",
+    "úszás",
+    "csapat",
+    "kapus"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport"
+  ],
+  "notes": [],
+  "forms": [
+    "vízilabdát"
+  ]
+},
+{
+  "id": 819,
+  "hu": "csapat",
+  "pl": "drużyna / zespół",
+  "en": "team",
+  "type": "noun",
+  "example": {
+    "hu": "Ez egy nagyon jó csapat.",
+    "pl": "To jest bardzo dobra drużyna."
+  },
+  "pattern": "ez + egy + adjective + noun",
+  "related": [
+    "játékos",
+    "csapatjátékos",
+    "edző",
+    "szurkoló"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "team"
+  ],
+  "notes": [],
+  "forms": []
+},
+{
+  "id": 820,
+  "hu": "térdsérülés",
+  "pl": "kontuzja kolana / uraz kolana",
+  "en": "knee injury",
+  "type": "noun",
+  "example": {
+    "hu": "Térdsérülése van.",
+    "pl": "Ma kontuzję kolana."
+  },
+  "pattern": "noun + -e + van",
+  "related": [
+    "térd",
+    "sérülés",
+    "sportsérülés"
+  ],
+  "tags": [
+    "common",
+    "sport",
+    "injury"
+  ],
+  "notes": [
+    "„Térdsérülése van” dosłownie: „ma swój uraz kolana”; węgierski używa konstrukcji z „van” do wyrażania posiadania."
+  ],
+  "forms": [
+    "térdsérülése"
+  ]
+},
+{
+  "id": 821,
+  "hu": "sportsérülés",
+  "pl": "kontuzja sportowa / uraz sportowy",
+  "en": "sports injury",
+  "type": "noun",
+  "example": {
+    "hu": "Ez egy gyakori sportsérülés.",
+    "pl": "To częsta kontuzja sportowa."
+  },
+  "pattern": "sport + sérülés",
+  "related": [
+    "sport",
+    "sérülés",
+    "térdsérülés"
+  ],
+  "tags": [
+    "common",
+    "sport",
+    "injury"
+  ],
+  "notes": [
+    "Złożenie: sport + sérülés = kontuzja sportowa."
+  ],
+  "forms": []
+},
+{
+  "id": 822,
+  "hu": "sérülés",
+  "pl": "kontuzja / uraz / obrażenie",
+  "en": "injury",
+  "type": "noun",
+  "example": {
+    "hu": "A sérülés miatt nem játszik.",
+    "pl": "Z powodu kontuzji nie gra."
+  },
+  "pattern": "noun + miatt",
+  "related": [
+    "sportsérülés",
+    "térdsérülés",
+    "fájdalom"
+  ],
+  "tags": [
+    "common",
+    "injury",
+    "sport"
+  ],
+  "notes": [],
+  "forms": []
+},
+{
+  "id": 823,
+  "hu": "úszás",
+  "pl": "pływanie",
+  "en": "swimming",
+  "type": "noun",
+  "example": {
+    "hu": "Az úszás egészséges.",
+    "pl": "Pływanie jest zdrowe."
+  },
+  "pattern": "verb → -ás/-és",
+  "related": [
+    "úszni",
+    "úszó",
+    "egészséges"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "activity"
+  ],
+  "notes": [
+    "„úszik → úszás”: przyrostek -ás/-és tworzy rzeczownik oznaczający czynność."
+  ],
+  "forms": []
+},
+{
+  "id": 824,
+  "hu": "úszó",
+  "pl": "pływak / pływaczka",
+  "en": "swimmer",
+  "type": "noun",
+  "example": {
+    "hu": "Az úszó nagyon gyors.",
+    "pl": "Pływak jest bardzo szybki."
+  },
+  "pattern": "verb → -ó/-ő",
+  "related": [
+    "úszni",
+    "úszás",
+    "futó",
+    "játékos"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "person"
+  ],
+  "notes": [
+    "„úszik → úszó”: -ó/-ő może tworzyć określenie osoby wykonującej czynność."
+  ],
+  "forms": []
+},
+{
+  "id": 825,
+  "hu": "egészséges",
+  "pl": "zdrowy / zdrowa / zdrowe",
+  "en": "healthy",
+  "type": "adjective",
+  "example": {
+    "hu": "Az úszás egészséges.",
+    "pl": "Pływanie jest zdrowe."
+  },
+  "pattern": "noun + egészséges",
+  "related": [
+    "egészség",
+    "úszás",
+    "sport"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "health"
+  ],
+  "notes": [],
+  "forms": []
+},
+{
+  "id": 826,
+  "hu": "edző",
+  "pl": "trener / trenerka",
+  "en": "coach",
+  "type": "noun",
+  "example": {
+    "hu": "Az edző beszél a csapattal.",
+    "pl": "Trener rozmawia z drużyną."
+  },
+  "pattern": "verb → -ó/-ő",
+  "related": [
+    "edzeni",
+    "csapat",
+    "játékos",
+    "szurkoló"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "person"
+  ],
+  "notes": [
+    "„edz → edző”: osoba, która trenuje innych."
+  ],
+  "forms": [
+    "edzőt"
+  ]
+},
+{
+  "id": 827,
+  "hu": "csapatjátékos",
+  "pl": "zawodnik drużyny / gracz zespołowy",
+  "en": "team player",
+  "type": "noun",
+  "example": {
+    "hu": "Ő egy igazi csapatjátékos.",
+    "pl": "On jest prawdziwym graczem zespołowym."
+  },
+  "pattern": "csapat + játékos",
+  "related": [
+    "csapat",
+    "játékos",
+    "csapattárs"
+  ],
+  "tags": [
+    "A2",
+    "common",
+    "sport",
+    "team"
+  ],
+  "notes": [
+    "Złożenie: csapat + játékos = zawodnik / gracz zespołowy."
+  ],
+  "forms": []
+},
+{
+  "id": 828,
+  "hu": "játékos",
+  "pl": "gracz / zawodnik",
+  "en": "player",
+  "type": "noun",
+  "example": {
+    "hu": "A játékos nagyon gyors.",
+    "pl": "Zawodnik jest bardzo szybki."
+  },
+  "pattern": "játék + -os",
+  "related": [
+    "játék",
+    "csapatjátékos",
+    "csapat",
+    "edző"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "person"
+  ],
+  "notes": [
+    "„játék → játékos”: gracz, osoba uczestnicząca w grze."
+  ],
+  "forms": []
+},
+{
+  "id": 829,
+  "hu": "szurkoló",
+  "pl": "kibic / fan",
+  "en": "fan / supporter",
+  "type": "noun",
+  "example": {
+    "hu": "A szurkolók támogatják a csapatot.",
+    "pl": "Kibice wspierają drużynę."
+  },
+  "pattern": "verb → -ó/-ő",
+  "related": [
+    "szurkolni",
+    "csapat",
+    "játékos",
+    "edző"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "person"
+  ],
+  "notes": [
+    "„szurkol → szurkoló”: osoba, która kibicuje."
+  ],
+  "forms": [
+    "szurkolók"
+  ]
+},
+{
+  "id": 830,
+  "hu": "evezés",
+  "pl": "wioślarstwo / wiosłowanie",
+  "en": "rowing",
+  "type": "noun",
+  "example": {
+    "hu": "Az evezés nagyon érdekes sport.",
+    "pl": "Wioślarstwo to bardzo ciekawy sport."
+  },
+  "pattern": "verb → -ás/-és",
+  "related": [
+    "evezni",
+    "sport",
+    "úszás"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "activity"
+  ],
+  "notes": [
+    "„evez → evezés”: rzeczownik oznaczający czynność."
+  ],
+  "forms": []
+},
+{
+  "id": 831,
+  "hu": "pálya",
+  "pl": "boisko / kort / tor",
+  "en": "field / court / track",
+  "type": "noun",
+  "example": {
+    "hu": "A játékosok a pályán vannak.",
+    "pl": "Zawodnicy są na boisku."
+  },
+  "pattern": "noun + -n → location",
+  "related": [
+    "foci",
+    "tenisz",
+    "csapat",
+    "játékos"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "place"
+  ],
+  "notes": [
+    "„pálya → pályán”: na boisku / korcie / torze."
+  ],
+  "forms": [
+    "pályán"
+  ]
+},
+{
+  "id": 832,
+  "hu": "futó",
+  "pl": "biegacz / biegaczka",
+  "en": "runner",
+  "type": "noun",
+  "example": {
+    "hu": "A futó gyorsan fut.",
+    "pl": "Biegacz szybko biegnie."
+  },
+  "pattern": "verb → -ó/-ő",
+  "related": [
+    "futni",
+    "futás",
+    "úszó",
+    "játékos"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "person"
+  ],
+  "notes": [
+    "„fut → futó”: osoba wykonująca czynność biegania."
+  ],
+  "forms": []
+},
+{
+  "id": 833,
+  "hu": "bajnok",
+  "pl": "mistrz / mistrzyni / champion",
+  "en": "champion",
+  "type": "noun",
+  "example": {
+    "hu": "Ő egy igazi bajnok.",
+    "pl": "On jest prawdziwym mistrzem."
+  },
+  "pattern": "noun + -ok → plural",
+  "related": [
+    "győzelem",
+    "győztes",
+    "sport",
+    "játékos"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "achievement"
+  ],
+  "notes": [],
+  "forms": [
+    "bajnokok"
+  ]
+},
+{
+  "id": 834,
+  "hu": "kapus",
+  "pl": "bramkarz / bramkarka",
+  "en": "goalkeeper / goalie",
+  "type": "noun",
+  "example": {
+    "hu": "A kapus védi a kaput.",
+    "pl": "Bramkarz broni bramki."
+  },
+  "pattern": "kapu + -s",
+  "related": [
+    "kapu",
+    "foci",
+    "csapat",
+    "játékos"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "person"
+  ],
+  "notes": [
+    "„kapu + -s → kapus”: osoba związana z bramką, czyli bramkarz."
+  ],
+  "forms": [
+    "kapust"
+  ]
+},
+{
+  "id": 835,
+  "hu": "edzeni",
+  "pl": "trenować / ćwiczyć",
+  "en": "to train / to work out",
+  "type": "verb",
+  "example": {
+    "hu": "A játékosok minden nap edzenek.",
+    "pl": "Zawodnicy trenują codziennie."
+  },
+  "pattern": "valaki + edz",
+  "related": [
+    "edző",
+    "sport",
+    "játékos",
+    "csapat"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport",
+    "activity"
+  ],
+  "notes": [
+    "„edz → edző”: od tego samego czasownika pochodzi słowo „edző” = trener."
+  ],
+  "forms": [
+    "edzek",
+    "edzel",
+    "edz",
+    "edzünk",
+    "edzetek",
+    "edzenek"
+  ]
+},
+{
+  "id": 836,
+  "hu": "kézilabda",
+  "pl": "piłka ręczna",
+  "en": "handball",
+  "type": "noun",
+  "example": {
+    "hu": "A kézilabda csapatsport.",
+    "pl": "Piłka ręczna to sport zespołowy."
+  },
+  "pattern": "kéz + labda",
+  "related": [
+    "labda",
+    "kézilabdázni",
+    "csapat",
+    "játékos"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "sport"
+  ],
+  "notes": [
+    "Złożenie: kéz + labda = dosłownie „piłka ręczna”."
+  ],
+  "forms": []
+},
+{
+  "id": 837,
+  "hu": "faszul",
+  "pl": "źle / w pokręcony sposób / jak gówno",
+  "en": "badly / in a fucked-up way",
+  "type": "adverb",
+  "example": {
+    "hu": "Faszul ugró nyulak.",
+    "pl": "Króliki skaczące jak gówno."
+  },
+  "pattern": "faszul + participle/adjective",
+  "related": [
+    "fasz",
+    "rosszul",
+    "rossz"
+  ],
+  "tags": [
+    "slang",
+    "vulgar",
+    "casual"
+  ],
+  "notes": [
+    "Wulgarne, slangowe słowo; przydatne głównie do rozumienia żartów, memów i potocznego języka."
+  ],
+  "forms": []
+},
+{
+  "id": 838,
+  "hu": "ugrani",
+  "pl": "skakać",
+  "en": "to jump",
+  "type": "verb",
+  "example": {
+    "hu": "A nyúl ugrik.",
+    "pl": "Królik skacze."
+  },
+  "pattern": "valaki + ugrik",
+  "related": [
+    "ugró",
+    "ugrálni",
+    "futni"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "movement"
+  ],
+  "notes": [],
+  "forms": [
+    "ugrik"
+  ]
+},
+{
+  "id": 839,
+  "hu": "ugró",
+  "pl": "skaczący / skacząca / skaczące",
+  "en": "jumping",
+  "type": "adjective",
+  "example": {
+    "hu": "Faszul ugró nyulak.",
+    "pl": "Króliki skaczące jak gówno."
+  },
+  "pattern": "verb → -ó/-ő",
+  "related": [
+    "ugrani",
+    "ugrik",
+    "úszó",
+    "futó"
+  ],
+  "tags": [
+    "A2",
+    "common",
+    "description"
+  ],
+  "notes": [
+    "„ugrik → ugró”: forma -ó/-ő opisująca osobę lub rzecz wykonującą czynność."
+  ],
+  "forms": []
+},
+{
+  "id": 840,
+  "hu": "nyúl",
+  "pl": "królik",
+  "en": "rabbit",
+  "type": "noun",
+  "example": {
+    "hu": "A nyúl ugrik.",
+    "pl": "Królik skacze."
+  },
+  "pattern": "article + noun",
+  "related": [
+    "ugrani",
+    "ugró",
+    "állat"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "animal"
+  ],
+  "notes": [],
+  "forms": [
+    "nyulak",
+    "nyulat",
+    "nyulakat"
+  ]
+},
+{
+  "id": 841,
+  "hu": "váratlan",
+  "pl": "nieoczekiwany / niespodziewany",
+  "en": "unexpected",
+  "type": "adjective",
+  "example": {
+    "hu": "Ez egy váratlan találkozás.",
+    "pl": "To jest niespodziewane spotkanie."
+  },
+  "pattern": "adjective + noun",
+  "related": [
+    "várni",
+    "találkozás",
+    "meglepetés"
+  ],
+  "tags": [
+    "A2",
+    "common",
+    "description"
+  ],
+  "notes": [
+    "„váratlan” odnosi się do czegoś, czego się nie oczekiwało."
+  ],
+  "forms": []
+},
+{
+  "id": 842,
+  "hu": "találkozás",
+  "pl": "spotkanie / spotkanie się / napotkanie",
+  "en": "meeting / encounter",
+  "type": "noun",
+  "example": {
+    "hu": "A váratlan találkozások érdekesek.",
+    "pl": "Niespodziewane spotkania są ciekawe."
+  },
+  "pattern": "adjective + noun",
+  "related": [
+    "találkozni",
+    "váratlan",
+    "találkozik"
+  ],
+  "tags": [
+    "A2",
+    "common",
+    "social"
+  ],
+  "notes": [
+    "„találkozás” pochodzi od „találkozni / találkozik” = spotykać się / spotkać się."
+  ],
+  "forms": [
+    "találkozások",
+    "találkozást",
+    "találkozásokhoz"
+  ]
+},
+{
+  "id": 843,
+  "hu": "seb",
+  "pl": "rana / uraz",
+  "en": "wound / injury",
+  "type": "noun",
+  "example": {
+    "hu": "A seb fáj.",
+    "pl": "Rana boli."
+  },
+  "pattern": "article + noun",
+  "related": [
+    "sérülés",
+    "tapasz",
+    "sebtapasz"
+  ],
+  "tags": [
+    "common",
+    "body",
+    "injury"
+  ],
+  "notes": [],
+  "forms": []
+},
+{
+  "id": 844,
+  "hu": "tapasz",
+  "pl": "plaster / opatrunek",
+  "en": "plaster / bandage",
+  "type": "noun",
+  "example": {
+    "hu": "Tegyél egy tapaszt a sebre.",
+    "pl": "Naklej plaster na ranę."
+  },
+  "pattern": "tapasz + -t",
+  "related": [
+    "seb",
+    "sebtapasz",
+    "sérülés"
+  ],
+  "tags": [
+    "common",
+    "health"
+  ],
+  "notes": [],
+  "forms": [
+    "tapaszt"
+  ]
+},
+{
+  "id": 845,
+  "hu": "sebtapasz",
+  "pl": "plaster na ranę / plaster opatrunkowy",
+  "en": "band-aid / wound plaster",
+  "type": "noun",
+  "example": {
+    "hu": "A sebtapasz a sebhez kell.",
+    "pl": "Potrzebujesz plastra na ranę."
+  },
+  "pattern": "seb + tapasz",
+  "related": [
+    "seb",
+    "tapasz",
+    "sérülés"
+  ],
+  "tags": [
+    "common",
+    "health",
+    "injury"
+  ],
+  "notes": [
+    "Złożenie: „seb + tapasz” = plaster na ranę."
+  ],
+  "forms": []
+},
+{
+  "id": 846,
+  "hu": "hónap",
+  "pl": "miesiąc",
+  "en": "month",
+  "type": "noun",
+  "example": {
+    "hu": "Egy hónappal ezelőtt találkoztunk.",
+    "pl": "Spotkaliśmy się miesiąc temu."
+  },
+  "pattern": "hónap + -val/-vel → hónappal",
+  "related": [
+    "múlt hónap",
+    "jövő hónap",
+    "nap",
+    "év"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "time"
+  ],
+  "notes": [
+    "W konstrukcji „egy hónappal ezelőtt” = miesiąc temu. W „hónappal” spółgłoska z -val/-vel upodabnia się do końcowej spółgłoski rzeczownika."
+  ],
+  "forms": [
+    "hónapok",
+    "hónapot",
+    "hónappal"
+  ]
+},
+{
+  "id": 847,
+  "hu": "ezelőtt",
+  "pl": "temu / wcześniej / przedtem",
+  "en": "ago / before",
+  "type": "adverb",
+  "example": {
+    "hu": "Két nappal ezelőtt itt voltam.",
+    "pl": "Dwa dni temu tutaj byłem."
+  },
+  "pattern": "[X + -val/-vel] + ezelőtt",
+  "related": [
+    "múlt",
+    "tegnap",
+    "nap",
+    "hónap"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "time"
+  ],
+  "notes": [
+    "Konstrukcja „X + -val/-vel + ezelőtt” oznacza „X temu”, np. „egy hónappal ezelőtt” = miesiąc temu."
+  ],
+  "forms": []
+},
+{
+  "id": 848,
+  "hu": "kedv",
+  "pl": "ochota / chęć / nastrój / upodobanie",
+  "en": "mood / desire / inclination / willingness",
+  "type": "noun",
+  "example": {
+    "hu": "Van kedvem olvasni.",
+    "pl": "Mam ochotę czytać."
+  },
+  "pattern": "van/nincs kedve + infinitive",
+  "related": [
+    "kedves",
+    "kedvelni",
+    "szeretni",
+    "olvasni"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "feeling",
+    "conversation"
+  ],
+  "notes": [
+    "„Van kedvem + bezokolicznik” = mam ochotę coś zrobić; „Nincs kedvem + bezokolicznik” = nie mam ochoty czegoś robić."
+  ],
+  "forms": [
+    "kedvem",
+    "kedved",
+    "kedve",
+    "kedvünk",
+    "kedvetek",
+    "kedvük"
+  ]
+},
+{
+  "id": 849,
+  "hu": "doboz",
+  "pl": "pudełko",
+  "en": "box",
+  "type": "noun",
+  "example": {
+    "hu": "A dobozokban sok könyv van.",
+    "pl": "W pudełkach jest dużo książek."
+  },
+  "pattern": "doboz + -ok + -ban → dobozokban",
+  "related": [
+    "miben",
+    "benne",
+    "pince"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "object"
+  ],
+  "notes": [
+    "dobozokban = w pudełkach; najpierw liczba mnoga -ok, potem -ban."
+  ],
+  "forms": [
+    "dobozok",
+    "dobozokban"
+  ]
+},
+{
+  "id": 850,
+  "hu": "miben",
+  "pl": "w czym / w którym",
+  "en": "in what / in which",
+  "type": "pronoun",
+  "example": {
+    "hu": "Miben van?",
+    "pl": "W czym to jest?"
+  },
+  "pattern": "mi → miben",
+  "related": [
+    "mi",
+    "hol",
+    "benne"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "question"
+  ],
+  "notes": [
+    "miben jest formą zaimka mi = co, z końcówką -ban/-ben: „w czym?”"
+  ],
+  "forms": []
+},
+{
+  "id": 851,
+  "hu": "televízió",
+  "pl": "telewizja / telewizor",
+  "en": "television / TV",
+  "type": "noun",
+  "example": {
+    "hu": "Érdekes műsor van a televízióban.",
+    "pl": "W telewizji jest ciekawy program."
+  },
+  "pattern": "televízió + -ban → televízióban",
+  "related": [
+    "tévé",
+    "műsor",
+    "rádió"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "media"
+  ],
+  "notes": [
+    "W codziennym języku często używa się krótszej formy „tévé” = TV / telewizja."
+  ],
+  "forms": [
+    "televízióban"
+  ]
+},
+{
+  "id": 852,
+  "hu": "hálószoba",
+  "pl": "sypialnia",
+  "en": "bedroom",
+  "type": "noun",
+  "example": {
+    "hu": "A hálószobában alszom.",
+    "pl": "Śpię w sypialni."
+  },
+  "pattern": "hálószoba + -ban → hálószobában",
+  "related": [
+    "szoba",
+    "aludni",
+    "ágy"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "home"
+  ],
+  "notes": [
+    "Złożenie: háló + szoba = dosłownie „pokój do spania”."
+  ],
+  "forms": [
+    "hálószobában"
+  ]
+},
+{
+  "id": 853,
+  "hu": "rádió",
+  "pl": "radio",
+  "en": "radio",
+  "type": "noun",
+  "example": {
+    "hu": "A rádióban érdekes műsor van.",
+    "pl": "W radiu jest ciekawy program."
+  },
+  "pattern": "rádió + -ban → rádióban",
+  "related": [
+    "televízió",
+    "műsor",
+    "hallgatni"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "media"
+  ],
+  "notes": [],
+  "forms": [
+    "rádióban"
+  ]
+},
+{
+  "id": 854,
+  "hu": "műsor",
+  "pl": "program / audycja / program telewizyjny",
+  "en": "programme / show / broadcast",
+  "type": "noun",
+  "example": {
+    "hu": "Érdekes műsor.",
+    "pl": "Ciekawy program."
+  },
+  "pattern": "érdekes + műsor",
+  "related": [
+    "televízió",
+    "rádió",
+    "érdekes"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "media"
+  ],
+  "notes": [],
+  "forms": [
+    "műsorok"
+  ]
+},
+{
+  "id": 855,
+  "hu": "érdekes",
+  "pl": "interesujący / ciekawy",
+  "en": "interesting",
+  "type": "adjective",
+  "example": {
+    "hu": "A műsorok érdekesek.",
+    "pl": "Programy są interesujące."
+  },
+  "pattern": "noun + érdekes → plural noun + érdekesek",
+  "related": [
+    "műsor",
+    "érdeklődni",
+    "érdekesebb"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "description"
+  ],
+  "notes": [
+    "Przed rzeczownikiem: „érdekes műsorok” bez końcówki liczby mnogiej na przymiotniku; jako orzecznik: „A műsorok érdekesek.”"
+  ],
+  "forms": [
+    "érdekesek"
+  ]
+},
+{
+  "id": 856,
+  "hu": "bízni",
+  "pl": "ufać / mieć zaufanie do",
+  "en": "to trust",
+  "type": "verb",
+  "example": {
+    "hu": "Bízom benne.",
+    "pl": "Ufam mu / jej."
+  },
+  "pattern": "valaki + bízik + valakiben",
+  "related": [
+    "bizalom",
+    "benne",
+    "benned",
+    "hinni"
+  ],
+  "tags": [
+    "A2",
+    "common",
+    "communication",
+    "relationship"
+  ],
+  "notes": [
+    "bízni valakiben = ufać komuś; czasownik łączy się z formą -ban/-ben."
+  ],
+  "forms": [
+    "bízom",
+    "bízol",
+    "bízik"
+  ]
+},
+{
+  "id": 857,
+  "hu": "konyha",
+  "pl": "kuchnia",
+  "en": "kitchen",
+  "type": "noun",
+  "example": {
+    "hu": "A konyhában főzök.",
+    "pl": "Gotuję w kuchni."
+  },
+  "pattern": "konyha + -ban → konyhában",
+  "related": [
+    "szoba",
+    "ebédlő",
+    "fürdőszoba",
+    "nappali"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "home"
+  ],
+  "notes": [
+    "konyhában = w kuchni."
+  ],
+  "forms": [
+    "konyhában"
+  ]
+},
+{
+  "id": 858,
+  "hu": "fürdőszoba",
+  "pl": "łazienka",
+  "en": "bathroom",
+  "type": "noun",
+  "example": {
+    "hu": "A fürdőszobában vagyok.",
+    "pl": "Jestem w łazience."
+  },
+  "pattern": "fürdőszoba + -ban → fürdőszobában",
+  "related": [
+    "szoba",
+    "konyha",
+    "hálószoba",
+    "nappali"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "home"
+  ],
+  "notes": [
+    "Złożenie: fürdő + szoba = dosłownie „pokój kąpielowy”."
+  ],
+  "forms": [
+    "fürdőszobában"
+  ]
+},
+{
+  "id": 859,
+  "hu": "ebédlő",
+  "pl": "jadalnia",
+  "en": "dining room",
+  "type": "noun",
+  "example": {
+    "hu": "Az ebédlőben eszünk.",
+    "pl": "Jemy w jadalni."
+  },
+  "pattern": "ebédlő + -ben → ebédlőben",
+  "related": [
+    "ebéd",
+    "ebédelni",
+    "konyha",
+    "szoba"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "home"
+  ],
+  "notes": [
+    "ebéd + -lő → ebédlő; słowo odnosi się do miejsca, w którym je się obiad."
+  ],
+  "forms": [
+    "ebédlőben"
+  ]
+},
+{
+  "id": 860,
+  "hu": "nappali",
+  "pl": "salon / pokój dzienny",
+  "en": "living room",
+  "type": "noun",
+  "example": {
+    "hu": "A nappaliban nézem a televíziót.",
+    "pl": "Oglądam telewizję w salonie."
+  },
+  "pattern": "nappali + -ban → nappaliban",
+  "related": [
+    "szoba",
+    "hálószoba",
+    "konyha",
+    "televízió"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "home"
+  ],
+  "notes": [],
+  "forms": [
+    "nappaliban"
+  ]
+},
+{
+  "id": 861,
+  "hu": "pince",
+  "pl": "piwnica / podziemie",
+  "en": "basement / cellar",
+  "type": "noun",
+  "example": {
+    "hu": "A pincében van egy régi doboz.",
+    "pl": "W piwnicy jest stare pudełko."
+  },
+  "pattern": "pince + -ben → pincében",
+  "related": [
+    "doboz",
+    "ház",
+    "lent"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "home"
+  ],
+  "notes": [
+    "pincében = w piwnicy."
+  ],
+  "forms": [
+    "pincében"
+  ]
+},
+{
+  "id": 862,
+  "hu": "vége",
+  "pl": "koniec / jego koniec / jej koniec / koniec tego",
+  "en": "the end / its end / his end / her end",
+  "type": "noun",
+  "example": {
+    "hu": "Még nincs vége.",
+    "pl": "Jeszcze się nie skończyło."
+  },
+  "pattern": "vég → vége / vége van / nincs vége",
+  "related": [
+    "vég",
+    "már",
+    "még",
+    "nincs",
+    "van"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "time",
+    "state"
+  ],
+  "notes": [
+    "vége = vég + -e, czyli possessive: „jego/jej/tego koniec”. „Vége van” = jest koniec / skończyło się, a „nincs vége” = nie ma końca / jeszcze się nie skończyło."
+  ],
+  "forms": []
 }
 
 
