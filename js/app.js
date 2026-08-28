@@ -11,6 +11,10 @@ const App = {
     currentPage: "home",
     // selectedWordId is managed via hash route #/word/<id>
     selectedWordId: null,
+    // selectedGrammarSection is managed via hash route #/grammar/<slug>
+    selectedGrammarSection: null,
+    // Persist the Grammar search query so tile filtering survives rerenders
+    grammarSearchQuery: '',
     // Persist the user's current search query so rerenders keep filters applied
     searchQuery: ''
     ,
@@ -30,6 +34,7 @@ const Pages = {
         <main>
             <div class="menu">
                 <button onclick="navigate('explore')">🔍 Explore</button>
+                <button onclick="navigate('grammar')">📖 Grammar</button>
                 <button onclick="navigate('families')">🌳 Families</button>
                 <button>📚 Learn</button>
                 <button>🧠 Review</button>
@@ -80,6 +85,24 @@ const Pages = {
             <div id="familiesContainer">Loading families…</div>
         </main>
         `;
+    },
+    grammar() {
+        return `
+        <header>
+            <button onclick="goBackToGrammarIndex()">← Back to Grammar</button>
+            <button onclick="navigate('home')">Home</button>
+            <h1>Grammar</h1>
+        </header>
+        <main>
+            <input
+                id="grammar-search"
+                placeholder="Search grammar sections..."
+                oninput="filterGrammarSections()"
+                onkeydown="if(event.key==='Enter'){this.blur();}"
+            >
+            <div id="grammarContainer">Loading grammar…</div>
+        </main>
+        `;
     }
 };
 
@@ -105,9 +128,22 @@ function navigate(page) {
 
     if (page === 'explore') {
         App.currentPage = 'explore';
+        App.selectedGrammarSection = null;
         // Ensure explore is represented in history once.
         if (!location.hash || !location.hash.startsWith('#/explore')) {
             history.pushState({ view: 'explore' }, '', '#/explore');
+        }
+        render();
+        return;
+    }
+
+    if (page === 'grammar') {
+        App.currentPage = 'grammar';
+        App.selectedWordId = null;
+        App.selectedGrammarSection = null;
+        App.grammarSearchQuery = App.grammarSearchQuery || '';
+        if (!location.hash || !location.hash.startsWith('#/grammar')) {
+            history.pushState({ view: 'grammar' }, '', '#/grammar');
         }
         render();
         return;
@@ -162,12 +198,23 @@ function parseHash() {
         const id = parseInt(hash.split('/')[1], 10);
         App.selectedWordId = Number.isNaN(id) ? null : id;
         App.currentPage = 'explore';
+        App.selectedGrammarSection = null;
+    } else if (hash.startsWith('grammar/')) {
+        App.selectedGrammarSection = hash.split('/')[1] || null;
+        App.currentPage = 'grammar';
+        App.selectedWordId = null;
+    } else if (hash === 'grammar' || hash === '/grammar') {
+        App.selectedGrammarSection = null;
+        App.currentPage = 'grammar';
+        App.selectedWordId = null;
     } else if (hash === 'explore' || hash === '/explore') {
         App.selectedWordId = null;
         App.currentPage = 'explore';
+        App.selectedGrammarSection = null;
     } else if (!hash || hash === 'home') {
         App.currentPage = 'home';
         App.selectedWordId = null;
+        App.selectedGrammarSection = null;
     }
 }
 
@@ -188,6 +235,11 @@ function render() {
         if (typeEl) typeEl.value = App.filters.type || '';
         const tagEls = document.querySelectorAll('#filter-tags input[type="checkbox"]');
         tagEls.forEach(cb => cb.checked = App.filters.tags.includes(cb.value));
+    }
+
+    if (App.currentPage === "grammar") {
+        const grammarSearchEl = document.getElementById('grammar-search');
+        if (grammarSearchEl) grammarSearchEl.value = App.grammarSearchQuery || '';
     }
 
     if (App.currentPage === "explore") {
@@ -234,6 +286,10 @@ function render() {
     if (App.currentPage === 'families') {
         // load and render families index
         loadAndRenderFamilies();
+    }
+
+    if (App.currentPage === 'grammar') {
+        loadAndRenderGrammar();
     }
 }
 
@@ -342,6 +398,228 @@ async function loadAndRenderFamilies() {
         container.innerHTML = '<p>Failed to load families.</p>';
         console.warn('loadAndRenderFamilies error', e);
     }
+}
+
+let _grammarCache = null;
+let _grammarIndex = null;
+async function loadAndRenderGrammar() {
+    const container = document.getElementById('grammarContainer');
+    if (!container) return;
+    container.innerHTML = 'Loading grammar...';
+    try {
+        if (!_grammarCache) {
+            const res = await fetch('data/ordered_grammar.md');
+            _grammarCache = res.ok ? await res.text() : '';
+            _grammarIndex = parseGrammarDocument(_grammarCache);
+        }
+
+        const sections = Array.isArray(_grammarIndex?.sections) ? _grammarIndex.sections : [];
+        if (!App.selectedGrammarSection) {
+            const query = (App.grammarSearchQuery || '').toLowerCase().trim();
+            const filteredSections = query
+                ? sections.filter(section => {
+                    const haystack = [
+                        section.title || '',
+                        section.content || '',
+                        section.contentText || ''
+                    ].join('\n').toLowerCase();
+                    return haystack.includes(query);
+                })
+                : sections;
+
+            container.innerHTML = renderGrammarIndex(filteredSections, query, sections.length);
+            return;
+        }
+
+        const section = sections.find(s => s.slug === App.selectedGrammarSection);
+        if (!section) {
+            container.innerHTML = '<p>Section not found.</p>';
+            return;
+        }
+
+        container.innerHTML = renderGrammarSection(section);
+    } catch (e) {
+        container.innerHTML = '<p>Failed to load grammar.</p>';
+        console.warn('loadAndRenderGrammar error', e);
+    }
+}
+
+function goBackToGrammarIndex() {
+    App.currentPage = 'grammar';
+    App.selectedGrammarSection = null;
+    try { history.replaceState(null, '', '#/grammar'); } catch (e) { location.hash = '#/grammar'; }
+    render();
+}
+
+function filterGrammarSections() {
+    const input = document.getElementById('grammar-search');
+    App.grammarSearchQuery = (input?.value || '').toLowerCase().trim();
+    App.selectedGrammarSection = null;
+    try { history.replaceState(null, '', '#/grammar'); } catch (e) {}
+    render();
+}
+
+function openGrammarSection(slug) {
+    App.currentPage = 'grammar';
+    App.selectedGrammarSection = slug;
+    try { history.pushState({ view: 'grammar', section: slug }, '', `#/grammar/${slug}`); } catch (e) { location.hash = `#/grammar/${slug}`; }
+    render();
+}
+
+function parseGrammarDocument(markdown) {
+    const lines = String(markdown || '').replace(/\r\n/g, '\n').split('\n');
+    const sections = [];
+    let current = null;
+
+    const pushCurrent = () => {
+        if (!current) return;
+        current.content = current.content.join('\n').trim();
+        current.contentText = current.content.replace(/[`*_>#-]/g, ' ');
+        sections.push(current);
+    };
+
+    for (const line of lines) {
+        const match = line.match(/^##\s+(.+)$/);
+        if (match) {
+            pushCurrent();
+            current = {
+                title: match[1].trim(),
+                slug: slugify(match[1]),
+                content: []
+            };
+            continue;
+        }
+
+        if (!current) continue;
+        current.content.push(line);
+    }
+
+    pushCurrent();
+    return { sections };
+}
+
+function renderGrammarIndex(sections, query = '', totalCount = 0) {
+    if (!Array.isArray(sections) || sections.length === 0) {
+        return query
+            ? `<p>No grammar sections match "${escapeHtml(query)}".</p>`
+            : '<p>No grammar sections found.</p>';
+    }
+
+    return `
+        <div style="margin: 6px 0 12px; color: var(--muted);">
+            ${query
+                ? `<strong>${sections.length}</strong> matching section(s) out of ${totalCount}`
+                : `<strong>${sections.length}</strong> section(s)`}
+        </div>
+        <div class="grammar-grid">
+            ${sections.map(section => `
+                <button class="grammar-tile" onclick="openGrammarSection('${escapeJs(section.slug)}')">
+                    <h2>${escapeHtml(section.title)}</h2>
+                    <p>${escapeHtml(section.contentText ? section.contentText.slice(0, 110) : 'Open section')}</p>
+                </button>
+            `).join('')}
+        </div>
+    `;
+}
+
+function renderGrammarSection(section) {
+    return `
+        <div class="grammar-detail">
+            <button onclick="goBackToGrammarIndex()">← All sections</button>
+            <h2>${escapeHtml(section.title)}</h2>
+            <div class="grammar-markdown">${renderMarkdown(section.content || '')}</div>
+        </div>
+    `;
+}
+
+function slugify(value) {
+    return String(value || '')
+        .toLowerCase()
+        .trim()
+        .replace(/['".:()[\]{}]/g, '')
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+}
+
+function renderMarkdown(markdown) {
+    const lines = String(markdown || '').replace(/\r\n/g, '\n').split('\n');
+    let html = '';
+    let inUl = false;
+    let inOl = false;
+    let inCode = false;
+    let codeBuffer = [];
+
+    const closeLists = () => {
+        if (inUl) { html += '</ul>'; inUl = false; }
+        if (inOl) { html += '</ol>'; inOl = false; }
+    };
+
+    const flushCode = () => {
+        html += `<pre><code>${escapeHtml(codeBuffer.join('\n'))}</code></pre>`;
+        codeBuffer = [];
+    };
+
+    for (const line of lines) {
+        if (line.trim().startsWith('```')) {
+            if (inCode) {
+                flushCode();
+                inCode = false;
+            } else {
+                closeLists();
+                inCode = true;
+            }
+            continue;
+        }
+
+        if (inCode) {
+            codeBuffer.push(line);
+            continue;
+        }
+
+        const heading = line.match(/^(#{1,6})\s+(.+)$/);
+        if (heading) {
+            closeLists();
+            const level = Math.min(6, heading[1].length + 1);
+            html += `<h${level}>${renderInlineMarkdown(heading[2])}</h${level}>`;
+            continue;
+        }
+
+        const ordered = line.match(/^\s*\d+\.\s+(.+)$/);
+        const unordered = line.match(/^\s*[-*]\s+(.+)$/);
+
+        if (ordered) {
+            if (inUl) { html += '</ul>'; inUl = false; }
+            if (!inOl) { html += '<ol>'; inOl = true; }
+            html += `<li>${renderInlineMarkdown(ordered[1])}</li>`;
+            continue;
+        }
+
+        if (unordered) {
+            if (inOl) { html += '</ol>'; inOl = false; }
+            if (!inUl) { html += '<ul>'; inUl = true; }
+            html += `<li>${renderInlineMarkdown(unordered[1])}</li>`;
+            continue;
+        }
+
+        if (!line.trim()) {
+            closeLists();
+            continue;
+        }
+
+        closeLists();
+        html += `<p>${renderInlineMarkdown(line)}</p>`;
+    }
+
+    closeLists();
+    if (inCode) flushCode();
+    return html;
+}
+
+function renderInlineMarkdown(value) {
+    const escaped = escapeHtml(String(value || ''));
+    return escaped
+        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+        .replace(/`(.+?)`/g, '<code>$1</code>');
 }
 
 function showFamilyMembers(slug, fam) {
