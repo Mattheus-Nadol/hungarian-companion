@@ -20890,6 +20890,400 @@
     "kedvetek",
     "kedvük"
   ]
+},
+{
+  "id": 849,
+  "hu": "doboz",
+  "pl": "pudełko",
+  "en": "box",
+  "type": "noun",
+  "example": {
+    "hu": "A dobozokban sok könyv van.",
+    "pl": "W pudełkach jest dużo książek."
+  },
+  "pattern": "doboz + -ok + -ban → dobozokban",
+  "related": [
+    "miben",
+    "benne",
+    "pince"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "object"
+  ],
+  "notes": [
+    "dobozokban = w pudełkach; najpierw liczba mnoga -ok, potem -ban."
+  ],
+  "forms": [
+    "dobozok",
+    "dobozokban"
+  ]
+},
+{
+  "id": 850,
+  "hu": "miben",
+  "pl": "w czym / w którym",
+  "en": "in what / in which",
+  "type": "pronoun",
+  "example": {
+    "hu": "Miben van?",
+    "pl": "W czym to jest?"
+  },
+  "pattern": "mi → miben",
+  "related": [
+    "mi",
+    "hol",
+    "benne"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "question"
+  ],
+  "notes": [
+    "miben jest formą zaimka mi = co, z końcówką -ban/-ben: „w czym?”"
+  ],
+  "forms": []
+},
+{
+  "id": 851,
+  "hu": "televízió",
+  "pl": "telewizja / telewizor",
+  "en": "television / TV",
+  "type": "noun",
+  "example": {
+    "hu": "Érdekes műsor van a televízióban.",
+    "pl": "W telewizji jest ciekawy program."
+  },
+  "pattern": "televízió + -ban → televízióban",
+  "related": [
+    "tévé",
+    "műsor",
+    "rádió"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "media"
+  ],
+  "notes": [
+    "W codziennym języku często używa się krótszej formy „tévé” = TV / telewizja."
+  ],
+  "forms": [
+    "televízióban"
+  ]
+},
+{
+  "id": 852,
+  "hu": "hálószoba",
+  "pl": "sypialnia",
+  "en": "bedroom",
+  "type": "noun",
+  "example": {
+    "hu": "A hálószobában alszom.",
+    "pl": "Śpię w sypialni."
+  },
+  "pattern": "hálószoba + -ban → hálószobában",
+  "related": [
+    "szoba",
+    "aludni",
+    "ágy"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "home"
+  ],
+  "notes": [
+    "Złożenie: háló + szoba = dosłownie „pokój do spania”."
+  ],
+  "forms": [
+    "hálószobában"
+  ]
+},
+{
+  "id": 853,
+  "hu": "rádió",
+  "pl": "radio",
+  "en": "radio",
+  "type": "noun",
+  "example": {
+    "hu": "A rádióban érdekes műsor van.",
+    "pl": "W radiu jest ciekawy program."
+  },
+  "pattern": "rádió + -ban → rádióban",
+  "related": [
+    "televízió",
+    "műsor",
+    "hallgatni"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "media"
+  ],
+  "notes": [],
+  "forms": [
+    "rádióban"
+  ]
+},
+{
+  "id": 854,
+  "hu": "műsor",
+  "pl": "program / audycja / program telewizyjny",
+  "en": "programme / show / broadcast",
+  "type": "noun",
+  "example": {
+    "hu": "Érdekes műsor.",
+    "pl": "Ciekawy program."
+  },
+  "pattern": "érdekes + műsor",
+  "related": [
+    "televízió",
+    "rádió",
+    "érdekes"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "media"
+  ],
+  "notes": [],
+  "forms": [
+    "műsorok"
+  ]
+},
+{
+  "id": 855,
+  "hu": "érdekes",
+  "pl": "interesujący / ciekawy",
+  "en": "interesting",
+  "type": "adjective",
+  "example": {
+    "hu": "A műsorok érdekesek.",
+    "pl": "Programy są interesujące."
+  },
+  "pattern": "noun + érdekes → plural noun + érdekesek",
+  "related": [
+    "műsor",
+    "érdeklődni",
+    "érdekesebb"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "description"
+  ],
+  "notes": [
+    "Przed rzeczownikiem: „érdekes műsorok” bez końcówki liczby mnogiej na przymiotniku; jako orzecznik: „A műsorok érdekesek.”"
+  ],
+  "forms": [
+    "érdekesek"
+  ]
+},
+{
+  "id": 856,
+  "hu": "bízni",
+  "pl": "ufać / mieć zaufanie do",
+  "en": "to trust",
+  "type": "verb",
+  "example": {
+    "hu": "Bízom benne.",
+    "pl": "Ufam mu / jej."
+  },
+  "pattern": "valaki + bízik + valakiben",
+  "related": [
+    "bizalom",
+    "benne",
+    "benned",
+    "hinni"
+  ],
+  "tags": [
+    "A2",
+    "common",
+    "communication",
+    "relationship"
+  ],
+  "notes": [
+    "bízni valakiben = ufać komuś; czasownik łączy się z formą -ban/-ben."
+  ],
+  "forms": [
+    "bízom",
+    "bízol",
+    "bízik"
+  ]
+},
+{
+  "id": 857,
+  "hu": "konyha",
+  "pl": "kuchnia",
+  "en": "kitchen",
+  "type": "noun",
+  "example": {
+    "hu": "A konyhában főzök.",
+    "pl": "Gotuję w kuchni."
+  },
+  "pattern": "konyha + -ban → konyhában",
+  "related": [
+    "szoba",
+    "ebédlő",
+    "fürdőszoba",
+    "nappali"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "home"
+  ],
+  "notes": [
+    "konyhában = w kuchni."
+  ],
+  "forms": [
+    "konyhában"
+  ]
+},
+{
+  "id": 858,
+  "hu": "fürdőszoba",
+  "pl": "łazienka",
+  "en": "bathroom",
+  "type": "noun",
+  "example": {
+    "hu": "A fürdőszobában vagyok.",
+    "pl": "Jestem w łazience."
+  },
+  "pattern": "fürdőszoba + -ban → fürdőszobában",
+  "related": [
+    "szoba",
+    "konyha",
+    "hálószoba",
+    "nappali"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "home"
+  ],
+  "notes": [
+    "Złożenie: fürdő + szoba = dosłownie „pokój kąpielowy”."
+  ],
+  "forms": [
+    "fürdőszobában"
+  ]
+},
+{
+  "id": 859,
+  "hu": "ebédlő",
+  "pl": "jadalnia",
+  "en": "dining room",
+  "type": "noun",
+  "example": {
+    "hu": "Az ebédlőben eszünk.",
+    "pl": "Jemy w jadalni."
+  },
+  "pattern": "ebédlő + -ben → ebédlőben",
+  "related": [
+    "ebéd",
+    "ebédelni",
+    "konyha",
+    "szoba"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "home"
+  ],
+  "notes": [
+    "ebéd + -lő → ebédlő; słowo odnosi się do miejsca, w którym je się obiad."
+  ],
+  "forms": [
+    "ebédlőben"
+  ]
+},
+{
+  "id": 860,
+  "hu": "nappali",
+  "pl": "salon / pokój dzienny",
+  "en": "living room",
+  "type": "noun",
+  "example": {
+    "hu": "A nappaliban nézem a televíziót.",
+    "pl": "Oglądam telewizję w salonie."
+  },
+  "pattern": "nappali + -ban → nappaliban",
+  "related": [
+    "szoba",
+    "hálószoba",
+    "konyha",
+    "televízió"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "home"
+  ],
+  "notes": [],
+  "forms": [
+    "nappaliban"
+  ]
+},
+{
+  "id": 861,
+  "hu": "pince",
+  "pl": "piwnica / podziemie",
+  "en": "basement / cellar",
+  "type": "noun",
+  "example": {
+    "hu": "A pincében van egy régi doboz.",
+    "pl": "W piwnicy jest stare pudełko."
+  },
+  "pattern": "pince + -ben → pincében",
+  "related": [
+    "doboz",
+    "ház",
+    "lent"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "home"
+  ],
+  "notes": [
+    "pincében = w piwnicy."
+  ],
+  "forms": [
+    "pincében"
+  ]
+},
+{
+  "id": 862,
+  "hu": "vége",
+  "pl": "koniec / jego koniec / jej koniec / koniec tego",
+  "en": "the end / its end / his end / her end",
+  "type": "noun",
+  "example": {
+    "hu": "Még nincs vége.",
+    "pl": "Jeszcze się nie skończyło."
+  },
+  "pattern": "vég → vége / vége van / nincs vége",
+  "related": [
+    "vég",
+    "már",
+    "még",
+    "nincs",
+    "van"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "time",
+    "state"
+  ],
+  "notes": [
+    "vége = vég + -e, czyli possessive: „jego/jej/tego koniec”. „Vége van” = jest koniec / skończyło się, a „nincs vége” = nie ma końca / jeszcze się nie skończyło."
+  ],
+  "forms": []
 }
 
 
