@@ -21284,6 +21284,207 @@
     "vége = vég + -e, czyli possessive: „jego/jej/tego koniec”. „Vége van” = jest koniec / skończyło się, a „nincs vége” = nie ma końca / jeszcze się nie skończyło."
   ],
   "forms": []
+},
+{
+  "id": 863,
+  "hu": "bejárat",
+  "pl": "wejście",
+  "en": "entrance",
+  "type": "noun",
+  "example": {
+    "hu": "Találkozzunk a bejáratnál!",
+    "pl": "Spotkajmy się przy wejściu!"
+  },
+  "pattern": "bejárat + -nál → bejáratnál",
+  "related": [
+    "kijárat",
+    "ajtó",
+    "pénztár"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "places"
+  ],
+  "notes": [
+    "bejáratnál = przy wejściu / przy wejściu do budynku lub miejsca"
+  ],
+  "forms": [
+    "bejáratnál"
+  ]
+},
+{
+  "id": 864,
+  "hu": "pénztár",
+  "pl": "kasa / kasa biletowa",
+  "en": "checkout / cash desk / ticket office",
+  "type": "noun",
+  "example": {
+    "hu": "A pénztárnál lehet jegyet venni.",
+    "pl": "Przy kasie można kupić bilet."
+  },
+  "pattern": "pénztár + -nál → pénztárnál",
+  "related": [
+    "bejárat",
+    "jegy",
+    "venni"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "places",
+    "shopping"
+  ],
+  "notes": [
+    "pénztárnál = przy kasie / w kasie"
+  ],
+  "forms": [
+    "pénztárnál"
+  ]
+},
+{
+  "id": 865,
+  "hu": "kijárat",
+  "pl": "wyjście",
+  "en": "exit",
+  "type": "noun",
+  "example": {
+    "hu": "A kijáratnál várlak.",
+    "pl": "Będę czekać na ciebie przy wyjściu."
+  },
+  "pattern": "kijárat + -nál → kijáratnál",
+  "related": [
+    "bejárat",
+    "ajtó",
+    "ki"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "places"
+  ],
+  "notes": [
+    "kijáratnál = przy wyjściu"
+  ],
+  "forms": [
+    "kijáratnál"
+  ]
+},
+{
+  "id": 866,
+  "hu": "fodrász",
+  "pl": "fryzjer / fryzjerka",
+  "en": "hairdresser",
+  "type": "noun",
+  "example": {
+    "hu": "Holnap a fodrásznál leszek.",
+    "pl": "Jutro będę u fryzjera."
+  },
+  "pattern": "fodrász + -nál → fodrásznál",
+  "related": [
+    "haj",
+    "vágni",
+    "szalon"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "people",
+    "services"
+  ],
+  "notes": [
+    "fodrásznál = u fryzjera / w salonie fryzjerskim"
+  ],
+  "forms": [
+    "fodrásznál"
+  ]
+},
+{
+  "id": 867,
+  "hu": "hentes",
+  "pl": "rzeźnik / sklep mięsny",
+  "en": "butcher / butcher's shop",
+  "type": "noun",
+  "example": {
+    "hu": "A hentesnél friss húst vettem.",
+    "pl": "U rzeźnika kupiłem świeże mięso."
+  },
+  "pattern": "hentes + -nél → hentesnél",
+  "related": [
+    "hús",
+    "bolt",
+    "venni"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "shopping",
+    "services"
+  ],
+  "notes": [
+    "hentesnél = u rzeźnika / w sklepie mięsnym"
+  ],
+  "forms": [
+    "hentesnél"
+  ]
+},
+{
+  "id": 868,
+  "hu": "fogorvos",
+  "pl": "dentysta / dentystka",
+  "en": "dentist",
+  "type": "noun",
+  "example": {
+    "hu": "Délután a fogorvosnál van időpontom.",
+    "pl": "Po południu mam wizytę u dentysty."
+  },
+  "pattern": "fogorvos + -nál → fogorvosnál",
+  "related": [
+    "fog",
+    "orvos",
+    "időpont"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "people",
+    "services"
+  ],
+  "notes": [
+    "fogorvosnál = u dentysty / w gabinecie dentystycznym"
+  ],
+  "forms": [
+    "fogorvosnál"
+  ]
+},
+{
+  "id": 869,
+  "hu": "cég",
+  "pl": "firma / przedsiębiorstwo",
+  "en": "company / firm",
+  "type": "noun",
+  "example": {
+    "hu": "A cégnél dolgozik a barátom.",
+    "pl": "Mój przyjaciel pracuje w tej firmie."
+  },
+  "pattern": "cég + -nél → cégnél",
+  "related": [
+    "munka",
+    "dolgozni",
+    "iroda"
+  ],
+  "tags": [
+    "A1",
+    "common",
+    "work",
+    "business"
+  ],
+  "notes": [
+    "cégnél = w firmie / w danej firmie; -nál/-nél może oznaczać miejsce związane z osobą lub instytucją."
+  ],
+  "forms": [
+    "cégnél"
+  ]
 }
 
 
